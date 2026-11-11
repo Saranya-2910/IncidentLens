@@ -1,0 +1,72 @@
+"""FastAPI main application entrypoint for IncidentLens."""
+
+import uuid
+from collections.abc import AsyncGenerator
+from contextlib import asynccontextmanager
+
+from fastapi import FastAPI, Request, Response
+from fastapi.middleware.cors import CORSMiddleware
+from starlette.middleware.base import RequestResponseEndpoint
+
+from app.api.v1.endpoints.health import router as health_router
+from app.api.v1.router import api_v1_router
+from app.core.config import settings
+from app.core.errors import register_error_handlers
+from app.core.logging import request_id_ctx, setup_logging
+
+logger = setup_logging(debug=settings.DEBUG)
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
+    """Application lifespan context for startup and shutdown events."""
+    logger.info(
+        f"Starting {settings.PROJECT_NAME} in {settings.ENVIRONMENT} mode (debug={settings.DEBUG})"
+    )
+    yield
+    logger.info(f"Stopping {settings.PROJECT_NAME}")
+
+
+app = FastAPI(
+    title=settings.PROJECT_NAME,
+    description="AI-Powered Incident Log Explainer with Evidence-Linked Root-Cause Reports",
+    version="0.1.0",
+    lifespan=lifespan,
+    docs_url="/docs",
+    redoc_url="/redoc",
+)
+
+# CORS Middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=settings.CORS_ORIGINS,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+
+# Request ID Tracing Middleware
+@app.middleware("http")
+async def request_id_middleware(
+    request: Request, call_next: RequestResponseEndpoint
+) -> Response:
+    incoming_req_id = request.headers.get("X-Request-ID")
+    req_id = incoming_req_id or str(uuid.uuid4())
+    token = request_id_ctx.set(req_id)
+    try:
+        response = await call_next(request)
+        response.headers["X-Request-ID"] = req_id
+        return response
+    finally:
+        request_id_ctx.reset(token)
+
+
+# Register consistent error handlers
+register_error_handlers(app, debug=settings.DEBUG)
+
+# Root-level liveness & readiness probes for Docker/K8s
+app.include_router(health_router)
+
+# Versioned API routes
+app.include_router(api_v1_router, prefix=settings.API_V1_PREFIX)
