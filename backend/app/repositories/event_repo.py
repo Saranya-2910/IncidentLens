@@ -65,6 +65,17 @@ class EventRepository:
 
         return items, total_count
 
+    async def get_by_id(
+        self, project_id: uuid.UUID, event_id: int
+    ) -> LogEvent | None:
+        """Fetch a single stored log event strictly scoped to project_id."""
+        stmt = select(LogEvent).where(
+            LogEvent.id == event_id,
+            LogEvent.project_id == project_id,
+        )
+        res = await self.db.execute(stmt)
+        return res.scalar_one_or_none()
+
 
 class SyncEventRepository:
     """Synchronous repository used by Celery worker for fast bulk loading."""

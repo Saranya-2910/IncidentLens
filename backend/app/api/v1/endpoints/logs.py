@@ -149,3 +149,19 @@ async def search_project_events(
         limit=limit,
         offset=offset,
     )
+
+
+@router.get(
+    "/projects/{id}/events/{event_id}",
+    response_model=LogEventResponse,
+    summary="Retrieve full stored details of a single log event by ID",
+)
+async def get_project_event_detail(
+    id: uuid.UUID,
+    event_id: int,
+    current_user: Annotated[User, Depends(get_current_user)],
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> LogEventResponse:
+    log_service = LogService(db)
+    event = await log_service.get_event_by_id(current_user.id, id, event_id)
+    return LogEventResponse.model_validate(event)

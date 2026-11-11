@@ -168,3 +168,18 @@ async def test_event_search_filters_and_isolation(
     )
     assert res_b_batch.status_code == 404
     assert res_b_batch.json()["error"]["code"] == "NOT_FOUND"
+
+    # 8. Single Event Lookup & Tenant Isolation
+    first_event_id = data_page1["items"][0]["id"]
+    ev_detail = await client.get(
+        f"/api/v1/projects/{proj_a_id}/events/{first_event_id}",
+        headers=headers_a,
+    )
+    assert ev_detail.status_code == 200
+    assert ev_detail.json()["id"] == first_event_id
+
+    ev_b_attempt = await client.get(
+        f"/api/v1/projects/{proj_a_id}/events/{first_event_id}",
+        headers=headers_b,
+    )
+    assert ev_b_attempt.status_code == 404

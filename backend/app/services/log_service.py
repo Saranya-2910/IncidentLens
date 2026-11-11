@@ -229,3 +229,16 @@ class LogService:
             limit=limit,
             offset=offset,
         )
+
+    async def get_event_by_id(
+        self,
+        user_id: uuid.UUID,
+        project_id: uuid.UUID,
+        event_id: int,
+    ) -> LogEvent:
+        """Retrieve a single stored event strictly scoped to the owned project."""
+        await self._verify_project_ownership(user_id, project_id)
+        event = await self.event_repo.get_by_id(project_id, event_id)
+        if not event:
+            raise NotFoundError("Log event not found")
+        return event

@@ -30,6 +30,8 @@ node_modules/
 frontend/dist/
 frontend/.next/
 frontend/build/
+*.tsbuildinfo
+frontend/vite.config.d.ts
 
 # OS / IDE
 .DS_Store
