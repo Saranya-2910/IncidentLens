@@ -6,6 +6,7 @@ from typing import Any
 
 from app.core.storage import stream_batch_lines
 from app.db.session import get_sync_db
+from app.pipeline.detection.detector import IncidentDetector
 from app.pipeline.grouping.pattern_grouper import PatternGrouper
 from app.pipeline.parsers.pipeline import LogStreamProcessor
 from app.repositories.batch_repo import SyncBatchRepository
@@ -87,6 +88,10 @@ def process_log_batch(batch_id_str: str) -> dict[str, Any]:
             pattern_summary = grouper.group_batch_events(batch.project_id, batch.id)
             grouper.reconcile_project_pattern_counts(batch.project_id)
 
+            # Detect and cluster incidents
+            detector = IncidentDetector(db)
+            detected_incidents = detector.detect_incidents_for_project(batch.project_id)
+
             # Mark batch as done with final event count
             batch_repo.update_status(
                 batch,
@@ -97,7 +102,8 @@ def process_log_batch(batch_id_str: str) -> dict[str, Any]:
                 f"Successfully completed log batch {batch_id_str}: "
                 f"{processor.parsed_events_count} events from {processor.total_lines} lines "
                 f"grouped into {pattern_summary.unique_patterns} unique patterns "
-                f"(reduction ratio: {pattern_summary.reduction_ratio:.2%})"
+                f"(reduction ratio: {pattern_summary.reduction_ratio:.2%}), "
+                f"detected {len(detected_incidents)} incidents"
             )
             return {
                 "batch_id": batch_id_str,
@@ -107,6 +113,7 @@ def process_log_batch(batch_id_str: str) -> dict[str, Any]:
                 "malformed_lines": processor.malformed_lines,
                 "unique_patterns": pattern_summary.unique_patterns,
                 "reduction_ratio": pattern_summary.reduction_ratio,
+                "detected_incidents": len(detected_incidents),
             }
 
         except Exception as exc:

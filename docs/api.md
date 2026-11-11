@@ -44,6 +44,10 @@ Search and filter parsed log events strictly scoped to the owned project:
 - `GET /api/v1/projects/{id}/patterns`: List collapsed, normalized error patterns for an owned project. Query filters: `level`, `service`, `start_time`, `end_time`, `limit`, `offset`. Each pattern item contains `id`, `fingerprint`, `template`, `level`, `total_count`, `first_seen`, `last_seen`, `example_event_ids`, and `trend` (hourly frequency buckets).
 - `GET /api/v1/projects/{id}/patterns/{pattern_id}`: Retrieve detailed pattern metrics including high-resolution 10-minute trend buckets and sample events. Returns 404 if not found or unowned.
 
+## Incidents & Origin Detection (`/api/v1/projects/{id}/incidents`)
+- `GET /api/v1/projects/{id}/incidents`: List detected incidents for an owned project. Filters: `status` (`open`, `resolved`), `severity` (`critical`, `high`, `medium`, `low`), `limit`, `offset`. Returns incident window bounds, severity, `affected_services`, `event_count`, and `origin_pattern_id`.
+- `GET /api/v1/incidents/{id}` (also `/api/v1/projects/{id}/incidents/{incident_id}`): Retrieve full incident detail including chronological event `timeline` across services, linked `patterns`, and ranked `origin_candidates` with scoring reasons. Returns 404 if not owned.
+
 ## Demo Datasets & Seeding
 - `GET /api/v1/projects/demo-scenarios`: List all 34 pre-generated incident scenarios with ground-truth metadata, noise levels, and expected key patterns.
 - `POST /api/v1/projects/{id}/demo-data`: Seed an owned project with a simulated incident dataset for instant evaluation. Body: `{ "scenario_id": "db_pool_exhaustion_low_noise_multi_service" }` (optional, defaults to database connection pool exhaustion). Returns `202 Accepted` with `batch_id` and queues background processing. Returns 404 if project is not owned.
