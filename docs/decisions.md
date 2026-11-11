@@ -19,3 +19,18 @@
 - **Context**: LLMs can hallucinate causes and cite non-existent evidence or unrelated logs.
 - **Decision**: The backend numbers log lines presented to the model (e.g. `L1`, `L2`) and verifies every citation in the generated response against actual event IDs stored in the database. Any claim with an invalid or missing citation is visibly marked as `unsupported`.
 - **Why**: Ensures absolute trustworthiness in root-cause reporting for production incidents.
+
+## ADR 005: Argon2id Password Hashing & Dual JWT/Cookie Auth
+- **Context**: Modern authentication requires resisting GPU-assisted dictionary attacks while serving both Single Page Applications (React) and potential external CLI/API clients.
+- **Decision**: Use Argon2id (memory-hard, resistant to side-channel and GPU attacks) for passwords. On authentication, return a signed JWT bearer token and set an HttpOnly `SameSite=Lax` cookie.
+- **Why**: Eliminates plaintext credential risk, resists brute-forcing, and provides flexibility for browsers (cookie-based sessions) and automated testing/API clients (Bearer header).
+
+## ADR 006: 404 Not Found for Unowned Resources (Anti-Enumeration)
+- **Context**: In multi-tenant environments, returning `403 Forbidden` for another user's project or API key leaks the existence of that resource to an attacker.
+- **Decision**: Every query for a user-owned resource is scoped with `WHERE user_id = :current_user_id`. If no match is found, return `404 Not Found`.
+- **Why**: Protects user privacy and prevents malicious attackers from enumerating valid project IDs or key IDs.
+
+## ADR 007: Ingestion API Key Prefixing and SHA-256 Hashing
+- **Context**: High-throughput log ingestion requires fast API key lookup without storing raw secret keys in the database.
+- **Decision**: Generate API keys with format `il_live_<prefix8>_<secret32>`. Store only `key_prefix` (indexed for O(1) candidate lookup) and the SHA-256 hash. The raw key is displayed to the user exactly once.
+- **Why**: If the database is compromised, attacker cannot reconstruct raw ingestion keys, yet ingestion lookup remains sub-millisecond without scanning the entire table.
