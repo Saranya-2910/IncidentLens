@@ -1,0 +1,136 @@
+2026-11-10 14:00:01 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 47%, CPU: 13%
+2026-11-10 14:00:02 [INFO] [recommendation-service] HTTP GET /api/v1/promotions/active returned 200 in 26.8ms
+2026-11-10 14:00:03 [INFO] [recommendation-service] HTTP GET /api/v1/catalog/items returned 200 in 6.4ms
+2026-11-10 14:00:04 [INFO] [recommendation-service] HTTP GET /healthz returned 200 in 36.99ms
+2026-11-10 14:00:04 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 36%, CPU: 13%
+2026-11-10 14:00:05 [WARN] [recommendation-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:05 [INFO] [recommendation-service] HTTP GET /static/css/main.css returned 200 in 27.88ms
+2026-11-10 14:00:06 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 41%, CPU: 9%
+2026-11-10 14:00:07 [INFO] [recommendation-service] HTTP GET /api/v1/catalog/items returned 200 in 19.44ms
+2026-11-10 14:00:08 [WARN] [recommendation-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:08 [INFO] [recommendation-service] HTTP GET /api/v1/promotions/active returned 200 in 36.21ms
+2026-11-10 14:00:10 [INFO] [recommendation-service] HTTP GET /api/v1/promotions/active returned 200 in 19.52ms
+2026-11-10 14:00:11 [WARN] [recommendation-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:12 [DEBUG] [recommendation-service] Processed 49 background tasks from queue in 206ms
+2026-11-10 14:00:13 [DEBUG] [recommendation-service] Processed 43 background tasks from queue in 445ms
+2026-11-10 14:00:14 [DEBUG] [recommendation-service] Processed 18 background tasks from queue in 291ms
+2026-11-10 14:00:14 [INFO] [recommendation-service] HTTP GET /ready returned 200 in 14.41ms
+2026-11-10 14:00:15 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 58%, CPU: 29%
+2026-11-10 14:00:16 [DEBUG] [recommendation-service] Processed 44 background tasks from queue in 271ms
+2026-11-10 14:00:17 [WARN] [recommendation-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:18 [INFO] [recommendation-service] HTTP GET /api/v1/promotions/active returned 200 in 34.87ms
+2026-11-10 14:00:19 [DEBUG] [recommendation-service] Processed 24 background tasks from queue in 199ms
+2026-11-10 14:00:20 [INFO] [recommendation-service] HTTP GET /healthz returned 200 in 24.18ms
+2026-11-10 14:00:21 [INFO] [recommendation-service] HTTP GET /api/v1/catalog/items returned 200 in 31.38ms
+2026-11-10 14:00:22 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 44%, CPU: 8%
+2026-11-10 14:00:23 [INFO] [recommendation-service] HTTP GET /api/v1/catalog/items returned 200 in 4.6ms
+2026-11-10 14:00:24 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 30%, CPU: 30%
+2026-11-10 14:00:25 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 49%, CPU: 8%
+2026-11-10 14:00:26 [INFO] [recommendation-service] HTTP GET /healthz returned 200 in 35.87ms
+2026-11-10 14:00:27 [INFO] [recommendation-service] HTTP GET /api/v1/catalog/items returned 200 in 33.46ms
+2026-11-10 14:00:29 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 26%, CPU: 5%
+2026-11-10 14:00:29 [WARN] [recommendation-service] User session cookie refresh token close to expiration
+2026-11-10 14:00:30 [INFO] [recommendation-service] HTTP GET /api/v1/promotions/active returned 200 in 35.62ms
+2026-11-10 14:00:31 [DEBUG] [recommendation-service] Processed 21 background tasks from queue in 410ms
+2026-11-10 14:00:31 [WARN] [recommendation-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:31 [DEBUG] [recommendation-service] Processed 30 background tasks from queue in 249ms
+2026-11-10 14:00:32 [DEBUG] [recommendation-service] Processed 40 background tasks from queue in 375ms
+2026-11-10 14:00:33 [INFO] [recommendation-service] HTTP GET /healthz returned 200 in 34.66ms
+2026-11-10 14:00:34 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 36%, CPU: 7%
+2026-11-10 14:00:35 [INFO] [recommendation-service] HTTP GET /api/v1/cart/items returned 200 in 12.91ms
+2026-11-10 14:00:36 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 57%, CPU: 29%
+2026-11-10 14:00:37 [DEBUG] [recommendation-service] Processed 48 background tasks from queue in 334ms
+2026-11-10 14:00:38 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 55%, CPU: 6%
+2026-11-10 14:00:38 [INFO] [recommendation-service] HTTP GET /healthz returned 200 in 5.75ms
+2026-11-10 14:00:39 [WARN] [recommendation-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:39 [INFO] [recommendation-service] HTTP GET /api/v1/cart/items returned 200 in 21.05ms
+2026-11-10 14:00:40 [INFO] [recommendation-service] HTTP GET /api/v1/promotions/active returned 200 in 30.69ms
+2026-11-10 14:00:41 [INFO] [recommendation-service] HTTP GET /metrics returned 200 in 32.73ms
+2026-11-10 14:00:41 [WARN] [recommendation-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:42 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 31%, CPU: 32%
+2026-11-10 14:00:43 [INFO] [recommendation-service] HTTP GET /static/css/main.css returned 304 in 37.72ms
+2026-11-10 14:00:44 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 40%, CPU: 32%
+2026-11-10 14:00:44 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 43%, CPU: 33%
+2026-11-10 14:00:46 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 30%, CPU: 22%
+2026-11-10 14:00:46 [DEBUG] [recommendation-service] Processed 12 background tasks from queue in 436ms
+2026-11-10 14:00:47 [INFO] [recommendation-service] HTTP GET /api/v1/users/me returned 200 in 34.52ms
+2026-11-10 14:00:49 [DEBUG] [recommendation-service] Processed 39 background tasks from queue in 273ms
+2026-11-10 14:00:49 [WARN] [recommendation-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:50 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 36%, CPU: 13%
+2026-11-10 14:00:51 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 32%, CPU: 34%
+2026-11-10 14:00:52 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 49%, CPU: 6%
+2026-11-10 14:00:53 [WARN] [recommendation-service] User session cookie refresh token close to expiration
+2026-11-10 14:00:53 [WARN] [recommendation-service] User session cookie refresh token close to expiration
+2026-11-10 14:00:54 [INFO] [recommendation-service] HTTP GET /api/v1/promotions/active returned 200 in 5.94ms
+2026-11-10 14:00:55 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 57%, CPU: 21%
+2026-11-10 14:01:00 [WARN] [recommendation-service] Memory usage exceeded threshold: 3840MB / 4096MB (93.7%)
+2026-11-10 14:01:15 [WARN] [recommendation-service] Garbage collector paused for 1420ms; freed only 12MB. Cache retention ratio 0.998
+2026-11-10 14:01:25 [FATAL] [recommendation-service] kernel: [129481.102] Out of memory: Kill process 18491 (python) score 950 or sacrifice child
+2026-11-10 14:01:28 [FATAL] [recommendation-service] Killed process 18491 (python) total-vm:4194304kB, anon-rss:3981312kB
+2026-11-10 14:01:33 [FATAL] [orchestrator] Container recommendation-engine terminated with exit code 137 (OOMKilled)
+2026-11-10 14:01:29 [DEBUG] [recommendation-service] Processed 12 background tasks from queue in 351ms
+2026-11-10 14:01:30 [INFO] [recommendation-service] HTTP GET /api/v1/cart/items returned 200 in 8.31ms
+2026-11-10 14:01:31 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 29%, CPU: 8%
+2026-11-10 14:01:32 [ERROR] [recommendation-service] HTTP 500 / request dropped while recommendation-service is degraded
+2026-11-10 14:01:32 [INFO] [recommendation-service] HTTP GET /api/v1/promotions/active returned 200 in 11.33ms
+2026-11-10 14:01:34 [INFO] [recommendation-service] HTTP GET /static/css/main.css returned 200 in 7.79ms
+2026-11-10 14:01:34 [INFO] [recommendation-service] HTTP GET /healthz returned 200 in 32.14ms
+2026-11-10 14:01:36 [INFO] [recommendation-service] HTTP GET /metrics returned 200 in 43.56ms
+2026-11-10 14:01:37 [INFO] [recommendation-service] HTTP GET /healthz returned 200 in 6.99ms
+2026-11-10 14:01:37 [WARN] [recommendation-service] User session cookie refresh token close to expiration
+2026-11-10 14:01:38 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 30%, CPU: 18%
+2026-11-10 14:01:38 [INFO] [recommendation-service] HTTP GET /api/v1/catalog/items returned 200 in 43.46ms
+2026-11-10 14:01:39 [DEBUG] [recommendation-service] Processed 15 background tasks from queue in 316ms
+2026-11-10 14:01:39 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 52%, CPU: 17%
+2026-11-10 14:01:40 [DEBUG] [recommendation-service] Processed 48 background tasks from queue in 366ms
+2026-11-10 14:01:41 [ERROR] [recommendation-service] HTTP 500 / request dropped while recommendation-service is degraded
+2026-11-10 14:01:42 [INFO] [recommendation-service] HTTP GET /api/v1/users/me returned 200 in 43.36ms
+2026-11-10 14:01:43 [ERROR] [recommendation-service] HTTP 500 / request dropped while recommendation-service is degraded
+2026-11-10 14:01:43 [INFO] [recommendation-service] HTTP GET /healthz returned 200 in 12.2ms
+2026-11-10 14:01:45 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 37%, CPU: 29%
+2026-11-10 14:01:46 [INFO] [recommendation-service] HTTP GET /healthz returned 200 in 33.34ms
+2026-11-10 14:01:47 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 51%, CPU: 27%
+2026-11-10 14:01:47 [ERROR] [recommendation-service] HTTP 500 / request dropped while recommendation-service is degraded
+2026-11-10 14:01:48 [ERROR] [recommendation-service] HTTP 500 / request dropped while recommendation-service is degraded
+2026-11-10 14:01:50 [INFO] [recommendation-service] HTTP GET /api/v1/catalog/items returned 304 in 35.64ms
+2026-11-10 14:01:50 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 33%, CPU: 17%
+2026-11-10 14:01:51 [INFO] [recommendation-service] HTTP GET /api/v1/catalog/items returned 200 in 7.02ms
+2026-11-10 14:01:51 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 26%, CPU: 26%
+2026-11-10 14:01:52 [ERROR] [recommendation-service] HTTP 500 / request dropped while recommendation-service is degraded
+2026-11-10 14:01:54 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 31%, CPU: 13%
+2026-11-10 14:01:54 [DEBUG] [recommendation-service] Processed 30 background tasks from queue in 422ms
+2026-11-10 14:01:54 [INFO] [recommendation-service] HTTP GET /api/v1/catalog/items returned 200 in 41.66ms
+2026-11-10 14:01:55 [INFO] [recommendation-service] HTTP GET /ready returned 200 in 29.46ms
+2026-11-10 14:01:56 [ERROR] [recommendation-service] HTTP 500 / request dropped while recommendation-service is degraded
+2026-11-10 14:01:58 [ERROR] [recommendation-service] HTTP 500 / request dropped while recommendation-service is degraded
+2026-11-10 14:01:58 [INFO] [recommendation-service] HTTP GET /metrics returned 200 in 34.68ms
+2026-11-10 14:01:59 [INFO] [recommendation-service] HTTP GET /static/css/main.css returned 200 in 22.53ms
+2026-11-10 14:02:00 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 45%, CPU: 10%
+2026-11-10 14:02:01 [INFO] [recommendation-service] HTTP GET /healthz returned 200 in 32.11ms
+2026-11-10 14:02:01 [ERROR] [recommendation-service] HTTP 500 / request dropped while recommendation-service is degraded
+2026-11-10 14:02:01 [ERROR] [recommendation-service] HTTP 500 / request dropped while recommendation-service is degraded
+2026-11-10 14:02:02 [INFO] [recommendation-service] HTTP GET /api/v1/cart/items returned 200 in 27.72ms
+2026-11-10 14:02:03 [WARN] [recommendation-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:02:04 [INFO] [recommendation-service] HTTP GET /metrics returned 200 in 19.35ms
+2026-11-10 14:02:04 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 35%, CPU: 31%
+2026-11-10 14:02:06 [INFO] [recommendation-service] HTTP GET /ready returned 200 in 24.77ms
+2026-11-10 14:02:06 [ERROR] [recommendation-service] HTTP 500 / request dropped while recommendation-service is degraded
+2026-11-10 14:02:07 [ERROR] [recommendation-service] HTTP 500 / request dropped while recommendation-service is degraded
+2026-11-10 14:02:07 [INFO] [recommendation-service] HTTP GET /api/v1/promotions/active returned 200 in 15.51ms
+2026-11-10 14:02:08 [INFO] [recommendation-service] HTTP GET /api/v1/users/me returned 200 in 18.85ms
+2026-11-10 14:02:09 [INFO] [recommendation-service] HTTP GET /healthz returned 200 in 20.35ms
+2026-11-10 14:02:10 [WARN] [recommendation-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:02:11 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 31%, CPU: 18%
+2026-11-10 14:02:12 [ERROR] [recommendation-service] HTTP 500 / request dropped while recommendation-service is degraded
+2026-11-10 14:02:12 [WARN] [recommendation-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:02:14 [INFO] [recommendation-service] HTTP GET /ready returned 200 in 35.23ms
+2026-11-10 14:02:14 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 58%, CPU: 11%
+2026-11-10 14:02:15 [INFO] [recommendation-service] HTTP GET /api/v1/users/me returned 200 in 37.2ms
+2026-11-10 14:02:17 [ERROR] [recommendation-service] HTTP 500 / request dropped while recommendation-service is degraded
+2026-11-10 14:02:18 [INFO] [recommendation-service] HTTP GET /static/css/main.css returned 200 in 43.92ms
+2026-11-10 14:02:19 [ERROR] [recommendation-service] HTTP 500 / request dropped while recommendation-service is degraded
+2026-11-10 14:02:19 [INFO] [recommendation-service] HTTP GET /ready returned 200 in 25.53ms
+2026-11-10 14:02:21 [DEBUG] [recommendation-service] Processed 29 background tasks from queue in 128ms
+2026-11-10 14:02:22 [INFO] [recommendation-service] HTTP GET /ready returned 200 in 26.54ms
+2026-11-10 14:02:23 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 23%, CPU: 31%
+2026-11-10 14:02:24 [INFO] [recommendation-service] Periodic health check passed. Memory usage: 47%, CPU: 24%

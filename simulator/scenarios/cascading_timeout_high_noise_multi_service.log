@@ -1,0 +1,1203 @@
+2026-11-10 14:00:00 [INFO] [order-service] Periodic health check passed. Memory usage: 34%, CPU: 31%
+2026-11-10 14:00:01 [INFO] [inventory-service] Periodic health check passed. Memory usage: 47%, CPU: 31%
+2026-11-10 14:00:01 [INFO] [order-service] HTTP GET /healthz returned 200 in 20.71ms
+2026-11-10 14:00:03 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:03 [INFO] [order-service] HTTP GET /metrics returned 200 in 44.45ms
+2026-11-10 14:00:04 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 22.81ms
+2026-11-10 14:00:05 [INFO] [order-service] HTTP GET /healthz returned 200 in 42.78ms
+2026-11-10 14:00:05 [INFO] [api-gateway] Periodic health check passed. Memory usage: 40%, CPU: 20%
+2026-11-10 14:00:05 [INFO] [api-gateway] Periodic health check passed. Memory usage: 29%, CPU: 25%
+2026-11-10 14:00:07 [DEBUG] [api-gateway] Processed 40 background tasks from queue in 127ms
+2026-11-10 14:00:08 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 13.55ms
+2026-11-10 14:00:09 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 18.64ms
+2026-11-10 14:00:09 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:09 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 19.26ms
+2026-11-10 14:00:10 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 304 in 36.73ms
+2026-11-10 14:00:11 [DEBUG] [order-service] Processed 46 background tasks from queue in 149ms
+2026-11-10 14:00:12 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:13 [INFO] [inventory-service] Periodic health check passed. Memory usage: 55%, CPU: 11%
+2026-11-10 14:00:13 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 18.75ms
+2026-11-10 14:00:14 [INFO] [api-gateway] Periodic health check passed. Memory usage: 43%, CPU: 24%
+2026-11-10 14:00:15 [DEBUG] [api-gateway] Processed 32 background tasks from queue in 131ms
+2026-11-10 14:00:16 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 20.37ms
+2026-11-10 14:00:18 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 17.19ms
+2026-11-10 14:00:19 [DEBUG] [api-gateway] Processed 16 background tasks from queue in 446ms
+2026-11-10 14:00:20 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 6.86ms
+2026-11-10 14:00:21 [WARN] [order-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:22 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 41.71ms
+2026-11-10 14:00:22 [DEBUG] [inventory-service] Processed 50 background tasks from queue in 414ms
+2026-11-10 14:00:23 [INFO] [order-service] Periodic health check passed. Memory usage: 32%, CPU: 13%
+2026-11-10 14:00:23 [INFO] [order-service] Periodic health check passed. Memory usage: 46%, CPU: 27%
+2026-11-10 14:00:24 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 18.49ms
+2026-11-10 14:00:26 [INFO] [order-service] HTTP GET /ready returned 200 in 11.36ms
+2026-11-10 14:00:27 [INFO] [api-gateway] HTTP GET /ready returned 200 in 30.43ms
+2026-11-10 14:00:27 [INFO] [api-gateway] Periodic health check passed. Memory usage: 55%, CPU: 7%
+2026-11-10 14:00:27 [INFO] [api-gateway] HTTP GET /ready returned 200 in 30.61ms
+2026-11-10 14:00:28 [INFO] [order-service] Periodic health check passed. Memory usage: 34%, CPU: 30%
+2026-11-10 14:00:29 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 25.01ms
+2026-11-10 14:00:29 [DEBUG] [order-service] Processed 13 background tasks from queue in 189ms
+2026-11-10 14:00:30 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 7.89ms
+2026-11-10 14:00:31 [INFO] [inventory-service] Periodic health check passed. Memory usage: 38%, CPU: 33%
+2026-11-10 14:00:32 [INFO] [inventory-service] HTTP GET /api/v1/promotions/active returned 200 in 5.47ms
+2026-11-10 14:00:32 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 41.28ms
+2026-11-10 14:00:33 [INFO] [inventory-service] Periodic health check passed. Memory usage: 29%, CPU: 30%
+2026-11-10 14:00:34 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 10.04ms
+2026-11-10 14:00:35 [DEBUG] [order-service] Processed 31 background tasks from queue in 330ms
+2026-11-10 14:00:36 [DEBUG] [inventory-service] Processed 30 background tasks from queue in 322ms
+2026-11-10 14:00:36 [WARN] [inventory-service] User session cookie refresh token close to expiration
+2026-11-10 14:00:37 [INFO] [order-service] HTTP GET /api/v1/catalog/items returned 200 in 10.32ms
+2026-11-10 14:00:38 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 304 in 37.37ms
+2026-11-10 14:00:38 [INFO] [api-gateway] Periodic health check passed. Memory usage: 45%, CPU: 34%
+2026-11-10 14:00:39 [DEBUG] [inventory-service] Processed 48 background tasks from queue in 429ms
+2026-11-10 14:00:40 [INFO] [order-service] Periodic health check passed. Memory usage: 33%, CPU: 7%
+2026-11-10 14:00:40 [DEBUG] [inventory-service] Processed 29 background tasks from queue in 414ms
+2026-11-10 14:00:41 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 37.53ms
+2026-11-10 14:00:42 [DEBUG] [order-service] Processed 44 background tasks from queue in 206ms
+2026-11-10 14:00:42 [DEBUG] [inventory-service] Processed 33 background tasks from queue in 412ms
+2026-11-10 14:00:43 [INFO] [order-service] Periodic health check passed. Memory usage: 37%, CPU: 21%
+2026-11-10 14:00:43 [INFO] [inventory-service] Periodic health check passed. Memory usage: 42%, CPU: 34%
+2026-11-10 14:00:43 [INFO] [order-service] HTTP GET /ready returned 200 in 37.74ms
+2026-11-10 14:00:44 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 22.37ms
+2026-11-10 14:00:45 [INFO] [inventory-service] HTTP GET /api/v1/promotions/active returned 200 in 15.14ms
+2026-11-10 14:00:45 [INFO] [api-gateway] HTTP GET /metrics returned 200 in 9.41ms
+2026-11-10 14:00:46 [INFO] [order-service] Periodic health check passed. Memory usage: 23%, CPU: 20%
+2026-11-10 14:00:47 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 31.32ms
+2026-11-10 14:00:48 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 37.16ms
+2026-11-10 14:00:48 [DEBUG] [inventory-service] Processed 32 background tasks from queue in 346ms
+2026-11-10 14:00:49 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 21.02ms
+2026-11-10 14:00:49 [INFO] [inventory-service] Periodic health check passed. Memory usage: 43%, CPU: 13%
+2026-11-10 14:00:51 [INFO] [order-service] HTTP GET /api/v1/catalog/items returned 200 in 44.57ms
+2026-11-10 14:00:51 [WARN] [inventory-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:52 [DEBUG] [inventory-service] Processed 44 background tasks from queue in 418ms
+2026-11-10 14:00:53 [INFO] [inventory-service] Periodic health check passed. Memory usage: 44%, CPU: 32%
+2026-11-10 14:00:53 [INFO] [order-service] HTTP GET /healthz returned 200 in 7.84ms
+2026-11-10 14:00:55 [WARN] [api-gateway] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:55 [WARN] [api-gateway] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:56 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 31.16ms
+2026-11-10 14:00:56 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:58 [INFO] [order-service] Periodic health check passed. Memory usage: 55%, CPU: 19%
+2026-11-10 14:00:59 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 39.87ms
+2026-11-10 14:00:59 [INFO] [inventory-service] Periodic health check passed. Memory usage: 31%, CPU: 29%
+2026-11-10 14:01:01 [INFO] [inventory-service] HTTP GET /api/v1/promotions/active returned 304 in 35.88ms
+2026-11-10 14:01:02 [INFO] [inventory-service] Periodic health check passed. Memory usage: 36%, CPU: 12%
+2026-11-10 14:01:02 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 19.87ms
+2026-11-10 14:01:04 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:01:05 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:01:06 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 37.95ms
+2026-11-10 14:01:07 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:01:08 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 42.98ms
+2026-11-10 14:01:09 [INFO] [order-service] Periodic health check passed. Memory usage: 35%, CPU: 19%
+2026-11-10 14:01:10 [INFO] [inventory-service] HTTP GET /ready returned 200 in 44.13ms
+2026-11-10 14:01:11 [INFO] [inventory-service] Periodic health check passed. Memory usage: 25%, CPU: 21%
+2026-11-10 14:01:12 [INFO] [order-service] Periodic health check passed. Memory usage: 33%, CPU: 18%
+2026-11-10 14:01:12 [DEBUG] [order-service] Processed 36 background tasks from queue in 203ms
+2026-11-10 14:01:13 [INFO] [api-gateway] Periodic health check passed. Memory usage: 28%, CPU: 29%
+2026-11-10 14:01:14 [DEBUG] [api-gateway] Processed 11 background tasks from queue in 328ms
+2026-11-10 14:01:16 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:01:16 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 33.36ms
+2026-11-10 14:01:17 [DEBUG] [inventory-service] Processed 28 background tasks from queue in 397ms
+2026-11-10 14:01:19 [INFO] [order-service] HTTP GET /healthz returned 200 in 30.35ms
+2026-11-10 14:01:19 [INFO] [order-service] Periodic health check passed. Memory usage: 47%, CPU: 34%
+2026-11-10 14:01:20 [INFO] [api-gateway] Periodic health check passed. Memory usage: 29%, CPU: 21%
+2026-11-10 14:01:21 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 30.88ms
+2026-11-10 14:01:22 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 7.33ms
+2026-11-10 14:01:23 [WARN] [api-gateway] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:01:24 [DEBUG] [inventory-service] Processed 29 background tasks from queue in 122ms
+2026-11-10 14:01:24 [DEBUG] [api-gateway] Processed 42 background tasks from queue in 407ms
+2026-11-10 14:01:25 [INFO] [inventory-service] HTTP GET /api/v1/promotions/active returned 200 in 8.61ms
+2026-11-10 14:01:25 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 37.55ms
+2026-11-10 14:01:26 [DEBUG] [inventory-service] Processed 44 background tasks from queue in 159ms
+2026-11-10 14:01:27 [INFO] [inventory-service] HTTP GET /metrics returned 200 in 41.91ms
+2026-11-10 14:01:28 [DEBUG] [inventory-service] Processed 15 background tasks from queue in 387ms
+2026-11-10 14:01:29 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 15.0ms
+2026-11-10 14:01:29 [INFO] [inventory-service] HTTP GET /ready returned 200 in 25.81ms
+2026-11-10 14:01:30 [DEBUG] [order-service] Processed 17 background tasks from queue in 398ms
+2026-11-10 14:01:30 [INFO] [inventory-service] Periodic health check passed. Memory usage: 37%, CPU: 20%
+2026-11-10 14:01:32 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 6.05ms
+2026-11-10 14:01:33 [INFO] [api-gateway] HTTP GET /ready returned 200 in 42.2ms
+2026-11-10 14:01:34 [DEBUG] [order-service] Processed 29 background tasks from queue in 251ms
+2026-11-10 14:01:34 [WARN] [order-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:01:36 [INFO] [order-service] Periodic health check passed. Memory usage: 42%, CPU: 13%
+2026-11-10 14:01:36 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 38.78ms
+2026-11-10 14:01:37 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 34.06ms
+2026-11-10 14:01:38 [INFO] [inventory-service] Periodic health check passed. Memory usage: 38%, CPU: 6%
+2026-11-10 14:01:39 [INFO] [api-gateway] Periodic health check passed. Memory usage: 49%, CPU: 11%
+2026-11-10 14:01:39 [INFO] [inventory-service] HTTP GET /ready returned 200 in 23.66ms
+2026-11-10 14:01:40 [DEBUG] [api-gateway] Processed 27 background tasks from queue in 394ms
+2026-11-10 14:01:41 [DEBUG] [api-gateway] Processed 14 background tasks from queue in 315ms
+2026-11-10 14:01:41 [INFO] [order-service] Periodic health check passed. Memory usage: 56%, CPU: 26%
+2026-11-10 14:01:43 [DEBUG] [order-service] Processed 40 background tasks from queue in 292ms
+2026-11-10 14:01:43 [WARN] [order-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:01:44 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 25.7ms
+2026-11-10 14:01:45 [WARN] [order-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:01:45 [INFO] [order-service] HTTP GET /ready returned 200 in 28.51ms
+2026-11-10 14:01:47 [INFO] [api-gateway] Periodic health check passed. Memory usage: 22%, CPU: 28%
+2026-11-10 14:01:48 [INFO] [inventory-service] HTTP GET /api/v1/promotions/active returned 200 in 7.31ms
+2026-11-10 14:01:49 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 17.55ms
+2026-11-10 14:01:51 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 17.82ms
+2026-11-10 14:01:51 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 27.57ms
+2026-11-10 14:01:53 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 9.32ms
+2026-11-10 14:01:54 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 44.35ms
+2026-11-10 14:01:54 [DEBUG] [api-gateway] Processed 45 background tasks from queue in 259ms
+2026-11-10 14:01:56 [DEBUG] [api-gateway] Processed 33 background tasks from queue in 222ms
+2026-11-10 14:01:56 [INFO] [api-gateway] HTTP GET /metrics returned 200 in 34.68ms
+2026-11-10 14:01:56 [INFO] [api-gateway] Periodic health check passed. Memory usage: 54%, CPU: 15%
+2026-11-10 14:01:57 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 15.26ms
+2026-11-10 14:01:58 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:01:58 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 16.52ms
+2026-11-10 14:01:58 [INFO] [order-service] HTTP GET /api/v1/catalog/items returned 200 in 36.4ms
+2026-11-10 14:01:59 [INFO] [order-service] Periodic health check passed. Memory usage: 44%, CPU: 20%
+2026-11-10 14:01:59 [INFO] [api-gateway] HTTP GET /ready returned 200 in 19.21ms
+2026-11-10 14:02:01 [INFO] [inventory-service] Periodic health check passed. Memory usage: 57%, CPU: 17%
+2026-11-10 14:02:01 [INFO] [api-gateway] Periodic health check passed. Memory usage: 29%, CPU: 18%
+2026-11-10 14:02:02 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 44.01ms
+2026-11-10 14:02:03 [INFO] [inventory-service] HTTP GET /metrics returned 200 in 17.89ms
+2026-11-10 14:02:03 [DEBUG] [order-service] Processed 16 background tasks from queue in 183ms
+2026-11-10 14:02:04 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:02:05 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:02:05 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 10.23ms
+2026-11-10 14:02:06 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 13.27ms
+2026-11-10 14:02:07 [INFO] [api-gateway] Periodic health check passed. Memory usage: 31%, CPU: 25%
+2026-11-10 14:02:08 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 36.09ms
+2026-11-10 14:02:09 [INFO] [order-service] HTTP GET /healthz returned 200 in 23.83ms
+2026-11-10 14:02:10 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 6.44ms
+2026-11-10 14:02:11 [INFO] [inventory-service] HTTP GET /ready returned 200 in 5.52ms
+2026-11-10 14:02:12 [DEBUG] [api-gateway] Processed 42 background tasks from queue in 376ms
+2026-11-10 14:02:13 [DEBUG] [order-service] Processed 48 background tasks from queue in 429ms
+2026-11-10 14:02:14 [INFO] [inventory-service] HTTP GET /metrics returned 200 in 36.06ms
+2026-11-10 14:02:14 [DEBUG] [api-gateway] Processed 29 background tasks from queue in 425ms
+2026-11-10 14:02:15 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 10.52ms
+2026-11-10 14:02:16 [DEBUG] [inventory-service] Processed 42 background tasks from queue in 194ms
+2026-11-10 14:02:17 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 40.63ms
+2026-11-10 14:02:18 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 6.68ms
+2026-11-10 14:02:18 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 43.76ms
+2026-11-10 14:02:19 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 21.55ms
+2026-11-10 14:02:20 [INFO] [order-service] Periodic health check passed. Memory usage: 47%, CPU: 17%
+2026-11-10 14:02:21 [DEBUG] [inventory-service] Processed 45 background tasks from queue in 367ms
+2026-11-10 14:02:22 [INFO] [api-gateway] HTTP GET /ready returned 200 in 13.43ms
+2026-11-10 14:02:22 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 43.32ms
+2026-11-10 14:02:23 [DEBUG] [api-gateway] Processed 44 background tasks from queue in 327ms
+2026-11-10 14:02:24 [INFO] [inventory-service] Periodic health check passed. Memory usage: 49%, CPU: 28%
+2026-11-10 14:02:24 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 7.1ms
+2026-11-10 14:02:25 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 26.81ms
+2026-11-10 14:02:26 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 22.27ms
+2026-11-10 14:02:27 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 14.86ms
+2026-11-10 14:02:28 [INFO] [order-service] HTTP GET /healthz returned 200 in 13.83ms
+2026-11-10 14:02:29 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 28.47ms
+2026-11-10 14:02:30 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 33.36ms
+2026-11-10 14:02:32 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:02:32 [DEBUG] [inventory-service] Processed 50 background tasks from queue in 350ms
+2026-11-10 14:02:32 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 20.79ms
+2026-11-10 14:02:33 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:02:34 [WARN] [api-gateway] User session cookie refresh token close to expiration
+2026-11-10 14:02:35 [INFO] [api-gateway] Periodic health check passed. Memory usage: 51%, CPU: 12%
+2026-11-10 14:02:35 [DEBUG] [api-gateway] Processed 15 background tasks from queue in 288ms
+2026-11-10 14:02:35 [DEBUG] [api-gateway] Processed 20 background tasks from queue in 177ms
+2026-11-10 14:02:37 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:02:38 [WARN] [order-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:02:38 [INFO] [inventory-service] HTTP GET /ready returned 304 in 34.38ms
+2026-11-10 14:02:40 [WARN] [api-gateway] User session cookie refresh token close to expiration
+2026-11-10 14:02:41 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 11.86ms
+2026-11-10 14:02:42 [DEBUG] [order-service] Processed 40 background tasks from queue in 307ms
+2026-11-10 14:02:42 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:02:44 [INFO] [api-gateway] Periodic health check passed. Memory usage: 52%, CPU: 21%
+2026-11-10 14:02:45 [DEBUG] [inventory-service] Processed 33 background tasks from queue in 440ms
+2026-11-10 14:02:46 [INFO] [inventory-service] Periodic health check passed. Memory usage: 33%, CPU: 11%
+2026-11-10 14:02:47 [INFO] [inventory-service] Periodic health check passed. Memory usage: 48%, CPU: 6%
+2026-11-10 14:02:47 [INFO] [order-service] HTTP GET /ready returned 200 in 6.44ms
+2026-11-10 14:02:47 [INFO] [inventory-service] Periodic health check passed. Memory usage: 42%, CPU: 8%
+2026-11-10 14:02:48 [INFO] [order-service] HTTP GET /metrics returned 304 in 19.82ms
+2026-11-10 14:02:49 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 42.7ms
+2026-11-10 14:02:49 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 16.8ms
+2026-11-10 14:02:50 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 10.18ms
+2026-11-10 14:02:50 [INFO] [inventory-service] HTTP GET /api/v1/promotions/active returned 200 in 43.17ms
+2026-11-10 14:02:52 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 38.38ms
+2026-11-10 14:02:53 [INFO] [order-service] HTTP GET /ready returned 200 in 11.37ms
+2026-11-10 14:02:53 [INFO] [api-gateway] Periodic health check passed. Memory usage: 44%, CPU: 27%
+2026-11-10 14:02:54 [WARN] [api-gateway] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:02:54 [INFO] [inventory-service] HTTP GET /healthz returned 304 in 19.39ms
+2026-11-10 14:02:54 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:02:55 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 13.85ms
+2026-11-10 14:02:57 [INFO] [api-gateway] Periodic health check passed. Memory usage: 22%, CPU: 20%
+2026-11-10 14:02:58 [INFO] [api-gateway] HTTP GET /ready returned 200 in 4.86ms
+2026-11-10 14:02:59 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 29.62ms
+2026-11-10 14:03:00 [INFO] [order-service] HTTP GET /ready returned 200 in 11.1ms
+2026-11-10 14:03:01 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 15.15ms
+2026-11-10 14:03:01 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 12.81ms
+2026-11-10 14:03:02 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:03:03 [INFO] [order-service] Periodic health check passed. Memory usage: 28%, CPU: 24%
+2026-11-10 14:03:03 [INFO] [api-gateway] HTTP GET /ready returned 200 in 15.45ms
+2026-11-10 14:03:04 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 18.94ms
+2026-11-10 14:03:04 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:03:05 [INFO] [order-service] HTTP GET /healthz returned 200 in 35.57ms
+2026-11-10 14:03:06 [INFO] [inventory-service] Periodic health check passed. Memory usage: 27%, CPU: 34%
+2026-11-10 14:03:06 [WARN] [inventory-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:03:07 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 37.76ms
+2026-11-10 14:03:08 [WARN] [order-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:03:08 [DEBUG] [inventory-service] Processed 44 background tasks from queue in 210ms
+2026-11-10 14:03:09 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 44.55ms
+2026-11-10 14:03:10 [INFO] [order-service] HTTP GET /api/v1/catalog/items returned 200 in 14.09ms
+2026-11-10 14:03:11 [INFO] [api-gateway] HTTP GET /metrics returned 200 in 18.37ms
+2026-11-10 14:03:11 [INFO] [inventory-service] Periodic health check passed. Memory usage: 51%, CPU: 14%
+2026-11-10 14:03:12 [INFO] [api-gateway] Periodic health check passed. Memory usage: 52%, CPU: 7%
+2026-11-10 14:03:13 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 12.78ms
+2026-11-10 14:03:14 [DEBUG] [inventory-service] Processed 32 background tasks from queue in 373ms
+2026-11-10 14:03:15 [DEBUG] [api-gateway] Processed 34 background tasks from queue in 175ms
+2026-11-10 14:03:15 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 40.5ms
+2026-11-10 14:03:17 [INFO] [inventory-service] HTTP GET /healthz returned 304 in 17.48ms
+2026-11-10 14:03:17 [DEBUG] [order-service] Processed 29 background tasks from queue in 296ms
+2026-11-10 14:03:18 [INFO] [api-gateway] Periodic health check passed. Memory usage: 23%, CPU: 30%
+2026-11-10 14:03:19 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 18.18ms
+2026-11-10 14:03:21 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:03:22 [WARN] [order-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:03:22 [WARN] [api-gateway] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:03:22 [DEBUG] [api-gateway] Processed 15 background tasks from queue in 398ms
+2026-11-10 14:03:23 [INFO] [api-gateway] HTTP GET /ready returned 200 in 8.24ms
+2026-11-10 14:03:25 [DEBUG] [api-gateway] Processed 47 background tasks from queue in 324ms
+2026-11-10 14:03:25 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 24.49ms
+2026-11-10 14:03:26 [INFO] [api-gateway] HTTP GET /ready returned 200 in 21.33ms
+2026-11-10 14:03:26 [INFO] [inventory-service] Periodic health check passed. Memory usage: 43%, CPU: 13%
+2026-11-10 14:03:27 [INFO] [order-service] Periodic health check passed. Memory usage: 25%, CPU: 9%
+2026-11-10 14:03:28 [INFO] [inventory-service] HTTP GET /ready returned 200 in 43.62ms
+2026-11-10 14:03:30 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 34.04ms
+2026-11-10 14:03:31 [INFO] [api-gateway] Periodic health check passed. Memory usage: 25%, CPU: 33%
+2026-11-10 14:03:32 [DEBUG] [order-service] Processed 47 background tasks from queue in 450ms
+2026-11-10 14:03:32 [INFO] [order-service] HTTP GET /metrics returned 200 in 40.03ms
+2026-11-10 14:03:33 [WARN] [order-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:03:34 [INFO] [inventory-service] HTTP GET /api/v1/promotions/active returned 200 in 39.65ms
+2026-11-10 14:03:36 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 5.74ms
+2026-11-10 14:03:37 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 39.83ms
+2026-11-10 14:03:38 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 37.74ms
+2026-11-10 14:03:38 [INFO] [inventory-service] Periodic health check passed. Memory usage: 49%, CPU: 23%
+2026-11-10 14:03:39 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:03:39 [INFO] [order-service] HTTP GET /ready returned 200 in 33.66ms
+2026-11-10 14:03:40 [INFO] [order-service] Periodic health check passed. Memory usage: 49%, CPU: 25%
+2026-11-10 14:03:40 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 25.56ms
+2026-11-10 14:03:41 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:03:43 [INFO] [order-service] Periodic health check passed. Memory usage: 55%, CPU: 24%
+2026-11-10 14:03:44 [INFO] [order-service] HTTP GET /metrics returned 304 in 24.97ms
+2026-11-10 14:03:44 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 304 in 13.52ms
+2026-11-10 14:03:45 [DEBUG] [order-service] Processed 11 background tasks from queue in 135ms
+2026-11-10 14:03:45 [DEBUG] [inventory-service] Processed 22 background tasks from queue in 122ms
+2026-11-10 14:03:46 [INFO] [order-service] Periodic health check passed. Memory usage: 50%, CPU: 23%
+2026-11-10 14:03:47 [INFO] [inventory-service] Periodic health check passed. Memory usage: 54%, CPU: 31%
+2026-11-10 14:03:48 [INFO] [order-service] Periodic health check passed. Memory usage: 28%, CPU: 30%
+2026-11-10 14:03:48 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 17.28ms
+2026-11-10 14:03:49 [DEBUG] [api-gateway] Processed 32 background tasks from queue in 444ms
+2026-11-10 14:03:50 [INFO] [order-service] HTTP GET /api/v1/catalog/items returned 200 in 22.52ms
+2026-11-10 14:03:51 [DEBUG] [inventory-service] Processed 20 background tasks from queue in 402ms
+2026-11-10 14:03:51 [WARN] [api-gateway] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:03:52 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 37.19ms
+2026-11-10 14:03:54 [WARN] [inventory-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:03:55 [INFO] [order-service] Periodic health check passed. Memory usage: 27%, CPU: 12%
+2026-11-10 14:03:55 [DEBUG] [api-gateway] Processed 20 background tasks from queue in 344ms
+2026-11-10 14:03:57 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 33.91ms
+2026-11-10 14:03:57 [INFO] [api-gateway] HTTP GET /ready returned 200 in 37.05ms
+2026-11-10 14:03:57 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 13.19ms
+2026-11-10 14:03:59 [WARN] [inventory-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:03:59 [INFO] [api-gateway] Periodic health check passed. Memory usage: 43%, CPU: 8%
+2026-11-10 14:04:00 [INFO] [order-service] HTTP GET /api/v1/catalog/items returned 200 in 28.7ms
+2026-11-10 14:04:00 [WARN] [order-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:04:01 [WARN] [order-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:04:01 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 13.42ms
+2026-11-10 14:04:02 [WARN] [order-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:04:03 [DEBUG] [order-service] Processed 42 background tasks from queue in 237ms
+2026-11-10 14:04:03 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 24.64ms
+2026-11-10 14:04:04 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 23.43ms
+2026-11-10 14:04:05 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 20.86ms
+2026-11-10 14:04:06 [INFO] [inventory-service] HTTP GET /metrics returned 304 in 8.29ms
+2026-11-10 14:04:07 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 29.72ms
+2026-11-10 14:04:09 [DEBUG] [api-gateway] Processed 31 background tasks from queue in 361ms
+2026-11-10 14:04:10 [INFO] [inventory-service] Periodic health check passed. Memory usage: 24%, CPU: 14%
+2026-11-10 14:04:11 [INFO] [inventory-service] HTTP GET /metrics returned 200 in 12.45ms
+2026-11-10 14:04:12 [INFO] [order-service] HTTP GET /metrics returned 200 in 20.97ms
+2026-11-10 14:04:14 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 43.68ms
+2026-11-10 14:04:14 [INFO] [api-gateway] HTTP GET /metrics returned 200 in 6.55ms
+2026-11-10 14:04:15 [INFO] [inventory-service] Periodic health check passed. Memory usage: 48%, CPU: 29%
+2026-11-10 14:04:16 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 14.87ms
+2026-11-10 14:04:18 [INFO] [api-gateway] Periodic health check passed. Memory usage: 34%, CPU: 18%
+2026-11-10 14:04:19 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 37.02ms
+2026-11-10 14:04:20 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 37.84ms
+2026-11-10 14:04:21 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 32.95ms
+2026-11-10 14:04:21 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 31.06ms
+2026-11-10 14:04:22 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 12.34ms
+2026-11-10 14:04:23 [DEBUG] [order-service] Processed 29 background tasks from queue in 131ms
+2026-11-10 14:04:24 [DEBUG] [api-gateway] Processed 10 background tasks from queue in 195ms
+2026-11-10 14:04:25 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 37.92ms
+2026-11-10 14:04:26 [DEBUG] [inventory-service] Processed 36 background tasks from queue in 284ms
+2026-11-10 14:04:27 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 29.31ms
+2026-11-10 14:04:27 [INFO] [inventory-service] Periodic health check passed. Memory usage: 48%, CPU: 16%
+2026-11-10 14:04:28 [DEBUG] [api-gateway] Processed 45 background tasks from queue in 164ms
+2026-11-10 14:04:29 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 14.72ms
+2026-11-10 14:04:30 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:04:31 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 42.01ms
+2026-11-10 14:04:31 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 19.66ms
+2026-11-10 14:04:32 [INFO] [order-service] Periodic health check passed. Memory usage: 40%, CPU: 32%
+2026-11-10 14:04:33 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:04:34 [INFO] [inventory-service] Periodic health check passed. Memory usage: 25%, CPU: 14%
+2026-11-10 14:04:34 [INFO] [api-gateway] Periodic health check passed. Memory usage: 36%, CPU: 19%
+2026-11-10 14:04:36 [INFO] [order-service] Periodic health check passed. Memory usage: 54%, CPU: 5%
+2026-11-10 14:04:36 [INFO] [api-gateway] HTTP GET /metrics returned 200 in 4.55ms
+2026-11-10 14:04:36 [INFO] [order-service] HTTP GET /metrics returned 200 in 25.69ms
+2026-11-10 14:04:37 [DEBUG] [order-service] Processed 49 background tasks from queue in 346ms
+2026-11-10 14:04:37 [INFO] [order-service] Periodic health check passed. Memory usage: 30%, CPU: 11%
+2026-11-10 14:04:39 [INFO] [order-service] HTTP GET /metrics returned 200 in 4.9ms
+2026-11-10 14:04:40 [WARN] [api-gateway] User session cookie refresh token close to expiration
+2026-11-10 14:04:41 [WARN] [order-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:04:42 [INFO] [inventory-service] HTTP GET /ready returned 200 in 8.98ms
+2026-11-10 14:04:42 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:04:43 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 43.22ms
+2026-11-10 14:04:44 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 11.99ms
+2026-11-10 14:04:45 [INFO] [api-gateway] Periodic health check passed. Memory usage: 51%, CPU: 14%
+2026-11-10 14:04:46 [INFO] [order-service] Periodic health check passed. Memory usage: 24%, CPU: 28%
+2026-11-10 14:04:47 [INFO] [order-service] Periodic health check passed. Memory usage: 48%, CPU: 18%
+2026-11-10 14:04:47 [INFO] [api-gateway] Periodic health check passed. Memory usage: 41%, CPU: 12%
+2026-11-10 14:04:48 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 15.07ms
+2026-11-10 14:04:49 [INFO] [inventory-service] Periodic health check passed. Memory usage: 33%, CPU: 6%
+2026-11-10 14:04:50 [INFO] [inventory-service] Periodic health check passed. Memory usage: 34%, CPU: 13%
+2026-11-10 14:04:51 [INFO] [inventory-service] HTTP GET /ready returned 200 in 4.73ms
+2026-11-10 14:04:52 [INFO] [order-service] HTTP GET /metrics returned 200 in 17.2ms
+2026-11-10 14:04:52 [INFO] [inventory-service] Periodic health check passed. Memory usage: 23%, CPU: 12%
+2026-11-10 14:04:54 [WARN] [api-gateway] User session cookie refresh token close to expiration
+2026-11-10 14:04:54 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 10.43ms
+2026-11-10 14:04:56 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 30.27ms
+2026-11-10 14:04:56 [WARN] [order-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:04:57 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 35.81ms
+2026-11-10 14:04:58 [INFO] [inventory-service] Periodic health check passed. Memory usage: 28%, CPU: 13%
+2026-11-10 14:04:59 [INFO] [api-gateway] Periodic health check passed. Memory usage: 25%, CPU: 19%
+2026-11-10 14:04:59 [INFO] [inventory-service] Periodic health check passed. Memory usage: 36%, CPU: 33%
+2026-11-10 14:05:00 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 5.39ms
+2026-11-10 14:05:00 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 20.83ms
+2026-11-10 14:05:02 [WARN] [api-gateway] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:05:03 [DEBUG] [api-gateway] Processed 27 background tasks from queue in 291ms
+2026-11-10 14:05:03 [INFO] [order-service] HTTP GET /healthz returned 200 in 28.18ms
+2026-11-10 14:05:04 [DEBUG] [order-service] Processed 47 background tasks from queue in 229ms
+2026-11-10 14:05:05 [INFO] [api-gateway] Periodic health check passed. Memory usage: 36%, CPU: 34%
+2026-11-10 14:05:06 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 27.47ms
+2026-11-10 14:05:07 [WARN] [api-gateway] User session cookie refresh token close to expiration
+2026-11-10 14:05:08 [DEBUG] [inventory-service] Processed 35 background tasks from queue in 159ms
+2026-11-10 14:05:09 [INFO] [inventory-service] HTTP GET /api/v1/promotions/active returned 200 in 34.24ms
+2026-11-10 14:05:10 [INFO] [order-service] HTTP GET /healthz returned 200 in 20.95ms
+2026-11-10 14:05:11 [DEBUG] [api-gateway] Processed 21 background tasks from queue in 423ms
+2026-11-10 14:05:12 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 12.64ms
+2026-11-10 14:05:12 [INFO] [api-gateway] Periodic health check passed. Memory usage: 49%, CPU: 7%
+2026-11-10 14:05:13 [INFO] [order-service] HTTP GET /api/v1/catalog/items returned 200 in 20.77ms
+2026-11-10 14:05:15 [WARN] [api-gateway] User session cookie refresh token close to expiration
+2026-11-10 14:05:15 [INFO] [api-gateway] Periodic health check passed. Memory usage: 56%, CPU: 11%
+2026-11-10 14:05:17 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:05:17 [INFO] [api-gateway] HTTP GET /ready returned 200 in 22.36ms
+2026-11-10 14:05:18 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:05:18 [WARN] [inventory-service] User session cookie refresh token close to expiration
+2026-11-10 14:05:19 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 23.57ms
+2026-11-10 14:05:20 [INFO] [api-gateway] Periodic health check passed. Memory usage: 24%, CPU: 19%
+2026-11-10 14:05:20 [INFO] [order-service] HTTP GET /api/v1/catalog/items returned 200 in 44.02ms
+2026-11-10 14:05:21 [INFO] [order-service] Periodic health check passed. Memory usage: 24%, CPU: 31%
+2026-11-10 14:05:21 [INFO] [order-service] Periodic health check passed. Memory usage: 36%, CPU: 34%
+2026-11-10 14:05:22 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 38.92ms
+2026-11-10 14:05:23 [INFO] [api-gateway] HTTP GET /ready returned 200 in 36.51ms
+2026-11-10 14:05:24 [INFO] [inventory-service] HTTP GET /ready returned 200 in 38.93ms
+2026-11-10 14:05:25 [INFO] [api-gateway] Periodic health check passed. Memory usage: 37%, CPU: 28%
+2026-11-10 14:05:26 [DEBUG] [inventory-service] Processed 14 background tasks from queue in 323ms
+2026-11-10 14:05:26 [INFO] [api-gateway] Periodic health check passed. Memory usage: 24%, CPU: 18%
+2026-11-10 14:05:27 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 36.8ms
+2026-11-10 14:05:29 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 15.46ms
+2026-11-10 14:05:29 [INFO] [order-service] Periodic health check passed. Memory usage: 34%, CPU: 19%
+2026-11-10 14:05:31 [WARN] [inventory-service] User session cookie refresh token close to expiration
+2026-11-10 14:05:31 [INFO] [inventory-service] HTTP GET /api/v1/promotions/active returned 200 in 42.64ms
+2026-11-10 14:05:32 [DEBUG] [inventory-service] Processed 42 background tasks from queue in 259ms
+2026-11-10 14:05:33 [INFO] [order-service] HTTP GET /metrics returned 200 in 7.81ms
+2026-11-10 14:05:34 [INFO] [inventory-service] Periodic health check passed. Memory usage: 55%, CPU: 33%
+2026-11-10 14:05:35 [DEBUG] [order-service] Processed 25 background tasks from queue in 407ms
+2026-11-10 14:05:35 [INFO] [inventory-service] Periodic health check passed. Memory usage: 44%, CPU: 30%
+2026-11-10 14:05:37 [DEBUG] [api-gateway] Processed 47 background tasks from queue in 209ms
+2026-11-10 14:05:37 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 304 in 41.28ms
+2026-11-10 14:05:37 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 7.49ms
+2026-11-10 14:05:39 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 31.87ms
+2026-11-10 14:05:40 [INFO] [api-gateway] HTTP GET /ready returned 200 in 18.23ms
+2026-11-10 14:05:41 [INFO] [api-gateway] HTTP GET /ready returned 200 in 44.01ms
+2026-11-10 14:05:41 [INFO] [order-service] Periodic health check passed. Memory usage: 58%, CPU: 23%
+2026-11-10 14:05:41 [INFO] [order-service] Periodic health check passed. Memory usage: 56%, CPU: 10%
+2026-11-10 14:05:42 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:05:43 [DEBUG] [api-gateway] Processed 18 background tasks from queue in 446ms
+2026-11-10 14:05:44 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 23.01ms
+2026-11-10 14:05:45 [INFO] [api-gateway] Periodic health check passed. Memory usage: 33%, CPU: 9%
+2026-11-10 14:05:46 [INFO] [api-gateway] Periodic health check passed. Memory usage: 31%, CPU: 21%
+2026-11-10 14:05:46 [INFO] [inventory-service] Periodic health check passed. Memory usage: 48%, CPU: 12%
+2026-11-10 14:05:47 [INFO] [api-gateway] Periodic health check passed. Memory usage: 58%, CPU: 18%
+2026-11-10 14:05:49 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:05:49 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 10.37ms
+2026-11-10 14:05:49 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 36.78ms
+2026-11-10 14:05:50 [INFO] [order-service] Periodic health check passed. Memory usage: 52%, CPU: 9%
+2026-11-10 14:05:50 [INFO] [api-gateway] Periodic health check passed. Memory usage: 28%, CPU: 25%
+2026-11-10 14:05:51 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 36.83ms
+2026-11-10 14:05:52 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 12.33ms
+2026-11-10 14:05:52 [DEBUG] [inventory-service] Processed 37 background tasks from queue in 151ms
+2026-11-10 14:05:53 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 33.97ms
+2026-11-10 14:05:55 [INFO] [api-gateway] HTTP GET /metrics returned 200 in 27.83ms
+2026-11-10 14:05:55 [INFO] [inventory-service] HTTP GET /metrics returned 200 in 20.84ms
+2026-11-10 14:05:56 [DEBUG] [api-gateway] Processed 35 background tasks from queue in 448ms
+2026-11-10 14:05:56 [DEBUG] [inventory-service] Processed 14 background tasks from queue in 193ms
+2026-11-10 14:05:58 [INFO] [inventory-service] HTTP GET /ready returned 200 in 36.65ms
+2026-11-10 14:05:59 [INFO] [inventory-service] HTTP GET /metrics returned 200 in 31.13ms
+2026-11-10 14:05:59 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 14.28ms
+2026-11-10 14:05:59 [WARN] [inventory-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:06:00 [DEBUG] [order-service] Processed 35 background tasks from queue in 443ms
+2026-11-10 14:06:01 [INFO] [inventory-service] HTTP GET /ready returned 200 in 31.19ms
+2026-11-10 14:06:02 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 28.91ms
+2026-11-10 14:06:03 [INFO] [order-service] Periodic health check passed. Memory usage: 47%, CPU: 14%
+2026-11-10 14:06:04 [DEBUG] [api-gateway] Processed 48 background tasks from queue in 269ms
+2026-11-10 14:06:05 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 41.3ms
+2026-11-10 14:06:06 [INFO] [api-gateway] Periodic health check passed. Memory usage: 40%, CPU: 7%
+2026-11-10 14:06:07 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 11.99ms
+2026-11-10 14:06:08 [INFO] [inventory-service] Periodic health check passed. Memory usage: 23%, CPU: 7%
+2026-11-10 14:06:09 [DEBUG] [order-service] Processed 43 background tasks from queue in 235ms
+2026-11-10 14:06:10 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:06:11 [DEBUG] [order-service] Processed 41 background tasks from queue in 218ms
+2026-11-10 14:06:12 [INFO] [api-gateway] Periodic health check passed. Memory usage: 23%, CPU: 21%
+2026-11-10 14:06:12 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 16.68ms
+2026-11-10 14:06:12 [DEBUG] [inventory-service] Processed 20 background tasks from queue in 181ms
+2026-11-10 14:06:13 [INFO] [order-service] HTTP GET /api/v1/catalog/items returned 200 in 36.28ms
+2026-11-10 14:06:14 [INFO] [inventory-service] Periodic health check passed. Memory usage: 24%, CPU: 24%
+2026-11-10 14:06:15 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 36.25ms
+2026-11-10 14:06:16 [INFO] [api-gateway] HTTP GET /ready returned 200 in 20.83ms
+2026-11-10 14:06:17 [INFO] [inventory-service] HTTP GET /ready returned 200 in 40.76ms
+2026-11-10 14:06:18 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 23.86ms
+2026-11-10 14:06:19 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 29.95ms
+2026-11-10 14:06:20 [INFO] [inventory-service] HTTP GET /metrics returned 200 in 30.61ms
+2026-11-10 14:06:20 [DEBUG] [order-service] Processed 50 background tasks from queue in 238ms
+2026-11-10 14:06:22 [DEBUG] [api-gateway] Processed 39 background tasks from queue in 246ms
+2026-11-10 14:06:23 [INFO] [inventory-service] Periodic health check passed. Memory usage: 51%, CPU: 31%
+2026-11-10 14:06:28 [WARN] [inventory-service] Deadlock detected waiting for table lock 'inventory_locks' on row item_sku_9042
+2026-11-10 14:06:38 [WARN] [inventory-service] Transaction rollback executed due to deadlock timeout
+2026-11-10 14:06:53 [ERROR] [order-service] Inventory reservation request failed:
+Traceback (most recent call last):
+  File "/app/clients/inventory.py", line 63, in reserve_stock
+    response = await client.post("/api/v1/stock/reserve", json=payload, timeout=5.0)
+  File "/usr/local/lib/python3.12/site-packages/httpx/_client.py", line 1802, in post
+    return await self.send(request, timeout=timeout)
+httpx.ReadTimeout: The read operation timed out after 5.0 seconds
+2026-11-10 14:06:58 [ERROR] [order-service] httpx.ReadTimeout: The read operation timed out after 5.0 seconds
+2026-11-10 14:07:06 [ERROR] [api-gateway] Cascading timeout: downstream service 'inventory-service' did not respond in 5000ms
+2026-11-10 14:06:59 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 32.6ms
+2026-11-10 14:07:00 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 37.18ms
+2026-11-10 14:07:01 [INFO] [api-gateway] Periodic health check passed. Memory usage: 23%, CPU: 20%
+2026-11-10 14:07:02 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 4.52ms
+2026-11-10 14:07:02 [INFO] [order-service] HTTP GET /metrics returned 200 in 6.87ms
+2026-11-10 14:07:03 [INFO] [inventory-service] HTTP GET /api/v1/promotions/active returned 200 in 5.4ms
+2026-11-10 14:07:04 [INFO] [api-gateway] Periodic health check passed. Memory usage: 48%, CPU: 8%
+2026-11-10 14:07:05 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:07:06 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:07:06 [INFO] [order-service] HTTP GET /api/v1/catalog/items returned 200 in 33.2ms
+2026-11-10 14:07:06 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 13.71ms
+2026-11-10 14:07:07 [INFO] [inventory-service] Periodic health check passed. Memory usage: 38%, CPU: 27%
+2026-11-10 14:07:07 [DEBUG] [api-gateway] Processed 19 background tasks from queue in 130ms
+2026-11-10 14:07:08 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 7.21ms
+2026-11-10 14:07:09 [WARN] [inventory-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:07:10 [WARN] [order-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:07:11 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 30.74ms
+2026-11-10 14:07:12 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 304 in 4.8ms
+2026-11-10 14:07:13 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 33.52ms
+2026-11-10 14:07:14 [INFO] [order-service] HTTP GET /ready returned 200 in 37.04ms
+2026-11-10 14:07:15 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 20.0ms
+2026-11-10 14:07:15 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:07:15 [DEBUG] [api-gateway] Processed 16 background tasks from queue in 265ms
+2026-11-10 14:07:16 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:07:17 [WARN] [inventory-service] User session cookie refresh token close to expiration
+2026-11-10 14:07:18 [DEBUG] [api-gateway] Processed 35 background tasks from queue in 244ms
+2026-11-10 14:07:19 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:07:20 [DEBUG] [api-gateway] Processed 32 background tasks from queue in 180ms
+2026-11-10 14:07:21 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:07:21 [WARN] [order-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:07:22 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:07:23 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 12.01ms
+2026-11-10 14:07:25 [INFO] [inventory-service] Periodic health check passed. Memory usage: 51%, CPU: 33%
+2026-11-10 14:07:25 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 20.03ms
+2026-11-10 14:07:26 [INFO] [inventory-service] Periodic health check passed. Memory usage: 26%, CPU: 33%
+2026-11-10 14:07:27 [DEBUG] [order-service] Processed 24 background tasks from queue in 237ms
+2026-11-10 14:07:28 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 17.77ms
+2026-11-10 14:07:29 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:07:30 [WARN] [order-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:07:30 [DEBUG] [inventory-service] Processed 48 background tasks from queue in 127ms
+2026-11-10 14:07:31 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 17.3ms
+2026-11-10 14:07:33 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 35.65ms
+2026-11-10 14:07:34 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 17.17ms
+2026-11-10 14:07:35 [INFO] [order-service] Periodic health check passed. Memory usage: 45%, CPU: 29%
+2026-11-10 14:07:35 [INFO] [order-service] HTTP GET /healthz returned 200 in 7.06ms
+2026-11-10 14:07:37 [WARN] [inventory-service] User session cookie refresh token close to expiration
+2026-11-10 14:07:38 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 18.94ms
+2026-11-10 14:07:38 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 36.45ms
+2026-11-10 14:07:39 [DEBUG] [inventory-service] Processed 26 background tasks from queue in 227ms
+2026-11-10 14:07:40 [INFO] [api-gateway] Periodic health check passed. Memory usage: 34%, CPU: 12%
+2026-11-10 14:07:41 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:07:41 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:07:42 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:07:43 [DEBUG] [inventory-service] Processed 15 background tasks from queue in 178ms
+2026-11-10 14:07:44 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 5.09ms
+2026-11-10 14:07:44 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:07:45 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 20.15ms
+2026-11-10 14:07:45 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:07:47 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 40.2ms
+2026-11-10 14:07:48 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 28.09ms
+2026-11-10 14:07:49 [DEBUG] [inventory-service] Processed 23 background tasks from queue in 303ms
+2026-11-10 14:07:49 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 32.17ms
+2026-11-10 14:07:49 [DEBUG] [inventory-service] Processed 38 background tasks from queue in 381ms
+2026-11-10 14:07:50 [DEBUG] [api-gateway] Processed 30 background tasks from queue in 248ms
+2026-11-10 14:07:50 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 4.73ms
+2026-11-10 14:07:52 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 24.08ms
+2026-11-10 14:07:52 [INFO] [order-service] HTTP GET /metrics returned 200 in 13.77ms
+2026-11-10 14:07:54 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:07:54 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:07:55 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 28.6ms
+2026-11-10 14:07:56 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:07:56 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 34.19ms
+2026-11-10 14:07:57 [DEBUG] [order-service] Processed 22 background tasks from queue in 300ms
+2026-11-10 14:07:58 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:07:59 [INFO] [api-gateway] Periodic health check passed. Memory usage: 40%, CPU: 14%
+2026-11-10 14:08:00 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:00 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 23.66ms
+2026-11-10 14:08:02 [INFO] [api-gateway] HTTP GET /ready returned 200 in 37.9ms
+2026-11-10 14:08:03 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:08:03 [INFO] [order-service] Periodic health check passed. Memory usage: 34%, CPU: 26%
+2026-11-10 14:08:04 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 26.11ms
+2026-11-10 14:08:06 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:06 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:07 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 39.23ms
+2026-11-10 14:08:08 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 24.16ms
+2026-11-10 14:08:09 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:09 [DEBUG] [api-gateway] Processed 14 background tasks from queue in 147ms
+2026-11-10 14:08:10 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:12 [INFO] [order-service] HTTP GET /metrics returned 200 in 5.89ms
+2026-11-10 14:08:12 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:13 [INFO] [api-gateway] HTTP GET /metrics returned 200 in 25.88ms
+2026-11-10 14:08:14 [INFO] [order-service] Periodic health check passed. Memory usage: 37%, CPU: 27%
+2026-11-10 14:08:14 [DEBUG] [inventory-service] Processed 37 background tasks from queue in 387ms
+2026-11-10 14:08:15 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:16 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 26.0ms
+2026-11-10 14:08:16 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 15.19ms
+2026-11-10 14:08:18 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 23.66ms
+2026-11-10 14:08:18 [DEBUG] [inventory-service] Processed 32 background tasks from queue in 120ms
+2026-11-10 14:08:18 [INFO] [inventory-service] Periodic health check passed. Memory usage: 44%, CPU: 19%
+2026-11-10 14:08:20 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:21 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:22 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 6.98ms
+2026-11-10 14:08:22 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:22 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:08:23 [INFO] [api-gateway] Periodic health check passed. Memory usage: 48%, CPU: 8%
+2026-11-10 14:08:24 [WARN] [order-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:08:25 [INFO] [inventory-service] Periodic health check passed. Memory usage: 33%, CPU: 27%
+2026-11-10 14:08:26 [INFO] [inventory-service] Periodic health check passed. Memory usage: 39%, CPU: 15%
+2026-11-10 14:08:27 [INFO] [api-gateway] Periodic health check passed. Memory usage: 44%, CPU: 28%
+2026-11-10 14:08:28 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 38.19ms
+2026-11-10 14:08:29 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:29 [DEBUG] [api-gateway] Processed 26 background tasks from queue in 284ms
+2026-11-10 14:08:30 [WARN] [order-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:08:31 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:32 [INFO] [order-service] HTTP GET /api/v1/catalog/items returned 200 in 4.56ms
+2026-11-10 14:08:32 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:33 [INFO] [order-service] HTTP GET /healthz returned 200 in 34.78ms
+2026-11-10 14:08:33 [INFO] [inventory-service] HTTP GET /metrics returned 200 in 43.27ms
+2026-11-10 14:08:34 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:35 [INFO] [inventory-service] Periodic health check passed. Memory usage: 22%, CPU: 6%
+2026-11-10 14:08:36 [WARN] [inventory-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:08:36 [INFO] [order-service] Periodic health check passed. Memory usage: 32%, CPU: 18%
+2026-11-10 14:08:38 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:39 [DEBUG] [api-gateway] Processed 43 background tasks from queue in 132ms
+2026-11-10 14:08:39 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 41.62ms
+2026-11-10 14:08:40 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 10.24ms
+2026-11-10 14:08:40 [INFO] [api-gateway] HTTP GET /metrics returned 200 in 44.14ms
+2026-11-10 14:08:41 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 42.58ms
+2026-11-10 14:08:41 [INFO] [order-service] Periodic health check passed. Memory usage: 23%, CPU: 8%
+2026-11-10 14:08:43 [INFO] [inventory-service] Periodic health check passed. Memory usage: 35%, CPU: 25%
+2026-11-10 14:08:43 [DEBUG] [inventory-service] Processed 18 background tasks from queue in 445ms
+2026-11-10 14:08:44 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:45 [WARN] [inventory-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:08:45 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:46 [DEBUG] [inventory-service] Processed 22 background tasks from queue in 437ms
+2026-11-10 14:08:47 [INFO] [inventory-service] Periodic health check passed. Memory usage: 31%, CPU: 10%
+2026-11-10 14:08:49 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 38.49ms
+2026-11-10 14:08:50 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 29.22ms
+2026-11-10 14:08:51 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 23.18ms
+2026-11-10 14:08:51 [INFO] [inventory-service] Periodic health check passed. Memory usage: 44%, CPU: 5%
+2026-11-10 14:08:52 [INFO] [order-service] Periodic health check passed. Memory usage: 24%, CPU: 8%
+2026-11-10 14:08:53 [INFO] [api-gateway] HTTP GET /metrics returned 200 in 40.24ms
+2026-11-10 14:08:53 [INFO] [api-gateway] HTTP GET /ready returned 200 in 21.1ms
+2026-11-10 14:08:55 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 18.53ms
+2026-11-10 14:08:56 [DEBUG] [order-service] Processed 42 background tasks from queue in 408ms
+2026-11-10 14:08:57 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 14.67ms
+2026-11-10 14:08:57 [INFO] [inventory-service] Periodic health check passed. Memory usage: 23%, CPU: 33%
+2026-11-10 14:08:58 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:08:59 [DEBUG] [order-service] Processed 46 background tasks from queue in 425ms
+2026-11-10 14:09:00 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:09:01 [INFO] [order-service] Periodic health check passed. Memory usage: 28%, CPU: 29%
+2026-11-10 14:09:02 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 35.43ms
+2026-11-10 14:09:03 [INFO] [api-gateway] HTTP GET /ready returned 200 in 34.28ms
+2026-11-10 14:09:03 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 27.53ms
+2026-11-10 14:09:04 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 24.58ms
+2026-11-10 14:09:04 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:09:05 [INFO] [order-service] Periodic health check passed. Memory usage: 47%, CPU: 31%
+2026-11-10 14:09:06 [DEBUG] [api-gateway] Processed 10 background tasks from queue in 375ms
+2026-11-10 14:09:07 [DEBUG] [api-gateway] Processed 13 background tasks from queue in 319ms
+2026-11-10 14:09:07 [INFO] [inventory-service] Periodic health check passed. Memory usage: 48%, CPU: 21%
+2026-11-10 14:09:09 [DEBUG] [api-gateway] Processed 44 background tasks from queue in 218ms
+2026-11-10 14:09:10 [INFO] [api-gateway] HTTP GET /metrics returned 304 in 22.33ms
+2026-11-10 14:09:10 [INFO] [inventory-service] Periodic health check passed. Memory usage: 28%, CPU: 7%
+2026-11-10 14:09:11 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 15.66ms
+2026-11-10 14:09:12 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:09:13 [INFO] [order-service] HTTP GET /metrics returned 200 in 11.12ms
+2026-11-10 14:09:14 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:09:15 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:09:16 [INFO] [inventory-service] HTTP GET /api/v1/promotions/active returned 200 in 43.07ms
+2026-11-10 14:09:17 [INFO] [order-service] Periodic health check passed. Memory usage: 31%, CPU: 6%
+2026-11-10 14:09:18 [DEBUG] [inventory-service] Processed 24 background tasks from queue in 213ms
+2026-11-10 14:09:19 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 16.53ms
+2026-11-10 14:09:20 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:09:21 [WARN] [api-gateway] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:09:22 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:09:23 [WARN] [api-gateway] User session cookie refresh token close to expiration
+2026-11-10 14:09:23 [WARN] [order-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:09:24 [DEBUG] [inventory-service] Processed 38 background tasks from queue in 342ms
+2026-11-10 14:09:26 [DEBUG] [inventory-service] Processed 50 background tasks from queue in 313ms
+2026-11-10 14:09:27 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 35.28ms
+2026-11-10 14:09:27 [WARN] [inventory-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:09:28 [INFO] [inventory-service] HTTP GET /ready returned 200 in 10.9ms
+2026-11-10 14:09:30 [DEBUG] [inventory-service] Processed 15 background tasks from queue in 235ms
+2026-11-10 14:09:30 [DEBUG] [inventory-service] Processed 49 background tasks from queue in 203ms
+2026-11-10 14:09:31 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:09:32 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 27.55ms
+2026-11-10 14:09:33 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 13.63ms
+2026-11-10 14:09:34 [INFO] [order-service] Periodic health check passed. Memory usage: 46%, CPU: 6%
+2026-11-10 14:09:35 [INFO] [order-service] Periodic health check passed. Memory usage: 51%, CPU: 13%
+2026-11-10 14:09:35 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:09:36 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 39.73ms
+2026-11-10 14:09:37 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 27.31ms
+2026-11-10 14:09:37 [DEBUG] [order-service] Processed 46 background tasks from queue in 290ms
+2026-11-10 14:09:38 [INFO] [api-gateway] Periodic health check passed. Memory usage: 46%, CPU: 29%
+2026-11-10 14:09:39 [INFO] [order-service] HTTP GET /metrics returned 200 in 5.09ms
+2026-11-10 14:09:39 [DEBUG] [api-gateway] Processed 39 background tasks from queue in 134ms
+2026-11-10 14:09:40 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 20.28ms
+2026-11-10 14:09:42 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 35.94ms
+2026-11-10 14:09:43 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:09:45 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:09:46 [INFO] [order-service] Periodic health check passed. Memory usage: 30%, CPU: 5%
+2026-11-10 14:09:46 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 11.44ms
+2026-11-10 14:09:47 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 11.12ms
+2026-11-10 14:09:48 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:09:49 [INFO] [api-gateway] Periodic health check passed. Memory usage: 26%, CPU: 6%
+2026-11-10 14:09:50 [INFO] [order-service] Periodic health check passed. Memory usage: 35%, CPU: 10%
+2026-11-10 14:09:52 [INFO] [order-service] HTTP GET /healthz returned 200 in 24.11ms
+2026-11-10 14:09:53 [INFO] [api-gateway] HTTP GET /ready returned 200 in 42.32ms
+2026-11-10 14:09:53 [INFO] [inventory-service] HTTP GET /ready returned 200 in 6.58ms
+2026-11-10 14:09:54 [INFO] [order-service] HTTP GET /api/v1/catalog/items returned 200 in 34.81ms
+2026-11-10 14:09:55 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 26.54ms
+2026-11-10 14:09:56 [WARN] [api-gateway] User session cookie refresh token close to expiration
+2026-11-10 14:09:57 [INFO] [inventory-service] HTTP GET /api/v1/promotions/active returned 200 in 41.12ms
+2026-11-10 14:09:57 [INFO] [inventory-service] Periodic health check passed. Memory usage: 48%, CPU: 19%
+2026-11-10 14:09:58 [DEBUG] [api-gateway] Processed 12 background tasks from queue in 171ms
+2026-11-10 14:09:59 [DEBUG] [order-service] Processed 16 background tasks from queue in 259ms
+2026-11-10 14:10:00 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:01 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 9.46ms
+2026-11-10 14:10:01 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 9.02ms
+2026-11-10 14:10:02 [WARN] [api-gateway] User session cookie refresh token close to expiration
+2026-11-10 14:10:03 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:04 [INFO] [order-service] Periodic health check passed. Memory usage: 24%, CPU: 5%
+2026-11-10 14:10:05 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:06 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 32.46ms
+2026-11-10 14:10:06 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 32.94ms
+2026-11-10 14:10:07 [INFO] [order-service] Periodic health check passed. Memory usage: 24%, CPU: 24%
+2026-11-10 14:10:07 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 6.93ms
+2026-11-10 14:10:08 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 9.14ms
+2026-11-10 14:10:09 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 19.89ms
+2026-11-10 14:10:10 [WARN] [order-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:10:11 [INFO] [inventory-service] Periodic health check passed. Memory usage: 36%, CPU: 22%
+2026-11-10 14:10:12 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 6.3ms
+2026-11-10 14:10:14 [INFO] [api-gateway] Periodic health check passed. Memory usage: 50%, CPU: 14%
+2026-11-10 14:10:15 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 26.85ms
+2026-11-10 14:10:16 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 28.21ms
+2026-11-10 14:10:16 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:18 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:18 [INFO] [api-gateway] Periodic health check passed. Memory usage: 35%, CPU: 7%
+2026-11-10 14:10:19 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:19 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 22.88ms
+2026-11-10 14:10:20 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:21 [INFO] [inventory-service] HTTP GET /metrics returned 200 in 13.83ms
+2026-11-10 14:10:22 [INFO] [order-service] HTTP GET /metrics returned 200 in 27.05ms
+2026-11-10 14:10:23 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 15.57ms
+2026-11-10 14:10:24 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:25 [INFO] [order-service] Periodic health check passed. Memory usage: 45%, CPU: 8%
+2026-11-10 14:10:26 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:27 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 38.11ms
+2026-11-10 14:10:27 [DEBUG] [inventory-service] Processed 15 background tasks from queue in 367ms
+2026-11-10 14:10:28 [INFO] [order-service] HTTP GET /healthz returned 200 in 7.76ms
+2026-11-10 14:10:28 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 25.37ms
+2026-11-10 14:10:29 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 8.43ms
+2026-11-10 14:10:30 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:31 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 35.37ms
+2026-11-10 14:10:33 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:33 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:10:34 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 29.22ms
+2026-11-10 14:10:35 [INFO] [api-gateway] HTTP GET /ready returned 200 in 25.57ms
+2026-11-10 14:10:35 [INFO] [api-gateway] Periodic health check passed. Memory usage: 23%, CPU: 33%
+2026-11-10 14:10:36 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:36 [INFO] [order-service] HTTP GET /metrics returned 200 in 23.91ms
+2026-11-10 14:10:37 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:39 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:40 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 5.65ms
+2026-11-10 14:10:40 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:41 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:42 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:43 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 22.0ms
+2026-11-10 14:10:43 [INFO] [inventory-service] Periodic health check passed. Memory usage: 27%, CPU: 35%
+2026-11-10 14:10:44 [INFO] [api-gateway] Periodic health check passed. Memory usage: 50%, CPU: 19%
+2026-11-10 14:10:44 [DEBUG] [order-service] Processed 46 background tasks from queue in 281ms
+2026-11-10 14:10:45 [WARN] [inventory-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:10:45 [INFO] [api-gateway] HTTP GET /metrics returned 200 in 17.86ms
+2026-11-10 14:10:46 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 7.14ms
+2026-11-10 14:10:46 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:48 [DEBUG] [inventory-service] Processed 14 background tasks from queue in 360ms
+2026-11-10 14:10:48 [INFO] [inventory-service] Periodic health check passed. Memory usage: 32%, CPU: 18%
+2026-11-10 14:10:49 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:49 [DEBUG] [order-service] Processed 37 background tasks from queue in 246ms
+2026-11-10 14:10:50 [INFO] [order-service] HTTP GET /healthz returned 200 in 41.57ms
+2026-11-10 14:10:51 [WARN] [api-gateway] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:10:52 [DEBUG] [api-gateway] Processed 16 background tasks from queue in 305ms
+2026-11-10 14:10:52 [INFO] [inventory-service] HTTP GET /api/v1/promotions/active returned 200 in 43.42ms
+2026-11-10 14:10:53 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:54 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:54 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:54 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:56 [WARN] [order-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:10:56 [INFO] [inventory-service] Periodic health check passed. Memory usage: 51%, CPU: 32%
+2026-11-10 14:10:57 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:10:58 [INFO] [inventory-service] Periodic health check passed. Memory usage: 46%, CPU: 17%
+2026-11-10 14:10:59 [INFO] [inventory-service] Periodic health check passed. Memory usage: 58%, CPU: 12%
+2026-11-10 14:11:00 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:02 [DEBUG] [order-service] Processed 37 background tasks from queue in 147ms
+2026-11-10 14:11:03 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:11:04 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:05 [INFO] [api-gateway] HTTP GET /ready returned 200 in 31.27ms
+2026-11-10 14:11:05 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:07 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 28.64ms
+2026-11-10 14:11:07 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 38.43ms
+2026-11-10 14:11:09 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 15.37ms
+2026-11-10 14:11:09 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:10 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:11 [INFO] [api-gateway] Periodic health check passed. Memory usage: 37%, CPU: 6%
+2026-11-10 14:11:12 [INFO] [inventory-service] Periodic health check passed. Memory usage: 42%, CPU: 16%
+2026-11-10 14:11:13 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 32.86ms
+2026-11-10 14:11:14 [INFO] [order-service] Periodic health check passed. Memory usage: 47%, CPU: 31%
+2026-11-10 14:11:15 [INFO] [inventory-service] Periodic health check passed. Memory usage: 42%, CPU: 26%
+2026-11-10 14:11:16 [INFO] [api-gateway] Periodic health check passed. Memory usage: 49%, CPU: 33%
+2026-11-10 14:11:17 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:18 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:19 [DEBUG] [order-service] Processed 35 background tasks from queue in 185ms
+2026-11-10 14:11:20 [INFO] [order-service] HTTP GET /ready returned 200 in 20.88ms
+2026-11-10 14:11:21 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:21 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 29.55ms
+2026-11-10 14:11:22 [INFO] [order-service] Periodic health check passed. Memory usage: 48%, CPU: 9%
+2026-11-10 14:11:23 [DEBUG] [api-gateway] Processed 27 background tasks from queue in 412ms
+2026-11-10 14:11:23 [INFO] [order-service] Periodic health check passed. Memory usage: 47%, CPU: 23%
+2026-11-10 14:11:25 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:26 [INFO] [inventory-service] Periodic health check passed. Memory usage: 39%, CPU: 12%
+2026-11-10 14:11:26 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:27 [DEBUG] [inventory-service] Processed 39 background tasks from queue in 378ms
+2026-11-10 14:11:27 [DEBUG] [order-service] Processed 33 background tasks from queue in 176ms
+2026-11-10 14:11:28 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 10.19ms
+2026-11-10 14:11:29 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:29 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:31 [INFO] [inventory-service] Periodic health check passed. Memory usage: 53%, CPU: 16%
+2026-11-10 14:11:32 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 22.89ms
+2026-11-10 14:11:33 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 31.56ms
+2026-11-10 14:11:33 [WARN] [api-gateway] User session cookie refresh token close to expiration
+2026-11-10 14:11:34 [INFO] [inventory-service] Periodic health check passed. Memory usage: 30%, CPU: 24%
+2026-11-10 14:11:35 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:11:35 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 8.82ms
+2026-11-10 14:11:36 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:36 [WARN] [order-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:11:37 [INFO] [order-service] HTTP GET /metrics returned 200 in 26.89ms
+2026-11-10 14:11:38 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 7.05ms
+2026-11-10 14:11:38 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:39 [INFO] [inventory-service] Periodic health check passed. Memory usage: 57%, CPU: 24%
+2026-11-10 14:11:39 [INFO] [api-gateway] Periodic health check passed. Memory usage: 47%, CPU: 9%
+2026-11-10 14:11:40 [DEBUG] [order-service] Processed 38 background tasks from queue in 174ms
+2026-11-10 14:11:41 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 43.49ms
+2026-11-10 14:11:43 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:43 [INFO] [api-gateway] Periodic health check passed. Memory usage: 37%, CPU: 27%
+2026-11-10 14:11:44 [DEBUG] [api-gateway] Processed 15 background tasks from queue in 333ms
+2026-11-10 14:11:45 [INFO] [api-gateway] Periodic health check passed. Memory usage: 48%, CPU: 34%
+2026-11-10 14:11:45 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:11:46 [INFO] [inventory-service] Periodic health check passed. Memory usage: 39%, CPU: 31%
+2026-11-10 14:11:47 [INFO] [inventory-service] Periodic health check passed. Memory usage: 32%, CPU: 7%
+2026-11-10 14:11:48 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:49 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:49 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:49 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 39.32ms
+2026-11-10 14:11:49 [INFO] [inventory-service] HTTP GET /ready returned 200 in 13.7ms
+2026-11-10 14:11:50 [DEBUG] [api-gateway] Processed 34 background tasks from queue in 214ms
+2026-11-10 14:11:51 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 27.52ms
+2026-11-10 14:11:52 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 33.1ms
+2026-11-10 14:11:53 [INFO] [order-service] Periodic health check passed. Memory usage: 55%, CPU: 34%
+2026-11-10 14:11:54 [INFO] [inventory-service] Periodic health check passed. Memory usage: 44%, CPU: 31%
+2026-11-10 14:11:54 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:55 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:11:56 [DEBUG] [order-service] Processed 19 background tasks from queue in 241ms
+2026-11-10 14:11:57 [DEBUG] [inventory-service] Processed 48 background tasks from queue in 336ms
+2026-11-10 14:11:58 [INFO] [inventory-service] Periodic health check passed. Memory usage: 23%, CPU: 13%
+2026-11-10 14:11:59 [DEBUG] [inventory-service] Processed 35 background tasks from queue in 386ms
+2026-11-10 14:12:00 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 24.92ms
+2026-11-10 14:12:01 [INFO] [order-service] Periodic health check passed. Memory usage: 29%, CPU: 34%
+2026-11-10 14:12:03 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 41.91ms
+2026-11-10 14:12:04 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 8.34ms
+2026-11-10 14:12:04 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 19.96ms
+2026-11-10 14:12:06 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:12:06 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:12:07 [INFO] [api-gateway] HTTP GET /ready returned 304 in 32.92ms
+2026-11-10 14:12:08 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:12:08 [DEBUG] [inventory-service] Processed 21 background tasks from queue in 203ms
+2026-11-10 14:12:09 [DEBUG] [order-service] Processed 15 background tasks from queue in 432ms
+2026-11-10 14:12:09 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:12:11 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 12.14ms
+2026-11-10 14:12:12 [WARN] [order-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:12:13 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:12:14 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:12:15 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 4.82ms
+2026-11-10 14:12:15 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:12:16 [WARN] [inventory-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:12:16 [DEBUG] [order-service] Processed 33 background tasks from queue in 422ms
+2026-11-10 14:12:17 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:12:18 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:12:18 [INFO] [inventory-service] Periodic health check passed. Memory usage: 35%, CPU: 5%
+2026-11-10 14:12:19 [DEBUG] [api-gateway] Processed 37 background tasks from queue in 188ms
+2026-11-10 14:12:20 [WARN] [api-gateway] User session cookie refresh token close to expiration
+2026-11-10 14:12:20 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 304 in 23.14ms
+2026-11-10 14:12:22 [INFO] [order-service] Periodic health check passed. Memory usage: 47%, CPU: 15%
+2026-11-10 14:12:22 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 30.55ms
+2026-11-10 14:12:23 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 28.53ms
+2026-11-10 14:12:25 [DEBUG] [inventory-service] Processed 13 background tasks from queue in 237ms
+2026-11-10 14:12:26 [INFO] [inventory-service] Periodic health check passed. Memory usage: 33%, CPU: 11%
+2026-11-10 14:12:27 [INFO] [api-gateway] Periodic health check passed. Memory usage: 23%, CPU: 9%
+2026-11-10 14:12:28 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:12:29 [INFO] [order-service] HTTP GET /healthz returned 200 in 12.75ms
+2026-11-10 14:12:30 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:12:31 [DEBUG] [inventory-service] Processed 37 background tasks from queue in 247ms
+2026-11-10 14:12:32 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:12:33 [INFO] [api-gateway] HTTP GET /metrics returned 200 in 21.6ms
+2026-11-10 14:12:35 [INFO] [api-gateway] Periodic health check passed. Memory usage: 29%, CPU: 18%
+2026-11-10 14:12:35 [INFO] [api-gateway] Periodic health check passed. Memory usage: 42%, CPU: 31%
+2026-11-10 14:12:36 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:12:37 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:12:38 [INFO] [api-gateway] Periodic health check passed. Memory usage: 27%, CPU: 33%
+2026-11-10 14:12:39 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 11.09ms
+2026-11-10 14:12:41 [INFO] [order-service] HTTP GET /healthz returned 200 in 7.7ms
+2026-11-10 14:12:41 [DEBUG] [order-service] Processed 29 background tasks from queue in 231ms
+2026-11-10 14:12:42 [INFO] [api-gateway] Periodic health check passed. Memory usage: 37%, CPU: 24%
+2026-11-10 14:12:42 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 5.51ms
+2026-11-10 14:12:43 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 34.84ms
+2026-11-10 14:12:44 [DEBUG] [api-gateway] Processed 38 background tasks from queue in 392ms
+2026-11-10 14:12:45 [INFO] [order-service] Periodic health check passed. Memory usage: 56%, CPU: 25%
+2026-11-10 14:12:46 [INFO] [api-gateway] Periodic health check passed. Memory usage: 30%, CPU: 17%
+2026-11-10 14:12:47 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 17.55ms
+2026-11-10 14:12:48 [INFO] [order-service] Periodic health check passed. Memory usage: 45%, CPU: 6%
+2026-11-10 14:12:49 [INFO] [api-gateway] HTTP GET /metrics returned 200 in 38.02ms
+2026-11-10 14:12:49 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 24.81ms
+2026-11-10 14:12:51 [INFO] [inventory-service] HTTP GET /api/v1/promotions/active returned 200 in 18.6ms
+2026-11-10 14:12:51 [DEBUG] [api-gateway] Processed 24 background tasks from queue in 358ms
+2026-11-10 14:12:52 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 16.21ms
+2026-11-10 14:12:52 [INFO] [inventory-service] Periodic health check passed. Memory usage: 30%, CPU: 28%
+2026-11-10 14:12:52 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:12:54 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:12:54 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:12:56 [INFO] [inventory-service] Periodic health check passed. Memory usage: 52%, CPU: 29%
+2026-11-10 14:12:57 [INFO] [order-service] HTTP GET /api/v1/catalog/items returned 200 in 24.57ms
+2026-11-10 14:12:59 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:12:59 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:12:59 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 17.27ms
+2026-11-10 14:13:00 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:01 [DEBUG] [inventory-service] Processed 16 background tasks from queue in 376ms
+2026-11-10 14:13:01 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 9.0ms
+2026-11-10 14:13:02 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:13:03 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:04 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:04 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:05 [INFO] [api-gateway] Periodic health check passed. Memory usage: 36%, CPU: 30%
+2026-11-10 14:13:06 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:07 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:07 [DEBUG] [inventory-service] Processed 16 background tasks from queue in 288ms
+2026-11-10 14:13:08 [INFO] [api-gateway] Periodic health check passed. Memory usage: 56%, CPU: 13%
+2026-11-10 14:13:09 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:09 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 22.55ms
+2026-11-10 14:13:10 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:11 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:12 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:12 [WARN] [order-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:13:13 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:13:13 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 16.17ms
+2026-11-10 14:13:14 [INFO] [inventory-service] Periodic health check passed. Memory usage: 23%, CPU: 23%
+2026-11-10 14:13:15 [DEBUG] [inventory-service] Processed 50 background tasks from queue in 334ms
+2026-11-10 14:13:16 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:17 [DEBUG] [api-gateway] Processed 16 background tasks from queue in 416ms
+2026-11-10 14:13:18 [INFO] [order-service] Periodic health check passed. Memory usage: 23%, CPU: 6%
+2026-11-10 14:13:19 [DEBUG] [api-gateway] Processed 26 background tasks from queue in 440ms
+2026-11-10 14:13:20 [INFO] [inventory-service] Periodic health check passed. Memory usage: 47%, CPU: 5%
+2026-11-10 14:13:22 [DEBUG] [inventory-service] Processed 24 background tasks from queue in 409ms
+2026-11-10 14:13:23 [INFO] [order-service] Periodic health check passed. Memory usage: 28%, CPU: 32%
+2026-11-10 14:13:23 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 18.96ms
+2026-11-10 14:13:24 [DEBUG] [order-service] Processed 42 background tasks from queue in 348ms
+2026-11-10 14:13:25 [DEBUG] [inventory-service] Processed 13 background tasks from queue in 317ms
+2026-11-10 14:13:26 [INFO] [order-service] HTTP GET /api/v1/catalog/items returned 200 in 11.12ms
+2026-11-10 14:13:27 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:28 [DEBUG] [inventory-service] Processed 45 background tasks from queue in 300ms
+2026-11-10 14:13:29 [INFO] [order-service] HTTP GET /healthz returned 200 in 24.77ms
+2026-11-10 14:13:31 [INFO] [inventory-service] HTTP GET /api/v1/promotions/active returned 200 in 44.98ms
+2026-11-10 14:13:32 [INFO] [order-service] Periodic health check passed. Memory usage: 28%, CPU: 21%
+2026-11-10 14:13:32 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:33 [INFO] [order-service] Periodic health check passed. Memory usage: 47%, CPU: 8%
+2026-11-10 14:13:34 [INFO] [order-service] Periodic health check passed. Memory usage: 51%, CPU: 29%
+2026-11-10 14:13:34 [INFO] [order-service] Periodic health check passed. Memory usage: 31%, CPU: 16%
+2026-11-10 14:13:35 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:36 [DEBUG] [order-service] Processed 47 background tasks from queue in 230ms
+2026-11-10 14:13:36 [INFO] [order-service] Periodic health check passed. Memory usage: 23%, CPU: 11%
+2026-11-10 14:13:38 [INFO] [inventory-service] HTTP GET /metrics returned 200 in 6.98ms
+2026-11-10 14:13:38 [WARN] [api-gateway] User session cookie refresh token close to expiration
+2026-11-10 14:13:39 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 16.24ms
+2026-11-10 14:13:40 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 40.97ms
+2026-11-10 14:13:41 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:42 [WARN] [api-gateway] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:13:43 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:13:44 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:44 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 42.33ms
+2026-11-10 14:13:45 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 11.2ms
+2026-11-10 14:13:46 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:47 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 22.02ms
+2026-11-10 14:13:48 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 43.72ms
+2026-11-10 14:13:48 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 28.66ms
+2026-11-10 14:13:49 [INFO] [inventory-service] Periodic health check passed. Memory usage: 31%, CPU: 10%
+2026-11-10 14:13:50 [DEBUG] [api-gateway] Processed 24 background tasks from queue in 244ms
+2026-11-10 14:13:51 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 23.91ms
+2026-11-10 14:13:51 [INFO] [inventory-service] Periodic health check passed. Memory usage: 45%, CPU: 32%
+2026-11-10 14:13:52 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:52 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:54 [INFO] [api-gateway] Periodic health check passed. Memory usage: 31%, CPU: 17%
+2026-11-10 14:13:55 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 32.51ms
+2026-11-10 14:13:55 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:13:57 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:13:57 [INFO] [api-gateway] HTTP GET /ready returned 200 in 36.75ms
+2026-11-10 14:13:58 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 14.77ms
+2026-11-10 14:13:59 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:01 [INFO] [inventory-service] Periodic health check passed. Memory usage: 58%, CPU: 12%
+2026-11-10 14:14:02 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 16.16ms
+2026-11-10 14:14:03 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:03 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:04 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:05 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:06 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:07 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:07 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 22.13ms
+2026-11-10 14:14:08 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:09 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 28.95ms
+2026-11-10 14:14:10 [INFO] [order-service] HTTP GET /ready returned 200 in 11.81ms
+2026-11-10 14:14:10 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 24.24ms
+2026-11-10 14:14:11 [DEBUG] [inventory-service] Processed 41 background tasks from queue in 410ms
+2026-11-10 14:14:12 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 5.89ms
+2026-11-10 14:14:14 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 24.51ms
+2026-11-10 14:14:15 [DEBUG] [order-service] Processed 23 background tasks from queue in 218ms
+2026-11-10 14:14:16 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:17 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 8.94ms
+2026-11-10 14:14:18 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 5.52ms
+2026-11-10 14:14:19 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:20 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 7.03ms
+2026-11-10 14:14:21 [INFO] [order-service] Periodic health check passed. Memory usage: 51%, CPU: 23%
+2026-11-10 14:14:22 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:23 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:14:24 [INFO] [api-gateway] HTTP GET /ready returned 200 in 33.49ms
+2026-11-10 14:14:24 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 32.96ms
+2026-11-10 14:14:25 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:26 [INFO] [order-service] Periodic health check passed. Memory usage: 30%, CPU: 6%
+2026-11-10 14:14:27 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 9.26ms
+2026-11-10 14:14:28 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:30 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 23.69ms
+2026-11-10 14:14:30 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:31 [INFO] [order-service] Periodic health check passed. Memory usage: 58%, CPU: 31%
+2026-11-10 14:14:32 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:33 [WARN] [api-gateway] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:14:34 [INFO] [api-gateway] Periodic health check passed. Memory usage: 45%, CPU: 21%
+2026-11-10 14:14:35 [DEBUG] [api-gateway] Processed 19 background tasks from queue in 129ms
+2026-11-10 14:14:36 [DEBUG] [order-service] Processed 18 background tasks from queue in 176ms
+2026-11-10 14:14:37 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 16.83ms
+2026-11-10 14:14:38 [DEBUG] [api-gateway] Processed 47 background tasks from queue in 202ms
+2026-11-10 14:14:39 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:40 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:41 [DEBUG] [inventory-service] Processed 10 background tasks from queue in 214ms
+2026-11-10 14:14:42 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 32.72ms
+2026-11-10 14:14:44 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:45 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:46 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 24.9ms
+2026-11-10 14:14:47 [INFO] [inventory-service] Periodic health check passed. Memory usage: 39%, CPU: 33%
+2026-11-10 14:14:48 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 33.48ms
+2026-11-10 14:14:48 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 24.06ms
+2026-11-10 14:14:50 [INFO] [inventory-service] Periodic health check passed. Memory usage: 49%, CPU: 17%
+2026-11-10 14:14:51 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 42.98ms
+2026-11-10 14:14:52 [INFO] [api-gateway] Periodic health check passed. Memory usage: 45%, CPU: 13%
+2026-11-10 14:14:54 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:54 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 40.54ms
+2026-11-10 14:14:55 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:56 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:56 [INFO] [inventory-service] HTTP GET /metrics returned 304 in 23.98ms
+2026-11-10 14:14:57 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:57 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:14:59 [INFO] [inventory-service] Periodic health check passed. Memory usage: 36%, CPU: 24%
+2026-11-10 14:15:00 [DEBUG] [api-gateway] Processed 23 background tasks from queue in 152ms
+2026-11-10 14:15:01 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:02 [INFO] [api-gateway] HTTP GET /ready returned 200 in 34.51ms
+2026-11-10 14:15:03 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:04 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:05 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:06 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:07 [INFO] [api-gateway] Periodic health check passed. Memory usage: 46%, CPU: 24%
+2026-11-10 14:15:08 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 36.62ms
+2026-11-10 14:15:08 [INFO] [inventory-service] Periodic health check passed. Memory usage: 54%, CPU: 10%
+2026-11-10 14:15:09 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:10 [INFO] [inventory-service] Periodic health check passed. Memory usage: 53%, CPU: 6%
+2026-11-10 14:15:10 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:11 [INFO] [inventory-service] Periodic health check passed. Memory usage: 44%, CPU: 27%
+2026-11-10 14:15:12 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:13 [INFO] [order-service] HTTP GET /metrics returned 200 in 21.95ms
+2026-11-10 14:15:14 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 42.26ms
+2026-11-10 14:15:14 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:16 [INFO] [api-gateway] Periodic health check passed. Memory usage: 52%, CPU: 31%
+2026-11-10 14:15:16 [INFO] [order-service] HTTP GET /ready returned 200 in 44.44ms
+2026-11-10 14:15:18 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 29.65ms
+2026-11-10 14:15:18 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 33.45ms
+2026-11-10 14:15:19 [INFO] [order-service] HTTP GET /api/v1/catalog/items returned 200 in 15.4ms
+2026-11-10 14:15:20 [WARN] [order-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:15:21 [WARN] [api-gateway] User session cookie refresh token close to expiration
+2026-11-10 14:15:22 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:22 [DEBUG] [api-gateway] Processed 15 background tasks from queue in 186ms
+2026-11-10 14:15:22 [INFO] [inventory-service] Periodic health check passed. Memory usage: 28%, CPU: 7%
+2026-11-10 14:15:22 [INFO] [order-service] Periodic health check passed. Memory usage: 52%, CPU: 9%
+2026-11-10 14:15:24 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 32.46ms
+2026-11-10 14:15:25 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 10.14ms
+2026-11-10 14:15:25 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:26 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:28 [INFO] [api-gateway] Periodic health check passed. Memory usage: 42%, CPU: 29%
+2026-11-10 14:15:29 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 35.92ms
+2026-11-10 14:15:29 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:30 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:30 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:30 [DEBUG] [api-gateway] Processed 19 background tasks from queue in 124ms
+2026-11-10 14:15:31 [INFO] [inventory-service] HTTP GET /metrics returned 200 in 33.15ms
+2026-11-10 14:15:32 [INFO] [inventory-service] Periodic health check passed. Memory usage: 55%, CPU: 31%
+2026-11-10 14:15:33 [DEBUG] [inventory-service] Processed 44 background tasks from queue in 173ms
+2026-11-10 14:15:34 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:35 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 20.26ms
+2026-11-10 14:15:36 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:38 [DEBUG] [api-gateway] Processed 38 background tasks from queue in 438ms
+2026-11-10 14:15:38 [INFO] [order-service] Periodic health check passed. Memory usage: 33%, CPU: 29%
+2026-11-10 14:15:39 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:40 [INFO] [order-service] Periodic health check passed. Memory usage: 58%, CPU: 35%
+2026-11-10 14:15:41 [INFO] [api-gateway] Periodic health check passed. Memory usage: 24%, CPU: 20%
+2026-11-10 14:15:42 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:15:42 [INFO] [order-service] HTTP GET /ready returned 200 in 35.01ms
+2026-11-10 14:15:43 [INFO] [api-gateway] Periodic health check passed. Memory usage: 42%, CPU: 26%
+2026-11-10 14:15:44 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 15.08ms
+2026-11-10 14:15:45 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:45 [INFO] [inventory-service] Periodic health check passed. Memory usage: 27%, CPU: 16%
+2026-11-10 14:15:46 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 4.52ms
+2026-11-10 14:15:47 [INFO] [inventory-service] Periodic health check passed. Memory usage: 41%, CPU: 5%
+2026-11-10 14:15:48 [INFO] [api-gateway] Periodic health check passed. Memory usage: 54%, CPU: 29%
+2026-11-10 14:15:49 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:50 [INFO] [order-service] Periodic health check passed. Memory usage: 27%, CPU: 5%
+2026-11-10 14:15:50 [INFO] [api-gateway] Periodic health check passed. Memory usage: 32%, CPU: 28%
+2026-11-10 14:15:52 [INFO] [inventory-service] Periodic health check passed. Memory usage: 22%, CPU: 11%
+2026-11-10 14:15:52 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 25.67ms
+2026-11-10 14:15:54 [INFO] [order-service] Periodic health check passed. Memory usage: 25%, CPU: 23%
+2026-11-10 14:15:54 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 36.8ms
+2026-11-10 14:15:56 [INFO] [api-gateway] Periodic health check passed. Memory usage: 46%, CPU: 26%
+2026-11-10 14:15:56 [INFO] [order-service] Periodic health check passed. Memory usage: 53%, CPU: 22%
+2026-11-10 14:15:57 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:15:58 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:00 [DEBUG] [api-gateway] Processed 21 background tasks from queue in 437ms
+2026-11-10 14:16:00 [INFO] [order-service] HTTP GET /metrics returned 200 in 19.84ms
+2026-11-10 14:16:02 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:03 [INFO] [inventory-service] Periodic health check passed. Memory usage: 39%, CPU: 31%
+2026-11-10 14:16:03 [INFO] [api-gateway] Periodic health check passed. Memory usage: 29%, CPU: 20%
+2026-11-10 14:16:05 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:05 [INFO] [order-service] HTTP GET /healthz returned 200 in 16.33ms
+2026-11-10 14:16:06 [INFO] [inventory-service] Periodic health check passed. Memory usage: 33%, CPU: 21%
+2026-11-10 14:16:07 [DEBUG] [inventory-service] Processed 23 background tasks from queue in 330ms
+2026-11-10 14:16:08 [INFO] [inventory-service] HTTP GET /static/css/main.css returned 200 in 35.65ms
+2026-11-10 14:16:09 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:10 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 26.55ms
+2026-11-10 14:16:10 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:11 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 9.85ms
+2026-11-10 14:16:11 [INFO] [order-service] Periodic health check passed. Memory usage: 30%, CPU: 29%
+2026-11-10 14:16:12 [INFO] [inventory-service] Periodic health check passed. Memory usage: 41%, CPU: 17%
+2026-11-10 14:16:13 [INFO] [order-service] HTTP GET /ready returned 200 in 38.09ms
+2026-11-10 14:16:14 [INFO] [api-gateway] HTTP GET /ready returned 200 in 38.48ms
+2026-11-10 14:16:14 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:16 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:16 [WARN] [order-service] User session cookie refresh token close to expiration
+2026-11-10 14:16:17 [WARN] [api-gateway] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:16:17 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:18 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:19 [DEBUG] [api-gateway] Processed 36 background tasks from queue in 319ms
+2026-11-10 14:16:20 [WARN] [inventory-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:16:21 [INFO] [order-service] HTTP GET /api/v1/promotions/active returned 200 in 29.14ms
+2026-11-10 14:16:21 [WARN] [inventory-service] User session cookie refresh token close to expiration
+2026-11-10 14:16:22 [INFO] [inventory-service] Periodic health check passed. Memory usage: 58%, CPU: 12%
+2026-11-10 14:16:24 [INFO] [inventory-service] Periodic health check passed. Memory usage: 49%, CPU: 6%
+2026-11-10 14:16:25 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:25 [INFO] [api-gateway] Periodic health check passed. Memory usage: 41%, CPU: 5%
+2026-11-10 14:16:26 [INFO] [order-service] Periodic health check passed. Memory usage: 22%, CPU: 29%
+2026-11-10 14:16:28 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 5.78ms
+2026-11-10 14:16:29 [DEBUG] [api-gateway] Processed 24 background tasks from queue in 391ms
+2026-11-10 14:16:30 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 20.76ms
+2026-11-10 14:16:31 [INFO] [api-gateway] HTTP GET /ready returned 200 in 33.27ms
+2026-11-10 14:16:32 [INFO] [order-service] HTTP GET /static/css/main.css returned 200 in 16.79ms
+2026-11-10 14:16:32 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:33 [DEBUG] [inventory-service] Processed 35 background tasks from queue in 228ms
+2026-11-10 14:16:34 [INFO] [order-service] Periodic health check passed. Memory usage: 37%, CPU: 23%
+2026-11-10 14:16:35 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:36 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 25.94ms
+2026-11-10 14:16:36 [INFO] [inventory-service] HTTP GET /ready returned 200 in 4.86ms
+2026-11-10 14:16:37 [INFO] [order-service] Periodic health check passed. Memory usage: 27%, CPU: 28%
+2026-11-10 14:16:37 [DEBUG] [order-service] Processed 18 background tasks from queue in 372ms
+2026-11-10 14:16:39 [DEBUG] [order-service] Processed 41 background tasks from queue in 274ms
+2026-11-10 14:16:39 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:40 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:41 [DEBUG] [inventory-service] Processed 18 background tasks from queue in 160ms
+2026-11-10 14:16:42 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:43 [INFO] [inventory-service] HTTP GET /ready returned 200 in 16.58ms
+2026-11-10 14:16:44 [INFO] [order-service] Periodic health check passed. Memory usage: 51%, CPU: 32%
+2026-11-10 14:16:45 [INFO] [order-service] HTTP GET /api/v1/cart/items returned 200 in 29.46ms
+2026-11-10 14:16:46 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:47 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:49 [INFO] [inventory-service] Periodic health check passed. Memory usage: 44%, CPU: 21%
+2026-11-10 14:16:49 [INFO] [order-service] HTTP GET /api/v1/users/me returned 200 in 9.76ms
+2026-11-10 14:16:50 [INFO] [inventory-service] HTTP GET /api/v1/users/me returned 200 in 30.26ms
+2026-11-10 14:16:51 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 32.7ms
+2026-11-10 14:16:52 [DEBUG] [inventory-service] Processed 12 background tasks from queue in 233ms
+2026-11-10 14:16:53 [INFO] [inventory-service] HTTP GET /healthz returned 200 in 23.13ms
+2026-11-10 14:16:53 [WARN] [order-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:16:54 [WARN] [api-gateway] User session cookie refresh token close to expiration
+2026-11-10 14:16:55 [INFO] [order-service] Periodic health check passed. Memory usage: 29%, CPU: 29%
+2026-11-10 14:16:56 [INFO] [inventory-service] HTTP GET /api/v1/cart/items returned 200 in 24.28ms
+2026-11-10 14:16:57 [INFO] [order-service] Periodic health check passed. Memory usage: 22%, CPU: 13%
+2026-11-10 14:16:57 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:16:58 [WARN] [inventory-service] User session cookie refresh token close to expiration
+2026-11-10 14:17:00 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:17:01 [INFO] [inventory-service] Periodic health check passed. Memory usage: 36%, CPU: 25%
+2026-11-10 14:17:02 [INFO] [inventory-service] HTTP GET /api/v1/catalog/items returned 200 in 41.43ms
+2026-11-10 14:17:03 [INFO] [order-service] Periodic health check passed. Memory usage: 56%, CPU: 29%
+2026-11-10 14:17:04 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:17:05 [INFO] [api-gateway] Periodic health check passed. Memory usage: 24%, CPU: 34%
+2026-11-10 14:17:05 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:17:06 [ERROR] [api-gateway] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:17:07 [DEBUG] [api-gateway] Processed 13 background tasks from queue in 430ms
+2026-11-10 14:17:07 [DEBUG] [api-gateway] Processed 45 background tasks from queue in 389ms
+2026-11-10 14:17:07 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:17:08 [DEBUG] [inventory-service] Processed 34 background tasks from queue in 400ms
+2026-11-10 14:17:09 [WARN] [inventory-service] User session cookie refresh token close to expiration
+2026-11-10 14:17:10 [ERROR] [inventory-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:17:11 [WARN] [inventory-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:17:13 [ERROR] [order-service] HTTP 500 / request dropped while inventory-service is degraded
+2026-11-10 14:17:14 [INFO] [inventory-service] Periodic health check passed. Memory usage: 48%, CPU: 29%

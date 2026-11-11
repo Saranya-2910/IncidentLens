@@ -1,0 +1,144 @@
+2026-11-10 14:00:00 [INFO] [worker-service] HTTP GET /static/css/main.css returned 200 in 34.43ms
+2026-11-10 14:00:01 [INFO] [worker-service] Periodic health check passed. Memory usage: 43%, CPU: 26%
+2026-11-10 14:00:01 [INFO] [worker-service] HTTP GET /metrics returned 200 in 21.37ms
+2026-11-10 14:00:02 [INFO] [worker-service] HTTP GET /metrics returned 200 in 44.61ms
+2026-11-10 14:00:02 [INFO] [worker-service] HTTP GET /ready returned 200 in 18.67ms
+2026-11-10 14:00:03 [DEBUG] [worker-service] Processed 48 background tasks from queue in 341ms
+2026-11-10 14:00:04 [WARN] [worker-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:04 [DEBUG] [worker-service] Processed 26 background tasks from queue in 153ms
+2026-11-10 14:00:06 [INFO] [worker-service] HTTP GET /metrics returned 200 in 40.05ms
+2026-11-10 14:00:06 [WARN] [worker-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:07 [INFO] [worker-service] Periodic health check passed. Memory usage: 57%, CPU: 20%
+2026-11-10 14:00:08 [INFO] [worker-service] HTTP GET /api/v1/promotions/active returned 200 in 20.31ms
+2026-11-10 14:00:09 [WARN] [worker-service] User session cookie refresh token close to expiration
+2026-11-10 14:00:09 [INFO] [worker-service] HTTP GET /static/css/main.css returned 200 in 44.48ms
+2026-11-10 14:00:11 [WARN] [worker-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:12 [INFO] [worker-service] Periodic health check passed. Memory usage: 42%, CPU: 29%
+2026-11-10 14:00:13 [INFO] [worker-service] Periodic health check passed. Memory usage: 30%, CPU: 32%
+2026-11-10 14:00:14 [INFO] [worker-service] HTTP GET /healthz returned 200 in 11.66ms
+2026-11-10 14:00:14 [WARN] [worker-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:16 [INFO] [worker-service] HTTP GET /api/v1/cart/items returned 200 in 9.15ms
+2026-11-10 14:00:16 [DEBUG] [worker-service] Processed 38 background tasks from queue in 343ms
+2026-11-10 14:00:17 [WARN] [worker-service] User session cookie refresh token close to expiration
+2026-11-10 14:00:17 [INFO] [worker-service] Periodic health check passed. Memory usage: 49%, CPU: 6%
+2026-11-10 14:00:18 [INFO] [worker-service] HTTP GET /static/css/main.css returned 200 in 20.28ms
+2026-11-10 14:00:19 [INFO] [worker-service] Periodic health check passed. Memory usage: 45%, CPU: 18%
+2026-11-10 14:00:20 [INFO] [worker-service] HTTP GET /api/v1/catalog/items returned 200 in 29.65ms
+2026-11-10 14:00:21 [INFO] [worker-service] HTTP GET /ready returned 200 in 31.7ms
+2026-11-10 14:00:22 [INFO] [worker-service] HTTP GET /api/v1/catalog/items returned 200 in 31.98ms
+2026-11-10 14:00:23 [INFO] [worker-service] Periodic health check passed. Memory usage: 43%, CPU: 30%
+2026-11-10 14:00:24 [INFO] [worker-service] HTTP GET /api/v1/cart/items returned 200 in 27.01ms
+2026-11-10 14:00:25 [DEBUG] [worker-service] Processed 29 background tasks from queue in 335ms
+2026-11-10 14:00:26 [INFO] [worker-service] HTTP GET /api/v1/promotions/active returned 200 in 27.0ms
+2026-11-10 14:00:27 [INFO] [worker-service] Periodic health check passed. Memory usage: 51%, CPU: 19%
+2026-11-10 14:00:28 [INFO] [worker-service] HTTP GET /api/v1/cart/items returned 200 in 23.27ms
+2026-11-10 14:00:29 [INFO] [worker-service] HTTP GET /healthz returned 200 in 9.32ms
+2026-11-10 14:00:30 [INFO] [worker-service] Periodic health check passed. Memory usage: 49%, CPU: 31%
+2026-11-10 14:00:31 [DEBUG] [worker-service] Processed 28 background tasks from queue in 208ms
+2026-11-10 14:00:32 [WARN] [worker-service] User session cookie refresh token close to expiration
+2026-11-10 14:00:34 [INFO] [worker-service] HTTP GET /metrics returned 200 in 15.12ms
+2026-11-10 14:00:35 [INFO] [worker-service] HTTP GET /api/v1/catalog/items returned 200 in 36.81ms
+2026-11-10 14:00:36 [INFO] [worker-service] HTTP GET /api/v1/catalog/items returned 200 in 20.62ms
+2026-11-10 14:00:37 [INFO] [worker-service] Periodic health check passed. Memory usage: 33%, CPU: 33%
+2026-11-10 14:00:37 [INFO] [worker-service] HTTP GET /api/v1/catalog/items returned 200 in 15.86ms
+2026-11-10 14:00:39 [INFO] [worker-service] HTTP GET /ready returned 200 in 44.49ms
+2026-11-10 14:00:39 [INFO] [worker-service] Periodic health check passed. Memory usage: 29%, CPU: 29%
+2026-11-10 14:00:40 [INFO] [worker-service] Periodic health check passed. Memory usage: 51%, CPU: 15%
+2026-11-10 14:00:41 [INFO] [worker-service] HTTP GET /api/v1/cart/items returned 200 in 43.6ms
+2026-11-10 14:00:42 [INFO] [worker-service] Periodic health check passed. Memory usage: 35%, CPU: 20%
+2026-11-10 14:00:43 [DEBUG] [worker-service] Processed 42 background tasks from queue in 317ms
+2026-11-10 14:00:45 [INFO] [worker-service] HTTP GET /api/v1/catalog/items returned 200 in 23.1ms
+2026-11-10 14:00:46 [INFO] [worker-service] HTTP GET /api/v1/cart/items returned 200 in 11.36ms
+2026-11-10 14:00:47 [DEBUG] [worker-service] Processed 22 background tasks from queue in 255ms
+2026-11-10 14:00:47 [WARN] [worker-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:48 [INFO] [worker-service] HTTP GET /static/css/main.css returned 200 in 43.64ms
+2026-11-10 14:00:49 [INFO] [worker-service] HTTP GET /api/v1/promotions/active returned 200 in 28.9ms
+2026-11-10 14:00:49 [INFO] [worker-service] HTTP GET /healthz returned 200 in 28.34ms
+2026-11-10 14:00:50 [INFO] [worker-service] HTTP GET /static/css/main.css returned 200 in 26.41ms
+2026-11-10 14:00:51 [INFO] [worker-service] HTTP GET /static/css/main.css returned 200 in 31.3ms
+2026-11-10 14:00:52 [DEBUG] [worker-service] Processed 26 background tasks from queue in 232ms
+2026-11-10 14:00:53 [INFO] [worker-service] HTTP GET /api/v1/catalog/items returned 304 in 13.62ms
+2026-11-10 14:00:54 [WARN] [worker-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:54 [INFO] [worker-service] HTTP GET /api/v1/users/me returned 304 in 13.91ms
+2026-11-10 14:00:56 [INFO] [worker-service] HTTP GET /api/v1/cart/items returned 200 in 13.92ms
+2026-11-10 14:00:57 [INFO] [worker-service] HTTP GET /healthz returned 200 in 4.75ms
+2026-11-10 14:00:58 [INFO] [worker-service] Periodic health check passed. Memory usage: 49%, CPU: 14%
+2026-11-10 14:00:59 [INFO] [worker-service] Periodic health check passed. Memory usage: 37%, CPU: 6%
+2026-11-10 14:01:00 [INFO] [worker-service] HTTP GET /healthz returned 200 in 10.11ms
+2026-11-10 14:01:01 [INFO] [worker-service] HTTP GET /metrics returned 200 in 19.26ms
+2026-11-10 14:01:01 [INFO] [worker-service] HTTP GET /api/v1/cart/items returned 200 in 30.09ms
+2026-11-10 14:01:06 [WARN] [worker-service] Disk usage on /var/tmp reached 98.9% (threshold 90%)
+2026-11-10 14:01:18 [ERROR] [worker-service] Task generate_invoice_pdf failed: [Errno 28] No space left on device
+Traceback (most recent call last):
+  File "/app/workers/reports.py", line 77, in generate_invoice_pdf
+    with open(temp_path, "wb") as f:
+      f.write(rendered_pdf)
+OSError: [Errno 28] No space left on device
+2026-11-10 14:01:25 [ERROR] [worker-service] OSError: [Errno 28] No space left on device
+2026-11-10 14:01:33 [ERROR] [worker-service] Failed to write temporary buffer to /var/tmp/reports/batch_9410.pdf
+2026-11-10 14:01:29 [DEBUG] [worker-service] Processed 36 background tasks from queue in 204ms
+2026-11-10 14:01:30 [ERROR] [worker-service] HTTP 500 / request dropped while worker-service is degraded
+2026-11-10 14:01:31 [INFO] [worker-service] HTTP GET /api/v1/promotions/active returned 304 in 5.06ms
+2026-11-10 14:01:31 [INFO] [worker-service] HTTP GET /metrics returned 200 in 6.13ms
+2026-11-10 14:01:32 [DEBUG] [worker-service] Processed 37 background tasks from queue in 121ms
+2026-11-10 14:01:33 [DEBUG] [worker-service] Processed 27 background tasks from queue in 349ms
+2026-11-10 14:01:34 [ERROR] [worker-service] HTTP 500 / request dropped while worker-service is degraded
+2026-11-10 14:01:34 [ERROR] [worker-service] HTTP 500 / request dropped while worker-service is degraded
+2026-11-10 14:01:35 [ERROR] [worker-service] HTTP 500 / request dropped while worker-service is degraded
+2026-11-10 14:01:36 [INFO] [worker-service] Periodic health check passed. Memory usage: 38%, CPU: 27%
+2026-11-10 14:01:36 [INFO] [worker-service] HTTP GET /api/v1/promotions/active returned 200 in 24.93ms
+2026-11-10 14:01:38 [DEBUG] [worker-service] Processed 28 background tasks from queue in 163ms
+2026-11-10 14:01:38 [INFO] [worker-service] HTTP GET /api/v1/cart/items returned 200 in 26.6ms
+2026-11-10 14:01:40 [INFO] [worker-service] HTTP GET /api/v1/catalog/items returned 200 in 41.14ms
+2026-11-10 14:01:40 [DEBUG] [worker-service] Processed 26 background tasks from queue in 278ms
+2026-11-10 14:01:41 [INFO] [worker-service] HTTP GET /static/css/main.css returned 200 in 17.15ms
+2026-11-10 14:01:42 [INFO] [worker-service] HTTP GET /api/v1/catalog/items returned 200 in 13.08ms
+2026-11-10 14:01:43 [ERROR] [worker-service] HTTP 500 / request dropped while worker-service is degraded
+2026-11-10 14:01:44 [INFO] [worker-service] HTTP GET /ready returned 200 in 18.91ms
+2026-11-10 14:01:45 [INFO] [worker-service] HTTP GET /static/css/main.css returned 200 in 23.97ms
+2026-11-10 14:01:45 [INFO] [worker-service] HTTP GET /static/css/main.css returned 200 in 33.84ms
+2026-11-10 14:01:47 [ERROR] [worker-service] HTTP 500 / request dropped while worker-service is degraded
+2026-11-10 14:01:47 [DEBUG] [worker-service] Processed 26 background tasks from queue in 262ms
+2026-11-10 14:01:49 [INFO] [worker-service] Periodic health check passed. Memory usage: 33%, CPU: 28%
+2026-11-10 14:01:50 [DEBUG] [worker-service] Processed 46 background tasks from queue in 413ms
+2026-11-10 14:01:51 [DEBUG] [worker-service] Processed 27 background tasks from queue in 258ms
+2026-11-10 14:01:51 [ERROR] [worker-service] HTTP 500 / request dropped while worker-service is degraded
+2026-11-10 14:01:52 [DEBUG] [worker-service] Processed 35 background tasks from queue in 162ms
+2026-11-10 14:01:53 [ERROR] [worker-service] HTTP 500 / request dropped while worker-service is degraded
+2026-11-10 14:01:54 [INFO] [worker-service] HTTP GET /metrics returned 200 in 5.23ms
+2026-11-10 14:01:55 [INFO] [worker-service] HTTP GET /api/v1/promotions/active returned 200 in 37.81ms
+2026-11-10 14:01:56 [DEBUG] [worker-service] Processed 28 background tasks from queue in 284ms
+2026-11-10 14:01:57 [INFO] [worker-service] Periodic health check passed. Memory usage: 48%, CPU: 19%
+2026-11-10 14:01:58 [INFO] [worker-service] Periodic health check passed. Memory usage: 50%, CPU: 17%
+2026-11-10 14:01:58 [DEBUG] [worker-service] Processed 39 background tasks from queue in 290ms
+2026-11-10 14:02:00 [INFO] [worker-service] HTTP GET /api/v1/users/me returned 200 in 30.37ms
+2026-11-10 14:02:01 [INFO] [worker-service] HTTP GET /api/v1/cart/items returned 200 in 23.69ms
+2026-11-10 14:02:02 [ERROR] [worker-service] HTTP 500 / request dropped while worker-service is degraded
+2026-11-10 14:02:02 [WARN] [worker-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:02:04 [INFO] [worker-service] HTTP GET /api/v1/users/me returned 200 in 25.08ms
+2026-11-10 14:02:04 [ERROR] [worker-service] HTTP 500 / request dropped while worker-service is degraded
+2026-11-10 14:02:05 [INFO] [worker-service] HTTP GET /api/v1/catalog/items returned 200 in 35.87ms
+2026-11-10 14:02:05 [DEBUG] [worker-service] Processed 47 background tasks from queue in 373ms
+2026-11-10 14:02:06 [ERROR] [worker-service] HTTP 500 / request dropped while worker-service is degraded
+2026-11-10 14:02:07 [DEBUG] [worker-service] Processed 47 background tasks from queue in 385ms
+2026-11-10 14:02:09 [INFO] [worker-service] HTTP GET /ready returned 200 in 40.01ms
+2026-11-10 14:02:10 [INFO] [worker-service] HTTP GET /metrics returned 200 in 9.72ms
+2026-11-10 14:02:11 [ERROR] [worker-service] HTTP 500 / request dropped while worker-service is degraded
+2026-11-10 14:02:12 [ERROR] [worker-service] HTTP 500 / request dropped while worker-service is degraded
+2026-11-10 14:02:13 [WARN] [worker-service] User session cookie refresh token close to expiration
+2026-11-10 14:02:14 [DEBUG] [worker-service] Processed 44 background tasks from queue in 232ms
+2026-11-10 14:02:14 [INFO] [worker-service] Periodic health check passed. Memory usage: 48%, CPU: 21%
+2026-11-10 14:02:15 [INFO] [worker-service] HTTP GET /api/v1/cart/items returned 200 in 36.34ms
+2026-11-10 14:02:15 [INFO] [worker-service] HTTP GET /static/css/main.css returned 200 in 17.99ms
+2026-11-10 14:02:16 [INFO] [worker-service] Periodic health check passed. Memory usage: 24%, CPU: 5%
+2026-11-10 14:02:17 [INFO] [worker-service] HTTP GET /api/v1/catalog/items returned 200 in 8.53ms
+2026-11-10 14:02:18 [INFO] [worker-service] HTTP GET /healthz returned 200 in 22.64ms
+2026-11-10 14:02:19 [ERROR] [worker-service] HTTP 500 / request dropped while worker-service is degraded
+2026-11-10 14:02:20 [INFO] [worker-service] HTTP GET /api/v1/catalog/items returned 200 in 11.33ms
+2026-11-10 14:02:20 [DEBUG] [worker-service] Processed 21 background tasks from queue in 381ms
+2026-11-10 14:02:22 [WARN] [worker-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:02:22 [WARN] [worker-service] User session cookie refresh token close to expiration
+2026-11-10 14:02:24 [INFO] [worker-service] Periodic health check passed. Memory usage: 37%, CPU: 12%
+2026-11-10 14:02:25 [INFO] [worker-service] HTTP GET /static/css/main.css returned 200 in 15.05ms
+2026-11-10 14:02:25 [DEBUG] [worker-service] Processed 23 background tasks from queue in 343ms
+2026-11-10 14:02:27 [WARN] [worker-service] User session cookie refresh token close to expiration

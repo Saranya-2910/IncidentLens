@@ -39,7 +39,7 @@ def parse_timestamp(val: Any) -> datetime:
             return val.replace(tzinfo=UTC)
         return val.astimezone(UTC)
 
-    if isinstance(val, (int, float)):
+    if isinstance(val, int | float):
         # Epoch timestamp: detect seconds vs milliseconds vs microseconds
         if val > 1e14:  # microseconds
             val = val / 1e6

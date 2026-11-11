@@ -1,0 +1,101 @@
+{"timestamp": "2026-11-10T14:00:00.730000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:01.775000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /ready returned 200 in 11.93ms"}
+{"timestamp": "2026-11-10T14:00:03.099000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/users/me returned 200 in 31.43ms"}
+{"timestamp": "2026-11-10T14:00:03.668000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:05.107000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 45%, CPU: 14%"}
+{"timestamp": "2026-11-10T14:00:06.342000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 9%"}
+{"timestamp": "2026-11-10T14:00:07.029000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 8.92ms"}
+{"timestamp": "2026-11-10T14:00:07.773000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 41%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:00:08.839000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 31.57ms"}
+{"timestamp": "2026-11-10T14:00:09.306000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 55%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:00:09.614000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /static/css/main.css returned 200 in 28.85ms"}
+{"timestamp": "2026-11-10T14:00:10.636000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /static/css/main.css returned 200 in 13.26ms"}
+{"timestamp": "2026-11-10T14:00:11.872000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 42.98ms"}
+{"timestamp": "2026-11-10T14:00:13.158000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:00:14.078000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 5.42ms"}
+{"timestamp": "2026-11-10T14:00:14.745000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 13 background tasks from queue in 267ms"}
+{"timestamp": "2026-11-10T14:00:15.310000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 25 background tasks from queue in 342ms"}
+{"timestamp": "2026-11-10T14:00:16.101000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /healthz returned 200 in 41.24ms"}
+{"timestamp": "2026-11-10T14:00:16.843000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:00:18.198000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 32%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:00:18.557000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 16.64ms"}
+{"timestamp": "2026-11-10T14:00:19.146000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 21.03ms"}
+{"timestamp": "2026-11-10T14:00:19.878000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:20.329000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 41%, CPU: 21%"}
+{"timestamp": "2026-11-10T14:00:21.498000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /ready returned 200 in 38.36ms"}
+{"timestamp": "2026-11-10T14:00:22.460000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /static/css/main.css returned 200 in 16.63ms"}
+{"timestamp": "2026-11-10T14:00:23.943000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 37 background tasks from queue in 287ms"}
+{"timestamp": "2026-11-10T14:00:24.389000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 23.28ms"}
+{"timestamp": "2026-11-10T14:00:25.377000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 49 background tasks from queue in 130ms"}
+{"timestamp": "2026-11-10T14:00:26.024000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 46%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:00:27.310000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:28.052000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:28.904000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 58%, CPU: 34%"}
+{"timestamp": "2026-11-10T14:00:30.081000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 48%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:00:31.396000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 39 background tasks from queue in 158ms"}
+{"timestamp": "2026-11-10T14:00:32.727000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 22.86ms"}
+{"timestamp": "2026-11-10T14:00:33.432000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /ready returned 200 in 18.71ms"}
+{"timestamp": "2026-11-10T14:00:34.065000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 9.39ms"}
+{"timestamp": "2026-11-10T14:00:34.820000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 56%, CPU: 7%"}
+{"timestamp": "2026-11-10T14:00:35.661000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /ready returned 200 in 21.71ms"}
+{"timestamp": "2026-11-10T14:00:35.901000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 58%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:00:37.226000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 53%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:00:38.278000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 5.92ms"}
+{"timestamp": "2026-11-10T14:00:39.503000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 24.62ms"}
+{"timestamp": "2026-11-10T14:00:40.451000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /metrics returned 200 in 4.59ms"}
+{"timestamp": "2026-11-10T14:00:41.930000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 10.13ms"}
+{"timestamp": "2026-11-10T14:00:43.339000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:00:44.328000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 29.43ms"}
+{"timestamp": "2026-11-10T14:00:45.826000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /metrics returned 200 in 33.69ms"}
+{"timestamp": "2026-11-10T14:00:47.263000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 48 background tasks from queue in 143ms"}
+{"timestamp": "2026-11-10T14:00:52.263000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Payment attempt failed with status 503 from Stripe API. Retrying in 1000ms (attempt 1/3)"}
+{"timestamp": "2026-11-10T14:00:57.263000+00:00Z", "level": "ERROR", "service": "payment-service", "message": "Payment charge failed after 3 retries:\nTraceback (most recent call last):\n  File \"/app/services/stripe_adapter.py\", line 95, in charge\n    charge = stripe.Charge.create(amount=amount, currency=\"usd\", source=token)\n  File \"/usr/local/lib/python3.12/site-packages/stripe/api_resources/charge.py\", line 32, in create\n    return super(Charge, cls).create(*args, **kwargs)\nstripe.error.APIConnectionError: Service Unavailable (HTTP 503): Cloudflare 503 Service Temporarily Unavailable"}
+{"timestamp": "2026-11-10T14:01:05.263000+00:00Z", "level": "ERROR", "service": "payment-service", "message": "stripe.error.APIConnectionError: Service Unavailable (HTTP 503)"}
+{"timestamp": "2026-11-10T14:01:10.263000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Circuit breaker tripped to OPEN state for gateway 'stripe' due to 10 consecutive 503 errors"}
+{"timestamp": "2026-11-10T14:01:16.263000+00:00Z", "level": "ERROR", "service": "payment-service", "message": "Upstream payment processor returned 503: Service Unavailable"}
+{"timestamp": "2026-11-10T14:01:23.194000+00:00Z", "level": "ERROR", "service": "payment-service", "message": "HTTP 500 / request dropped while payment-service is degraded"}
+{"timestamp": "2026-11-10T14:01:23.488000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /healthz returned 200 in 20.26ms"}
+{"timestamp": "2026-11-10T14:01:24.495000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 10 background tasks from queue in 265ms"}
+{"timestamp": "2026-11-10T14:01:25.709000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /healthz returned 200 in 26.8ms"}
+{"timestamp": "2026-11-10T14:01:26.997000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /static/css/main.css returned 200 in 25.09ms"}
+{"timestamp": "2026-11-10T14:01:27.462000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 11 background tasks from queue in 417ms"}
+{"timestamp": "2026-11-10T14:01:27.807000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 22.53ms"}
+{"timestamp": "2026-11-10T14:01:28.513000+00:00Z", "level": "ERROR", "service": "payment-service", "message": "HTTP 500 / request dropped while payment-service is degraded"}
+{"timestamp": "2026-11-10T14:01:29.226000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 10 background tasks from queue in 428ms"}
+{"timestamp": "2026-11-10T14:01:29.921000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /static/css/main.css returned 200 in 7.16ms"}
+{"timestamp": "2026-11-10T14:01:30.872000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /healthz returned 200 in 23.69ms"}
+{"timestamp": "2026-11-10T14:01:32.064000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 46%, CPU: 22%"}
+{"timestamp": "2026-11-10T14:01:32.728000+00:00Z", "level": "ERROR", "service": "payment-service", "message": "HTTP 500 / request dropped while payment-service is degraded"}
+{"timestamp": "2026-11-10T14:01:33.403000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 10.01ms"}
+{"timestamp": "2026-11-10T14:01:33.851000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:35.332000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 25%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:01:36.087000+00:00Z", "level": "ERROR", "service": "payment-service", "message": "HTTP 500 / request dropped while payment-service is degraded"}
+{"timestamp": "2026-11-10T14:01:37.554000+00:00Z", "level": "ERROR", "service": "payment-service", "message": "HTTP 500 / request dropped while payment-service is degraded"}
+{"timestamp": "2026-11-10T14:01:38.645000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 43 background tasks from queue in 290ms"}
+{"timestamp": "2026-11-10T14:01:39.475000+00:00Z", "level": "ERROR", "service": "payment-service", "message": "HTTP 500 / request dropped while payment-service is degraded"}
+{"timestamp": "2026-11-10T14:01:40.243000+00:00Z", "level": "WARN", "service": "payment-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:40.779000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 19 background tasks from queue in 308ms"}
+{"timestamp": "2026-11-10T14:01:41.252000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 17%"}
+{"timestamp": "2026-11-10T14:01:41.495000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /metrics returned 200 in 4.53ms"}
+{"timestamp": "2026-11-10T14:01:42.459000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /ready returned 200 in 22.38ms"}
+{"timestamp": "2026-11-10T14:01:43.142000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 31%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:01:44.283000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 40%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:01:44.551000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 14.69ms"}
+{"timestamp": "2026-11-10T14:01:44.786000+00:00Z", "level": "WARN", "service": "payment-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:45.201000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 10 background tasks from queue in 221ms"}
+{"timestamp": "2026-11-10T14:01:45.836000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 41 background tasks from queue in 325ms"}
+{"timestamp": "2026-11-10T14:01:47.290000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/users/me returned 200 in 18.13ms"}
+{"timestamp": "2026-11-10T14:01:47.986000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /ready returned 200 in 5.52ms"}
+{"timestamp": "2026-11-10T14:01:49.474000+00:00Z", "level": "ERROR", "service": "payment-service", "message": "HTTP 500 / request dropped while payment-service is degraded"}
+{"timestamp": "2026-11-10T14:01:50.201000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:01:50.670000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 55%, CPU: 34%"}
+{"timestamp": "2026-11-10T14:01:51.813000+00:00Z", "level": "ERROR", "service": "payment-service", "message": "HTTP 500 / request dropped while payment-service is degraded"}
+{"timestamp": "2026-11-10T14:01:52.333000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 41 background tasks from queue in 145ms"}
+{"timestamp": "2026-11-10T14:01:53.213000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 31.11ms"}
+{"timestamp": "2026-11-10T14:01:54.015000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 39 background tasks from queue in 282ms"}
+{"timestamp": "2026-11-10T14:01:55.038000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /ready returned 200 in 10.69ms"}
+{"timestamp": "2026-11-10T14:01:56.413000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 45%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:01:56.883000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 15.41ms"}
+{"timestamp": "2026-11-10T14:01:58.258000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 32 background tasks from queue in 434ms"}
+{"timestamp": "2026-11-10T14:01:59.276000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/users/me returned 200 in 16.21ms"}
+{"timestamp": "2026-11-10T14:02:00.341000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 23.49ms"}

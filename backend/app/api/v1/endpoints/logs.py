@@ -10,11 +10,52 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.api.deps import get_current_user
 from app.db.session import get_db
 from app.models.user import User
+from app.schemas.demo import DemoScenarioItem, LoadDemoDataRequest, LoadDemoDataResponse
 from app.schemas.log_batch import BatchUploadResponse, LogBatchResponse
 from app.schemas.log_event import LogEventResponse, PaginatedLogEventsResponse
 from app.services.log_service import LogService
 
 router = APIRouter(tags=["Logs & Ingestion"])
+
+
+@router.get(
+    "/projects/demo-scenarios",
+    response_model=list[DemoScenarioItem],
+    summary="List all available simulated demo scenarios",
+)
+async def list_demo_scenarios(
+    current_user: Annotated[User, Depends(get_current_user)],
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> list[DemoScenarioItem]:
+    log_service = LogService(db)
+    scenarios = log_service.list_demo_scenarios()
+    return [DemoScenarioItem.model_validate(s) for s in scenarios]
+
+
+@router.post(
+    "/projects/{id}/demo-data",
+    response_model=LoadDemoDataResponse,
+    status_code=status.HTTP_202_ACCEPTED,
+    summary="Seed an owned project with a simulated scenario dataset",
+)
+async def load_demo_data(
+    id: uuid.UUID,
+    current_user: Annotated[User, Depends(get_current_user)],
+    db: Annotated[AsyncSession, Depends(get_db)],
+    payload: LoadDemoDataRequest | None = None,
+) -> LoadDemoDataResponse:
+    log_service = LogService(db)
+    scenario_id = payload.scenario_id if payload else None
+    batch, target_scenario, total_lines = await log_service.load_demo_data(
+        current_user.id, id, scenario_id=scenario_id
+    )
+    return LoadDemoDataResponse(
+        batch_id=batch.id,
+        scenario_id=target_scenario,
+        status=batch.status,
+        total_lines=total_lines,
+        message="Demo incident dataset queued for background ingestion",
+    )
 
 
 @router.post(

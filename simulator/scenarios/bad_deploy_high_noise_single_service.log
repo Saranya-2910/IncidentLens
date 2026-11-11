@@ -1,0 +1,1035 @@
+2026-11-10 14:00:01 [DEBUG] [payment-service] Processed 17 background tasks from queue in 443ms
+2026-11-10 14:00:02 [INFO] [payment-service] Periodic health check passed. Memory usage: 57%, CPU: 28%
+2026-11-10 14:00:03 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 44.32ms
+2026-11-10 14:00:04 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:00:04 [INFO] [payment-service] HTTP GET /ready returned 200 in 30.84ms
+2026-11-10 14:00:06 [INFO] [payment-service] HTTP GET /ready returned 200 in 17.0ms
+2026-11-10 14:00:07 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 41.86ms
+2026-11-10 14:00:07 [INFO] [payment-service] HTTP GET /healthz returned 200 in 22.32ms
+2026-11-10 14:00:08 [DEBUG] [payment-service] Processed 39 background tasks from queue in 394ms
+2026-11-10 14:00:09 [INFO] [payment-service] Periodic health check passed. Memory usage: 49%, CPU: 27%
+2026-11-10 14:00:10 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:00:10 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 41.64ms
+2026-11-10 14:00:11 [INFO] [payment-service] HTTP GET /metrics returned 200 in 5.19ms
+2026-11-10 14:00:12 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:13 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:14 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 41.26ms
+2026-11-10 14:00:14 [INFO] [payment-service] HTTP GET /healthz returned 200 in 30.88ms
+2026-11-10 14:00:15 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 32.78ms
+2026-11-10 14:00:16 [INFO] [payment-service] Periodic health check passed. Memory usage: 35%, CPU: 21%
+2026-11-10 14:00:16 [INFO] [payment-service] Periodic health check passed. Memory usage: 46%, CPU: 28%
+2026-11-10 14:00:16 [INFO] [payment-service] Periodic health check passed. Memory usage: 45%, CPU: 34%
+2026-11-10 14:00:16 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 8.13ms
+2026-11-10 14:00:17 [DEBUG] [payment-service] Processed 48 background tasks from queue in 438ms
+2026-11-10 14:00:17 [DEBUG] [payment-service] Processed 27 background tasks from queue in 427ms
+2026-11-10 14:00:17 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 14.77ms
+2026-11-10 14:00:19 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:00:20 [INFO] [payment-service] Periodic health check passed. Memory usage: 49%, CPU: 28%
+2026-11-10 14:00:20 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 31.15ms
+2026-11-10 14:00:21 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 38.06ms
+2026-11-10 14:00:21 [INFO] [payment-service] Periodic health check passed. Memory usage: 22%, CPU: 17%
+2026-11-10 14:00:23 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 28.65ms
+2026-11-10 14:00:23 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 14.89ms
+2026-11-10 14:00:25 [DEBUG] [payment-service] Processed 14 background tasks from queue in 283ms
+2026-11-10 14:00:25 [DEBUG] [payment-service] Processed 18 background tasks from queue in 387ms
+2026-11-10 14:00:26 [INFO] [payment-service] Periodic health check passed. Memory usage: 34%, CPU: 28%
+2026-11-10 14:00:27 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 20.97ms
+2026-11-10 14:00:28 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:00:28 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 34.27ms
+2026-11-10 14:00:29 [INFO] [payment-service] HTTP GET /ready returned 200 in 26.92ms
+2026-11-10 14:00:30 [INFO] [payment-service] Periodic health check passed. Memory usage: 48%, CPU: 18%
+2026-11-10 14:00:31 [DEBUG] [payment-service] Processed 28 background tasks from queue in 242ms
+2026-11-10 14:00:32 [INFO] [payment-service] Periodic health check passed. Memory usage: 51%, CPU: 34%
+2026-11-10 14:00:33 [INFO] [payment-service] HTTP GET /metrics returned 200 in 19.51ms
+2026-11-10 14:00:34 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 7.8ms
+2026-11-10 14:00:35 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 26.17ms
+2026-11-10 14:00:37 [DEBUG] [payment-service] Processed 21 background tasks from queue in 374ms
+2026-11-10 14:00:37 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 6.81ms
+2026-11-10 14:00:38 [INFO] [payment-service] HTTP GET /static/css/main.css returned 304 in 10.44ms
+2026-11-10 14:00:39 [INFO] [payment-service] HTTP GET /ready returned 200 in 24.81ms
+2026-11-10 14:00:40 [INFO] [payment-service] HTTP GET /healthz returned 200 in 25.42ms
+2026-11-10 14:00:42 [DEBUG] [payment-service] Processed 18 background tasks from queue in 398ms
+2026-11-10 14:00:43 [DEBUG] [payment-service] Processed 10 background tasks from queue in 252ms
+2026-11-10 14:00:44 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 12.22ms
+2026-11-10 14:00:45 [DEBUG] [payment-service] Processed 25 background tasks from queue in 382ms
+2026-11-10 14:00:46 [INFO] [payment-service] HTTP GET /ready returned 200 in 11.27ms
+2026-11-10 14:00:46 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:48 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 44.19ms
+2026-11-10 14:00:48 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:49 [DEBUG] [payment-service] Processed 25 background tasks from queue in 312ms
+2026-11-10 14:00:51 [INFO] [payment-service] Periodic health check passed. Memory usage: 35%, CPU: 34%
+2026-11-10 14:00:51 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 304 in 14.27ms
+2026-11-10 14:00:53 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 24.55ms
+2026-11-10 14:00:53 [INFO] [payment-service] Periodic health check passed. Memory usage: 38%, CPU: 6%
+2026-11-10 14:00:54 [INFO] [payment-service] Periodic health check passed. Memory usage: 35%, CPU: 7%
+2026-11-10 14:00:55 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:56 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 34.91ms
+2026-11-10 14:00:56 [INFO] [payment-service] HTTP GET /ready returned 200 in 41.67ms
+2026-11-10 14:00:57 [INFO] [payment-service] HTTP GET /metrics returned 200 in 44.06ms
+2026-11-10 14:00:58 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 11.1ms
+2026-11-10 14:00:59 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 23.37ms
+2026-11-10 14:01:00 [INFO] [payment-service] Periodic health check passed. Memory usage: 41%, CPU: 11%
+2026-11-10 14:01:01 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 20.56ms
+2026-11-10 14:01:02 [INFO] [payment-service] Periodic health check passed. Memory usage: 50%, CPU: 19%
+2026-11-10 14:01:03 [DEBUG] [payment-service] Processed 11 background tasks from queue in 266ms
+2026-11-10 14:01:04 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 42.09ms
+2026-11-10 14:01:06 [INFO] [payment-service] Periodic health check passed. Memory usage: 52%, CPU: 30%
+2026-11-10 14:01:07 [INFO] [payment-service] Periodic health check passed. Memory usage: 43%, CPU: 19%
+2026-11-10 14:01:08 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 25.82ms
+2026-11-10 14:01:09 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 16.06ms
+2026-11-10 14:01:09 [INFO] [payment-service] Periodic health check passed. Memory usage: 54%, CPU: 32%
+2026-11-10 14:01:10 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 36.52ms
+2026-11-10 14:01:10 [INFO] [payment-service] HTTP GET /ready returned 200 in 27.69ms
+2026-11-10 14:01:12 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:01:13 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 34.73ms
+2026-11-10 14:01:13 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 11.54ms
+2026-11-10 14:01:14 [INFO] [payment-service] Periodic health check passed. Memory usage: 22%, CPU: 8%
+2026-11-10 14:01:15 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 27.06ms
+2026-11-10 14:01:16 [INFO] [payment-service] HTTP GET /ready returned 200 in 24.25ms
+2026-11-10 14:01:17 [DEBUG] [payment-service] Processed 40 background tasks from queue in 447ms
+2026-11-10 14:01:18 [DEBUG] [payment-service] Processed 41 background tasks from queue in 443ms
+2026-11-10 14:01:20 [INFO] [payment-service] Periodic health check passed. Memory usage: 37%, CPU: 24%
+2026-11-10 14:01:20 [DEBUG] [payment-service] Processed 49 background tasks from queue in 122ms
+2026-11-10 14:01:21 [INFO] [payment-service] Periodic health check passed. Memory usage: 47%, CPU: 25%
+2026-11-10 14:01:21 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 25.43ms
+2026-11-10 14:01:22 [INFO] [payment-service] HTTP GET /ready returned 200 in 13.87ms
+2026-11-10 14:01:23 [DEBUG] [payment-service] Processed 19 background tasks from queue in 440ms
+2026-11-10 14:01:23 [INFO] [payment-service] Periodic health check passed. Memory usage: 37%, CPU: 14%
+2026-11-10 14:01:24 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 12.74ms
+2026-11-10 14:01:25 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 6.54ms
+2026-11-10 14:01:25 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 304 in 17.31ms
+2026-11-10 14:01:26 [INFO] [payment-service] Periodic health check passed. Memory usage: 43%, CPU: 29%
+2026-11-10 14:01:27 [DEBUG] [payment-service] Processed 41 background tasks from queue in 368ms
+2026-11-10 14:01:29 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 14.57ms
+2026-11-10 14:01:29 [INFO] [payment-service] Periodic health check passed. Memory usage: 46%, CPU: 14%
+2026-11-10 14:01:30 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 24.9ms
+2026-11-10 14:01:31 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 18.75ms
+2026-11-10 14:01:32 [INFO] [payment-service] HTTP GET /ready returned 200 in 43.55ms
+2026-11-10 14:01:32 [INFO] [payment-service] HTTP GET /ready returned 200 in 20.12ms
+2026-11-10 14:01:33 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:01:33 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 37.83ms
+2026-11-10 14:01:34 [INFO] [payment-service] Periodic health check passed. Memory usage: 49%, CPU: 26%
+2026-11-10 14:01:34 [DEBUG] [payment-service] Processed 22 background tasks from queue in 122ms
+2026-11-10 14:01:35 [INFO] [payment-service] Periodic health check passed. Memory usage: 50%, CPU: 13%
+2026-11-10 14:01:37 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 41.37ms
+2026-11-10 14:01:38 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 18.57ms
+2026-11-10 14:01:39 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 33.3ms
+2026-11-10 14:01:40 [DEBUG] [payment-service] Processed 48 background tasks from queue in 247ms
+2026-11-10 14:01:41 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 28.41ms
+2026-11-10 14:01:42 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 12.68ms
+2026-11-10 14:01:43 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 44.69ms
+2026-11-10 14:01:44 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:01:45 [INFO] [payment-service] Periodic health check passed. Memory usage: 41%, CPU: 10%
+2026-11-10 14:01:46 [INFO] [payment-service] HTTP GET /metrics returned 304 in 27.02ms
+2026-11-10 14:01:47 [DEBUG] [payment-service] Processed 42 background tasks from queue in 391ms
+2026-11-10 14:01:47 [INFO] [payment-service] Periodic health check passed. Memory usage: 54%, CPU: 30%
+2026-11-10 14:01:49 [INFO] [payment-service] HTTP GET /healthz returned 200 in 12.27ms
+2026-11-10 14:01:50 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 38.32ms
+2026-11-10 14:01:52 [INFO] [payment-service] HTTP GET /metrics returned 304 in 6.66ms
+2026-11-10 14:01:52 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 304 in 23.98ms
+2026-11-10 14:01:53 [INFO] [payment-service] Periodic health check passed. Memory usage: 33%, CPU: 15%
+2026-11-10 14:01:53 [INFO] [payment-service] Periodic health check passed. Memory usage: 50%, CPU: 17%
+2026-11-10 14:01:54 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 9.45ms
+2026-11-10 14:01:55 [DEBUG] [payment-service] Processed 33 background tasks from queue in 377ms
+2026-11-10 14:01:56 [INFO] [payment-service] Periodic health check passed. Memory usage: 24%, CPU: 25%
+2026-11-10 14:01:57 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 15.22ms
+2026-11-10 14:01:57 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:01:58 [INFO] [payment-service] HTTP GET /healthz returned 200 in 35.6ms
+2026-11-10 14:02:00 [INFO] [payment-service] Periodic health check passed. Memory usage: 23%, CPU: 18%
+2026-11-10 14:02:00 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 32.48ms
+2026-11-10 14:02:02 [INFO] [payment-service] Periodic health check passed. Memory usage: 22%, CPU: 31%
+2026-11-10 14:02:02 [INFO] [payment-service] Periodic health check passed. Memory usage: 56%, CPU: 25%
+2026-11-10 14:02:03 [INFO] [payment-service] Periodic health check passed. Memory usage: 30%, CPU: 8%
+2026-11-10 14:02:03 [INFO] [payment-service] HTTP GET /metrics returned 200 in 24.04ms
+2026-11-10 14:02:04 [INFO] [payment-service] Periodic health check passed. Memory usage: 22%, CPU: 8%
+2026-11-10 14:02:04 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 8.41ms
+2026-11-10 14:02:05 [INFO] [payment-service] Periodic health check passed. Memory usage: 51%, CPU: 32%
+2026-11-10 14:02:05 [INFO] [payment-service] Periodic health check passed. Memory usage: 27%, CPU: 15%
+2026-11-10 14:02:07 [DEBUG] [payment-service] Processed 40 background tasks from queue in 277ms
+2026-11-10 14:02:07 [DEBUG] [payment-service] Processed 31 background tasks from queue in 345ms
+2026-11-10 14:02:08 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 9.77ms
+2026-11-10 14:02:09 [INFO] [payment-service] HTTP GET /ready returned 304 in 15.85ms
+2026-11-10 14:02:09 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 38.69ms
+2026-11-10 14:02:10 [INFO] [payment-service] Periodic health check passed. Memory usage: 38%, CPU: 31%
+2026-11-10 14:02:11 [INFO] [payment-service] Periodic health check passed. Memory usage: 27%, CPU: 28%
+2026-11-10 14:02:12 [INFO] [payment-service] Periodic health check passed. Memory usage: 32%, CPU: 31%
+2026-11-10 14:02:12 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 40.46ms
+2026-11-10 14:02:13 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 35.93ms
+2026-11-10 14:02:15 [INFO] [payment-service] HTTP GET /ready returned 200 in 26.49ms
+2026-11-10 14:02:16 [INFO] [payment-service] Periodic health check passed. Memory usage: 32%, CPU: 28%
+2026-11-10 14:02:17 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 20.74ms
+2026-11-10 14:02:18 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:02:19 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 32.66ms
+2026-11-10 14:02:20 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 6.06ms
+2026-11-10 14:02:20 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:02:22 [INFO] [payment-service] Periodic health check passed. Memory usage: 42%, CPU: 12%
+2026-11-10 14:02:23 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 5.57ms
+2026-11-10 14:02:24 [INFO] [payment-service] HTTP GET /metrics returned 200 in 31.38ms
+2026-11-10 14:02:24 [INFO] [payment-service] Periodic health check passed. Memory usage: 56%, CPU: 16%
+2026-11-10 14:02:25 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 33.27ms
+2026-11-10 14:02:26 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 37.95ms
+2026-11-10 14:02:27 [INFO] [payment-service] Periodic health check passed. Memory usage: 46%, CPU: 29%
+2026-11-10 14:02:28 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 43.23ms
+2026-11-10 14:02:28 [INFO] [payment-service] Periodic health check passed. Memory usage: 24%, CPU: 30%
+2026-11-10 14:02:29 [INFO] [payment-service] HTTP GET /healthz returned 200 in 19.62ms
+2026-11-10 14:02:30 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 42.57ms
+2026-11-10 14:02:31 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 10.6ms
+2026-11-10 14:02:32 [INFO] [payment-service] Periodic health check passed. Memory usage: 44%, CPU: 7%
+2026-11-10 14:02:32 [INFO] [payment-service] Periodic health check passed. Memory usage: 57%, CPU: 9%
+2026-11-10 14:02:34 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 22.06ms
+2026-11-10 14:02:34 [INFO] [payment-service] Periodic health check passed. Memory usage: 37%, CPU: 21%
+2026-11-10 14:02:35 [INFO] [payment-service] HTTP GET /healthz returned 200 in 41.61ms
+2026-11-10 14:02:35 [DEBUG] [payment-service] Processed 16 background tasks from queue in 151ms
+2026-11-10 14:02:36 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:02:37 [DEBUG] [payment-service] Processed 33 background tasks from queue in 165ms
+2026-11-10 14:02:39 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 30.74ms
+2026-11-10 14:02:40 [INFO] [payment-service] HTTP GET /healthz returned 304 in 22.37ms
+2026-11-10 14:02:41 [INFO] [payment-service] Periodic health check passed. Memory usage: 49%, CPU: 28%
+2026-11-10 14:02:42 [INFO] [payment-service] Periodic health check passed. Memory usage: 47%, CPU: 17%
+2026-11-10 14:02:43 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 32.76ms
+2026-11-10 14:02:44 [INFO] [payment-service] Periodic health check passed. Memory usage: 41%, CPU: 17%
+2026-11-10 14:02:45 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 38.28ms
+2026-11-10 14:02:45 [DEBUG] [payment-service] Processed 11 background tasks from queue in 182ms
+2026-11-10 14:02:46 [INFO] [payment-service] HTTP GET /healthz returned 200 in 33.83ms
+2026-11-10 14:02:47 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 19.94ms
+2026-11-10 14:02:47 [INFO] [payment-service] Periodic health check passed. Memory usage: 56%, CPU: 13%
+2026-11-10 14:02:48 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 304 in 27.15ms
+2026-11-10 14:02:49 [DEBUG] [payment-service] Processed 47 background tasks from queue in 296ms
+2026-11-10 14:02:50 [INFO] [payment-service] HTTP GET /ready returned 200 in 9.66ms
+2026-11-10 14:02:51 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 26.19ms
+2026-11-10 14:02:52 [INFO] [payment-service] Periodic health check passed. Memory usage: 50%, CPU: 30%
+2026-11-10 14:02:53 [INFO] [payment-service] HTTP GET /metrics returned 200 in 44.07ms
+2026-11-10 14:02:54 [INFO] [payment-service] Periodic health check passed. Memory usage: 31%, CPU: 5%
+2026-11-10 14:02:54 [INFO] [payment-service] HTTP GET /metrics returned 200 in 7.26ms
+2026-11-10 14:02:56 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:02:57 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 7.64ms
+2026-11-10 14:02:57 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 21.1ms
+2026-11-10 14:02:58 [INFO] [payment-service] Periodic health check passed. Memory usage: 35%, CPU: 21%
+2026-11-10 14:02:59 [DEBUG] [payment-service] Processed 45 background tasks from queue in 132ms
+2026-11-10 14:02:59 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 19.23ms
+2026-11-10 14:03:00 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 24.45ms
+2026-11-10 14:03:01 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 7.76ms
+2026-11-10 14:03:01 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 29.89ms
+2026-11-10 14:03:02 [DEBUG] [payment-service] Processed 23 background tasks from queue in 370ms
+2026-11-10 14:03:03 [DEBUG] [payment-service] Processed 37 background tasks from queue in 440ms
+2026-11-10 14:03:04 [INFO] [payment-service] Periodic health check passed. Memory usage: 25%, CPU: 35%
+2026-11-10 14:03:05 [DEBUG] [payment-service] Processed 33 background tasks from queue in 174ms
+2026-11-10 14:03:06 [INFO] [payment-service] Periodic health check passed. Memory usage: 58%, CPU: 31%
+2026-11-10 14:03:08 [INFO] [payment-service] HTTP GET /ready returned 200 in 31.93ms
+2026-11-10 14:03:09 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 30.61ms
+2026-11-10 14:03:09 [INFO] [payment-service] Periodic health check passed. Memory usage: 27%, CPU: 32%
+2026-11-10 14:03:10 [DEBUG] [payment-service] Processed 16 background tasks from queue in 343ms
+2026-11-10 14:03:11 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 44.34ms
+2026-11-10 14:03:11 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:03:13 [DEBUG] [payment-service] Processed 37 background tasks from queue in 146ms
+2026-11-10 14:03:14 [DEBUG] [payment-service] Processed 42 background tasks from queue in 304ms
+2026-11-10 14:03:15 [DEBUG] [payment-service] Processed 18 background tasks from queue in 336ms
+2026-11-10 14:03:15 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 43.57ms
+2026-11-10 14:03:16 [INFO] [payment-service] HTTP GET /metrics returned 200 in 5.66ms
+2026-11-10 14:03:17 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 42.98ms
+2026-11-10 14:03:18 [INFO] [payment-service] Periodic health check passed. Memory usage: 48%, CPU: 12%
+2026-11-10 14:03:19 [DEBUG] [payment-service] Processed 34 background tasks from queue in 160ms
+2026-11-10 14:03:21 [INFO] [payment-service] Periodic health check passed. Memory usage: 36%, CPU: 12%
+2026-11-10 14:03:21 [INFO] [payment-service] HTTP GET /healthz returned 200 in 29.39ms
+2026-11-10 14:03:22 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 6.76ms
+2026-11-10 14:03:24 [DEBUG] [payment-service] Processed 44 background tasks from queue in 232ms
+2026-11-10 14:03:24 [INFO] [payment-service] HTTP GET /ready returned 200 in 40.18ms
+2026-11-10 14:03:25 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 14.07ms
+2026-11-10 14:03:26 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 304 in 20.64ms
+2026-11-10 14:03:27 [INFO] [payment-service] Periodic health check passed. Memory usage: 44%, CPU: 16%
+2026-11-10 14:03:27 [DEBUG] [payment-service] Processed 32 background tasks from queue in 320ms
+2026-11-10 14:03:29 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 34.61ms
+2026-11-10 14:03:29 [INFO] [payment-service] Periodic health check passed. Memory usage: 22%, CPU: 31%
+2026-11-10 14:03:30 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 32.46ms
+2026-11-10 14:03:30 [INFO] [payment-service] HTTP GET /ready returned 200 in 26.55ms
+2026-11-10 14:03:31 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 39.07ms
+2026-11-10 14:03:32 [DEBUG] [payment-service] Processed 44 background tasks from queue in 226ms
+2026-11-10 14:03:32 [INFO] [payment-service] HTTP GET /healthz returned 200 in 25.03ms
+2026-11-10 14:03:32 [INFO] [payment-service] Periodic health check passed. Memory usage: 41%, CPU: 34%
+2026-11-10 14:03:33 [DEBUG] [payment-service] Processed 48 background tasks from queue in 432ms
+2026-11-10 14:03:34 [INFO] [payment-service] Periodic health check passed. Memory usage: 43%, CPU: 30%
+2026-11-10 14:03:34 [DEBUG] [payment-service] Processed 46 background tasks from queue in 386ms
+2026-11-10 14:03:35 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:03:36 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:03:36 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 5.56ms
+2026-11-10 14:03:37 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 39.45ms
+2026-11-10 14:03:37 [INFO] [payment-service] Periodic health check passed. Memory usage: 24%, CPU: 32%
+2026-11-10 14:03:38 [INFO] [payment-service] Periodic health check passed. Memory usage: 31%, CPU: 33%
+2026-11-10 14:03:40 [DEBUG] [payment-service] Processed 49 background tasks from queue in 237ms
+2026-11-10 14:03:40 [DEBUG] [payment-service] Processed 12 background tasks from queue in 424ms
+2026-11-10 14:03:41 [DEBUG] [payment-service] Processed 43 background tasks from queue in 359ms
+2026-11-10 14:03:41 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 12.87ms
+2026-11-10 14:03:42 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:03:43 [INFO] [payment-service] Periodic health check passed. Memory usage: 40%, CPU: 15%
+2026-11-10 14:03:44 [INFO] [payment-service] HTTP GET /healthz returned 200 in 43.9ms
+2026-11-10 14:03:44 [INFO] [payment-service] HTTP GET /healthz returned 200 in 27.11ms
+2026-11-10 14:03:45 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 12.77ms
+2026-11-10 14:03:46 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 38.35ms
+2026-11-10 14:03:46 [DEBUG] [payment-service] Processed 49 background tasks from queue in 277ms
+2026-11-10 14:03:47 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 27.18ms
+2026-11-10 14:03:47 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:03:49 [INFO] [payment-service] Periodic health check passed. Memory usage: 49%, CPU: 5%
+2026-11-10 14:03:49 [INFO] [payment-service] Periodic health check passed. Memory usage: 43%, CPU: 27%
+2026-11-10 14:03:50 [DEBUG] [payment-service] Processed 13 background tasks from queue in 126ms
+2026-11-10 14:03:51 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:03:53 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 8.16ms
+2026-11-10 14:03:53 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:03:54 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:03:55 [DEBUG] [payment-service] Processed 45 background tasks from queue in 425ms
+2026-11-10 14:03:56 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:03:57 [DEBUG] [payment-service] Processed 26 background tasks from queue in 347ms
+2026-11-10 14:03:58 [INFO] [payment-service] HTTP GET /metrics returned 200 in 21.78ms
+2026-11-10 14:03:59 [DEBUG] [payment-service] Processed 38 background tasks from queue in 405ms
+2026-11-10 14:04:00 [INFO] [payment-service] Periodic health check passed. Memory usage: 38%, CPU: 23%
+2026-11-10 14:04:01 [DEBUG] [payment-service] Processed 38 background tasks from queue in 315ms
+2026-11-10 14:04:02 [DEBUG] [payment-service] Processed 26 background tasks from queue in 267ms
+2026-11-10 14:04:02 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 35.71ms
+2026-11-10 14:04:03 [INFO] [payment-service] HTTP GET /healthz returned 200 in 30.17ms
+2026-11-10 14:04:04 [DEBUG] [payment-service] Processed 12 background tasks from queue in 342ms
+2026-11-10 14:04:05 [INFO] [payment-service] HTTP GET /healthz returned 200 in 20.54ms
+2026-11-10 14:04:06 [INFO] [payment-service] Periodic health check passed. Memory usage: 38%, CPU: 14%
+2026-11-10 14:04:07 [INFO] [payment-service] Periodic health check passed. Memory usage: 44%, CPU: 32%
+2026-11-10 14:04:08 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:04:08 [DEBUG] [payment-service] Processed 47 background tasks from queue in 440ms
+2026-11-10 14:04:09 [DEBUG] [payment-service] Processed 40 background tasks from queue in 397ms
+2026-11-10 14:04:10 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 34.68ms
+2026-11-10 14:04:10 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:04:11 [INFO] [payment-service] Periodic health check passed. Memory usage: 39%, CPU: 17%
+2026-11-10 14:04:11 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:04:12 [INFO] [payment-service] Periodic health check passed. Memory usage: 28%, CPU: 6%
+2026-11-10 14:04:13 [INFO] [payment-service] Periodic health check passed. Memory usage: 35%, CPU: 25%
+2026-11-10 14:04:14 [INFO] [payment-service] Periodic health check passed. Memory usage: 24%, CPU: 21%
+2026-11-10 14:04:16 [INFO] [payment-service] HTTP GET /metrics returned 200 in 24.23ms
+2026-11-10 14:04:17 [INFO] [payment-service] HTTP GET /ready returned 304 in 7.94ms
+2026-11-10 14:04:18 [INFO] [payment-service] HTTP GET /ready returned 200 in 23.15ms
+2026-11-10 14:04:19 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:04:20 [DEBUG] [payment-service] Processed 35 background tasks from queue in 144ms
+2026-11-10 14:04:21 [INFO] [payment-service] Periodic health check passed. Memory usage: 25%, CPU: 22%
+2026-11-10 14:04:21 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:04:22 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 36.99ms
+2026-11-10 14:04:23 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 15.11ms
+2026-11-10 14:04:24 [INFO] [payment-service] Periodic health check passed. Memory usage: 55%, CPU: 12%
+2026-11-10 14:04:25 [INFO] [payment-service] HTTP GET /ready returned 200 in 28.87ms
+2026-11-10 14:04:26 [INFO] [payment-service] Periodic health check passed. Memory usage: 48%, CPU: 10%
+2026-11-10 14:04:26 [DEBUG] [payment-service] Processed 37 background tasks from queue in 223ms
+2026-11-10 14:04:27 [INFO] [payment-service] Periodic health check passed. Memory usage: 33%, CPU: 29%
+2026-11-10 14:04:27 [INFO] [payment-service] Periodic health check passed. Memory usage: 32%, CPU: 15%
+2026-11-10 14:04:28 [INFO] [payment-service] HTTP GET /ready returned 200 in 14.18ms
+2026-11-10 14:04:29 [DEBUG] [payment-service] Processed 14 background tasks from queue in 305ms
+2026-11-10 14:04:30 [INFO] [payment-service] HTTP GET /healthz returned 200 in 6.04ms
+2026-11-10 14:04:30 [INFO] [payment-service] HTTP GET /healthz returned 200 in 23.18ms
+2026-11-10 14:04:31 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:04:32 [INFO] [payment-service] Periodic health check passed. Memory usage: 36%, CPU: 30%
+2026-11-10 14:04:33 [INFO] [payment-service] Periodic health check passed. Memory usage: 43%, CPU: 26%
+2026-11-10 14:04:34 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 22.78ms
+2026-11-10 14:04:34 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 14.8ms
+2026-11-10 14:04:35 [INFO] [payment-service] Periodic health check passed. Memory usage: 36%, CPU: 9%
+2026-11-10 14:04:36 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:04:36 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 13.94ms
+2026-11-10 14:04:37 [INFO] [payment-service] Periodic health check passed. Memory usage: 45%, CPU: 34%
+2026-11-10 14:04:38 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 304 in 44.45ms
+2026-11-10 14:04:39 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:04:40 [DEBUG] [payment-service] Processed 18 background tasks from queue in 225ms
+2026-11-10 14:04:41 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:04:42 [INFO] [payment-service] HTTP GET /healthz returned 200 in 28.16ms
+2026-11-10 14:04:43 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 37.03ms
+2026-11-10 14:04:43 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 31.14ms
+2026-11-10 14:04:44 [DEBUG] [payment-service] Processed 21 background tasks from queue in 366ms
+2026-11-10 14:04:45 [DEBUG] [payment-service] Processed 16 background tasks from queue in 374ms
+2026-11-10 14:04:46 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 44.8ms
+2026-11-10 14:04:47 [INFO] [payment-service] Periodic health check passed. Memory usage: 35%, CPU: 31%
+2026-11-10 14:04:47 [DEBUG] [payment-service] Processed 48 background tasks from queue in 171ms
+2026-11-10 14:04:48 [DEBUG] [payment-service] Processed 45 background tasks from queue in 152ms
+2026-11-10 14:04:49 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 43.71ms
+2026-11-10 14:04:51 [INFO] [payment-service] Periodic health check passed. Memory usage: 32%, CPU: 19%
+2026-11-10 14:04:52 [INFO] [payment-service] HTTP GET /metrics returned 200 in 13.88ms
+2026-11-10 14:04:52 [DEBUG] [payment-service] Processed 11 background tasks from queue in 317ms
+2026-11-10 14:04:53 [INFO] [payment-service] HTTP GET /ready returned 200 in 40.36ms
+2026-11-10 14:04:54 [INFO] [payment-service] HTTP GET /metrics returned 200 in 44.26ms
+2026-11-10 14:04:55 [INFO] [payment-service] Periodic health check passed. Memory usage: 58%, CPU: 10%
+2026-11-10 14:04:56 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 8.28ms
+2026-11-10 14:04:57 [INFO] [payment-service] Periodic health check passed. Memory usage: 51%, CPU: 19%
+2026-11-10 14:04:58 [DEBUG] [payment-service] Processed 15 background tasks from queue in 234ms
+2026-11-10 14:04:58 [DEBUG] [payment-service] Processed 22 background tasks from queue in 349ms
+2026-11-10 14:04:59 [INFO] [payment-service] Periodic health check passed. Memory usage: 22%, CPU: 12%
+2026-11-10 14:05:00 [DEBUG] [payment-service] Processed 22 background tasks from queue in 281ms
+2026-11-10 14:05:01 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 38.67ms
+2026-11-10 14:05:02 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:05:03 [INFO] [payment-service] Periodic health check passed. Memory usage: 43%, CPU: 9%
+2026-11-10 14:05:04 [DEBUG] [payment-service] Processed 41 background tasks from queue in 132ms
+2026-11-10 14:05:05 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 18.49ms
+2026-11-10 14:05:05 [INFO] [payment-service] Periodic health check passed. Memory usage: 43%, CPU: 34%
+2026-11-10 14:05:06 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 23.82ms
+2026-11-10 14:05:08 [INFO] [payment-service] Periodic health check passed. Memory usage: 23%, CPU: 27%
+2026-11-10 14:05:08 [INFO] [payment-service] HTTP GET /healthz returned 200 in 41.21ms
+2026-11-10 14:05:09 [INFO] [payment-service] Periodic health check passed. Memory usage: 52%, CPU: 14%
+2026-11-10 14:05:09 [DEBUG] [payment-service] Processed 42 background tasks from queue in 357ms
+2026-11-10 14:05:11 [DEBUG] [payment-service] Processed 24 background tasks from queue in 264ms
+2026-11-10 14:05:12 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 13.37ms
+2026-11-10 14:05:12 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 41.34ms
+2026-11-10 14:05:13 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:05:14 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:05:15 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 32.91ms
+2026-11-10 14:05:16 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 22.17ms
+2026-11-10 14:05:17 [INFO] [payment-service] HTTP GET /ready returned 200 in 26.92ms
+2026-11-10 14:05:17 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:05:18 [INFO] [payment-service] Periodic health check passed. Memory usage: 39%, CPU: 9%
+2026-11-10 14:05:19 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 6.77ms
+2026-11-10 14:05:20 [INFO] [payment-service] Periodic health check passed. Memory usage: 41%, CPU: 26%
+2026-11-10 14:05:22 [INFO] [payment-service] Periodic health check passed. Memory usage: 39%, CPU: 5%
+2026-11-10 14:05:23 [DEBUG] [payment-service] Processed 49 background tasks from queue in 204ms
+2026-11-10 14:05:24 [DEBUG] [payment-service] Processed 43 background tasks from queue in 408ms
+2026-11-10 14:05:26 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 14.54ms
+2026-11-10 14:05:27 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:05:28 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 41.83ms
+2026-11-10 14:05:29 [INFO] [payment-service] HTTP GET /metrics returned 200 in 42.51ms
+2026-11-10 14:05:30 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 24.05ms
+2026-11-10 14:05:30 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 304 in 13.66ms
+2026-11-10 14:05:32 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 28.1ms
+2026-11-10 14:05:33 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 27.91ms
+2026-11-10 14:05:34 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 37.29ms
+2026-11-10 14:05:34 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 11.98ms
+2026-11-10 14:05:35 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 17.15ms
+2026-11-10 14:05:35 [INFO] [payment-service] HTTP GET /metrics returned 200 in 32.91ms
+2026-11-10 14:05:36 [DEBUG] [payment-service] Processed 16 background tasks from queue in 247ms
+2026-11-10 14:05:38 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:05:38 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:05:39 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 31.09ms
+2026-11-10 14:05:40 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 8.93ms
+2026-11-10 14:05:41 [INFO] [payment-service] Periodic health check passed. Memory usage: 44%, CPU: 13%
+2026-11-10 14:05:41 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 35.36ms
+2026-11-10 14:05:42 [DEBUG] [payment-service] Processed 40 background tasks from queue in 293ms
+2026-11-10 14:05:43 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:05:44 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 14.11ms
+2026-11-10 14:05:45 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 37.84ms
+2026-11-10 14:05:46 [DEBUG] [payment-service] Processed 14 background tasks from queue in 139ms
+2026-11-10 14:05:47 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 43.91ms
+2026-11-10 14:05:49 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:05:50 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 35.87ms
+2026-11-10 14:05:51 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 36.22ms
+2026-11-10 14:05:52 [DEBUG] [payment-service] Processed 48 background tasks from queue in 358ms
+2026-11-10 14:05:52 [DEBUG] [payment-service] Processed 37 background tasks from queue in 196ms
+2026-11-10 14:05:53 [INFO] [payment-service] Periodic health check passed. Memory usage: 22%, CPU: 31%
+2026-11-10 14:05:53 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:05:54 [INFO] [payment-service] HTTP GET /metrics returned 200 in 5.31ms
+2026-11-10 14:05:54 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 36.02ms
+2026-11-10 14:05:55 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 11.82ms
+2026-11-10 14:05:57 [INFO] [payment-service] Periodic health check passed. Memory usage: 42%, CPU: 21%
+2026-11-10 14:05:57 [DEBUG] [payment-service] Processed 49 background tasks from queue in 221ms
+2026-11-10 14:05:58 [DEBUG] [payment-service] Processed 41 background tasks from queue in 337ms
+2026-11-10 14:05:59 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 31.63ms
+2026-11-10 14:05:59 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 304 in 39.42ms
+2026-11-10 14:06:01 [INFO] [payment-service] Periodic health check passed. Memory usage: 47%, CPU: 19%
+2026-11-10 14:06:02 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 40.22ms
+2026-11-10 14:06:02 [INFO] [payment-service] Periodic health check passed. Memory usage: 35%, CPU: 18%
+2026-11-10 14:06:02 [INFO] [payment-service] HTTP GET /metrics returned 200 in 24.87ms
+2026-11-10 14:06:04 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:06:05 [DEBUG] [payment-service] Processed 27 background tasks from queue in 343ms
+2026-11-10 14:06:06 [DEBUG] [payment-service] Processed 30 background tasks from queue in 232ms
+2026-11-10 14:06:08 [DEBUG] [payment-service] Processed 47 background tasks from queue in 241ms
+2026-11-10 14:06:09 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:06:09 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 9.57ms
+2026-11-10 14:06:10 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:06:12 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:06:13 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:06:14 [DEBUG] [payment-service] Processed 39 background tasks from queue in 389ms
+2026-11-10 14:06:16 [INFO] [payment-service] HTTP GET /ready returned 200 in 30.95ms
+2026-11-10 14:06:17 [INFO] [payment-service] Periodic health check passed. Memory usage: 46%, CPU: 35%
+2026-11-10 14:06:18 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:06:19 [INFO] [payment-service] Periodic health check passed. Memory usage: 35%, CPU: 12%
+2026-11-10 14:06:20 [DEBUG] [payment-service] Processed 48 background tasks from queue in 159ms
+2026-11-10 14:06:20 [INFO] [payment-service] Periodic health check passed. Memory usage: 38%, CPU: 6%
+2026-11-10 14:06:21 [INFO] [payment-service] HTTP GET /healthz returned 200 in 9.22ms
+2026-11-10 14:06:22 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:06:22 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:06:23 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 17.12ms
+2026-11-10 14:06:24 [DEBUG] [payment-service] Processed 46 background tasks from queue in 349ms
+2026-11-10 14:06:24 [INFO] [payment-service] Periodic health check passed. Memory usage: 30%, CPU: 10%
+2026-11-10 14:06:26 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:06:27 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 45.0ms
+2026-11-10 14:06:28 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 31.45ms
+2026-11-10 14:06:29 [INFO] [payment-service] Periodic health check passed. Memory usage: 24%, CPU: 8%
+2026-11-10 14:06:30 [INFO] [payment-service] Periodic health check passed. Memory usage: 42%, CPU: 29%
+2026-11-10 14:06:30 [DEBUG] [payment-service] Processed 28 background tasks from queue in 418ms
+2026-11-10 14:06:31 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:06:31 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:06:32 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 36.38ms
+2026-11-10 14:06:32 [INFO] [payment-service] Periodic health check passed. Memory usage: 44%, CPU: 16%
+2026-11-10 14:06:34 [INFO] [payment-service] Periodic health check passed. Memory usage: 57%, CPU: 5%
+2026-11-10 14:06:34 [INFO] [payment-service] Periodic health check passed. Memory usage: 56%, CPU: 34%
+2026-11-10 14:06:36 [INFO] [payment-service] Periodic health check passed. Memory usage: 46%, CPU: 34%
+2026-11-10 14:06:37 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 37.01ms
+2026-11-10 14:06:38 [INFO] [payment-service] HTTP GET /ready returned 200 in 39.52ms
+2026-11-10 14:06:38 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 36.89ms
+2026-11-10 14:06:39 [INFO] [payment-service] Periodic health check passed. Memory usage: 44%, CPU: 11%
+2026-11-10 14:06:39 [INFO] [payment-service] Periodic health check passed. Memory usage: 51%, CPU: 29%
+2026-11-10 14:06:40 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 14.99ms
+2026-11-10 14:06:40 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:06:41 [INFO] [payment-service] Periodic health check passed. Memory usage: 28%, CPU: 5%
+2026-11-10 14:06:42 [DEBUG] [payment-service] Processed 42 background tasks from queue in 437ms
+2026-11-10 14:06:43 [DEBUG] [payment-service] Processed 40 background tasks from queue in 159ms
+2026-11-10 14:06:44 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:06:45 [DEBUG] [payment-service] Processed 49 background tasks from queue in 149ms
+2026-11-10 14:06:46 [DEBUG] [payment-service] Processed 18 background tasks from queue in 309ms
+2026-11-10 14:06:47 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:06:48 [INFO] [payment-service] Periodic health check passed. Memory usage: 23%, CPU: 34%
+2026-11-10 14:06:49 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:06:50 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 33.75ms
+2026-11-10 14:06:50 [DEBUG] [payment-service] Processed 43 background tasks from queue in 201ms
+2026-11-10 14:06:52 [DEBUG] [payment-service] Processed 26 background tasks from queue in 299ms
+2026-11-10 14:06:52 [INFO] [payment-service] Periodic health check passed. Memory usage: 44%, CPU: 11%
+2026-11-10 14:06:53 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 304 in 14.2ms
+2026-11-10 14:06:54 [INFO] [payment-service] Periodic health check passed. Memory usage: 27%, CPU: 9%
+2026-11-10 14:06:55 [INFO] [payment-service] HTTP GET /healthz returned 200 in 33.48ms
+2026-11-10 14:06:56 [DEBUG] [payment-service] Processed 50 background tasks from queue in 144ms
+2026-11-10 14:06:57 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:06:58 [DEBUG] [payment-service] Processed 31 background tasks from queue in 415ms
+2026-11-10 14:06:59 [INFO] [payment-service] HTTP GET /ready returned 200 in 23.11ms
+2026-11-10 14:07:00 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 18.24ms
+2026-11-10 14:07:01 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:07:02 [INFO] [payment-service] Periodic health check passed. Memory usage: 40%, CPU: 23%
+2026-11-10 14:07:03 [INFO] [payment-service] Periodic health check passed. Memory usage: 23%, CPU: 17%
+2026-11-10 14:07:03 [INFO] [payment-service] HTTP GET /metrics returned 200 in 41.17ms
+2026-11-10 14:07:05 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 36.35ms
+2026-11-10 14:07:06 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:07:06 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 44.73ms
+2026-11-10 14:07:07 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:07:07 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:07:09 [INFO] [payment-service] HTTP GET /healthz returned 200 in 18.86ms
+2026-11-10 14:07:09 [INFO] [payment-service] HTTP GET /metrics returned 200 in 44.47ms
+2026-11-10 14:07:09 [INFO] [payment-service] HTTP GET /ready returned 200 in 43.81ms
+2026-11-10 14:07:14 [INFO] [payment-service] Rolling update deployment started: pulling image registry.corp/payment-service:v2.4.1
+2026-11-10 14:07:22 [ERROR] [payment-service] Fatal configuration error during application startup:
+Traceback (most recent call last):
+  File "/app/main.py", line 24, in <module>
+    settings = Settings()
+  File "/usr/local/lib/python3.12/site-packages/pydantic_settings/main.py", line 102, in __init__
+    super().__init__(**values)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Settings
+STRIPE_API_KEY
+  Field required [type=missing, input_value={}, input_type=dict]
+2026-11-10 14:07:27 [FATAL] [payment-service] Deployment v2.4.1 failed to initialize: missing required configuration 'STRIPE_API_KEY'
+2026-11-10 14:07:39 [ERROR] [payment-service] Container failed health check: CrashLoopBackOff (exit code 1)
+2026-11-10 14:07:36 [INFO] [payment-service] HTTP GET /ready returned 200 in 24.26ms
+2026-11-10 14:07:37 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:07:39 [INFO] [payment-service] HTTP GET /ready returned 200 in 5.21ms
+2026-11-10 14:07:39 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 32.75ms
+2026-11-10 14:07:40 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:07:40 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:07:42 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:07:42 [INFO] [payment-service] HTTP GET /healthz returned 200 in 29.28ms
+2026-11-10 14:07:43 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 44.6ms
+2026-11-10 14:07:43 [INFO] [payment-service] Periodic health check passed. Memory usage: 24%, CPU: 22%
+2026-11-10 14:07:45 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:07:46 [INFO] [payment-service] HTTP GET /healthz returned 200 in 21.97ms
+2026-11-10 14:07:46 [INFO] [payment-service] Periodic health check passed. Memory usage: 58%, CPU: 19%
+2026-11-10 14:07:47 [DEBUG] [payment-service] Processed 43 background tasks from queue in 330ms
+2026-11-10 14:07:48 [INFO] [payment-service] Periodic health check passed. Memory usage: 29%, CPU: 25%
+2026-11-10 14:07:48 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:07:49 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 40.67ms
+2026-11-10 14:07:49 [DEBUG] [payment-service] Processed 32 background tasks from queue in 321ms
+2026-11-10 14:07:50 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 42.38ms
+2026-11-10 14:07:51 [DEBUG] [payment-service] Processed 41 background tasks from queue in 215ms
+2026-11-10 14:07:52 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 42.08ms
+2026-11-10 14:07:53 [INFO] [payment-service] HTTP GET /ready returned 200 in 5.52ms
+2026-11-10 14:07:54 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 29.72ms
+2026-11-10 14:07:54 [INFO] [payment-service] Periodic health check passed. Memory usage: 26%, CPU: 28%
+2026-11-10 14:07:55 [INFO] [payment-service] Periodic health check passed. Memory usage: 39%, CPU: 28%
+2026-11-10 14:07:55 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:07:56 [DEBUG] [payment-service] Processed 34 background tasks from queue in 231ms
+2026-11-10 14:07:57 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 38.37ms
+2026-11-10 14:07:57 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 35.1ms
+2026-11-10 14:07:58 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:07:58 [DEBUG] [payment-service] Processed 50 background tasks from queue in 393ms
+2026-11-10 14:08:00 [INFO] [payment-service] Periodic health check passed. Memory usage: 41%, CPU: 30%
+2026-11-10 14:08:01 [INFO] [payment-service] HTTP GET /healthz returned 200 in 28.92ms
+2026-11-10 14:08:02 [INFO] [payment-service] Periodic health check passed. Memory usage: 31%, CPU: 6%
+2026-11-10 14:08:02 [INFO] [payment-service] Periodic health check passed. Memory usage: 34%, CPU: 11%
+2026-11-10 14:08:04 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 5.16ms
+2026-11-10 14:08:05 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 26.57ms
+2026-11-10 14:08:06 [INFO] [payment-service] Periodic health check passed. Memory usage: 30%, CPU: 20%
+2026-11-10 14:08:07 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:08 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:08:09 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:09 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:11 [DEBUG] [payment-service] Processed 25 background tasks from queue in 415ms
+2026-11-10 14:08:12 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 41.3ms
+2026-11-10 14:08:12 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:08:12 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:13 [INFO] [payment-service] Periodic health check passed. Memory usage: 34%, CPU: 35%
+2026-11-10 14:08:13 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:08:14 [INFO] [payment-service] HTTP GET /metrics returned 200 in 37.16ms
+2026-11-10 14:08:15 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 12.6ms
+2026-11-10 14:08:15 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:16 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:17 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:18 [DEBUG] [payment-service] Processed 38 background tasks from queue in 392ms
+2026-11-10 14:08:18 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:18 [DEBUG] [payment-service] Processed 16 background tasks from queue in 279ms
+2026-11-10 14:08:19 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 5.72ms
+2026-11-10 14:08:20 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:08:20 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:21 [INFO] [payment-service] Periodic health check passed. Memory usage: 30%, CPU: 21%
+2026-11-10 14:08:21 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:08:22 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 304 in 28.36ms
+2026-11-10 14:08:23 [INFO] [payment-service] HTTP GET /healthz returned 200 in 44.82ms
+2026-11-10 14:08:24 [INFO] [payment-service] Periodic health check passed. Memory usage: 25%, CPU: 5%
+2026-11-10 14:08:25 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:26 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:27 [INFO] [payment-service] HTTP GET /healthz returned 200 in 41.7ms
+2026-11-10 14:08:28 [INFO] [payment-service] Periodic health check passed. Memory usage: 57%, CPU: 17%
+2026-11-10 14:08:29 [INFO] [payment-service] Periodic health check passed. Memory usage: 32%, CPU: 15%
+2026-11-10 14:08:29 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:30 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 42.24ms
+2026-11-10 14:08:30 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 20.73ms
+2026-11-10 14:08:31 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:32 [INFO] [payment-service] Periodic health check passed. Memory usage: 34%, CPU: 7%
+2026-11-10 14:08:34 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 42.66ms
+2026-11-10 14:08:34 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 6.19ms
+2026-11-10 14:08:35 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 11.65ms
+2026-11-10 14:08:36 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 40.51ms
+2026-11-10 14:08:37 [INFO] [payment-service] Periodic health check passed. Memory usage: 57%, CPU: 20%
+2026-11-10 14:08:37 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:39 [INFO] [payment-service] Periodic health check passed. Memory usage: 50%, CPU: 7%
+2026-11-10 14:08:40 [INFO] [payment-service] HTTP GET /ready returned 200 in 18.87ms
+2026-11-10 14:08:40 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:42 [DEBUG] [payment-service] Processed 43 background tasks from queue in 154ms
+2026-11-10 14:08:43 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:43 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:44 [DEBUG] [payment-service] Processed 17 background tasks from queue in 274ms
+2026-11-10 14:08:45 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:08:46 [INFO] [payment-service] HTTP GET /healthz returned 200 in 38.58ms
+2026-11-10 14:08:47 [INFO] [payment-service] Periodic health check passed. Memory usage: 30%, CPU: 14%
+2026-11-10 14:08:48 [DEBUG] [payment-service] Processed 25 background tasks from queue in 163ms
+2026-11-10 14:08:49 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:50 [INFO] [payment-service] Periodic health check passed. Memory usage: 37%, CPU: 6%
+2026-11-10 14:08:51 [INFO] [payment-service] HTTP GET /ready returned 200 in 22.7ms
+2026-11-10 14:08:52 [INFO] [payment-service] Periodic health check passed. Memory usage: 46%, CPU: 7%
+2026-11-10 14:08:53 [INFO] [payment-service] HTTP GET /metrics returned 200 in 41.75ms
+2026-11-10 14:08:55 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:08:56 [DEBUG] [payment-service] Processed 32 background tasks from queue in 186ms
+2026-11-10 14:08:57 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 32.37ms
+2026-11-10 14:08:58 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:08:58 [INFO] [payment-service] HTTP GET /metrics returned 200 in 24.66ms
+2026-11-10 14:08:59 [DEBUG] [payment-service] Processed 16 background tasks from queue in 179ms
+2026-11-10 14:08:59 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 304 in 31.03ms
+2026-11-10 14:09:00 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 7.83ms
+2026-11-10 14:09:01 [INFO] [payment-service] HTTP GET /healthz returned 200 in 15.69ms
+2026-11-10 14:09:01 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 33.93ms
+2026-11-10 14:09:02 [INFO] [payment-service] HTTP GET /ready returned 200 in 25.72ms
+2026-11-10 14:09:02 [INFO] [payment-service] Periodic health check passed. Memory usage: 42%, CPU: 20%
+2026-11-10 14:09:03 [INFO] [payment-service] HTTP GET /metrics returned 200 in 39.64ms
+2026-11-10 14:09:04 [INFO] [payment-service] HTTP GET /ready returned 200 in 44.03ms
+2026-11-10 14:09:05 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 25.73ms
+2026-11-10 14:09:06 [DEBUG] [payment-service] Processed 34 background tasks from queue in 403ms
+2026-11-10 14:09:06 [DEBUG] [payment-service] Processed 48 background tasks from queue in 297ms
+2026-11-10 14:09:07 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 23.07ms
+2026-11-10 14:09:08 [DEBUG] [payment-service] Processed 12 background tasks from queue in 241ms
+2026-11-10 14:09:09 [DEBUG] [payment-service] Processed 21 background tasks from queue in 347ms
+2026-11-10 14:09:11 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:09:12 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:09:13 [INFO] [payment-service] HTTP GET /metrics returned 200 in 21.1ms
+2026-11-10 14:09:14 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:09:15 [INFO] [payment-service] Periodic health check passed. Memory usage: 57%, CPU: 19%
+2026-11-10 14:09:16 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:09:17 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:09:18 [INFO] [payment-service] Periodic health check passed. Memory usage: 52%, CPU: 24%
+2026-11-10 14:09:19 [INFO] [payment-service] HTTP GET /ready returned 200 in 42.31ms
+2026-11-10 14:09:19 [INFO] [payment-service] HTTP GET /healthz returned 200 in 34.24ms
+2026-11-10 14:09:20 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:09:21 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:09:22 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:09:22 [INFO] [payment-service] Periodic health check passed. Memory usage: 46%, CPU: 24%
+2026-11-10 14:09:24 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:09:25 [INFO] [payment-service] Periodic health check passed. Memory usage: 29%, CPU: 14%
+2026-11-10 14:09:26 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:09:27 [INFO] [payment-service] HTTP GET /ready returned 200 in 43.82ms
+2026-11-10 14:09:28 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 12.77ms
+2026-11-10 14:09:28 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:09:28 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:09:29 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:09:30 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:09:31 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:09:32 [INFO] [payment-service] HTTP GET /metrics returned 200 in 27.45ms
+2026-11-10 14:09:33 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 21.28ms
+2026-11-10 14:09:34 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:09:35 [DEBUG] [payment-service] Processed 36 background tasks from queue in 140ms
+2026-11-10 14:09:35 [INFO] [payment-service] Periodic health check passed. Memory usage: 58%, CPU: 28%
+2026-11-10 14:09:37 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 18.42ms
+2026-11-10 14:09:37 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 304 in 11.9ms
+2026-11-10 14:09:38 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 7.74ms
+2026-11-10 14:09:39 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:09:40 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 35.45ms
+2026-11-10 14:09:41 [INFO] [payment-service] HTTP GET /metrics returned 200 in 38.79ms
+2026-11-10 14:09:42 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 23.17ms
+2026-11-10 14:09:43 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:09:43 [DEBUG] [payment-service] Processed 50 background tasks from queue in 137ms
+2026-11-10 14:09:44 [INFO] [payment-service] HTTP GET /metrics returned 200 in 17.22ms
+2026-11-10 14:09:45 [INFO] [payment-service] Periodic health check passed. Memory usage: 23%, CPU: 7%
+2026-11-10 14:09:47 [INFO] [payment-service] Periodic health check passed. Memory usage: 53%, CPU: 32%
+2026-11-10 14:09:47 [INFO] [payment-service] HTTP GET /ready returned 200 in 43.17ms
+2026-11-10 14:09:47 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:09:49 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:09:50 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 12.21ms
+2026-11-10 14:09:51 [INFO] [payment-service] Periodic health check passed. Memory usage: 48%, CPU: 29%
+2026-11-10 14:09:52 [INFO] [payment-service] Periodic health check passed. Memory usage: 38%, CPU: 5%
+2026-11-10 14:09:53 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:09:54 [DEBUG] [payment-service] Processed 50 background tasks from queue in 132ms
+2026-11-10 14:09:55 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 11.51ms
+2026-11-10 14:09:56 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 25.64ms
+2026-11-10 14:09:56 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 17.95ms
+2026-11-10 14:09:57 [INFO] [payment-service] Periodic health check passed. Memory usage: 26%, CPU: 20%
+2026-11-10 14:09:58 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 32.56ms
+2026-11-10 14:09:59 [INFO] [payment-service] Periodic health check passed. Memory usage: 26%, CPU: 22%
+2026-11-10 14:09:59 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 304 in 27.89ms
+2026-11-10 14:10:01 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 27.68ms
+2026-11-10 14:10:02 [INFO] [payment-service] HTTP GET /ready returned 200 in 6.52ms
+2026-11-10 14:10:03 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:10:03 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 304 in 40.99ms
+2026-11-10 14:10:04 [INFO] [payment-service] HTTP GET /ready returned 200 in 6.4ms
+2026-11-10 14:10:05 [INFO] [payment-service] Periodic health check passed. Memory usage: 38%, CPU: 24%
+2026-11-10 14:10:05 [DEBUG] [payment-service] Processed 43 background tasks from queue in 313ms
+2026-11-10 14:10:06 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:06 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 14.3ms
+2026-11-10 14:10:08 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:09 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:10:09 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:10 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:10:11 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:10:12 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 12.3ms
+2026-11-10 14:10:14 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:15 [INFO] [payment-service] HTTP GET /healthz returned 200 in 33.53ms
+2026-11-10 14:10:15 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:16 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 304 in 32.67ms
+2026-11-10 14:10:17 [DEBUG] [payment-service] Processed 38 background tasks from queue in 444ms
+2026-11-10 14:10:17 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:18 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 44.75ms
+2026-11-10 14:10:18 [INFO] [payment-service] Periodic health check passed. Memory usage: 48%, CPU: 34%
+2026-11-10 14:10:19 [INFO] [payment-service] HTTP GET /healthz returned 200 in 31.96ms
+2026-11-10 14:10:20 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:10:20 [INFO] [payment-service] Periodic health check passed. Memory usage: 43%, CPU: 7%
+2026-11-10 14:10:20 [INFO] [payment-service] HTTP GET /metrics returned 200 in 6.54ms
+2026-11-10 14:10:21 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 37.91ms
+2026-11-10 14:10:21 [DEBUG] [payment-service] Processed 48 background tasks from queue in 127ms
+2026-11-10 14:10:23 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:23 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:24 [DEBUG] [payment-service] Processed 49 background tasks from queue in 308ms
+2026-11-10 14:10:25 [DEBUG] [payment-service] Processed 43 background tasks from queue in 247ms
+2026-11-10 14:10:26 [DEBUG] [payment-service] Processed 26 background tasks from queue in 286ms
+2026-11-10 14:10:27 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:10:28 [INFO] [payment-service] HTTP GET /healthz returned 200 in 32.4ms
+2026-11-10 14:10:28 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:29 [INFO] [payment-service] HTTP GET /ready returned 200 in 10.77ms
+2026-11-10 14:10:30 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:32 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:10:33 [DEBUG] [payment-service] Processed 46 background tasks from queue in 261ms
+2026-11-10 14:10:33 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:10:34 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:36 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:10:37 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:38 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:39 [DEBUG] [payment-service] Processed 29 background tasks from queue in 310ms
+2026-11-10 14:10:40 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:42 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 37.98ms
+2026-11-10 14:10:42 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:43 [INFO] [payment-service] Periodic health check passed. Memory usage: 34%, CPU: 6%
+2026-11-10 14:10:44 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:46 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:10:47 [INFO] [payment-service] Periodic health check passed. Memory usage: 55%, CPU: 13%
+2026-11-10 14:10:48 [INFO] [payment-service] Periodic health check passed. Memory usage: 42%, CPU: 15%
+2026-11-10 14:10:49 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:10:51 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:52 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:10:52 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 14.87ms
+2026-11-10 14:10:54 [DEBUG] [payment-service] Processed 31 background tasks from queue in 368ms
+2026-11-10 14:10:54 [INFO] [payment-service] Periodic health check passed. Memory usage: 52%, CPU: 12%
+2026-11-10 14:10:55 [INFO] [payment-service] Periodic health check passed. Memory usage: 51%, CPU: 32%
+2026-11-10 14:10:56 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 40.29ms
+2026-11-10 14:10:58 [INFO] [payment-service] HTTP GET /metrics returned 200 in 43.82ms
+2026-11-10 14:10:59 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:00 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 9.52ms
+2026-11-10 14:11:01 [DEBUG] [payment-service] Processed 36 background tasks from queue in 331ms
+2026-11-10 14:11:03 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 22.58ms
+2026-11-10 14:11:04 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:04 [DEBUG] [payment-service] Processed 20 background tasks from queue in 364ms
+2026-11-10 14:11:05 [INFO] [payment-service] Periodic health check passed. Memory usage: 30%, CPU: 32%
+2026-11-10 14:11:05 [DEBUG] [payment-service] Processed 38 background tasks from queue in 181ms
+2026-11-10 14:11:06 [DEBUG] [payment-service] Processed 27 background tasks from queue in 163ms
+2026-11-10 14:11:07 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 16.74ms
+2026-11-10 14:11:07 [INFO] [payment-service] Periodic health check passed. Memory usage: 49%, CPU: 8%
+2026-11-10 14:11:09 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:09 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 44.14ms
+2026-11-10 14:11:10 [DEBUG] [payment-service] Processed 49 background tasks from queue in 133ms
+2026-11-10 14:11:11 [INFO] [payment-service] HTTP GET /healthz returned 200 in 25.16ms
+2026-11-10 14:11:11 [INFO] [payment-service] Periodic health check passed. Memory usage: 47%, CPU: 16%
+2026-11-10 14:11:12 [INFO] [payment-service] Periodic health check passed. Memory usage: 38%, CPU: 10%
+2026-11-10 14:11:12 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 27.54ms
+2026-11-10 14:11:13 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:14 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:11:15 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 33.98ms
+2026-11-10 14:11:15 [DEBUG] [payment-service] Processed 23 background tasks from queue in 437ms
+2026-11-10 14:11:15 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 5.88ms
+2026-11-10 14:11:16 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:17 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 44.41ms
+2026-11-10 14:11:18 [INFO] [payment-service] Periodic health check passed. Memory usage: 43%, CPU: 28%
+2026-11-10 14:11:19 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:20 [INFO] [payment-service] HTTP GET /ready returned 200 in 7.63ms
+2026-11-10 14:11:21 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 30.28ms
+2026-11-10 14:11:22 [DEBUG] [payment-service] Processed 37 background tasks from queue in 138ms
+2026-11-10 14:11:23 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 17.45ms
+2026-11-10 14:11:25 [INFO] [payment-service] Periodic health check passed. Memory usage: 49%, CPU: 17%
+2026-11-10 14:11:25 [INFO] [payment-service] Periodic health check passed. Memory usage: 55%, CPU: 13%
+2026-11-10 14:11:26 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:11:27 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:28 [DEBUG] [payment-service] Processed 29 background tasks from queue in 442ms
+2026-11-10 14:11:29 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:29 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:30 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 37.97ms
+2026-11-10 14:11:31 [INFO] [payment-service] HTTP GET /metrics returned 200 in 37.9ms
+2026-11-10 14:11:33 [INFO] [payment-service] HTTP GET /metrics returned 304 in 22.61ms
+2026-11-10 14:11:33 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:34 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:35 [INFO] [payment-service] Periodic health check passed. Memory usage: 29%, CPU: 10%
+2026-11-10 14:11:35 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:36 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:37 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 304 in 27.34ms
+2026-11-10 14:11:38 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:38 [INFO] [payment-service] Periodic health check passed. Memory usage: 29%, CPU: 32%
+2026-11-10 14:11:39 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:40 [DEBUG] [payment-service] Processed 14 background tasks from queue in 343ms
+2026-11-10 14:11:42 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:42 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 30.24ms
+2026-11-10 14:11:43 [DEBUG] [payment-service] Processed 34 background tasks from queue in 444ms
+2026-11-10 14:11:44 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:45 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:11:46 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:47 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:48 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:11:48 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 18.21ms
+2026-11-10 14:11:49 [DEBUG] [payment-service] Processed 24 background tasks from queue in 301ms
+2026-11-10 14:11:50 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 44.35ms
+2026-11-10 14:11:51 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:11:51 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 9.15ms
+2026-11-10 14:11:52 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 30.81ms
+2026-11-10 14:11:54 [INFO] [payment-service] Periodic health check passed. Memory usage: 36%, CPU: 33%
+2026-11-10 14:11:54 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 38.97ms
+2026-11-10 14:11:55 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 38.06ms
+2026-11-10 14:11:56 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:11:57 [INFO] [payment-service] Periodic health check passed. Memory usage: 33%, CPU: 15%
+2026-11-10 14:11:58 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 5.46ms
+2026-11-10 14:11:58 [INFO] [payment-service] Periodic health check passed. Memory usage: 50%, CPU: 26%
+2026-11-10 14:11:59 [INFO] [payment-service] Periodic health check passed. Memory usage: 47%, CPU: 18%
+2026-11-10 14:12:00 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 22.92ms
+2026-11-10 14:12:01 [INFO] [payment-service] HTTP GET /ready returned 200 in 5.35ms
+2026-11-10 14:12:02 [DEBUG] [payment-service] Processed 19 background tasks from queue in 321ms
+2026-11-10 14:12:03 [INFO] [payment-service] HTTP GET /metrics returned 200 in 35.15ms
+2026-11-10 14:12:04 [INFO] [payment-service] HTTP GET /ready returned 200 in 23.93ms
+2026-11-10 14:12:05 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:06 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:06 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:08 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 28.92ms
+2026-11-10 14:12:08 [INFO] [payment-service] Periodic health check passed. Memory usage: 32%, CPU: 8%
+2026-11-10 14:12:09 [INFO] [payment-service] Periodic health check passed. Memory usage: 31%, CPU: 19%
+2026-11-10 14:12:10 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:11 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:11 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:12 [INFO] [payment-service] Periodic health check passed. Memory usage: 30%, CPU: 30%
+2026-11-10 14:12:12 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 37.12ms
+2026-11-10 14:12:13 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:15 [INFO] [payment-service] Periodic health check passed. Memory usage: 57%, CPU: 27%
+2026-11-10 14:12:16 [INFO] [payment-service] HTTP GET /ready returned 200 in 31.55ms
+2026-11-10 14:12:17 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 41.64ms
+2026-11-10 14:12:18 [DEBUG] [payment-service] Processed 15 background tasks from queue in 132ms
+2026-11-10 14:12:19 [INFO] [payment-service] Periodic health check passed. Memory usage: 34%, CPU: 23%
+2026-11-10 14:12:20 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:12:21 [INFO] [payment-service] Periodic health check passed. Memory usage: 54%, CPU: 30%
+2026-11-10 14:12:21 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 31.84ms
+2026-11-10 14:12:23 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 16.63ms
+2026-11-10 14:12:23 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:24 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:26 [INFO] [payment-service] Periodic health check passed. Memory usage: 48%, CPU: 15%
+2026-11-10 14:12:27 [DEBUG] [payment-service] Processed 11 background tasks from queue in 438ms
+2026-11-10 14:12:27 [INFO] [payment-service] Periodic health check passed. Memory usage: 47%, CPU: 12%
+2026-11-10 14:12:28 [INFO] [payment-service] HTTP GET /ready returned 200 in 24.41ms
+2026-11-10 14:12:29 [DEBUG] [payment-service] Processed 49 background tasks from queue in 172ms
+2026-11-10 14:12:30 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 24.89ms
+2026-11-10 14:12:32 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:32 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 21.28ms
+2026-11-10 14:12:32 [INFO] [payment-service] Periodic health check passed. Memory usage: 54%, CPU: 13%
+2026-11-10 14:12:33 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 6.01ms
+2026-11-10 14:12:34 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:34 [INFO] [payment-service] Periodic health check passed. Memory usage: 55%, CPU: 18%
+2026-11-10 14:12:35 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:12:36 [DEBUG] [payment-service] Processed 20 background tasks from queue in 217ms
+2026-11-10 14:12:37 [DEBUG] [payment-service] Processed 35 background tasks from queue in 356ms
+2026-11-10 14:12:38 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 32.02ms
+2026-11-10 14:12:39 [INFO] [payment-service] HTTP GET /metrics returned 200 in 23.44ms
+2026-11-10 14:12:39 [DEBUG] [payment-service] Processed 39 background tasks from queue in 358ms
+2026-11-10 14:12:40 [DEBUG] [payment-service] Processed 12 background tasks from queue in 173ms
+2026-11-10 14:12:41 [INFO] [payment-service] Periodic health check passed. Memory usage: 26%, CPU: 9%
+2026-11-10 14:12:42 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 18.07ms
+2026-11-10 14:12:43 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:44 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 38.02ms
+2026-11-10 14:12:44 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:12:45 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:45 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 18.25ms
+2026-11-10 14:12:46 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:12:47 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:47 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:48 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 21.66ms
+2026-11-10 14:12:48 [DEBUG] [payment-service] Processed 21 background tasks from queue in 251ms
+2026-11-10 14:12:49 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:50 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 16.11ms
+2026-11-10 14:12:50 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 18.49ms
+2026-11-10 14:12:50 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 24.28ms
+2026-11-10 14:12:51 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:12:52 [INFO] [payment-service] HTTP GET /healthz returned 200 in 31.49ms
+2026-11-10 14:12:53 [INFO] [payment-service] Periodic health check passed. Memory usage: 38%, CPU: 16%
+2026-11-10 14:12:54 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:12:56 [DEBUG] [payment-service] Processed 36 background tasks from queue in 274ms
+2026-11-10 14:12:57 [DEBUG] [payment-service] Processed 24 background tasks from queue in 237ms
+2026-11-10 14:12:58 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 33.97ms
+2026-11-10 14:12:59 [INFO] [payment-service] Periodic health check passed. Memory usage: 50%, CPU: 8%
+2026-11-10 14:12:59 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:00 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:01 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:13:01 [INFO] [payment-service] HTTP GET /healthz returned 200 in 19.73ms
+2026-11-10 14:13:03 [INFO] [payment-service] HTTP GET /metrics returned 200 in 30.06ms
+2026-11-10 14:13:03 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:13:04 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 41.37ms
+2026-11-10 14:13:06 [INFO] [payment-service] HTTP GET /metrics returned 200 in 33.22ms
+2026-11-10 14:13:07 [INFO] [payment-service] HTTP GET /ready returned 200 in 22.57ms
+2026-11-10 14:13:07 [DEBUG] [payment-service] Processed 45 background tasks from queue in 147ms
+2026-11-10 14:13:08 [INFO] [payment-service] Periodic health check passed. Memory usage: 38%, CPU: 25%
+2026-11-10 14:13:09 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 6.65ms
+2026-11-10 14:13:10 [DEBUG] [payment-service] Processed 38 background tasks from queue in 343ms
+2026-11-10 14:13:11 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:11 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 40.22ms
+2026-11-10 14:13:12 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:12 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:12 [INFO] [payment-service] Periodic health check passed. Memory usage: 31%, CPU: 12%
+2026-11-10 14:13:13 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 32.37ms
+2026-11-10 14:13:13 [INFO] [payment-service] HTTP GET /healthz returned 200 in 44.01ms
+2026-11-10 14:13:14 [INFO] [payment-service] Periodic health check passed. Memory usage: 47%, CPU: 33%
+2026-11-10 14:13:15 [INFO] [payment-service] HTTP GET /healthz returned 200 in 14.54ms
+2026-11-10 14:13:16 [INFO] [payment-service] Periodic health check passed. Memory usage: 56%, CPU: 33%
+2026-11-10 14:13:17 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:17 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 41.23ms
+2026-11-10 14:13:19 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 42.87ms
+2026-11-10 14:13:20 [INFO] [payment-service] HTTP GET /ready returned 200 in 12.04ms
+2026-11-10 14:13:20 [INFO] [payment-service] Periodic health check passed. Memory usage: 48%, CPU: 12%
+2026-11-10 14:13:21 [INFO] [payment-service] Periodic health check passed. Memory usage: 31%, CPU: 5%
+2026-11-10 14:13:22 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:23 [INFO] [payment-service] HTTP GET /healthz returned 304 in 14.01ms
+2026-11-10 14:13:24 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:24 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:25 [WARN] [payment-service] User session cookie refresh token close to expiration
+2026-11-10 14:13:27 [INFO] [payment-service] HTTP GET /ready returned 200 in 19.99ms
+2026-11-10 14:13:28 [INFO] [payment-service] Periodic health check passed. Memory usage: 24%, CPU: 29%
+2026-11-10 14:13:28 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 25.49ms
+2026-11-10 14:13:30 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 17.27ms
+2026-11-10 14:13:31 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:32 [INFO] [payment-service] HTTP GET /healthz returned 200 in 39.43ms
+2026-11-10 14:13:33 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 6.67ms
+2026-11-10 14:13:34 [INFO] [payment-service] HTTP GET /healthz returned 200 in 12.32ms
+2026-11-10 14:13:34 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:35 [INFO] [payment-service] Periodic health check passed. Memory usage: 53%, CPU: 29%
+2026-11-10 14:13:35 [DEBUG] [payment-service] Processed 22 background tasks from queue in 314ms
+2026-11-10 14:13:37 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 29.96ms
+2026-11-10 14:13:38 [WARN] [payment-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:13:39 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:39 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 18.74ms
+2026-11-10 14:13:41 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 24.65ms
+2026-11-10 14:13:41 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:42 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 304 in 35.0ms
+2026-11-10 14:13:43 [DEBUG] [payment-service] Processed 14 background tasks from queue in 201ms
+2026-11-10 14:13:44 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:45 [DEBUG] [payment-service] Processed 10 background tasks from queue in 351ms
+2026-11-10 14:13:46 [DEBUG] [payment-service] Processed 18 background tasks from queue in 413ms
+2026-11-10 14:13:47 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:48 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:48 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 29.09ms
+2026-11-10 14:13:49 [DEBUG] [payment-service] Processed 13 background tasks from queue in 271ms
+2026-11-10 14:13:49 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:50 [INFO] [payment-service] HTTP GET /metrics returned 200 in 17.52ms
+2026-11-10 14:13:51 [DEBUG] [payment-service] Processed 38 background tasks from queue in 283ms
+2026-11-10 14:13:51 [INFO] [payment-service] Periodic health check passed. Memory usage: 40%, CPU: 21%
+2026-11-10 14:13:52 [INFO] [payment-service] HTTP GET /healthz returned 200 in 11.39ms
+2026-11-10 14:13:53 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:13:53 [INFO] [payment-service] Periodic health check passed. Memory usage: 41%, CPU: 19%
+2026-11-10 14:13:54 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:13:55 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 7.81ms
+2026-11-10 14:13:56 [INFO] [payment-service] HTTP GET /healthz returned 200 in 15.53ms
+2026-11-10 14:13:57 [INFO] [payment-service] Periodic health check passed. Memory usage: 58%, CPU: 25%
+2026-11-10 14:13:58 [INFO] [payment-service] Periodic health check passed. Memory usage: 57%, CPU: 16%
+2026-11-10 14:13:59 [INFO] [payment-service] Periodic health check passed. Memory usage: 33%, CPU: 25%
+2026-11-10 14:13:59 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:14:00 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 24.54ms
+2026-11-10 14:14:01 [INFO] [payment-service] Periodic health check passed. Memory usage: 35%, CPU: 6%
+2026-11-10 14:14:02 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:14:02 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:14:04 [INFO] [payment-service] Periodic health check passed. Memory usage: 42%, CPU: 7%
+2026-11-10 14:14:04 [INFO] [payment-service] Periodic health check passed. Memory usage: 24%, CPU: 12%
+2026-11-10 14:14:05 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 39.97ms
+2026-11-10 14:14:05 [DEBUG] [payment-service] Processed 18 background tasks from queue in 393ms
+2026-11-10 14:14:06 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 27.74ms
+2026-11-10 14:14:07 [DEBUG] [payment-service] Processed 19 background tasks from queue in 319ms
+2026-11-10 14:14:08 [INFO] [payment-service] Periodic health check passed. Memory usage: 32%, CPU: 34%
+2026-11-10 14:14:08 [INFO] [payment-service] HTTP GET /ready returned 200 in 31.09ms
+2026-11-10 14:14:09 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:14:10 [INFO] [payment-service] Periodic health check passed. Memory usage: 35%, CPU: 7%
+2026-11-10 14:14:10 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:14:11 [INFO] [payment-service] Periodic health check passed. Memory usage: 31%, CPU: 28%
+2026-11-10 14:14:12 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 36.13ms
+2026-11-10 14:14:13 [INFO] [payment-service] HTTP GET /healthz returned 200 in 13.84ms
+2026-11-10 14:14:14 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 26.53ms
+2026-11-10 14:14:15 [WARN] [payment-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:14:15 [DEBUG] [payment-service] Processed 23 background tasks from queue in 247ms
+2026-11-10 14:14:17 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 43.28ms
+2026-11-10 14:14:17 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 13.3ms
+2026-11-10 14:14:19 [DEBUG] [payment-service] Processed 24 background tasks from queue in 150ms
+2026-11-10 14:14:20 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 26.63ms
+2026-11-10 14:14:21 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:14:22 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 24.09ms
+2026-11-10 14:14:22 [INFO] [payment-service] HTTP GET /healthz returned 200 in 12.9ms
+2026-11-10 14:14:23 [DEBUG] [payment-service] Processed 45 background tasks from queue in 395ms
+2026-11-10 14:14:24 [DEBUG] [payment-service] Processed 48 background tasks from queue in 282ms
+2026-11-10 14:14:25 [INFO] [payment-service] Periodic health check passed. Memory usage: 35%, CPU: 13%
+2026-11-10 14:14:26 [INFO] [payment-service] HTTP GET /static/css/main.css returned 200 in 7.57ms
+2026-11-10 14:14:27 [INFO] [payment-service] Periodic health check passed. Memory usage: 52%, CPU: 14%
+2026-11-10 14:14:27 [INFO] [payment-service] Periodic health check passed. Memory usage: 36%, CPU: 29%
+2026-11-10 14:14:28 [DEBUG] [payment-service] Processed 42 background tasks from queue in 381ms
+2026-11-10 14:14:29 [INFO] [payment-service] HTTP GET /api/v1/catalog/items returned 200 in 35.33ms
+2026-11-10 14:14:30 [INFO] [payment-service] Periodic health check passed. Memory usage: 28%, CPU: 32%
+2026-11-10 14:14:31 [INFO] [payment-service] Periodic health check passed. Memory usage: 49%, CPU: 19%
+2026-11-10 14:14:31 [DEBUG] [payment-service] Processed 10 background tasks from queue in 184ms
+2026-11-10 14:14:32 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 11.22ms
+2026-11-10 14:14:32 [DEBUG] [payment-service] Processed 11 background tasks from queue in 194ms
+2026-11-10 14:14:33 [DEBUG] [payment-service] Processed 24 background tasks from queue in 270ms
+2026-11-10 14:14:34 [DEBUG] [payment-service] Processed 24 background tasks from queue in 129ms
+2026-11-10 14:14:35 [DEBUG] [payment-service] Processed 34 background tasks from queue in 322ms
+2026-11-10 14:14:36 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:14:37 [INFO] [payment-service] Periodic health check passed. Memory usage: 26%, CPU: 21%
+2026-11-10 14:14:38 [INFO] [payment-service] Periodic health check passed. Memory usage: 45%, CPU: 31%
+2026-11-10 14:14:39 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:14:39 [DEBUG] [payment-service] Processed 29 background tasks from queue in 266ms
+2026-11-10 14:14:40 [INFO] [payment-service] Periodic health check passed. Memory usage: 42%, CPU: 18%
+2026-11-10 14:14:40 [INFO] [payment-service] HTTP GET /api/v1/cart/items returned 200 in 16.49ms
+2026-11-10 14:14:42 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:14:43 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:14:43 [INFO] [payment-service] HTTP GET /healthz returned 200 in 35.98ms
+2026-11-10 14:14:44 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 26.3ms
+2026-11-10 14:14:45 [INFO] [payment-service] Periodic health check passed. Memory usage: 37%, CPU: 23%
+2026-11-10 14:14:46 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 35.48ms
+2026-11-10 14:14:47 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:14:48 [INFO] [payment-service] HTTP GET /api/v1/users/me returned 200 in 29.89ms
+2026-11-10 14:14:49 [INFO] [payment-service] HTTP GET /ready returned 200 in 44.62ms
+2026-11-10 14:14:49 [INFO] [payment-service] Periodic health check passed. Memory usage: 35%, CPU: 15%
+2026-11-10 14:14:50 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:14:51 [INFO] [payment-service] Periodic health check passed. Memory usage: 32%, CPU: 7%
+2026-11-10 14:14:51 [ERROR] [payment-service] HTTP 500 / request dropped while payment-service is degraded
+2026-11-10 14:14:52 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 33.73ms
+2026-11-10 14:14:53 [INFO] [payment-service] HTTP GET /static/css/main.css returned 304 in 44.04ms
+2026-11-10 14:14:54 [DEBUG] [payment-service] Processed 48 background tasks from queue in 419ms
+2026-11-10 14:14:55 [INFO] [payment-service] HTTP GET /api/v1/promotions/active returned 200 in 41.81ms
+2026-11-10 14:14:55 [INFO] [payment-service] HTTP GET /healthz returned 200 in 14.56ms

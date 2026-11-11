@@ -1,1 +1,576 @@
-{}
+{
+  "db_pool_exhaustion_low_noise_single_service": {
+    "scenario_id": "db_pool_exhaustion_low_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "db_pool_exhaustion",
+    "origin_service": "checkout-service",
+    "start_time": "2026-11-10T14:00:55.581000+00:00",
+    "end_time": "2026-11-10T14:01:30.581000+00:00",
+    "expected_key_patterns": [
+      "QueuePool limit of size 20 overflow 10 reached",
+      "connection timed out, timeout 30.00",
+      "HTTP 504 Gateway Timeout"
+    ],
+    "noise_level": "low",
+    "service_scope": "single_service",
+    "total_lines": 125,
+    "summary": "Database connection pool in checkout-service saturated under query hold-up, causing cascading 504 timeouts across api-gateway."
+  },
+  "db_pool_exhaustion_low_noise_multi_service": {
+    "scenario_id": "db_pool_exhaustion_low_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "db_pool_exhaustion",
+    "origin_service": "checkout-service",
+    "start_time": "2026-11-10T14:00:44.676000+00:00",
+    "end_time": "2026-11-10T14:01:34.676000+00:00",
+    "expected_key_patterns": [
+      "QueuePool limit of size 20 overflow 10 reached",
+      "connection timed out, timeout 30.00",
+      "HTTP 504 Gateway Timeout"
+    ],
+    "noise_level": "low",
+    "service_scope": "multi_service",
+    "total_lines": 116,
+    "summary": "Database connection pool in checkout-service saturated under query hold-up, causing cascading 504 timeouts across api-gateway."
+  },
+  "db_pool_exhaustion_high_noise_single_service": {
+    "scenario_id": "db_pool_exhaustion_high_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "db_pool_exhaustion",
+    "origin_service": "checkout-service",
+    "start_time": "2026-11-10T14:10:09.693000+00:00",
+    "end_time": "2026-11-10T14:10:44.693000+00:00",
+    "expected_key_patterns": [
+      "QueuePool limit of size 20 overflow 10 reached",
+      "connection timed out, timeout 30.00",
+      "HTTP 504 Gateway Timeout"
+    ],
+    "noise_level": "high",
+    "service_scope": "single_service",
+    "total_lines": 1259,
+    "summary": "Database connection pool in checkout-service saturated under query hold-up, causing cascading 504 timeouts across api-gateway."
+  },
+  "db_pool_exhaustion_high_noise_multi_service": {
+    "scenario_id": "db_pool_exhaustion_high_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "db_pool_exhaustion",
+    "origin_service": "checkout-service",
+    "start_time": "2026-11-10T14:10:07.197000+00:00",
+    "end_time": "2026-11-10T14:10:57.197000+00:00",
+    "expected_key_patterns": [
+      "QueuePool limit of size 20 overflow 10 reached",
+      "connection timed out, timeout 30.00",
+      "HTTP 504 Gateway Timeout"
+    ],
+    "noise_level": "high",
+    "service_scope": "multi_service",
+    "total_lines": 1207,
+    "summary": "Database connection pool in checkout-service saturated under query hold-up, causing cascading 504 timeouts across api-gateway."
+  },
+  "redis_oom_low_noise_single_service": {
+    "scenario_id": "redis_oom_low_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "redis_oom",
+    "origin_service": "auth-service",
+    "start_time": "2026-11-10T14:01:00.554000+00:00",
+    "end_time": "2026-11-10T14:01:24.554000+00:00",
+    "expected_key_patterns": [
+      "OOM command not allowed when used memory > 'maxmemory'",
+      "Session lookup failed for user token",
+      "Failed to persist user session"
+    ],
+    "noise_level": "low",
+    "service_scope": "single_service",
+    "total_lines": 131,
+    "summary": "Redis cluster maxmemory reached with noeviction policy, rejecting session tokens and causing 401/500 session validation errors."
+  },
+  "redis_oom_low_noise_multi_service": {
+    "scenario_id": "redis_oom_low_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "redis_oom",
+    "origin_service": "auth-service",
+    "start_time": "2026-11-10T14:00:50.246000+00:00",
+    "end_time": "2026-11-10T14:01:26.246000+00:00",
+    "expected_key_patterns": [
+      "OOM command not allowed when used memory > 'maxmemory'",
+      "Session lookup failed for user token",
+      "Failed to persist user session"
+    ],
+    "noise_level": "low",
+    "service_scope": "multi_service",
+    "total_lines": 135,
+    "summary": "Redis cluster maxmemory reached with noeviction policy, rejecting session tokens and causing 401/500 session validation errors."
+  },
+  "redis_oom_high_noise_single_service": {
+    "scenario_id": "redis_oom_high_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "redis_oom",
+    "origin_service": "auth-service",
+    "start_time": "2026-11-10T14:07:27.418000+00:00",
+    "end_time": "2026-11-10T14:07:51.418000+00:00",
+    "expected_key_patterns": [
+      "OOM command not allowed when used memory > 'maxmemory'",
+      "Session lookup failed for user token",
+      "Failed to persist user session"
+    ],
+    "noise_level": "high",
+    "service_scope": "single_service",
+    "total_lines": 1093,
+    "summary": "Redis cluster maxmemory reached with noeviction policy, rejecting session tokens and causing 401/500 session validation errors."
+  },
+  "redis_oom_high_noise_multi_service": {
+    "scenario_id": "redis_oom_high_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "redis_oom",
+    "origin_service": "auth-service",
+    "start_time": "2026-11-10T14:08:32.874000+00:00",
+    "end_time": "2026-11-10T14:09:08.874000+00:00",
+    "expected_key_patterns": [
+      "OOM command not allowed when used memory > 'maxmemory'",
+      "Session lookup failed for user token",
+      "Failed to persist user session"
+    ],
+    "noise_level": "high",
+    "service_scope": "multi_service",
+    "total_lines": 1223,
+    "summary": "Redis cluster maxmemory reached with noeviction policy, rejecting session tokens and causing 401/500 session validation errors."
+  },
+  "bad_deploy_low_noise_single_service": {
+    "scenario_id": "bad_deploy_low_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "bad_deploy",
+    "origin_service": "payment-service",
+    "start_time": "2026-11-10T14:01:00.994000+00:00",
+    "end_time": "2026-11-10T14:01:25.994000+00:00",
+    "expected_key_patterns": [
+      "1 validation error for Settings",
+      "STRIPE_API_KEY",
+      "Field required",
+      "Deployment v2.4.1 failed to initialize"
+    ],
+    "noise_level": "low",
+    "service_scope": "single_service",
+    "total_lines": 134,
+    "summary": "payment-service v2.4.1 deployed without mandatory STRIPE_API_KEY environment variable, crashing on initialization in crash loop."
+  },
+  "bad_deploy_low_noise_multi_service": {
+    "scenario_id": "bad_deploy_low_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "bad_deploy",
+    "origin_service": "payment-service",
+    "start_time": "2026-11-10T14:00:40.363000+00:00",
+    "end_time": "2026-11-10T14:01:19.363000+00:00",
+    "expected_key_patterns": [
+      "1 validation error for Settings",
+      "STRIPE_API_KEY",
+      "Field required",
+      "Deployment v2.4.1 failed to initialize"
+    ],
+    "noise_level": "low",
+    "service_scope": "multi_service",
+    "total_lines": 95,
+    "summary": "payment-service v2.4.1 deployed without mandatory STRIPE_API_KEY environment variable, crashing on initialization in crash loop."
+  },
+  "bad_deploy_high_noise_single_service": {
+    "scenario_id": "bad_deploy_high_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "bad_deploy",
+    "origin_service": "payment-service",
+    "start_time": "2026-11-10T14:07:14.963000+00:00",
+    "end_time": "2026-11-10T14:07:39.963000+00:00",
+    "expected_key_patterns": [
+      "1 validation error for Settings",
+      "STRIPE_API_KEY",
+      "Field required",
+      "Deployment v2.4.1 failed to initialize"
+    ],
+    "noise_level": "high",
+    "service_scope": "single_service",
+    "total_lines": 1035,
+    "summary": "payment-service v2.4.1 deployed without mandatory STRIPE_API_KEY environment variable, crashing on initialization in crash loop."
+  },
+  "bad_deploy_high_noise_multi_service": {
+    "scenario_id": "bad_deploy_high_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "bad_deploy",
+    "origin_service": "payment-service",
+    "start_time": "2026-11-10T14:10:17.028000+00:00",
+    "end_time": "2026-11-10T14:10:56.028000+00:00",
+    "expected_key_patterns": [
+      "1 validation error for Settings",
+      "STRIPE_API_KEY",
+      "Field required",
+      "Deployment v2.4.1 failed to initialize"
+    ],
+    "noise_level": "high",
+    "service_scope": "multi_service",
+    "total_lines": 1423,
+    "summary": "payment-service v2.4.1 deployed without mandatory STRIPE_API_KEY environment variable, crashing on initialization in crash loop."
+  },
+  "cascading_timeout_low_noise_single_service": {
+    "scenario_id": "cascading_timeout_low_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "cascading_timeout",
+    "origin_service": "inventory-service",
+    "start_time": "2026-11-10T14:01:01.994000+00:00",
+    "end_time": "2026-11-10T14:01:26.994000+00:00",
+    "expected_key_patterns": [
+      "Deadlock detected waiting for table lock 'inventory_locks'",
+      "httpx.ReadTimeout: The read operation timed out after 5.0 seconds",
+      "Cascading timeout: downstream service 'inventory-service' did not respond"
+    ],
+    "noise_level": "low",
+    "service_scope": "single_service",
+    "total_lines": 118,
+    "summary": "inventory-service table lock bottleneck leads to 5s client timeouts, propagating thread pool starvation to order-service and api-gateway."
+  },
+  "cascading_timeout_low_noise_multi_service": {
+    "scenario_id": "cascading_timeout_low_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "cascading_timeout",
+    "origin_service": "inventory-service",
+    "start_time": "2026-11-10T14:00:47.613000+00:00",
+    "end_time": "2026-11-10T14:01:25.613000+00:00",
+    "expected_key_patterns": [
+      "Deadlock detected waiting for table lock 'inventory_locks'",
+      "httpx.ReadTimeout: The read operation timed out after 5.0 seconds",
+      "Cascading timeout: downstream service 'inventory-service' did not respond"
+    ],
+    "noise_level": "low",
+    "service_scope": "multi_service",
+    "total_lines": 114,
+    "summary": "inventory-service table lock bottleneck leads to 5s client timeouts, propagating thread pool starvation to order-service and api-gateway."
+  },
+  "cascading_timeout_high_noise_single_service": {
+    "scenario_id": "cascading_timeout_high_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "cascading_timeout",
+    "origin_service": "inventory-service",
+    "start_time": "2026-11-10T14:07:10.241000+00:00",
+    "end_time": "2026-11-10T14:07:35.241000+00:00",
+    "expected_key_patterns": [
+      "Deadlock detected waiting for table lock 'inventory_locks'",
+      "httpx.ReadTimeout: The read operation timed out after 5.0 seconds",
+      "Cascading timeout: downstream service 'inventory-service' did not respond"
+    ],
+    "noise_level": "high",
+    "service_scope": "single_service",
+    "total_lines": 1173,
+    "summary": "inventory-service table lock bottleneck leads to 5s client timeouts, propagating thread pool starvation to order-service and api-gateway."
+  },
+  "cascading_timeout_high_noise_multi_service": {
+    "scenario_id": "cascading_timeout_high_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "cascading_timeout",
+    "origin_service": "inventory-service",
+    "start_time": "2026-11-10T14:06:28.119000+00:00",
+    "end_time": "2026-11-10T14:07:06.119000+00:00",
+    "expected_key_patterns": [
+      "Deadlock detected waiting for table lock 'inventory_locks'",
+      "httpx.ReadTimeout: The read operation timed out after 5.0 seconds",
+      "Cascading timeout: downstream service 'inventory-service' did not respond"
+    ],
+    "noise_level": "high",
+    "service_scope": "multi_service",
+    "total_lines": 1203,
+    "summary": "inventory-service table lock bottleneck leads to 5s client timeouts, propagating thread pool starvation to order-service and api-gateway."
+  },
+  "disk_full_low_noise_single_service": {
+    "scenario_id": "disk_full_low_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "disk_full",
+    "origin_service": "worker-service",
+    "start_time": "2026-11-10T14:01:06.837000+00:00",
+    "end_time": "2026-11-10T14:01:33.837000+00:00",
+    "expected_key_patterns": [
+      "OSError: [Errno 28] No space left on device",
+      "Task generate_invoice_pdf failed",
+      "Failed to write temporary buffer to /var/tmp"
+    ],
+    "noise_level": "low",
+    "service_scope": "single_service",
+    "total_lines": 144,
+    "summary": "Worker root volume ran out of space during PDF invoice generation, failing background Celery tasks."
+  },
+  "disk_full_low_noise_multi_service": {
+    "scenario_id": "disk_full_low_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "disk_full",
+    "origin_service": "worker-service",
+    "start_time": "2026-11-10T14:00:50.755000+00:00",
+    "end_time": "2026-11-10T14:01:27.755000+00:00",
+    "expected_key_patterns": [
+      "OSError: [Errno 28] No space left on device",
+      "Task generate_invoice_pdf failed",
+      "Failed to write temporary buffer to /var/tmp"
+    ],
+    "noise_level": "low",
+    "service_scope": "multi_service",
+    "total_lines": 108,
+    "summary": "Worker root volume ran out of space during PDF invoice generation, failing background Celery tasks."
+  },
+  "disk_full_high_noise_single_service": {
+    "scenario_id": "disk_full_high_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "disk_full",
+    "origin_service": "worker-service",
+    "start_time": "2026-11-10T14:10:14.447000+00:00",
+    "end_time": "2026-11-10T14:10:41.447000+00:00",
+    "expected_key_patterns": [
+      "OSError: [Errno 28] No space left on device",
+      "Task generate_invoice_pdf failed",
+      "Failed to write temporary buffer to /var/tmp"
+    ],
+    "noise_level": "high",
+    "service_scope": "single_service",
+    "total_lines": 1235,
+    "summary": "Worker root volume ran out of space during PDF invoice generation, failing background Celery tasks."
+  },
+  "disk_full_high_noise_multi_service": {
+    "scenario_id": "disk_full_high_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "disk_full",
+    "origin_service": "worker-service",
+    "start_time": "2026-11-10T14:09:34.437000+00:00",
+    "end_time": "2026-11-10T14:10:11.437000+00:00",
+    "expected_key_patterns": [
+      "OSError: [Errno 28] No space left on device",
+      "Task generate_invoice_pdf failed",
+      "Failed to write temporary buffer to /var/tmp"
+    ],
+    "noise_level": "high",
+    "service_scope": "multi_service",
+    "total_lines": 1334,
+    "summary": "Worker root volume ran out of space during PDF invoice generation, failing background Celery tasks."
+  },
+  "upstream_payment_gateway_503_low_noise_single_service": {
+    "scenario_id": "upstream_payment_gateway_503_low_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "upstream_payment_gateway_503",
+    "origin_service": "payment-service",
+    "start_time": "2026-11-10T14:00:52.263000+00:00",
+    "end_time": "2026-11-10T14:01:16.263000+00:00",
+    "expected_key_patterns": [
+      "stripe.error.APIConnectionError: Service Unavailable (HTTP 503)",
+      "Circuit breaker tripped to OPEN state for gateway 'stripe'",
+      "Upstream payment processor returned 503"
+    ],
+    "noise_level": "low",
+    "service_scope": "single_service",
+    "total_lines": 101,
+    "summary": "External payment gateway returned 503 Service Unavailable, tripping circuit breaker to OPEN state."
+  },
+  "upstream_payment_gateway_503_low_noise_multi_service": {
+    "scenario_id": "upstream_payment_gateway_503_low_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "upstream_payment_gateway_503",
+    "origin_service": "payment-service",
+    "start_time": "2026-11-10T14:00:57.117000+00:00",
+    "end_time": "2026-11-10T14:01:35.117000+00:00",
+    "expected_key_patterns": [
+      "stripe.error.APIConnectionError: Service Unavailable (HTTP 503)",
+      "Circuit breaker tripped to OPEN state for gateway 'stripe'",
+      "Upstream payment processor returned 503"
+    ],
+    "noise_level": "low",
+    "service_scope": "multi_service",
+    "total_lines": 136,
+    "summary": "External payment gateway returned 503 Service Unavailable, tripping circuit breaker to OPEN state."
+  },
+  "upstream_payment_gateway_503_high_noise_single_service": {
+    "scenario_id": "upstream_payment_gateway_503_high_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "upstream_payment_gateway_503",
+    "origin_service": "payment-service",
+    "start_time": "2026-11-10T14:09:11.702000+00:00",
+    "end_time": "2026-11-10T14:09:35.702000+00:00",
+    "expected_key_patterns": [
+      "stripe.error.APIConnectionError: Service Unavailable (HTTP 503)",
+      "Circuit breaker tripped to OPEN state for gateway 'stripe'",
+      "Upstream payment processor returned 503"
+    ],
+    "noise_level": "high",
+    "service_scope": "single_service",
+    "total_lines": 1269,
+    "summary": "External payment gateway returned 503 Service Unavailable, tripping circuit breaker to OPEN state."
+  },
+  "upstream_payment_gateway_503_high_noise_multi_service": {
+    "scenario_id": "upstream_payment_gateway_503_high_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "upstream_payment_gateway_503",
+    "origin_service": "payment-service",
+    "start_time": "2026-11-10T14:07:18.628000+00:00",
+    "end_time": "2026-11-10T14:07:56.628000+00:00",
+    "expected_key_patterns": [
+      "stripe.error.APIConnectionError: Service Unavailable (HTTP 503)",
+      "Circuit breaker tripped to OPEN state for gateway 'stripe'",
+      "Upstream payment processor returned 503"
+    ],
+    "noise_level": "high",
+    "service_scope": "multi_service",
+    "total_lines": 1102,
+    "summary": "External payment gateway returned 503 Service Unavailable, tripping circuit breaker to OPEN state."
+  },
+  "memory_leak_low_noise_single_service": {
+    "scenario_id": "memory_leak_low_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "memory_leak",
+    "origin_service": "recommendation-service",
+    "start_time": "2026-11-10T14:01:00.256000+00:00",
+    "end_time": "2026-11-10T14:01:33.256000+00:00",
+    "expected_key_patterns": [
+      "Memory usage exceeded threshold: 3840MB / 4096MB",
+      "Out of memory: Kill process",
+      "Container recommendation-engine terminated with exit code 137 (OOMKilled)"
+    ],
+    "noise_level": "low",
+    "service_scope": "single_service",
+    "total_lines": 136,
+    "summary": "Unbounded cache in recommendation-service exhausted container cgroup memory, triggering Linux OOM killer with exit code 137."
+  },
+  "memory_leak_low_noise_multi_service": {
+    "scenario_id": "memory_leak_low_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "memory_leak",
+    "origin_service": "recommendation-service",
+    "start_time": "2026-11-10T14:00:42.008000+00:00",
+    "end_time": "2026-11-10T14:01:23.008000+00:00",
+    "expected_key_patterns": [
+      "Memory usage exceeded threshold: 3840MB / 4096MB",
+      "Out of memory: Kill process",
+      "Container recommendation-engine terminated with exit code 137 (OOMKilled)"
+    ],
+    "noise_level": "low",
+    "service_scope": "multi_service",
+    "total_lines": 117,
+    "summary": "Unbounded cache in recommendation-service exhausted container cgroup memory, triggering Linux OOM killer with exit code 137."
+  },
+  "memory_leak_high_noise_single_service": {
+    "scenario_id": "memory_leak_high_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "memory_leak",
+    "origin_service": "recommendation-service",
+    "start_time": "2026-11-10T14:08:33.645000+00:00",
+    "end_time": "2026-11-10T14:09:06.645000+00:00",
+    "expected_key_patterns": [
+      "Memory usage exceeded threshold: 3840MB / 4096MB",
+      "Out of memory: Kill process",
+      "Container recommendation-engine terminated with exit code 137 (OOMKilled)"
+    ],
+    "noise_level": "high",
+    "service_scope": "single_service",
+    "total_lines": 1102,
+    "summary": "Unbounded cache in recommendation-service exhausted container cgroup memory, triggering Linux OOM killer with exit code 137."
+  },
+  "memory_leak_high_noise_multi_service": {
+    "scenario_id": "memory_leak_high_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "memory_leak",
+    "origin_service": "recommendation-service",
+    "start_time": "2026-11-10T14:09:59.019000+00:00",
+    "end_time": "2026-11-10T14:10:40.019000+00:00",
+    "expected_key_patterns": [
+      "Memory usage exceeded threshold: 3840MB / 4096MB",
+      "Out of memory: Kill process",
+      "Container recommendation-engine terminated with exit code 137 (OOMKilled)"
+    ],
+    "noise_level": "high",
+    "service_scope": "multi_service",
+    "total_lines": 1326,
+    "summary": "Unbounded cache in recommendation-service exhausted container cgroup memory, triggering Linux OOM killer with exit code 137."
+  },
+  "certificate_expiry_low_noise_single_service": {
+    "scenario_id": "certificate_expiry_low_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "certificate_expiry",
+    "origin_service": "auth-service",
+    "start_time": "2026-11-10T14:00:55.709000+00:00",
+    "end_time": "2026-11-10T14:01:24.709000+00:00",
+    "expected_key_patterns": [
+      "urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate has expired",
+      "SSL certificate verification failed for https://auth.internal.corp",
+      "Internal RPC failed: CERTIFICATE_VERIFY_FAILED"
+    ],
+    "noise_level": "low",
+    "service_scope": "single_service",
+    "total_lines": 116,
+    "summary": "Internal mTLS certificate for auth-service expired, breaking HTTPS communication from all upstream internal microservices."
+  },
+  "certificate_expiry_low_noise_multi_service": {
+    "scenario_id": "certificate_expiry_low_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "certificate_expiry",
+    "origin_service": "auth-service",
+    "start_time": "2026-11-10T14:01:08.126000+00:00",
+    "end_time": "2026-11-10T14:01:37.126000+00:00",
+    "expected_key_patterns": [
+      "urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate has expired",
+      "SSL certificate verification failed for https://auth.internal.corp",
+      "Internal RPC failed: CERTIFICATE_VERIFY_FAILED"
+    ],
+    "noise_level": "low",
+    "service_scope": "multi_service",
+    "total_lines": 141,
+    "summary": "Internal mTLS certificate for auth-service expired, breaking HTTPS communication from all upstream internal microservices."
+  },
+  "certificate_expiry_high_noise_single_service": {
+    "scenario_id": "certificate_expiry_high_noise_single_service",
+    "has_incident": true,
+    "root_cause_category": "certificate_expiry",
+    "origin_service": "auth-service",
+    "start_time": "2026-11-10T14:09:43.361000+00:00",
+    "end_time": "2026-11-10T14:10:12.361000+00:00",
+    "expected_key_patterns": [
+      "urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate has expired",
+      "SSL certificate verification failed for https://auth.internal.corp",
+      "Internal RPC failed: CERTIFICATE_VERIFY_FAILED"
+    ],
+    "noise_level": "high",
+    "service_scope": "single_service",
+    "total_lines": 1305,
+    "summary": "Internal mTLS certificate for auth-service expired, breaking HTTPS communication from all upstream internal microservices."
+  },
+  "certificate_expiry_high_noise_multi_service": {
+    "scenario_id": "certificate_expiry_high_noise_multi_service",
+    "has_incident": true,
+    "root_cause_category": "certificate_expiry",
+    "origin_service": "auth-service",
+    "start_time": "2026-11-10T14:08:04.583000+00:00",
+    "end_time": "2026-11-10T14:08:33.583000+00:00",
+    "expected_key_patterns": [
+      "urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate has expired",
+      "SSL certificate verification failed for https://auth.internal.corp",
+      "Internal RPC failed: CERTIFICATE_VERIFY_FAILED"
+    ],
+    "noise_level": "high",
+    "service_scope": "multi_service",
+    "total_lines": 1107,
+    "summary": "Internal mTLS certificate for auth-service expired, breaking HTTPS communication from all upstream internal microservices."
+  },
+  "control_steady_state": {
+    "scenario_id": "control_steady_state",
+    "has_incident": false,
+    "root_cause_category": "none",
+    "origin_service": "none",
+    "start_time": "2026-11-10T14:00:00+00:00",
+    "end_time": "2026-11-10T14:04:13.751000+00:00",
+    "expected_key_patterns": [],
+    "noise_level": "low",
+    "service_scope": "multi_service",
+    "total_lines": 450,
+    "summary": "Healthy steady-state production traffic with normal periodic health checks."
+  },
+  "control_benign_traffic_spike": {
+    "scenario_id": "control_benign_traffic_spike",
+    "has_incident": false,
+    "root_cause_category": "none",
+    "origin_service": "none",
+    "start_time": "2026-11-10T14:00:45.710000+00:00",
+    "end_time": "2026-11-10T14:01:45.746000+00:00",
+    "expected_key_patterns": [],
+    "noise_level": "high",
+    "service_scope": "multi_service",
+    "total_lines": 603,
+    "summary": "Benign 650% traffic spike managed cleanly by horizontal autoscaler without dropped requests or failures."
+  }
+}

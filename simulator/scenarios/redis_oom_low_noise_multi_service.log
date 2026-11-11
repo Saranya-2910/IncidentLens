@@ -1,0 +1,135 @@
+2026-11-10 14:00:01 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 28.74ms
+2026-11-10 14:00:02 [INFO] [auth-service] Periodic health check passed. Memory usage: 55%, CPU: 15%
+2026-11-10 14:00:02 [INFO] [api-gateway] Periodic health check passed. Memory usage: 46%, CPU: 19%
+2026-11-10 14:00:03 [DEBUG] [api-gateway] Processed 15 background tasks from queue in 161ms
+2026-11-10 14:00:04 [INFO] [auth-service] HTTP GET /healthz returned 200 in 10.73ms
+2026-11-10 14:00:04 [INFO] [auth-service] Periodic health check passed. Memory usage: 53%, CPU: 16%
+2026-11-10 14:00:06 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 31.71ms
+2026-11-10 14:00:07 [INFO] [api-gateway] HTTP GET /ready returned 200 in 27.56ms
+2026-11-10 14:00:08 [DEBUG] [user-profile-service] Processed 41 background tasks from queue in 237ms
+2026-11-10 14:00:08 [INFO] [auth-service] Periodic health check passed. Memory usage: 37%, CPU: 23%
+2026-11-10 14:00:10 [INFO] [auth-service] Periodic health check passed. Memory usage: 43%, CPU: 5%
+2026-11-10 14:00:11 [WARN] [auth-service] User session cookie refresh token close to expiration
+2026-11-10 14:00:11 [INFO] [user-profile-service] Periodic health check passed. Memory usage: 58%, CPU: 9%
+2026-11-10 14:00:12 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 21.82ms
+2026-11-10 14:00:12 [INFO] [user-profile-service] Periodic health check passed. Memory usage: 42%, CPU: 12%
+2026-11-10 14:00:14 [DEBUG] [user-profile-service] Processed 11 background tasks from queue in 220ms
+2026-11-10 14:00:15 [DEBUG] [auth-service] Processed 16 background tasks from queue in 292ms
+2026-11-10 14:00:16 [INFO] [user-profile-service] Periodic health check passed. Memory usage: 56%, CPU: 16%
+2026-11-10 14:00:17 [INFO] [user-profile-service] Periodic health check passed. Memory usage: 35%, CPU: 16%
+2026-11-10 14:00:18 [DEBUG] [user-profile-service] Processed 12 background tasks from queue in 184ms
+2026-11-10 14:00:18 [INFO] [user-profile-service] HTTP GET /api/v1/users/me returned 200 in 43.86ms
+2026-11-10 14:00:20 [INFO] [api-gateway] Periodic health check passed. Memory usage: 52%, CPU: 30%
+2026-11-10 14:00:20 [DEBUG] [auth-service] Processed 16 background tasks from queue in 159ms
+2026-11-10 14:00:21 [INFO] [api-gateway] Periodic health check passed. Memory usage: 36%, CPU: 28%
+2026-11-10 14:00:22 [WARN] [user-profile-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:22 [WARN] [api-gateway] User session cookie refresh token close to expiration
+2026-11-10 14:00:23 [INFO] [auth-service] HTTP GET /api/v1/cart/items returned 200 in 23.32ms
+2026-11-10 14:00:24 [DEBUG] [user-profile-service] Processed 50 background tasks from queue in 262ms
+2026-11-10 14:00:25 [INFO] [user-profile-service] Periodic health check passed. Memory usage: 51%, CPU: 34%
+2026-11-10 14:00:26 [INFO] [user-profile-service] Periodic health check passed. Memory usage: 50%, CPU: 25%
+2026-11-10 14:00:26 [INFO] [user-profile-service] HTTP GET /metrics returned 200 in 41.05ms
+2026-11-10 14:00:27 [INFO] [user-profile-service] HTTP GET /api/v1/promotions/active returned 200 in 23.22ms
+2026-11-10 14:00:29 [INFO] [user-profile-service] HTTP GET /healthz returned 200 in 4.99ms
+2026-11-10 14:00:29 [INFO] [auth-service] Periodic health check passed. Memory usage: 39%, CPU: 22%
+2026-11-10 14:00:29 [INFO] [auth-service] HTTP GET /api/v1/catalog/items returned 200 in 10.1ms
+2026-11-10 14:00:30 [DEBUG] [api-gateway] Processed 21 background tasks from queue in 421ms
+2026-11-10 14:00:32 [DEBUG] [user-profile-service] Processed 19 background tasks from queue in 259ms
+2026-11-10 14:00:32 [INFO] [user-profile-service] HTTP GET /ready returned 200 in 40.96ms
+2026-11-10 14:00:33 [WARN] [auth-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:34 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 304 in 10.78ms
+2026-11-10 14:00:34 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 28.62ms
+2026-11-10 14:00:35 [INFO] [user-profile-service] HTTP GET /api/v1/users/me returned 200 in 19.45ms
+2026-11-10 14:00:35 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 16.26ms
+2026-11-10 14:00:36 [DEBUG] [api-gateway] Processed 50 background tasks from queue in 237ms
+2026-11-10 14:00:36 [INFO] [auth-service] HTTP GET /api/v1/catalog/items returned 200 in 21.34ms
+2026-11-10 14:00:38 [INFO] [auth-service] HTTP GET /healthz returned 200 in 44.26ms
+2026-11-10 14:00:39 [DEBUG] [api-gateway] Processed 13 background tasks from queue in 344ms
+2026-11-10 14:00:40 [INFO] [auth-service] HTTP GET /api/v1/promotions/active returned 200 in 7.91ms
+2026-11-10 14:00:41 [DEBUG] [user-profile-service] Processed 22 background tasks from queue in 247ms
+2026-11-10 14:00:42 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 11.96ms
+2026-11-10 14:00:43 [INFO] [user-profile-service] HTTP GET /static/css/main.css returned 200 in 20.1ms
+2026-11-10 14:00:44 [DEBUG] [api-gateway] Processed 50 background tasks from queue in 367ms
+2026-11-10 14:00:45 [WARN] [auth-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:45 [INFO] [auth-service] HTTP GET /ready returned 200 in 18.19ms
+2026-11-10 14:00:50 [WARN] [auth-service] Redis memory warning: 94.2% of 4096MB used. Eviction policy: noeviction
+2026-11-10 14:01:00 [ERROR] [auth-service] Session cache write failed.
+Traceback (most recent call last):
+  File "/app/services/session.py", line 88, in store_session
+    await redis_client.setex(session_key, 3600, session_data)
+  File "/usr/local/lib/python3.12/site-packages/redis/asyncio/client.py", line 534, in execute_command
+    return await self.parse_response(conn, command_name, **options)
+redis.exceptions.ResponseError: OOM command not allowed when used memory > 'maxmemory'
+2026-11-10 14:01:06 [ERROR] [auth-service] OOM command not allowed when used memory > 'maxmemory'
+2026-11-10 14:01:14 [ERROR] [auth-service] Failed to persist user session token in cache: redis OOM
+2026-11-10 14:01:19 [ERROR] [api-gateway] Session lookup failed for user token: invalid or missing session data
+2026-11-10 14:01:26 [WARN] [api-gateway] Rejected request to /api/v1/orders with 401 Unauthorized: session validation error
+2026-11-10 14:01:21 [WARN] [user-profile-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:01:22 [INFO] [user-profile-service] Periodic health check passed. Memory usage: 25%, CPU: 21%
+2026-11-10 14:01:23 [WARN] [user-profile-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:01:24 [INFO] [auth-service] Periodic health check passed. Memory usage: 44%, CPU: 35%
+2026-11-10 14:01:25 [ERROR] [api-gateway] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:01:26 [INFO] [auth-service] Periodic health check passed. Memory usage: 24%, CPU: 35%
+2026-11-10 14:01:27 [INFO] [api-gateway] Periodic health check passed. Memory usage: 38%, CPU: 17%
+2026-11-10 14:01:28 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 37.43ms
+2026-11-10 14:01:29 [INFO] [auth-service] HTTP GET /ready returned 200 in 18.9ms
+2026-11-10 14:01:30 [INFO] [user-profile-service] Periodic health check passed. Memory usage: 42%, CPU: 17%
+2026-11-10 14:01:31 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 14.47ms
+2026-11-10 14:01:32 [INFO] [api-gateway] HTTP GET /api/v1/catalog/items returned 200 in 40.58ms
+2026-11-10 14:01:34 [ERROR] [auth-service] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:01:34 [INFO] [api-gateway] HTTP GET /api/v1/users/me returned 200 in 41.3ms
+2026-11-10 14:01:35 [ERROR] [api-gateway] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:01:37 [WARN] [auth-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:01:37 [INFO] [auth-service] HTTP GET /api/v1/catalog/items returned 200 in 35.91ms
+2026-11-10 14:01:38 [INFO] [user-profile-service] Periodic health check passed. Memory usage: 53%, CPU: 28%
+2026-11-10 14:01:38 [DEBUG] [auth-service] Processed 48 background tasks from queue in 333ms
+2026-11-10 14:01:39 [INFO] [user-profile-service] Periodic health check passed. Memory usage: 51%, CPU: 6%
+2026-11-10 14:01:40 [ERROR] [auth-service] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:01:41 [ERROR] [api-gateway] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:01:42 [ERROR] [user-profile-service] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:01:42 [INFO] [api-gateway] HTTP GET /healthz returned 200 in 24.41ms
+2026-11-10 14:01:43 [DEBUG] [auth-service] Processed 39 background tasks from queue in 347ms
+2026-11-10 14:01:44 [WARN] [api-gateway] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:01:45 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:01:46 [ERROR] [api-gateway] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:01:47 [INFO] [user-profile-service] HTTP GET /ready returned 200 in 5.36ms
+2026-11-10 14:01:47 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 31.4ms
+2026-11-10 14:01:48 [ERROR] [user-profile-service] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:01:48 [INFO] [auth-service] Periodic health check passed. Memory usage: 49%, CPU: 5%
+2026-11-10 14:01:49 [INFO] [api-gateway] HTTP GET /api/v1/promotions/active returned 200 in 41.94ms
+2026-11-10 14:01:50 [INFO] [user-profile-service] Periodic health check passed. Memory usage: 29%, CPU: 32%
+2026-11-10 14:01:50 [INFO] [user-profile-service] HTTP GET /api/v1/catalog/items returned 200 in 34.63ms
+2026-11-10 14:01:51 [INFO] [user-profile-service] HTTP GET /ready returned 200 in 35.97ms
+2026-11-10 14:01:52 [INFO] [auth-service] Periodic health check passed. Memory usage: 24%, CPU: 11%
+2026-11-10 14:01:53 [WARN] [api-gateway] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:01:54 [ERROR] [api-gateway] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:01:55 [WARN] [auth-service] User session cookie refresh token close to expiration
+2026-11-10 14:01:56 [DEBUG] [user-profile-service] Processed 26 background tasks from queue in 433ms
+2026-11-10 14:01:58 [DEBUG] [api-gateway] Processed 43 background tasks from queue in 356ms
+2026-11-10 14:01:58 [ERROR] [api-gateway] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:01:59 [INFO] [user-profile-service] HTTP GET /api/v1/cart/items returned 200 in 6.98ms
+2026-11-10 14:01:59 [ERROR] [user-profile-service] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:01:59 [WARN] [api-gateway] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:02:01 [INFO] [api-gateway] HTTP GET /api/v1/cart/items returned 200 in 42.83ms
+2026-11-10 14:02:01 [ERROR] [auth-service] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:02:02 [DEBUG] [user-profile-service] Processed 46 background tasks from queue in 133ms
+2026-11-10 14:02:03 [INFO] [api-gateway] Periodic health check passed. Memory usage: 35%, CPU: 17%
+2026-11-10 14:02:04 [INFO] [auth-service] Periodic health check passed. Memory usage: 26%, CPU: 7%
+2026-11-10 14:02:05 [DEBUG] [user-profile-service] Processed 37 background tasks from queue in 202ms
+2026-11-10 14:02:05 [INFO] [auth-service] HTTP GET /api/v1/users/me returned 200 in 6.03ms
+2026-11-10 14:02:06 [ERROR] [user-profile-service] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:02:07 [DEBUG] [auth-service] Processed 17 background tasks from queue in 156ms
+2026-11-10 14:02:08 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 26.2ms
+2026-11-10 14:02:09 [ERROR] [auth-service] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:02:10 [ERROR] [user-profile-service] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:02:11 [WARN] [auth-service] User session cookie refresh token close to expiration
+2026-11-10 14:02:12 [INFO] [auth-service] HTTP GET /api/v1/users/me returned 200 in 7.8ms
+2026-11-10 14:02:13 [INFO] [user-profile-service] HTTP GET /ready returned 200 in 10.53ms
+2026-11-10 14:02:14 [INFO] [api-gateway] HTTP GET /static/css/main.css returned 200 in 30.03ms
+2026-11-10 14:02:15 [WARN] [auth-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:02:17 [INFO] [user-profile-service] Periodic health check passed. Memory usage: 46%, CPU: 35%
+2026-11-10 14:02:18 [ERROR] [api-gateway] HTTP 500 / request dropped while auth-service is degraded
+2026-11-10 14:02:18 [WARN] [user-profile-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:02:18 [INFO] [user-profile-service] Periodic health check passed. Memory usage: 31%, CPU: 28%
+2026-11-10 14:02:19 [INFO] [auth-service] HTTP GET /api/v1/promotions/active returned 200 in 5.11ms
+2026-11-10 14:02:20 [WARN] [user-profile-service] User session cookie refresh token close to expiration

@@ -40,6 +40,10 @@ Search and filter parsed log events strictly scoped to the owned project:
 - `text`: Substring match on event message.
 - `limit` (default 50) and `offset` (default 0) pagination.
 
+## Demo Datasets & Seeding
+- `GET /api/v1/projects/demo-scenarios`: List all 34 pre-generated incident scenarios with ground-truth metadata, noise levels, and expected key patterns.
+- `POST /api/v1/projects/{id}/demo-data`: Seed an owned project with a simulated incident dataset for instant evaluation. Body: `{ "scenario_id": "db_pool_exhaustion_low_noise_multi_service" }` (optional, defaults to database connection pool exhaustion). Returns `202 Accepted` with `batch_id` and queues background processing. Returns 404 if project is not owned.
+
 ## Authentication Headers
 - For user requests: `Authorization: Bearer <jwt_access_token>` or cookie `access_token`
 - For ingestion requests: `X-API-Key: il_live_<prefix>_<secret>`

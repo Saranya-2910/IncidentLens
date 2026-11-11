@@ -1,0 +1,118 @@
+{"timestamp": "2026-11-10T14:00:00.344000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 54%, CPU: 17%"}
+{"timestamp": "2026-11-10T14:00:01.782000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 34%"}
+{"timestamp": "2026-11-10T14:00:02.027000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /ready returned 200 in 12.45ms"}
+{"timestamp": "2026-11-10T14:00:02.413000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 29%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:00:03.657000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 17 background tasks from queue in 229ms"}
+{"timestamp": "2026-11-10T14:00:04.857000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 49 background tasks from queue in 124ms"}
+{"timestamp": "2026-11-10T14:00:05.204000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /healthz returned 200 in 24.71ms"}
+{"timestamp": "2026-11-10T14:00:05.486000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:05.699000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 48%, CPU: 9%"}
+{"timestamp": "2026-11-10T14:00:06.337000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /ready returned 200 in 37.29ms"}
+{"timestamp": "2026-11-10T14:00:07.148000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /metrics returned 304 in 6.98ms"}
+{"timestamp": "2026-11-10T14:00:07.975000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 43 background tasks from queue in 129ms"}
+{"timestamp": "2026-11-10T14:00:09.403000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 57%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:00:09.872000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /healthz returned 200 in 31.02ms"}
+{"timestamp": "2026-11-10T14:00:10.783000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:00:11.178000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:00:12.431000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:12.838000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /static/css/main.css returned 200 in 20.92ms"}
+{"timestamp": "2026-11-10T14:00:14.261000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 18.95ms"}
+{"timestamp": "2026-11-10T14:00:15.493000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 22 background tasks from queue in 377ms"}
+{"timestamp": "2026-11-10T14:00:15.951000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:17.105000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 29.8ms"}
+{"timestamp": "2026-11-10T14:00:18.354000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /healthz returned 200 in 31.29ms"}
+{"timestamp": "2026-11-10T14:00:18.599000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /healthz returned 200 in 21.8ms"}
+{"timestamp": "2026-11-10T14:00:20.020000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 19 background tasks from queue in 172ms"}
+{"timestamp": "2026-11-10T14:00:20.657000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 38%, CPU: 22%"}
+{"timestamp": "2026-11-10T14:00:21.991000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 15.4ms"}
+{"timestamp": "2026-11-10T14:00:22.658000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 43.96ms"}
+{"timestamp": "2026-11-10T14:00:23.403000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 38%, CPU: 17%"}
+{"timestamp": "2026-11-10T14:00:24.323000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /static/css/main.css returned 200 in 17.03ms"}
+{"timestamp": "2026-11-10T14:00:25.456000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /metrics returned 200 in 32.09ms"}
+{"timestamp": "2026-11-10T14:00:26.905000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 28%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:00:27.649000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 24%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:00:28.239000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 29%, CPU: 22%"}
+{"timestamp": "2026-11-10T14:00:29.158000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 21%"}
+{"timestamp": "2026-11-10T14:00:30.342000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 23 background tasks from queue in 177ms"}
+{"timestamp": "2026-11-10T14:00:31.190000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:00:32.437000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 36 background tasks from queue in 169ms"}
+{"timestamp": "2026-11-10T14:00:32.696000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 44 background tasks from queue in 331ms"}
+{"timestamp": "2026-11-10T14:00:33.878000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 14.43ms"}
+{"timestamp": "2026-11-10T14:00:34.203000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /metrics returned 200 in 36.34ms"}
+{"timestamp": "2026-11-10T14:00:34.693000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 28 background tasks from queue in 125ms"}
+{"timestamp": "2026-11-10T14:00:35.901000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /healthz returned 200 in 12.84ms"}
+{"timestamp": "2026-11-10T14:00:36.246000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /healthz returned 200 in 36.28ms"}
+{"timestamp": "2026-11-10T14:00:37.093000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /ready returned 200 in 44.99ms"}
+{"timestamp": "2026-11-10T14:00:37.406000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 49%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:00:38.729000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /ready returned 200 in 24.47ms"}
+{"timestamp": "2026-11-10T14:00:39.842000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 41 background tasks from queue in 160ms"}
+{"timestamp": "2026-11-10T14:00:41.334000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 11.9ms"}
+{"timestamp": "2026-11-10T14:00:42.338000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 39%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:00:43.811000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:00:45.062000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /healthz returned 200 in 41.4ms"}
+{"timestamp": "2026-11-10T14:00:45.922000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 29%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:00:46.156000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 44.24ms"}
+{"timestamp": "2026-11-10T14:00:47.546000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 31.51ms"}
+{"timestamp": "2026-11-10T14:00:48.310000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 21.54ms"}
+{"timestamp": "2026-11-10T14:00:48.629000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 18.93ms"}
+{"timestamp": "2026-11-10T14:00:49.429000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/users/me returned 200 in 10.16ms"}
+{"timestamp": "2026-11-10T14:00:49.959000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:50.238000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /ready returned 200 in 17.12ms"}
+{"timestamp": "2026-11-10T14:00:50.529000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 43 background tasks from queue in 420ms"}
+{"timestamp": "2026-11-10T14:00:51.211000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 13%"}
+{"timestamp": "2026-11-10T14:00:51.737000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/users/me returned 200 in 39.8ms"}
+{"timestamp": "2026-11-10T14:00:53.210000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/users/me returned 200 in 41.69ms"}
+{"timestamp": "2026-11-10T14:00:54.283000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /static/css/main.css returned 200 in 43.96ms"}
+{"timestamp": "2026-11-10T14:00:55.427000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 44 background tasks from queue in 159ms"}
+{"timestamp": "2026-11-10T14:00:56.667000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /healthz returned 200 in 13.8ms"}
+{"timestamp": "2026-11-10T14:00:56.994000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /static/css/main.css returned 200 in 25.23ms"}
+{"timestamp": "2026-11-10T14:01:01.994000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "Deadlock detected waiting for table lock 'inventory_locks' on row item_sku_9042"}
+{"timestamp": "2026-11-10T14:01:11.994000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "Transaction rollback executed due to deadlock timeout"}
+{"timestamp": "2026-11-10T14:01:26.994000+00:00Z", "level": "ERROR", "service": "inventory-service", "message": "Reservation queue timed out waiting for lock:\nTraceback (most recent call last):\n  File \"/app/clients/inventory.py\", line 63, in reserve_stock\n    response = await client.post(\"/api/v1/stock/reserve\", json=payload, timeout=5.0)\n  File \"/usr/local/lib/python3.12/site-packages/httpx/_client.py\", line 1802, in post\n    return await self.send(request, timeout=timeout)\nhttpx.ReadTimeout: The read operation timed out after 5.0 seconds"}
+{"timestamp": "2026-11-10T14:01:21.210000+00:00Z", "level": "ERROR", "service": "inventory-service", "message": "HTTP 500 / request dropped while inventory-service is degraded"}
+{"timestamp": "2026-11-10T14:01:21.641000+00:00Z", "level": "ERROR", "service": "inventory-service", "message": "HTTP 500 / request dropped while inventory-service is degraded"}
+{"timestamp": "2026-11-10T14:01:23.092000+00:00Z", "level": "ERROR", "service": "inventory-service", "message": "HTTP 500 / request dropped while inventory-service is degraded"}
+{"timestamp": "2026-11-10T14:01:24.076000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 40%, CPU: 9%"}
+{"timestamp": "2026-11-10T14:01:25.150000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:25.451000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 17.11ms"}
+{"timestamp": "2026-11-10T14:01:25.725000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /ready returned 200 in 40.21ms"}
+{"timestamp": "2026-11-10T14:01:26.041000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 24%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:01:27.007000+00:00Z", "level": "ERROR", "service": "inventory-service", "message": "HTTP 500 / request dropped while inventory-service is degraded"}
+{"timestamp": "2026-11-10T14:01:27.889000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 34.7ms"}
+{"timestamp": "2026-11-10T14:01:28.107000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 39.01ms"}
+{"timestamp": "2026-11-10T14:01:28.652000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 27 background tasks from queue in 152ms"}
+{"timestamp": "2026-11-10T14:01:29.284000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /ready returned 200 in 22.45ms"}
+{"timestamp": "2026-11-10T14:01:29.762000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /metrics returned 304 in 18.32ms"}
+{"timestamp": "2026-11-10T14:01:30.452000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /healthz returned 200 in 8.27ms"}
+{"timestamp": "2026-11-10T14:01:31.775000+00:00Z", "level": "ERROR", "service": "inventory-service", "message": "HTTP 500 / request dropped while inventory-service is degraded"}
+{"timestamp": "2026-11-10T14:01:33.115000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 34.72ms"}
+{"timestamp": "2026-11-10T14:01:34.130000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 48%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:01:35.077000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 7%"}
+{"timestamp": "2026-11-10T14:01:35.831000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /ready returned 200 in 15.35ms"}
+{"timestamp": "2026-11-10T14:01:36.556000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:01:37.836000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /metrics returned 200 in 5.06ms"}
+{"timestamp": "2026-11-10T14:01:39.239000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 25 background tasks from queue in 316ms"}
+{"timestamp": "2026-11-10T14:01:40.067000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 12 background tasks from queue in 442ms"}
+{"timestamp": "2026-11-10T14:01:41.421000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 53%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:01:41.914000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 11.94ms"}
+{"timestamp": "2026-11-10T14:01:42.230000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 52%, CPU: 16%"}
+{"timestamp": "2026-11-10T14:01:43.349000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 32 background tasks from queue in 163ms"}
+{"timestamp": "2026-11-10T14:01:43.960000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:44.525000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:01:45.371000+00:00Z", "level": "ERROR", "service": "inventory-service", "message": "HTTP 500 / request dropped while inventory-service is degraded"}
+{"timestamp": "2026-11-10T14:01:45.789000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 38%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:01:46.637000+00:00Z", "level": "ERROR", "service": "inventory-service", "message": "HTTP 500 / request dropped while inventory-service is degraded"}
+{"timestamp": "2026-11-10T14:01:47.608000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 39%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:01:48.364000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 35 background tasks from queue in 369ms"}
+{"timestamp": "2026-11-10T14:01:48.849000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 39 background tasks from queue in 435ms"}
+{"timestamp": "2026-11-10T14:01:50.278000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /static/css/main.css returned 200 in 5.48ms"}
+{"timestamp": "2026-11-10T14:01:50.628000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:52.126000+00:00Z", "level": "ERROR", "service": "inventory-service", "message": "HTTP 500 / request dropped while inventory-service is degraded"}
+{"timestamp": "2026-11-10T14:01:52.456000+00:00Z", "level": "ERROR", "service": "inventory-service", "message": "HTTP 500 / request dropped while inventory-service is degraded"}
+{"timestamp": "2026-11-10T14:01:53.266000+00:00Z", "level": "ERROR", "service": "inventory-service", "message": "HTTP 500 / request dropped while inventory-service is degraded"}
+{"timestamp": "2026-11-10T14:01:54.565000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /healthz returned 200 in 37.77ms"}
+{"timestamp": "2026-11-10T14:01:56.049000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 53%, CPU: 14%"}
+{"timestamp": "2026-11-10T14:01:56.315000+00:00Z", "level": "ERROR", "service": "inventory-service", "message": "HTTP 500 / request dropped while inventory-service is degraded"}
+{"timestamp": "2026-11-10T14:01:57.021000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /metrics returned 200 in 42.88ms"}
+{"timestamp": "2026-11-10T14:01:58.091000+00:00Z", "level": "ERROR", "service": "inventory-service", "message": "HTTP 500 / request dropped while inventory-service is degraded"}
+{"timestamp": "2026-11-10T14:01:58.902000+00:00Z", "level": "ERROR", "service": "inventory-service", "message": "HTTP 500 / request dropped while inventory-service is degraded"}

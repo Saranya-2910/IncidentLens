@@ -1,0 +1,1093 @@
+{"timestamp": "2026-11-10T14:00:00.806000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 42 background tasks from queue in 217ms"}
+{"timestamp": "2026-11-10T14:00:02.123000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 24.21ms"}
+{"timestamp": "2026-11-10T14:00:02.330000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 32%, CPU: 8%"}
+{"timestamp": "2026-11-10T14:00:03.275000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 43.45ms"}
+{"timestamp": "2026-11-10T14:00:03.591000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 20.06ms"}
+{"timestamp": "2026-11-10T14:00:04.389000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 53%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:00:05.823000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 36 background tasks from queue in 388ms"}
+{"timestamp": "2026-11-10T14:00:06.505000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 37%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:00:07.146000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:00:08.352000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 40%, CPU: 14%"}
+{"timestamp": "2026-11-10T14:00:08.720000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 15.98ms"}
+{"timestamp": "2026-11-10T14:00:09.835000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 31.69ms"}
+{"timestamp": "2026-11-10T14:00:11.034000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 37 background tasks from queue in 338ms"}
+{"timestamp": "2026-11-10T14:00:12.277000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 51%, CPU: 5%"}
+{"timestamp": "2026-11-10T14:00:12.630000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 39%, CPU: 7%"}
+{"timestamp": "2026-11-10T14:00:13.115000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 18 background tasks from queue in 226ms"}
+{"timestamp": "2026-11-10T14:00:13.974000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 11.63ms"}
+{"timestamp": "2026-11-10T14:00:15.066000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 37%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:00:16.162000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 34.77ms"}
+{"timestamp": "2026-11-10T14:00:17.279000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 15.47ms"}
+{"timestamp": "2026-11-10T14:00:17.946000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 25.63ms"}
+{"timestamp": "2026-11-10T14:00:18.747000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 36%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:00:19.909000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:20.849000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 9.84ms"}
+{"timestamp": "2026-11-10T14:00:21.263000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 16 background tasks from queue in 310ms"}
+{"timestamp": "2026-11-10T14:00:22.742000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 36%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:00:23.051000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 5.56ms"}
+{"timestamp": "2026-11-10T14:00:23.473000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 42%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:00:23.794000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:00:24.015000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:24.369000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 33.16ms"}
+{"timestamp": "2026-11-10T14:00:25.515000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 28.21ms"}
+{"timestamp": "2026-11-10T14:00:26.867000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 32%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:00:27.660000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 41 background tasks from queue in 125ms"}
+{"timestamp": "2026-11-10T14:00:28.763000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 40.77ms"}
+{"timestamp": "2026-11-10T14:00:30.214000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 43.4ms"}
+{"timestamp": "2026-11-10T14:00:31.439000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 5.56ms"}
+{"timestamp": "2026-11-10T14:00:31.796000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 19.7ms"}
+{"timestamp": "2026-11-10T14:00:32.276000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 36.7ms"}
+{"timestamp": "2026-11-10T14:00:32.708000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 14 background tasks from queue in 341ms"}
+{"timestamp": "2026-11-10T14:00:33.967000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 54%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:00:34.244000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 41.24ms"}
+{"timestamp": "2026-11-10T14:00:35.072000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 6.4ms"}
+{"timestamp": "2026-11-10T14:00:35.945000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 49%, CPU: 12%"}
+{"timestamp": "2026-11-10T14:00:36.947000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 29 background tasks from queue in 322ms"}
+{"timestamp": "2026-11-10T14:00:37.240000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 31.19ms"}
+{"timestamp": "2026-11-10T14:00:38.412000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:39.465000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 16.98ms"}
+{"timestamp": "2026-11-10T14:00:40.656000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 20.88ms"}
+{"timestamp": "2026-11-10T14:00:41.823000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 36.84ms"}
+{"timestamp": "2026-11-10T14:00:42.243000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 45 background tasks from queue in 351ms"}
+{"timestamp": "2026-11-10T14:00:42.973000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 18.4ms"}
+{"timestamp": "2026-11-10T14:00:43.227000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 26 background tasks from queue in 277ms"}
+{"timestamp": "2026-11-10T14:00:43.445000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 39.37ms"}
+{"timestamp": "2026-11-10T14:00:44.238000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 20.1ms"}
+{"timestamp": "2026-11-10T14:00:45.279000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 18.05ms"}
+{"timestamp": "2026-11-10T14:00:46.192000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 5.59ms"}
+{"timestamp": "2026-11-10T14:00:46.664000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 55%, CPU: 9%"}
+{"timestamp": "2026-11-10T14:00:47.677000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:00:48.923000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:49.905000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:50.149000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 16 background tasks from queue in 308ms"}
+{"timestamp": "2026-11-10T14:00:50.975000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 29 background tasks from queue in 403ms"}
+{"timestamp": "2026-11-10T14:00:51.231000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 19.8ms"}
+{"timestamp": "2026-11-10T14:00:52.283000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:53.113000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 304 in 32.42ms"}
+{"timestamp": "2026-11-10T14:00:54.274000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 18 background tasks from queue in 140ms"}
+{"timestamp": "2026-11-10T14:00:55.393000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 30%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:00:56.457000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 33.45ms"}
+{"timestamp": "2026-11-10T14:00:57.454000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 18.24ms"}
+{"timestamp": "2026-11-10T14:00:58.700000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 30.24ms"}
+{"timestamp": "2026-11-10T14:01:00.083000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 29.31ms"}
+{"timestamp": "2026-11-10T14:01:00.690000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 26 background tasks from queue in 197ms"}
+{"timestamp": "2026-11-10T14:01:01.079000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 13.19ms"}
+{"timestamp": "2026-11-10T14:01:01.367000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 304 in 30.02ms"}
+{"timestamp": "2026-11-10T14:01:02.144000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 35%, CPU: 33%"}
+{"timestamp": "2026-11-10T14:01:02.955000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 8.43ms"}
+{"timestamp": "2026-11-10T14:01:04.193000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 34%"}
+{"timestamp": "2026-11-10T14:01:05.645000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 27 background tasks from queue in 236ms"}
+{"timestamp": "2026-11-10T14:01:06.451000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 35%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:01:07.513000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:01:08.955000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 18.06ms"}
+{"timestamp": "2026-11-10T14:01:09.306000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 12.65ms"}
+{"timestamp": "2026-11-10T14:01:09.996000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:01:11.393000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 32.07ms"}
+{"timestamp": "2026-11-10T14:01:12.303000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 24 background tasks from queue in 158ms"}
+{"timestamp": "2026-11-10T14:01:13.252000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 53%, CPU: 12%"}
+{"timestamp": "2026-11-10T14:01:13.684000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 45%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:01:15.018000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 44.62ms"}
+{"timestamp": "2026-11-10T14:01:15.860000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 37 background tasks from queue in 146ms"}
+{"timestamp": "2026-11-10T14:01:16.698000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 45 background tasks from queue in 202ms"}
+{"timestamp": "2026-11-10T14:01:18.076000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 23 background tasks from queue in 237ms"}
+{"timestamp": "2026-11-10T14:01:19.083000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 34.91ms"}
+{"timestamp": "2026-11-10T14:01:19.598000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 9.22ms"}
+{"timestamp": "2026-11-10T14:01:20.471000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 33.21ms"}
+{"timestamp": "2026-11-10T14:01:20.840000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 9%"}
+{"timestamp": "2026-11-10T14:01:21.119000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:01:21.938000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 29.36ms"}
+{"timestamp": "2026-11-10T14:01:23.016000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 39.09ms"}
+{"timestamp": "2026-11-10T14:01:24.084000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 36.09ms"}
+{"timestamp": "2026-11-10T14:01:24.880000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:25.288000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 12 background tasks from queue in 259ms"}
+{"timestamp": "2026-11-10T14:01:25.674000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 40%, CPU: 11%"}
+{"timestamp": "2026-11-10T14:01:26.340000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 4.51ms"}
+{"timestamp": "2026-11-10T14:01:26.673000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:01:27.075000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 11.59ms"}
+{"timestamp": "2026-11-10T14:01:27.619000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 51%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:01:29.059000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:01:29.422000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:30.418000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:31.377000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:01:32.713000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 53%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:01:33.014000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 15.69ms"}
+{"timestamp": "2026-11-10T14:01:33.805000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 42%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:01:34.143000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 36.22ms"}
+{"timestamp": "2026-11-10T14:01:35.340000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 37 background tasks from queue in 220ms"}
+{"timestamp": "2026-11-10T14:01:35.867000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 43%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:01:37.171000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:01:37.523000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 10 background tasks from queue in 303ms"}
+{"timestamp": "2026-11-10T14:01:38.594000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 13%"}
+{"timestamp": "2026-11-10T14:01:39.370000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:40.245000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 40.83ms"}
+{"timestamp": "2026-11-10T14:01:41.140000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 43.35ms"}
+{"timestamp": "2026-11-10T14:01:41.673000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 31%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:01:42.662000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 44.72ms"}
+{"timestamp": "2026-11-10T14:01:43.360000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 27.44ms"}
+{"timestamp": "2026-11-10T14:01:43.861000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 6.56ms"}
+{"timestamp": "2026-11-10T14:01:45.051000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 40.09ms"}
+{"timestamp": "2026-11-10T14:01:45.638000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 29%, CPU: 21%"}
+{"timestamp": "2026-11-10T14:01:46.274000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 12.86ms"}
+{"timestamp": "2026-11-10T14:01:47.456000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 6.52ms"}
+{"timestamp": "2026-11-10T14:01:47.877000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 26.45ms"}
+{"timestamp": "2026-11-10T14:01:48.741000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 304 in 28.56ms"}
+{"timestamp": "2026-11-10T14:01:49.714000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 45 background tasks from queue in 349ms"}
+{"timestamp": "2026-11-10T14:01:51.061000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 24.78ms"}
+{"timestamp": "2026-11-10T14:01:52.467000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 52%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:01:52.985000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 304 in 7.32ms"}
+{"timestamp": "2026-11-10T14:01:53.656000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 29.37ms"}
+{"timestamp": "2026-11-10T14:01:54.590000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 54%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:01:55.890000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 37%, CPU: 9%"}
+{"timestamp": "2026-11-10T14:01:56.175000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 31.8ms"}
+{"timestamp": "2026-11-10T14:01:57.509000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 27%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:01:57.759000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 11 background tasks from queue in 264ms"}
+{"timestamp": "2026-11-10T14:01:58.877000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 21%"}
+{"timestamp": "2026-11-10T14:01:59.278000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 54%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:01:59.484000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:02:00.387000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 17 background tasks from queue in 155ms"}
+{"timestamp": "2026-11-10T14:02:01.037000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 49%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:02:01.648000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 13%"}
+{"timestamp": "2026-11-10T14:02:02.107000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:02:02.738000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 16.0ms"}
+{"timestamp": "2026-11-10T14:02:04.103000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 28.3ms"}
+{"timestamp": "2026-11-10T14:02:04.904000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 7.34ms"}
+{"timestamp": "2026-11-10T14:02:06.256000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:02:07.318000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 42%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:02:08.652000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 53%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:02:09.044000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 22%, CPU: 8%"}
+{"timestamp": "2026-11-10T14:02:09.810000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 33.11ms"}
+{"timestamp": "2026-11-10T14:02:11.010000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 38 background tasks from queue in 166ms"}
+{"timestamp": "2026-11-10T14:02:11.392000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 58%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:02:11.940000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 29.0ms"}
+{"timestamp": "2026-11-10T14:02:13.172000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 38%, CPU: 34%"}
+{"timestamp": "2026-11-10T14:02:14.401000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:02:15.588000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 42 background tasks from queue in 246ms"}
+{"timestamp": "2026-11-10T14:02:16.893000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 11 background tasks from queue in 421ms"}
+{"timestamp": "2026-11-10T14:02:17.539000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:02:18.045000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 16 background tasks from queue in 282ms"}
+{"timestamp": "2026-11-10T14:02:19.169000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 46%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:02:20.513000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 16.19ms"}
+{"timestamp": "2026-11-10T14:02:21.395000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 25.81ms"}
+{"timestamp": "2026-11-10T14:02:21.851000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 9.54ms"}
+{"timestamp": "2026-11-10T14:02:22.495000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 18.85ms"}
+{"timestamp": "2026-11-10T14:02:23.859000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:02:24.325000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 42 background tasks from queue in 177ms"}
+{"timestamp": "2026-11-10T14:02:25.083000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 10.41ms"}
+{"timestamp": "2026-11-10T14:02:25.772000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 43.8ms"}
+{"timestamp": "2026-11-10T14:02:26.794000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 16.83ms"}
+{"timestamp": "2026-11-10T14:02:27.830000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 36 background tasks from queue in 206ms"}
+{"timestamp": "2026-11-10T14:02:28.609000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 47 background tasks from queue in 140ms"}
+{"timestamp": "2026-11-10T14:02:29.454000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 37.44ms"}
+{"timestamp": "2026-11-10T14:02:30.661000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 42%, CPU: 33%"}
+{"timestamp": "2026-11-10T14:02:31.024000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 24 background tasks from queue in 370ms"}
+{"timestamp": "2026-11-10T14:02:31.471000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 16.34ms"}
+{"timestamp": "2026-11-10T14:02:31.985000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 37.85ms"}
+{"timestamp": "2026-11-10T14:02:33.332000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 22%"}
+{"timestamp": "2026-11-10T14:02:34.300000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 26.09ms"}
+{"timestamp": "2026-11-10T14:02:34.764000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 57%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:02:35.964000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 34.59ms"}
+{"timestamp": "2026-11-10T14:02:36.591000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 22.05ms"}
+{"timestamp": "2026-11-10T14:02:37.307000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 39%, CPU: 17%"}
+{"timestamp": "2026-11-10T14:02:37.626000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 24.27ms"}
+{"timestamp": "2026-11-10T14:02:37.869000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 51%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:02:38.720000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 36%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:02:39.652000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 35.45ms"}
+{"timestamp": "2026-11-10T14:02:39.892000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 28 background tasks from queue in 302ms"}
+{"timestamp": "2026-11-10T14:02:41.337000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 304 in 7.82ms"}
+{"timestamp": "2026-11-10T14:02:41.871000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 12.15ms"}
+{"timestamp": "2026-11-10T14:02:42.118000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 32.71ms"}
+{"timestamp": "2026-11-10T14:02:42.388000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 31 background tasks from queue in 289ms"}
+{"timestamp": "2026-11-10T14:02:42.785000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 15.13ms"}
+{"timestamp": "2026-11-10T14:02:43.269000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:02:44.696000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 32 background tasks from queue in 365ms"}
+{"timestamp": "2026-11-10T14:02:45.206000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 43%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:02:45.972000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 30.1ms"}
+{"timestamp": "2026-11-10T14:02:46.785000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 35%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:02:47+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 30%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:02:48.108000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 11 background tasks from queue in 206ms"}
+{"timestamp": "2026-11-10T14:02:48.398000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:02:48.658000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:02:49.888000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:02:50.431000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 29.03ms"}
+{"timestamp": "2026-11-10T14:02:51.006000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 304 in 18.15ms"}
+{"timestamp": "2026-11-10T14:02:51.331000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 15.28ms"}
+{"timestamp": "2026-11-10T14:02:52.087000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 9.9ms"}
+{"timestamp": "2026-11-10T14:02:52.291000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:02:53.752000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 304 in 28.98ms"}
+{"timestamp": "2026-11-10T14:02:54.411000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 30.09ms"}
+{"timestamp": "2026-11-10T14:02:54.996000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:02:55.440000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 35%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:02:56.822000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 35.75ms"}
+{"timestamp": "2026-11-10T14:02:58.023000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 23 background tasks from queue in 198ms"}
+{"timestamp": "2026-11-10T14:02:58.784000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 32 background tasks from queue in 302ms"}
+{"timestamp": "2026-11-10T14:02:59.398000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 41.45ms"}
+{"timestamp": "2026-11-10T14:03:00.223000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 11 background tasks from queue in 410ms"}
+{"timestamp": "2026-11-10T14:03:01.627000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 36.18ms"}
+{"timestamp": "2026-11-10T14:03:03.120000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 41.18ms"}
+{"timestamp": "2026-11-10T14:03:04.282000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 14 background tasks from queue in 325ms"}
+{"timestamp": "2026-11-10T14:03:04.697000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 10.38ms"}
+{"timestamp": "2026-11-10T14:03:05.684000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 24.57ms"}
+{"timestamp": "2026-11-10T14:03:06.122000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 48%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:03:07.448000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 9.9ms"}
+{"timestamp": "2026-11-10T14:03:08.795000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 23.5ms"}
+{"timestamp": "2026-11-10T14:03:09.911000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 51%, CPU: 16%"}
+{"timestamp": "2026-11-10T14:03:10.629000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:03:11.010000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 41 background tasks from queue in 264ms"}
+{"timestamp": "2026-11-10T14:03:11.773000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 16 background tasks from queue in 380ms"}
+{"timestamp": "2026-11-10T14:03:12.275000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 6.15ms"}
+{"timestamp": "2026-11-10T14:03:12.773000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 6.34ms"}
+{"timestamp": "2026-11-10T14:03:13.554000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 39.24ms"}
+{"timestamp": "2026-11-10T14:03:14.191000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 45 background tasks from queue in 211ms"}
+{"timestamp": "2026-11-10T14:03:14.905000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 37.38ms"}
+{"timestamp": "2026-11-10T14:03:16.227000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 32.31ms"}
+{"timestamp": "2026-11-10T14:03:16.484000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 35.23ms"}
+{"timestamp": "2026-11-10T14:03:17.386000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:03:17.904000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 45 background tasks from queue in 260ms"}
+{"timestamp": "2026-11-10T14:03:19.054000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 39%, CPU: 13%"}
+{"timestamp": "2026-11-10T14:03:19.325000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 33.29ms"}
+{"timestamp": "2026-11-10T14:03:19.553000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 38 background tasks from queue in 180ms"}
+{"timestamp": "2026-11-10T14:03:20.728000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 7.41ms"}
+{"timestamp": "2026-11-10T14:03:20.977000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 37.14ms"}
+{"timestamp": "2026-11-10T14:03:21.875000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 26.92ms"}
+{"timestamp": "2026-11-10T14:03:23.204000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:03:24.308000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 8.87ms"}
+{"timestamp": "2026-11-10T14:03:24.543000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 34%"}
+{"timestamp": "2026-11-10T14:03:25.067000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 54%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:03:25.466000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 35.99ms"}
+{"timestamp": "2026-11-10T14:03:26.194000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 39 background tasks from queue in 163ms"}
+{"timestamp": "2026-11-10T14:03:26.866000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 33.33ms"}
+{"timestamp": "2026-11-10T14:03:27.499000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 41%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:03:28.459000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:03:28.731000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 30%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:03:29.446000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 304 in 17.33ms"}
+{"timestamp": "2026-11-10T14:03:29.913000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 18.18ms"}
+{"timestamp": "2026-11-10T14:03:30.477000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 54%, CPU: 17%"}
+{"timestamp": "2026-11-10T14:03:30.821000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 35.06ms"}
+{"timestamp": "2026-11-10T14:03:31.122000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 5.9ms"}
+{"timestamp": "2026-11-10T14:03:31.941000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 15 background tasks from queue in 145ms"}
+{"timestamp": "2026-11-10T14:03:32.168000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:03:32.872000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 17 background tasks from queue in 435ms"}
+{"timestamp": "2026-11-10T14:03:33.727000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 33%"}
+{"timestamp": "2026-11-10T14:03:34.247000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 18.69ms"}
+{"timestamp": "2026-11-10T14:03:35.066000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 42%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:03:35.522000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 39.65ms"}
+{"timestamp": "2026-11-10T14:03:36.021000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 26.42ms"}
+{"timestamp": "2026-11-10T14:03:36.230000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 19.7ms"}
+{"timestamp": "2026-11-10T14:03:37.537000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 33 background tasks from queue in 170ms"}
+{"timestamp": "2026-11-10T14:03:38.502000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 21%"}
+{"timestamp": "2026-11-10T14:03:39.119000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 4.81ms"}
+{"timestamp": "2026-11-10T14:03:40.254000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 27%, CPU: 14%"}
+{"timestamp": "2026-11-10T14:03:41.091000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 35.74ms"}
+{"timestamp": "2026-11-10T14:03:41.481000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 31.8ms"}
+{"timestamp": "2026-11-10T14:03:42.763000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 40.12ms"}
+{"timestamp": "2026-11-10T14:03:43.717000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:03:43.982000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 9.1ms"}
+{"timestamp": "2026-11-10T14:03:44.412000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 12.27ms"}
+{"timestamp": "2026-11-10T14:03:45.598000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 32%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:03:46.564000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 20.65ms"}
+{"timestamp": "2026-11-10T14:03:48.038000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 17 background tasks from queue in 288ms"}
+{"timestamp": "2026-11-10T14:03:48.620000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 57%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:03:49.820000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 34.7ms"}
+{"timestamp": "2026-11-10T14:03:50.862000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 24.03ms"}
+{"timestamp": "2026-11-10T14:03:52.246000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 24%, CPU: 16%"}
+{"timestamp": "2026-11-10T14:03:53.578000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 55%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:03:54.704000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 35 background tasks from queue in 375ms"}
+{"timestamp": "2026-11-10T14:03:56.174000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 29.04ms"}
+{"timestamp": "2026-11-10T14:03:57.349000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 4.94ms"}
+{"timestamp": "2026-11-10T14:03:58.538000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 45%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:03:58.898000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 46%, CPU: 21%"}
+{"timestamp": "2026-11-10T14:04:00.181000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 14.59ms"}
+{"timestamp": "2026-11-10T14:04:00.535000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 40 background tasks from queue in 193ms"}
+{"timestamp": "2026-11-10T14:04:01.830000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 19.3ms"}
+{"timestamp": "2026-11-10T14:04:03.154000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 20 background tasks from queue in 283ms"}
+{"timestamp": "2026-11-10T14:04:03.425000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 37.89ms"}
+{"timestamp": "2026-11-10T14:04:04.229000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:04:05.642000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 24%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:04:06.829000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 25 background tasks from queue in 444ms"}
+{"timestamp": "2026-11-10T14:04:07.351000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 9.46ms"}
+{"timestamp": "2026-11-10T14:04:07.552000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 33.08ms"}
+{"timestamp": "2026-11-10T14:04:08.436000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 27%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:04:08.958000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 15.11ms"}
+{"timestamp": "2026-11-10T14:04:10.410000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 15.24ms"}
+{"timestamp": "2026-11-10T14:04:11.073000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 18.32ms"}
+{"timestamp": "2026-11-10T14:04:12.002000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 37.99ms"}
+{"timestamp": "2026-11-10T14:04:12.969000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 25.91ms"}
+{"timestamp": "2026-11-10T14:04:13.282000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 31%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:04:14.629000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 53%, CPU: 7%"}
+{"timestamp": "2026-11-10T14:04:14.863000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 41%, CPU: 21%"}
+{"timestamp": "2026-11-10T14:04:15.888000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 30%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:04:17.292000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 40.92ms"}
+{"timestamp": "2026-11-10T14:04:18.051000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 32.32ms"}
+{"timestamp": "2026-11-10T14:04:18.392000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 29.69ms"}
+{"timestamp": "2026-11-10T14:04:19.327000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 41.41ms"}
+{"timestamp": "2026-11-10T14:04:20.375000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 38 background tasks from queue in 123ms"}
+{"timestamp": "2026-11-10T14:04:21.123000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 43%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:04:21.675000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 42 background tasks from queue in 208ms"}
+{"timestamp": "2026-11-10T14:04:22.227000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 45 background tasks from queue in 157ms"}
+{"timestamp": "2026-11-10T14:04:23.073000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 37.65ms"}
+{"timestamp": "2026-11-10T14:04:24.510000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 15 background tasks from queue in 391ms"}
+{"timestamp": "2026-11-10T14:04:25.757000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 56%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:04:27.099000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:04:27.385000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 44.21ms"}
+{"timestamp": "2026-11-10T14:04:27.746000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 21%"}
+{"timestamp": "2026-11-10T14:04:28.125000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:04:28.751000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 44.08ms"}
+{"timestamp": "2026-11-10T14:04:30.125000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 31.32ms"}
+{"timestamp": "2026-11-10T14:04:30.680000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 29.17ms"}
+{"timestamp": "2026-11-10T14:04:31.317000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 32.77ms"}
+{"timestamp": "2026-11-10T14:04:31.747000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 42 background tasks from queue in 450ms"}
+{"timestamp": "2026-11-10T14:04:33.210000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:04:34.224000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 52%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:04:35.202000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 27%, CPU: 33%"}
+{"timestamp": "2026-11-10T14:04:36.385000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 30.32ms"}
+{"timestamp": "2026-11-10T14:04:37.839000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 304 in 23.08ms"}
+{"timestamp": "2026-11-10T14:04:39.283000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 304 in 35.04ms"}
+{"timestamp": "2026-11-10T14:04:39.816000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 54%, CPU: 9%"}
+{"timestamp": "2026-11-10T14:04:40.940000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 19 background tasks from queue in 354ms"}
+{"timestamp": "2026-11-10T14:04:41.173000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 37.87ms"}
+{"timestamp": "2026-11-10T14:04:42.532000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 30.02ms"}
+{"timestamp": "2026-11-10T14:04:43.032000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 30.41ms"}
+{"timestamp": "2026-11-10T14:04:44.280000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 35.7ms"}
+{"timestamp": "2026-11-10T14:04:45.543000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 24%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:04:46.259000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 58%, CPU: 8%"}
+{"timestamp": "2026-11-10T14:04:46.661000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 16.67ms"}
+{"timestamp": "2026-11-10T14:04:47.725000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 38 background tasks from queue in 320ms"}
+{"timestamp": "2026-11-10T14:04:48.740000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 39.75ms"}
+{"timestamp": "2026-11-10T14:04:49.287000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 44 background tasks from queue in 193ms"}
+{"timestamp": "2026-11-10T14:04:50.111000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 11.76ms"}
+{"timestamp": "2026-11-10T14:04:50.568000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 34.33ms"}
+{"timestamp": "2026-11-10T14:04:51.267000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:04:52.401000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 34.59ms"}
+{"timestamp": "2026-11-10T14:04:53.164000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 21.61ms"}
+{"timestamp": "2026-11-10T14:04:54.033000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 49%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:04:55.087000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:04:56.250000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 29.01ms"}
+{"timestamp": "2026-11-10T14:04:56.827000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 13.53ms"}
+{"timestamp": "2026-11-10T14:04:57.522000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 21.28ms"}
+{"timestamp": "2026-11-10T14:04:58.626000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 12.67ms"}
+{"timestamp": "2026-11-10T14:04:59.490000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 55%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:05:00.795000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 38 background tasks from queue in 131ms"}
+{"timestamp": "2026-11-10T14:05:01.813000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 27.11ms"}
+{"timestamp": "2026-11-10T14:05:03.119000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 14.91ms"}
+{"timestamp": "2026-11-10T14:05:04.461000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 49%, CPU: 12%"}
+{"timestamp": "2026-11-10T14:05:05.570000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 14.13ms"}
+{"timestamp": "2026-11-10T14:05:05.788000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 20.54ms"}
+{"timestamp": "2026-11-10T14:05:06.579000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 33%"}
+{"timestamp": "2026-11-10T14:05:07.163000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 55%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:05:07.983000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 20.8ms"}
+{"timestamp": "2026-11-10T14:05:09.346000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 13.23ms"}
+{"timestamp": "2026-11-10T14:05:10.294000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 15.23ms"}
+{"timestamp": "2026-11-10T14:05:11.704000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 48%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:05:12.397000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 9.78ms"}
+{"timestamp": "2026-11-10T14:05:13.130000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 44 background tasks from queue in 332ms"}
+{"timestamp": "2026-11-10T14:05:13.873000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:05:15.194000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 304 in 20.83ms"}
+{"timestamp": "2026-11-10T14:05:16.609000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 25.29ms"}
+{"timestamp": "2026-11-10T14:05:17.522000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 8%"}
+{"timestamp": "2026-11-10T14:05:18.642000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 20.51ms"}
+{"timestamp": "2026-11-10T14:05:18.999000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:05:19.519000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 31 background tasks from queue in 326ms"}
+{"timestamp": "2026-11-10T14:05:20.433000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 18.15ms"}
+{"timestamp": "2026-11-10T14:05:20.843000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 4.83ms"}
+{"timestamp": "2026-11-10T14:05:21.080000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 4.86ms"}
+{"timestamp": "2026-11-10T14:05:21.431000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 15.81ms"}
+{"timestamp": "2026-11-10T14:05:22.711000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 49%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:05:23.351000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 25%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:05:24.032000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 56%, CPU: 33%"}
+{"timestamp": "2026-11-10T14:05:24.595000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 13.65ms"}
+{"timestamp": "2026-11-10T14:05:25.153000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:05:26.584000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 15.38ms"}
+{"timestamp": "2026-11-10T14:05:27.943000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 8.31ms"}
+{"timestamp": "2026-11-10T14:05:29.221000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 39%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:05:29.726000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 15 background tasks from queue in 339ms"}
+{"timestamp": "2026-11-10T14:05:30.374000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 22%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:05:31.363000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 12.06ms"}
+{"timestamp": "2026-11-10T14:05:31.820000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 17.66ms"}
+{"timestamp": "2026-11-10T14:05:32.198000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 304 in 11.76ms"}
+{"timestamp": "2026-11-10T14:05:33.237000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 10.88ms"}
+{"timestamp": "2026-11-10T14:05:34.454000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 18.99ms"}
+{"timestamp": "2026-11-10T14:05:34.655000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 34 background tasks from queue in 136ms"}
+{"timestamp": "2026-11-10T14:05:35.215000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 27.99ms"}
+{"timestamp": "2026-11-10T14:05:36.371000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 19.89ms"}
+{"timestamp": "2026-11-10T14:05:36.905000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 32.51ms"}
+{"timestamp": "2026-11-10T14:05:37.368000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 18 background tasks from queue in 303ms"}
+{"timestamp": "2026-11-10T14:05:37.783000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:05:38.014000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 24%, CPU: 11%"}
+{"timestamp": "2026-11-10T14:05:38.335000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:05:38.736000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 28%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:05:39.597000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 15 background tasks from queue in 222ms"}
+{"timestamp": "2026-11-10T14:05:40.435000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 12%"}
+{"timestamp": "2026-11-10T14:05:41.515000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 304 in 26.43ms"}
+{"timestamp": "2026-11-10T14:05:42.863000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 45%, CPU: 33%"}
+{"timestamp": "2026-11-10T14:05:44.283000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 40.25ms"}
+{"timestamp": "2026-11-10T14:05:44.515000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 21.39ms"}
+{"timestamp": "2026-11-10T14:05:44.863000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 22%"}
+{"timestamp": "2026-11-10T14:05:45.859000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 23 background tasks from queue in 450ms"}
+{"timestamp": "2026-11-10T14:05:47.152000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 35 background tasks from queue in 244ms"}
+{"timestamp": "2026-11-10T14:05:48.271000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 12.75ms"}
+{"timestamp": "2026-11-10T14:05:48.991000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 24.0ms"}
+{"timestamp": "2026-11-10T14:05:49.469000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 20.23ms"}
+{"timestamp": "2026-11-10T14:05:50.607000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 304 in 33.8ms"}
+{"timestamp": "2026-11-10T14:05:50.979000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 51%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:05:52.464000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 20.92ms"}
+{"timestamp": "2026-11-10T14:05:52.727000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 27%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:05:54.086000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 23 background tasks from queue in 153ms"}
+{"timestamp": "2026-11-10T14:05:54.515000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 304 in 11.59ms"}
+{"timestamp": "2026-11-10T14:05:55.424000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 27.41ms"}
+{"timestamp": "2026-11-10T14:05:56.793000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 41.94ms"}
+{"timestamp": "2026-11-10T14:05:57.402000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 32.86ms"}
+{"timestamp": "2026-11-10T14:05:58.653000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 18.17ms"}
+{"timestamp": "2026-11-10T14:05:59.446000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 21.31ms"}
+{"timestamp": "2026-11-10T14:06:00.615000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 34.36ms"}
+{"timestamp": "2026-11-10T14:06:01.096000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 12.61ms"}
+{"timestamp": "2026-11-10T14:06:02.549000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 56%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:06:03.364000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 55%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:06:04.470000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 5.72ms"}
+{"timestamp": "2026-11-10T14:06:04.695000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:06:04.991000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 38%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:06:06.343000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 32.63ms"}
+{"timestamp": "2026-11-10T14:06:07.238000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 16 background tasks from queue in 233ms"}
+{"timestamp": "2026-11-10T14:06:07.890000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 32.24ms"}
+{"timestamp": "2026-11-10T14:06:08.741000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 39 background tasks from queue in 281ms"}
+{"timestamp": "2026-11-10T14:06:09.875000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 22 background tasks from queue in 190ms"}
+{"timestamp": "2026-11-10T14:06:10.203000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 48 background tasks from queue in 188ms"}
+{"timestamp": "2026-11-10T14:06:10.986000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 26 background tasks from queue in 400ms"}
+{"timestamp": "2026-11-10T14:06:11.927000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:06:12.146000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 29%, CPU: 12%"}
+{"timestamp": "2026-11-10T14:06:13.170000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:06:13.691000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 28%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:06:14.707000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 35%, CPU: 16%"}
+{"timestamp": "2026-11-10T14:06:15.301000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 54%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:06:16.249000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 6.64ms"}
+{"timestamp": "2026-11-10T14:06:16.686000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 16.19ms"}
+{"timestamp": "2026-11-10T14:06:17.117000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 13 background tasks from queue in 155ms"}
+{"timestamp": "2026-11-10T14:06:18.445000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 42%, CPU: 12%"}
+{"timestamp": "2026-11-10T14:06:19.237000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 25 background tasks from queue in 265ms"}
+{"timestamp": "2026-11-10T14:06:20.569000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 30%, CPU: 13%"}
+{"timestamp": "2026-11-10T14:06:21.172000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 39%, CPU: 16%"}
+{"timestamp": "2026-11-10T14:06:22.320000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 24%, CPU: 8%"}
+{"timestamp": "2026-11-10T14:06:22.946000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:06:23.171000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 21.84ms"}
+{"timestamp": "2026-11-10T14:06:23.759000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 24.38ms"}
+{"timestamp": "2026-11-10T14:06:25.231000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 50 background tasks from queue in 199ms"}
+{"timestamp": "2026-11-10T14:06:25.782000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 39.7ms"}
+{"timestamp": "2026-11-10T14:06:26.763000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 38%, CPU: 8%"}
+{"timestamp": "2026-11-10T14:06:27.624000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 20.86ms"}
+{"timestamp": "2026-11-10T14:06:28.088000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 7.47ms"}
+{"timestamp": "2026-11-10T14:06:28.390000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 6.02ms"}
+{"timestamp": "2026-11-10T14:06:28.938000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 29.73ms"}
+{"timestamp": "2026-11-10T14:06:29.946000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 36 background tasks from queue in 253ms"}
+{"timestamp": "2026-11-10T14:06:30.177000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:06:31.435000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:06:31.701000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:06:31.967000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:06:32.313000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 58%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:06:32.548000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 29%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:06:33.930000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 45 background tasks from queue in 225ms"}
+{"timestamp": "2026-11-10T14:06:34.615000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 49%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:06:35.870000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 5.03ms"}
+{"timestamp": "2026-11-10T14:06:36.851000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 22.67ms"}
+{"timestamp": "2026-11-10T14:06:38.321000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:06:39.013000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 38%, CPU: 5%"}
+{"timestamp": "2026-11-10T14:06:39.515000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 46%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:06:40.994000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 17.68ms"}
+{"timestamp": "2026-11-10T14:06:41.831000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 39.81ms"}
+{"timestamp": "2026-11-10T14:06:42.179000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 43.21ms"}
+{"timestamp": "2026-11-10T14:06:42.603000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 37.2ms"}
+{"timestamp": "2026-11-10T14:06:43.973000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 55%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:06:44.868000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 7.24ms"}
+{"timestamp": "2026-11-10T14:06:45.904000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 20.32ms"}
+{"timestamp": "2026-11-10T14:06:47.127000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 25.67ms"}
+{"timestamp": "2026-11-10T14:06:47.810000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 22.23ms"}
+{"timestamp": "2026-11-10T14:06:49.089000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:06:50.582000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 25.1ms"}
+{"timestamp": "2026-11-10T14:06:51.003000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 22.78ms"}
+{"timestamp": "2026-11-10T14:06:52.409000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 38.17ms"}
+{"timestamp": "2026-11-10T14:06:52.950000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:06:53.970000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 39.73ms"}
+{"timestamp": "2026-11-10T14:06:55.363000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 37.45ms"}
+{"timestamp": "2026-11-10T14:06:55.866000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 44.43ms"}
+{"timestamp": "2026-11-10T14:06:57.349000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 304 in 25.37ms"}
+{"timestamp": "2026-11-10T14:06:57.742000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 40.77ms"}
+{"timestamp": "2026-11-10T14:06:59.051000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 14.19ms"}
+{"timestamp": "2026-11-10T14:07:00.186000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 4.76ms"}
+{"timestamp": "2026-11-10T14:07:01.418000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 44 background tasks from queue in 149ms"}
+{"timestamp": "2026-11-10T14:07:02.162000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:07:03.031000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 14 background tasks from queue in 328ms"}
+{"timestamp": "2026-11-10T14:07:03.253000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 304 in 17.19ms"}
+{"timestamp": "2026-11-10T14:07:04.376000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 25%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:07:05.048000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 6.93ms"}
+{"timestamp": "2026-11-10T14:07:05.638000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 26.53ms"}
+{"timestamp": "2026-11-10T14:07:06.295000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:07:07.083000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 24.47ms"}
+{"timestamp": "2026-11-10T14:07:08.485000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:07:09.591000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:07:09.949000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 22%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:07:11.425000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 304 in 14.62ms"}
+{"timestamp": "2026-11-10T14:07:12.134000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 10 background tasks from queue in 189ms"}
+{"timestamp": "2026-11-10T14:07:12.652000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 16.42ms"}
+{"timestamp": "2026-11-10T14:07:13.002000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 38.41ms"}
+{"timestamp": "2026-11-10T14:07:14.396000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 18.77ms"}
+{"timestamp": "2026-11-10T14:07:15.159000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 40%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:07:16.622000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 36%, CPU: 9%"}
+{"timestamp": "2026-11-10T14:07:17.409000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 52%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:07:18.572000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 35.01ms"}
+{"timestamp": "2026-11-10T14:07:18.975000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 53%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:07:19.695000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 5.68ms"}
+{"timestamp": "2026-11-10T14:07:20.480000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 20 background tasks from queue in 121ms"}
+{"timestamp": "2026-11-10T14:07:21.189000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 44.83ms"}
+{"timestamp": "2026-11-10T14:07:22.418000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 22.15ms"}
+{"timestamp": "2026-11-10T14:07:27.418000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Redis memory warning: 94.2% of 4096MB used. Eviction policy: noeviction"}
+{"timestamp": "2026-11-10T14:07:37.418000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "Session cache write failed.\nTraceback (most recent call last):\n  File \"/app/services/session.py\", line 88, in store_session\n    await redis_client.setex(session_key, 3600, session_data)\n  File \"/usr/local/lib/python3.12/site-packages/redis/asyncio/client.py\", line 534, in execute_command\n    return await self.parse_response(conn, command_name, **options)\nredis.exceptions.ResponseError: OOM command not allowed when used memory > 'maxmemory'"}
+{"timestamp": "2026-11-10T14:07:43.418000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "OOM command not allowed when used memory > 'maxmemory'"}
+{"timestamp": "2026-11-10T14:07:51.418000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "Failed to persist user session token in cache: redis OOM"}
+{"timestamp": "2026-11-10T14:07:51.486000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:07:52.025000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 18 background tasks from queue in 400ms"}
+{"timestamp": "2026-11-10T14:07:52.683000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:07:53.114000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 21.52ms"}
+{"timestamp": "2026-11-10T14:07:54.157000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 304 in 16.5ms"}
+{"timestamp": "2026-11-10T14:07:55.146000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:07:55.399000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 34.68ms"}
+{"timestamp": "2026-11-10T14:07:56.643000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 36.81ms"}
+{"timestamp": "2026-11-10T14:07:57.728000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 38%, CPU: 9%"}
+{"timestamp": "2026-11-10T14:07:59.176000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 46%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:07:59.625000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:00.713000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 31.7ms"}
+{"timestamp": "2026-11-10T14:08:01.392000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 23 background tasks from queue in 127ms"}
+{"timestamp": "2026-11-10T14:08:01.632000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:02.598000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:03.211000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 25 background tasks from queue in 303ms"}
+{"timestamp": "2026-11-10T14:08:04.183000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:04.956000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 24%, CPU: 33%"}
+{"timestamp": "2026-11-10T14:08:05.184000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 22 background tasks from queue in 311ms"}
+{"timestamp": "2026-11-10T14:08:05.667000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 21.2ms"}
+{"timestamp": "2026-11-10T14:08:06.611000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 42.86ms"}
+{"timestamp": "2026-11-10T14:08:07.845000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 15 background tasks from queue in 167ms"}
+{"timestamp": "2026-11-10T14:08:08.637000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:09.681000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:10.394000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 20.74ms"}
+{"timestamp": "2026-11-10T14:08:10.638000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:08:11.157000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 46 background tasks from queue in 310ms"}
+{"timestamp": "2026-11-10T14:08:12.430000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 24%, CPU: 34%"}
+{"timestamp": "2026-11-10T14:08:13.188000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:08:14.268000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:14.510000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 45%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:08:15.769000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 13 background tasks from queue in 197ms"}
+{"timestamp": "2026-11-10T14:08:16.225000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 15.45ms"}
+{"timestamp": "2026-11-10T14:08:17.499000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 20 background tasks from queue in 429ms"}
+{"timestamp": "2026-11-10T14:08:18.341000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 17.45ms"}
+{"timestamp": "2026-11-10T14:08:19.084000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 46%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:08:20.341000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:21.103000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 16 background tasks from queue in 131ms"}
+{"timestamp": "2026-11-10T14:08:21.726000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 21.59ms"}
+{"timestamp": "2026-11-10T14:08:22.005000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 40.19ms"}
+{"timestamp": "2026-11-10T14:08:22.645000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:08:23.364000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 43.06ms"}
+{"timestamp": "2026-11-10T14:08:24.505000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:08:25.545000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 40 background tasks from queue in 242ms"}
+{"timestamp": "2026-11-10T14:08:27.038000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 18.45ms"}
+{"timestamp": "2026-11-10T14:08:27.814000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:28.015000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:28.936000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 8%"}
+{"timestamp": "2026-11-10T14:08:30.393000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:31.595000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 40%, CPU: 12%"}
+{"timestamp": "2026-11-10T14:08:32.940000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 41 background tasks from queue in 182ms"}
+{"timestamp": "2026-11-10T14:08:34.112000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 54%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:08:35.334000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 19.02ms"}
+{"timestamp": "2026-11-10T14:08:35.574000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 12%"}
+{"timestamp": "2026-11-10T14:08:35.959000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 52%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:08:37.313000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:38.377000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:39.480000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:08:40.497000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 12.28ms"}
+{"timestamp": "2026-11-10T14:08:41.472000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:42.171000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:42.578000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 26.11ms"}
+{"timestamp": "2026-11-10T14:08:43.527000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 10 background tasks from queue in 268ms"}
+{"timestamp": "2026-11-10T14:08:44.464000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 10.54ms"}
+{"timestamp": "2026-11-10T14:08:45.789000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 33.13ms"}
+{"timestamp": "2026-11-10T14:08:46.535000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 46 background tasks from queue in 425ms"}
+{"timestamp": "2026-11-10T14:08:46.946000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 22.22ms"}
+{"timestamp": "2026-11-10T14:08:47.583000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 24.62ms"}
+{"timestamp": "2026-11-10T14:08:48.847000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:08:49.956000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 42.17ms"}
+{"timestamp": "2026-11-10T14:08:51.404000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:51.938000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 28%, CPU: 14%"}
+{"timestamp": "2026-11-10T14:08:52.615000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 43.92ms"}
+{"timestamp": "2026-11-10T14:08:52.886000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 40 background tasks from queue in 385ms"}
+{"timestamp": "2026-11-10T14:08:53.453000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 23.01ms"}
+{"timestamp": "2026-11-10T14:08:53.977000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:08:55.209000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 38 background tasks from queue in 150ms"}
+{"timestamp": "2026-11-10T14:08:55.591000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 43 background tasks from queue in 392ms"}
+{"timestamp": "2026-11-10T14:08:56.817000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 41.84ms"}
+{"timestamp": "2026-11-10T14:08:58.197000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 7.4ms"}
+{"timestamp": "2026-11-10T14:08:59.223000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:08:59.466000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 15.17ms"}
+{"timestamp": "2026-11-10T14:09:00.867000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 29.54ms"}
+{"timestamp": "2026-11-10T14:09:01.698000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:09:02.771000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 28.06ms"}
+{"timestamp": "2026-11-10T14:09:03.565000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 22.34ms"}
+{"timestamp": "2026-11-10T14:09:04.044000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 22.72ms"}
+{"timestamp": "2026-11-10T14:09:04.535000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 14.35ms"}
+{"timestamp": "2026-11-10T14:09:05.208000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 27.82ms"}
+{"timestamp": "2026-11-10T14:09:05.834000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 9.56ms"}
+{"timestamp": "2026-11-10T14:09:06.448000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 12%"}
+{"timestamp": "2026-11-10T14:09:07.199000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 18.35ms"}
+{"timestamp": "2026-11-10T14:09:08.443000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:09:09.517000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:09:10.560000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 14%"}
+{"timestamp": "2026-11-10T14:09:11.877000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 41.99ms"}
+{"timestamp": "2026-11-10T14:09:12.488000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:09:13.327000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 31%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:09:13.808000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 41.7ms"}
+{"timestamp": "2026-11-10T14:09:14.653000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 29.67ms"}
+{"timestamp": "2026-11-10T14:09:15.650000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:09:16.564000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:09:17.057000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 42%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:09:18.090000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:09:19.371000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 21.88ms"}
+{"timestamp": "2026-11-10T14:09:19.793000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 11%"}
+{"timestamp": "2026-11-10T14:09:20.811000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 30.62ms"}
+{"timestamp": "2026-11-10T14:09:22.304000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:09:23.034000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:09:23.778000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 35.78ms"}
+{"timestamp": "2026-11-10T14:09:25.222000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 49 background tasks from queue in 122ms"}
+{"timestamp": "2026-11-10T14:09:26.637000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 15.38ms"}
+{"timestamp": "2026-11-10T14:09:27.941000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 37.58ms"}
+{"timestamp": "2026-11-10T14:09:29.140000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 13%"}
+{"timestamp": "2026-11-10T14:09:29.369000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:09:30.867000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 22.58ms"}
+{"timestamp": "2026-11-10T14:09:31.635000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 45 background tasks from queue in 217ms"}
+{"timestamp": "2026-11-10T14:09:32.952000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 10 background tasks from queue in 237ms"}
+{"timestamp": "2026-11-10T14:09:33.369000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 35.69ms"}
+{"timestamp": "2026-11-10T14:09:34.423000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 58%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:09:35.577000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:09:36.188000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:09:37.438000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:09:38.531000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 36 background tasks from queue in 367ms"}
+{"timestamp": "2026-11-10T14:09:39.871000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 27.02ms"}
+{"timestamp": "2026-11-10T14:09:40.326000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 55%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:09:40.543000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 39 background tasks from queue in 317ms"}
+{"timestamp": "2026-11-10T14:09:41.760000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 24.73ms"}
+{"timestamp": "2026-11-10T14:09:42.952000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:09:44.321000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:09:45.780000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 33.38ms"}
+{"timestamp": "2026-11-10T14:09:46.923000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 55%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:09:47.569000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 43.61ms"}
+{"timestamp": "2026-11-10T14:09:48.165000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 21.51ms"}
+{"timestamp": "2026-11-10T14:09:49.201000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 23 background tasks from queue in 240ms"}
+{"timestamp": "2026-11-10T14:09:50.212000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:09:51.367000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 46 background tasks from queue in 140ms"}
+{"timestamp": "2026-11-10T14:09:52.377000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 24.73ms"}
+{"timestamp": "2026-11-10T14:09:52.746000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:09:53.004000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 33.53ms"}
+{"timestamp": "2026-11-10T14:09:53.870000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 38.14ms"}
+{"timestamp": "2026-11-10T14:09:55.356000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:09:55.765000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:09:56.512000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:09:57.602000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 49%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:09:59.016000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:09:59.674000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 16 background tasks from queue in 183ms"}
+{"timestamp": "2026-11-10T14:10:00.600000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:01.271000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 46%, CPU: 5%"}
+{"timestamp": "2026-11-10T14:10:01.574000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 304 in 7.9ms"}
+{"timestamp": "2026-11-10T14:10:02.066000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 38%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:10:03.319000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 55%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:10:04.331000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 42 background tasks from queue in 368ms"}
+{"timestamp": "2026-11-10T14:10:04.588000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 42.32ms"}
+{"timestamp": "2026-11-10T14:10:05.924000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 44.24ms"}
+{"timestamp": "2026-11-10T14:10:06.272000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 28 background tasks from queue in 439ms"}
+{"timestamp": "2026-11-10T14:10:06.942000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 28.41ms"}
+{"timestamp": "2026-11-10T14:10:07.691000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 53%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:10:07.903000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 13 background tasks from queue in 348ms"}
+{"timestamp": "2026-11-10T14:10:08.405000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 35 background tasks from queue in 435ms"}
+{"timestamp": "2026-11-10T14:10:09.515000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 45%, CPU: 7%"}
+{"timestamp": "2026-11-10T14:10:10.332000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 39 background tasks from queue in 401ms"}
+{"timestamp": "2026-11-10T14:10:11.012000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 31 background tasks from queue in 337ms"}
+{"timestamp": "2026-11-10T14:10:11.766000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:10:12.695000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 44.77ms"}
+{"timestamp": "2026-11-10T14:10:14.053000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 24.62ms"}
+{"timestamp": "2026-11-10T14:10:14.315000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 43.16ms"}
+{"timestamp": "2026-11-10T14:10:14.638000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 28.97ms"}
+{"timestamp": "2026-11-10T14:10:15.239000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 16.1ms"}
+{"timestamp": "2026-11-10T14:10:16.484000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 304 in 19.97ms"}
+{"timestamp": "2026-11-10T14:10:16.700000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:18.098000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:18.988000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 29.13ms"}
+{"timestamp": "2026-11-10T14:10:19.282000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:19.925000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:21.402000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 19.06ms"}
+{"timestamp": "2026-11-10T14:10:22.810000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:23.490000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 44.21ms"}
+{"timestamp": "2026-11-10T14:10:24.862000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:25.104000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 27.65ms"}
+{"timestamp": "2026-11-10T14:10:26.256000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 4.82ms"}
+{"timestamp": "2026-11-10T14:10:27.578000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:28.913000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:29.686000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 304 in 20.91ms"}
+{"timestamp": "2026-11-10T14:10:30.646000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 26 background tasks from queue in 211ms"}
+{"timestamp": "2026-11-10T14:10:31.532000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 40%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:10:32.616000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:10:33.334000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:34.286000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 28 background tasks from queue in 208ms"}
+{"timestamp": "2026-11-10T14:10:35.354000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 46 background tasks from queue in 160ms"}
+{"timestamp": "2026-11-10T14:10:36.291000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:10:37.519000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:10:38.144000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:39.348000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:10:39.972000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 11 background tasks from queue in 444ms"}
+{"timestamp": "2026-11-10T14:10:41.148000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 55%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:10:41.922000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 41.21ms"}
+{"timestamp": "2026-11-10T14:10:42.331000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:10:43.240000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 30.62ms"}
+{"timestamp": "2026-11-10T14:10:44.543000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:45.448000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:45.772000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 18.93ms"}
+{"timestamp": "2026-11-10T14:10:47.151000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 24%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:10:47.396000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 41%, CPU: 17%"}
+{"timestamp": "2026-11-10T14:10:48.755000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:49.394000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 16.87ms"}
+{"timestamp": "2026-11-10T14:10:49.926000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 38 background tasks from queue in 207ms"}
+{"timestamp": "2026-11-10T14:10:51.178000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 13%"}
+{"timestamp": "2026-11-10T14:10:52.626000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 16%"}
+{"timestamp": "2026-11-10T14:10:53.995000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 8.21ms"}
+{"timestamp": "2026-11-10T14:10:55.435000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:56.170000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 13.59ms"}
+{"timestamp": "2026-11-10T14:10:57.155000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:57.482000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:10:57.717000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 7.35ms"}
+{"timestamp": "2026-11-10T14:10:58.884000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:10:59.740000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:11:00.295000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 24.07ms"}
+{"timestamp": "2026-11-10T14:11:01.164000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:01.721000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:11:02.039000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 49%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:11:02.375000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 13%"}
+{"timestamp": "2026-11-10T14:11:03.208000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 24 background tasks from queue in 181ms"}
+{"timestamp": "2026-11-10T14:11:04.245000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:05.590000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 304 in 11.53ms"}
+{"timestamp": "2026-11-10T14:11:06.169000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 49 background tasks from queue in 343ms"}
+{"timestamp": "2026-11-10T14:11:06.647000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 39%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:11:07.942000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 21.04ms"}
+{"timestamp": "2026-11-10T14:11:09.216000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 33.17ms"}
+{"timestamp": "2026-11-10T14:11:10.017000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 14.61ms"}
+{"timestamp": "2026-11-10T14:11:11.330000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 52%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:11:12.272000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 9%"}
+{"timestamp": "2026-11-10T14:11:12.640000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:13.710000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:15.142000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 9.26ms"}
+{"timestamp": "2026-11-10T14:11:15.930000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 304 in 8.21ms"}
+{"timestamp": "2026-11-10T14:11:17.075000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 15.86ms"}
+{"timestamp": "2026-11-10T14:11:18.397000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 43.58ms"}
+{"timestamp": "2026-11-10T14:11:18.794000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:20.110000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 56%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:11:20.873000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 43%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:11:21.768000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:22.696000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:23.715000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 26.22ms"}
+{"timestamp": "2026-11-10T14:11:24.150000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 20 background tasks from queue in 133ms"}
+{"timestamp": "2026-11-10T14:11:25.591000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 22.98ms"}
+{"timestamp": "2026-11-10T14:11:25.976000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 28%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:11:26.230000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:27.561000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:11:29.005000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 28.32ms"}
+{"timestamp": "2026-11-10T14:11:29.663000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 38 background tasks from queue in 203ms"}
+{"timestamp": "2026-11-10T14:11:30.559000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 7.17ms"}
+{"timestamp": "2026-11-10T14:11:31.111000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 24.8ms"}
+{"timestamp": "2026-11-10T14:11:31.788000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 22%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:11:33.010000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 14.82ms"}
+{"timestamp": "2026-11-10T14:11:34.304000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:11:35.208000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:35.884000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:36.745000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 14 background tasks from queue in 234ms"}
+{"timestamp": "2026-11-10T14:11:38.123000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 28.12ms"}
+{"timestamp": "2026-11-10T14:11:39.311000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 304 in 13.9ms"}
+{"timestamp": "2026-11-10T14:11:39.769000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 18.75ms"}
+{"timestamp": "2026-11-10T14:11:40.515000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 36 background tasks from queue in 376ms"}
+{"timestamp": "2026-11-10T14:11:41.018000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 38%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:11:41.912000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:11:43.009000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 12.09ms"}
+{"timestamp": "2026-11-10T14:11:43.519000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 27.76ms"}
+{"timestamp": "2026-11-10T14:11:43.969000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:44.616000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:44.852000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 16 background tasks from queue in 264ms"}
+{"timestamp": "2026-11-10T14:11:45.522000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 28.3ms"}
+{"timestamp": "2026-11-10T14:11:45.999000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 37.52ms"}
+{"timestamp": "2026-11-10T14:11:46.368000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 21.57ms"}
+{"timestamp": "2026-11-10T14:11:47.262000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 25.87ms"}
+{"timestamp": "2026-11-10T14:11:48.311000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:49.792000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:11:50.395000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:11:51.267000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:52.628000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:11:54.128000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 40 background tasks from queue in 170ms"}
+{"timestamp": "2026-11-10T14:11:54.456000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 24.73ms"}
+{"timestamp": "2026-11-10T14:11:55.755000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 27.96ms"}
+{"timestamp": "2026-11-10T14:11:56.324000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:56.651000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:57.570000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 8.84ms"}
+{"timestamp": "2026-11-10T14:11:58.928000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:11:59.153000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:11:59.955000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:00.434000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 51%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:12:01.602000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 49 background tasks from queue in 383ms"}
+{"timestamp": "2026-11-10T14:12:02.570000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 45 background tasks from queue in 326ms"}
+{"timestamp": "2026-11-10T14:12:03.348000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 43.28ms"}
+{"timestamp": "2026-11-10T14:12:04.001000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:12:04.486000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 25%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:12:05.447000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 23 background tasks from queue in 144ms"}
+{"timestamp": "2026-11-10T14:12:06.920000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 37.17ms"}
+{"timestamp": "2026-11-10T14:12:07.360000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:08.410000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 33.27ms"}
+{"timestamp": "2026-11-10T14:12:09.239000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:12:10.679000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 45%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:12:11.271000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 48%, CPU: 9%"}
+{"timestamp": "2026-11-10T14:12:12.613000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 25.28ms"}
+{"timestamp": "2026-11-10T14:12:12.908000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 27%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:12:13.291000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 8.07ms"}
+{"timestamp": "2026-11-10T14:12:13.844000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:12:14.463000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 304 in 21.73ms"}
+{"timestamp": "2026-11-10T14:12:14.862000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 39.82ms"}
+{"timestamp": "2026-11-10T14:12:16.347000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 50 background tasks from queue in 158ms"}
+{"timestamp": "2026-11-10T14:12:17.597000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 48%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:12:18.983000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 36.41ms"}
+{"timestamp": "2026-11-10T14:12:20.271000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:20.669000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 45 background tasks from queue in 250ms"}
+{"timestamp": "2026-11-10T14:12:21.533000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:22.579000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 33.53ms"}
+{"timestamp": "2026-11-10T14:12:23.292000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:24.080000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:24.470000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 45%, CPU: 14%"}
+{"timestamp": "2026-11-10T14:12:24.850000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:25.835000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:26.907000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 24 background tasks from queue in 422ms"}
+{"timestamp": "2026-11-10T14:12:27.578000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 43.97ms"}
+{"timestamp": "2026-11-10T14:12:28.035000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 25 background tasks from queue in 166ms"}
+{"timestamp": "2026-11-10T14:12:28.929000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 23 background tasks from queue in 406ms"}
+{"timestamp": "2026-11-10T14:12:29.370000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 11.87ms"}
+{"timestamp": "2026-11-10T14:12:29.672000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:30.381000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 6.44ms"}
+{"timestamp": "2026-11-10T14:12:30.910000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 7.24ms"}
+{"timestamp": "2026-11-10T14:12:32.307000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:32.747000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 30%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:12:33.912000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 52%, CPU: 17%"}
+{"timestamp": "2026-11-10T14:12:34.628000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:35.349000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:12:36.813000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:37.375000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 22.38ms"}
+{"timestamp": "2026-11-10T14:12:38.448000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 17.01ms"}
+{"timestamp": "2026-11-10T14:12:39.352000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:39.574000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 4.66ms"}
+{"timestamp": "2026-11-10T14:12:40.188000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:12:41.614000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:42.082000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 46%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:12:43.345000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 53%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:12:44.810000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:12:45.210000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 43%, CPU: 8%"}
+{"timestamp": "2026-11-10T14:12:45.989000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 22 background tasks from queue in 282ms"}
+{"timestamp": "2026-11-10T14:12:46.558000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:12:47.105000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 7.83ms"}
+{"timestamp": "2026-11-10T14:12:47.559000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:12:47.856000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:12:49.051000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:50.241000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 11.58ms"}
+{"timestamp": "2026-11-10T14:12:51.427000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 24.54ms"}
+{"timestamp": "2026-11-10T14:12:52.719000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 33.24ms"}
+{"timestamp": "2026-11-10T14:12:53.030000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 36.24ms"}
+{"timestamp": "2026-11-10T14:12:54.171000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:12:55.122000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 37 background tasks from queue in 365ms"}
+{"timestamp": "2026-11-10T14:12:55.958000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 22.65ms"}
+{"timestamp": "2026-11-10T14:12:56.310000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 8.06ms"}
+{"timestamp": "2026-11-10T14:12:57.765000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:12:58.568000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 12.63ms"}
+{"timestamp": "2026-11-10T14:12:59.654000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 44.23ms"}
+{"timestamp": "2026-11-10T14:13:00.798000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:13:02.033000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:13:02.292000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 7.25ms"}
+{"timestamp": "2026-11-10T14:13:03.454000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:13:04.354000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 40.98ms"}
+{"timestamp": "2026-11-10T14:13:05.103000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:13:05.853000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 22%, CPU: 33%"}
+{"timestamp": "2026-11-10T14:13:06.802000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 38.87ms"}
+{"timestamp": "2026-11-10T14:13:07.952000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:13:08.353000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 30%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:13:09.667000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:13:10.178000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 5.37ms"}
+{"timestamp": "2026-11-10T14:13:11.217000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 54%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:13:11.643000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 43 background tasks from queue in 248ms"}
+{"timestamp": "2026-11-10T14:13:12.563000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:13:14.063000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 11.9ms"}
+{"timestamp": "2026-11-10T14:13:14.980000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 57%, CPU: 16%"}
+{"timestamp": "2026-11-10T14:13:16.058000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 27 background tasks from queue in 267ms"}
+{"timestamp": "2026-11-10T14:13:16.330000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 25.61ms"}
+{"timestamp": "2026-11-10T14:13:17.773000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:13:19.097000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 42%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:13:20.155000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:13:21.607000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:13:22.476000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 29%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:13:22.841000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 15.48ms"}
+{"timestamp": "2026-11-10T14:13:23.204000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:13:23.827000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 36.56ms"}
+{"timestamp": "2026-11-10T14:13:25.172000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 22%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:13:26.138000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 36 background tasks from queue in 362ms"}
+{"timestamp": "2026-11-10T14:13:26.913000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 31 background tasks from queue in 268ms"}
+{"timestamp": "2026-11-10T14:13:27.992000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:13:28.655000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 38.97ms"}
+{"timestamp": "2026-11-10T14:13:30.091000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 44.96ms"}
+{"timestamp": "2026-11-10T14:13:30.919000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 44 background tasks from queue in 365ms"}
+{"timestamp": "2026-11-10T14:13:31.244000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:13:32.006000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:13:33.047000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:13:33.832000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 27 background tasks from queue in 204ms"}
+{"timestamp": "2026-11-10T14:13:35.197000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:13:35.436000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:13:36.909000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 43.04ms"}
+{"timestamp": "2026-11-10T14:13:37.195000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 27%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:13:38.393000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:13:39.259000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 38.75ms"}
+{"timestamp": "2026-11-10T14:13:40.315000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 31%, CPU: 11%"}
+{"timestamp": "2026-11-10T14:13:41.068000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 13.8ms"}
+{"timestamp": "2026-11-10T14:13:42.223000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 11.82ms"}
+{"timestamp": "2026-11-10T14:13:43.490000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 27.68ms"}
+{"timestamp": "2026-11-10T14:13:44.512000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 31.98ms"}
+{"timestamp": "2026-11-10T14:13:45.930000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 22%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:13:46.206000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:13:47.175000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:13:47.847000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 25.85ms"}
+{"timestamp": "2026-11-10T14:13:49.218000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 38.39ms"}
+{"timestamp": "2026-11-10T14:13:50.167000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 304 in 11.56ms"}
+{"timestamp": "2026-11-10T14:13:50.732000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:13:52.028000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 304 in 20.43ms"}
+{"timestamp": "2026-11-10T14:13:52.289000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:13:52.902000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:13:53.292000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 31.12ms"}
+{"timestamp": "2026-11-10T14:13:53.999000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 46 background tasks from queue in 415ms"}
+{"timestamp": "2026-11-10T14:13:54.937000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:13:55.484000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:13:56.622000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 44.96ms"}
+{"timestamp": "2026-11-10T14:13:57.256000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 24%, CPU: 16%"}
+{"timestamp": "2026-11-10T14:13:57.950000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 25 background tasks from queue in 123ms"}
+{"timestamp": "2026-11-10T14:13:58.543000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:13:59.569000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:14:00.414000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:14:01.107000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:14:01.766000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 7.01ms"}
+{"timestamp": "2026-11-10T14:14:02.251000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:14:03.011000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 304 in 21.76ms"}
+{"timestamp": "2026-11-10T14:14:03.970000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 11 background tasks from queue in 208ms"}
+{"timestamp": "2026-11-10T14:14:04.313000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 32%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:14:05.433000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:14:05.972000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 58%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:14:06.351000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 26.39ms"}
+{"timestamp": "2026-11-10T14:14:06.952000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:14:07.823000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 304 in 17.22ms"}
+{"timestamp": "2026-11-10T14:14:08.661000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:14:08.913000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:14:09.412000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 8.79ms"}
+{"timestamp": "2026-11-10T14:14:10.451000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:14:10.797000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 20 background tasks from queue in 137ms"}
+{"timestamp": "2026-11-10T14:14:11.429000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 52%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:14:12.902000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 23.42ms"}
+{"timestamp": "2026-11-10T14:14:13.808000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 304 in 19.72ms"}
+{"timestamp": "2026-11-10T14:14:15.300000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:14:16.093000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 46%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:14:17.442000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:14:18.122000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 15.59ms"}
+{"timestamp": "2026-11-10T14:14:19.015000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 5.41ms"}
+{"timestamp": "2026-11-10T14:14:19.498000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:14:20.032000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:14:20.634000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 19.48ms"}
+{"timestamp": "2026-11-10T14:14:21.852000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 30.81ms"}
+{"timestamp": "2026-11-10T14:14:22.884000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 39 background tasks from queue in 393ms"}
+{"timestamp": "2026-11-10T14:14:23.912000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 47 background tasks from queue in 221ms"}
+{"timestamp": "2026-11-10T14:14:24.964000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 49 background tasks from queue in 290ms"}
+{"timestamp": "2026-11-10T14:14:26.454000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:14:27.359000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 19.93ms"}
+{"timestamp": "2026-11-10T14:14:27.848000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 17.83ms"}
+{"timestamp": "2026-11-10T14:14:28.781000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 35.21ms"}
+{"timestamp": "2026-11-10T14:14:29.215000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 20.02ms"}
+{"timestamp": "2026-11-10T14:14:30.036000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:14:31.467000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 7.9ms"}
+{"timestamp": "2026-11-10T14:14:32.945000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 38.29ms"}
+{"timestamp": "2026-11-10T14:14:33.672000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 36%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:14:34.782000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:14:35.314000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:14:36.242000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 26.15ms"}
+{"timestamp": "2026-11-10T14:14:37.700000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 52%, CPU: 9%"}
+{"timestamp": "2026-11-10T14:14:38.391000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 304 in 13.69ms"}
+{"timestamp": "2026-11-10T14:14:38.660000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 5.05ms"}
+{"timestamp": "2026-11-10T14:14:39.526000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:14:40.472000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 23.13ms"}
+{"timestamp": "2026-11-10T14:14:41.961000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 17%"}
+{"timestamp": "2026-11-10T14:14:42.698000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 26.87ms"}
+{"timestamp": "2026-11-10T14:14:43.813000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 24 background tasks from queue in 216ms"}
+{"timestamp": "2026-11-10T14:14:45.189000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 38.41ms"}
+{"timestamp": "2026-11-10T14:14:46.677000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:14:46.948000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 20.34ms"}
+{"timestamp": "2026-11-10T14:14:47.180000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 37 background tasks from queue in 147ms"}
+{"timestamp": "2026-11-10T14:14:47.979000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 38 background tasks from queue in 188ms"}
+{"timestamp": "2026-11-10T14:14:48.596000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 23.42ms"}
+{"timestamp": "2026-11-10T14:14:49.740000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 48%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:14:51.045000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 15.41ms"}
+{"timestamp": "2026-11-10T14:14:52.185000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 304 in 32.15ms"}
+{"timestamp": "2026-11-10T14:14:53.284000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:14:53.594000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 36.72ms"}
+{"timestamp": "2026-11-10T14:14:54.252000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 31%, CPU: 34%"}
+{"timestamp": "2026-11-10T14:14:55.060000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 32%, CPU: 11%"}
+{"timestamp": "2026-11-10T14:14:55.273000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:14:55.800000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 43%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:14:57.234000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 7.66ms"}
+{"timestamp": "2026-11-10T14:14:58.190000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 35 background tasks from queue in 225ms"}
+{"timestamp": "2026-11-10T14:14:58.533000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 26.39ms"}
+{"timestamp": "2026-11-10T14:14:59.093000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 54%, CPU: 16%"}
+{"timestamp": "2026-11-10T14:15:00.580000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 36.85ms"}
+{"timestamp": "2026-11-10T14:15:01.382000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 7.07ms"}
+{"timestamp": "2026-11-10T14:15:02.750000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:15:03.515000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 35.23ms"}
+{"timestamp": "2026-11-10T14:15:04.358000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 26.93ms"}
+{"timestamp": "2026-11-10T14:15:05.716000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:15:05.934000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 40.94ms"}
+{"timestamp": "2026-11-10T14:15:06.608000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:15:07.588000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 32%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:15:08.466000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 35 background tasks from queue in 285ms"}
+{"timestamp": "2026-11-10T14:15:09.768000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:15:10.007000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 33.68ms"}
+{"timestamp": "2026-11-10T14:15:10.623000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 49%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:15:11.998000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 15 background tasks from queue in 317ms"}
+{"timestamp": "2026-11-10T14:15:12.907000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 38.45ms"}
+{"timestamp": "2026-11-10T14:15:13.320000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 48%, CPU: 34%"}
+{"timestamp": "2026-11-10T14:15:14.372000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:15:15.012000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:15:15.919000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:15:16.770000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 11.3ms"}
+{"timestamp": "2026-11-10T14:15:17.864000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 17.55ms"}
+{"timestamp": "2026-11-10T14:15:18.536000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 24 background tasks from queue in 253ms"}
+{"timestamp": "2026-11-10T14:15:19.485000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:15:20.857000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:15:21.518000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:15:22.554000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:15:23.540000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 18 background tasks from queue in 325ms"}
+{"timestamp": "2026-11-10T14:15:24.576000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:15:25.819000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:15:26.714000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 35%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:15:27.990000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 28.74ms"}
+{"timestamp": "2026-11-10T14:15:29.447000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 37 background tasks from queue in 373ms"}
+{"timestamp": "2026-11-10T14:15:30.018000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 41.3ms"}
+{"timestamp": "2026-11-10T14:15:30.267000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 17.54ms"}
+{"timestamp": "2026-11-10T14:15:31.548000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 38%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:15:32.185000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 32%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:15:33.361000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:15:33.996000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 43%, CPU: 12%"}
+{"timestamp": "2026-11-10T14:15:35.188000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 19.65ms"}
+{"timestamp": "2026-11-10T14:15:36.316000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 29.43ms"}
+{"timestamp": "2026-11-10T14:15:37.220000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 23 background tasks from queue in 272ms"}
+{"timestamp": "2026-11-10T14:15:38.202000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:15:39.625000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:15:40.417000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 7.92ms"}
+{"timestamp": "2026-11-10T14:15:41.714000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 57%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:15:42.062000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 32 background tasks from queue in 197ms"}
+{"timestamp": "2026-11-10T14:15:43.543000+00:00Z", "level": "ERROR", "service": "auth-service", "message": "HTTP 500 / request dropped while auth-service is degraded"}
+{"timestamp": "2026-11-10T14:15:44.759000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 18 background tasks from queue in 159ms"}
+{"timestamp": "2026-11-10T14:15:45.858000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 29 background tasks from queue in 179ms"}
+{"timestamp": "2026-11-10T14:15:46.468000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 45%, CPU: 33%"}
+{"timestamp": "2026-11-10T14:15:46.711000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 25%, CPU: 19%"}

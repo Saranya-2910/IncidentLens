@@ -1,0 +1,108 @@
+{"timestamp": "2026-11-10T14:00:01.418000+00:00Z", "level": "DEBUG", "service": "notification-service", "message": "Processed 35 background tasks from queue in 265ms"}
+{"timestamp": "2026-11-10T14:00:02.771000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 50 background tasks from queue in 402ms"}
+{"timestamp": "2026-11-10T14:00:04.043000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 42.43ms"}
+{"timestamp": "2026-11-10T14:00:05.067000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /static/css/main.css returned 200 in 24.03ms"}
+{"timestamp": "2026-11-10T14:00:06.520000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 34.03ms"}
+{"timestamp": "2026-11-10T14:00:06.804000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 44.66ms"}
+{"timestamp": "2026-11-10T14:00:07.547000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 51%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:00:07.937000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 10 background tasks from queue in 352ms"}
+{"timestamp": "2026-11-10T14:00:08.517000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /healthz returned 200 in 9.5ms"}
+{"timestamp": "2026-11-10T14:00:09.949000+00:00Z", "level": "INFO", "service": "notification-service", "message": "Periodic health check passed. Memory usage: 53%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:00:11.099000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /healthz returned 200 in 37.3ms"}
+{"timestamp": "2026-11-10T14:00:11.880000+00:00Z", "level": "WARN", "service": "notification-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:13.366000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /static/css/main.css returned 200 in 35.48ms"}
+{"timestamp": "2026-11-10T14:00:13.837000+00:00Z", "level": "DEBUG", "service": "notification-service", "message": "Processed 30 background tasks from queue in 342ms"}
+{"timestamp": "2026-11-10T14:00:15.282000+00:00Z", "level": "DEBUG", "service": "notification-service", "message": "Processed 34 background tasks from queue in 319ms"}
+{"timestamp": "2026-11-10T14:00:16.130000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/promotions/active returned 304 in 34.76ms"}
+{"timestamp": "2026-11-10T14:00:17.048000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 19 background tasks from queue in 253ms"}
+{"timestamp": "2026-11-10T14:00:18.068000+00:00Z", "level": "DEBUG", "service": "notification-service", "message": "Processed 44 background tasks from queue in 294ms"}
+{"timestamp": "2026-11-10T14:00:19.282000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/users/me returned 200 in 15.33ms"}
+{"timestamp": "2026-11-10T14:00:20.495000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 32.29ms"}
+{"timestamp": "2026-11-10T14:00:21.351000+00:00Z", "level": "INFO", "service": "notification-service", "message": "Periodic health check passed. Memory usage: 22%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:00:21.625000+00:00Z", "level": "WARN", "service": "worker-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:22.075000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /ready returned 200 in 25.69ms"}
+{"timestamp": "2026-11-10T14:00:22.484000+00:00Z", "level": "INFO", "service": "notification-service", "message": "Periodic health check passed. Memory usage: 37%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:00:23.913000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /static/css/main.css returned 200 in 28.26ms"}
+{"timestamp": "2026-11-10T14:00:24.886000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /healthz returned 304 in 27.71ms"}
+{"timestamp": "2026-11-10T14:00:25.843000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 25 background tasks from queue in 244ms"}
+{"timestamp": "2026-11-10T14:00:26.086000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 35.82ms"}
+{"timestamp": "2026-11-10T14:00:27.303000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /healthz returned 200 in 20.0ms"}
+{"timestamp": "2026-11-10T14:00:28.428000+00:00Z", "level": "WARN", "service": "worker-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:29.350000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 32%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:00:29.990000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /healthz returned 200 in 33.59ms"}
+{"timestamp": "2026-11-10T14:00:30.814000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /healthz returned 200 in 40.0ms"}
+{"timestamp": "2026-11-10T14:00:31.363000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 42.93ms"}
+{"timestamp": "2026-11-10T14:00:32.041000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /ready returned 200 in 4.64ms"}
+{"timestamp": "2026-11-10T14:00:33.175000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /api/v1/cart/items returned 304 in 41.96ms"}
+{"timestamp": "2026-11-10T14:00:33.702000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /ready returned 200 in 42.83ms"}
+{"timestamp": "2026-11-10T14:00:34.735000+00:00Z", "level": "DEBUG", "service": "notification-service", "message": "Processed 37 background tasks from queue in 286ms"}
+{"timestamp": "2026-11-10T14:00:35.973000+00:00Z", "level": "WARN", "service": "worker-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:36.834000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /api/v1/users/me returned 200 in 14.07ms"}
+{"timestamp": "2026-11-10T14:00:37.646000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /api/v1/users/me returned 200 in 32.64ms"}
+{"timestamp": "2026-11-10T14:00:38.327000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /api/v1/users/me returned 200 in 34.2ms"}
+{"timestamp": "2026-11-10T14:00:39.693000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 32 background tasks from queue in 177ms"}
+{"timestamp": "2026-11-10T14:00:40.981000+00:00Z", "level": "DEBUG", "service": "notification-service", "message": "Processed 16 background tasks from queue in 261ms"}
+{"timestamp": "2026-11-10T14:00:42.071000+00:00Z", "level": "DEBUG", "service": "notification-service", "message": "Processed 30 background tasks from queue in 393ms"}
+{"timestamp": "2026-11-10T14:00:42.945000+00:00Z", "level": "DEBUG", "service": "notification-service", "message": "Processed 15 background tasks from queue in 300ms"}
+{"timestamp": "2026-11-10T14:00:44.310000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 48%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:00:45.755000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 28.35ms"}
+{"timestamp": "2026-11-10T14:00:50.755000+00:00Z", "level": "WARN", "service": "worker-service", "message": "Disk usage on /var/tmp reached 98.9% (threshold 90%)"}
+{"timestamp": "2026-11-10T14:01:02.755000+00:00Z", "level": "ERROR", "service": "worker-service", "message": "Task generate_invoice_pdf failed: [Errno 28] No space left on device\nTraceback (most recent call last):\n  File \"/app/workers/reports.py\", line 77, in generate_invoice_pdf\n    with open(temp_path, \"wb\") as f:\n      f.write(rendered_pdf)\nOSError: [Errno 28] No space left on device"}
+{"timestamp": "2026-11-10T14:01:09.755000+00:00Z", "level": "ERROR", "service": "worker-service", "message": "OSError: [Errno 28] No space left on device"}
+{"timestamp": "2026-11-10T14:01:17.755000+00:00Z", "level": "ERROR", "service": "worker-service", "message": "Failed to write temporary buffer to /var/tmp/reports/batch_9410.pdf"}
+{"timestamp": "2026-11-10T14:01:27.755000+00:00Z", "level": "ERROR", "service": "notification-service", "message": "Cannot attach PDF invoice to customer email: file does not exist"}
+{"timestamp": "2026-11-10T14:01:15.479000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /metrics returned 200 in 43.82ms"}
+{"timestamp": "2026-11-10T14:01:15.682000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /api/v1/users/me returned 304 in 39.01ms"}
+{"timestamp": "2026-11-10T14:01:16.046000+00:00Z", "level": "INFO", "service": "notification-service", "message": "Periodic health check passed. Memory usage: 30%, CPU: 17%"}
+{"timestamp": "2026-11-10T14:01:17.015000+00:00Z", "level": "WARN", "service": "notification-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:18.509000+00:00Z", "level": "INFO", "service": "notification-service", "message": "Periodic health check passed. Memory usage: 36%, CPU: 7%"}
+{"timestamp": "2026-11-10T14:01:18.968000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /healthz returned 200 in 23.99ms"}
+{"timestamp": "2026-11-10T14:01:19.215000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /ready returned 200 in 35.39ms"}
+{"timestamp": "2026-11-10T14:01:20.352000+00:00Z", "level": "INFO", "service": "notification-service", "message": "Periodic health check passed. Memory usage: 36%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:01:20.848000+00:00Z", "level": "DEBUG", "service": "notification-service", "message": "Processed 12 background tasks from queue in 194ms"}
+{"timestamp": "2026-11-10T14:01:21.732000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 13 background tasks from queue in 239ms"}
+{"timestamp": "2026-11-10T14:01:22.840000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 16 background tasks from queue in 144ms"}
+{"timestamp": "2026-11-10T14:01:24.229000+00:00Z", "level": "ERROR", "service": "worker-service", "message": "HTTP 500 / request dropped while worker-service is degraded"}
+{"timestamp": "2026-11-10T14:01:25.508000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 42.22ms"}
+{"timestamp": "2026-11-10T14:01:26.695000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 30%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:01:27.968000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 37.41ms"}
+{"timestamp": "2026-11-10T14:01:28.377000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/users/me returned 200 in 34.3ms"}
+{"timestamp": "2026-11-10T14:01:29.674000+00:00Z", "level": "ERROR", "service": "worker-service", "message": "HTTP 500 / request dropped while worker-service is degraded"}
+{"timestamp": "2026-11-10T14:01:30.756000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/users/me returned 304 in 25.07ms"}
+{"timestamp": "2026-11-10T14:01:31.891000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /metrics returned 200 in 16.3ms"}
+{"timestamp": "2026-11-10T14:01:33.034000+00:00Z", "level": "DEBUG", "service": "notification-service", "message": "Processed 50 background tasks from queue in 206ms"}
+{"timestamp": "2026-11-10T14:01:33.328000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /static/css/main.css returned 200 in 14.15ms"}
+{"timestamp": "2026-11-10T14:01:34.594000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /healthz returned 200 in 12.13ms"}
+{"timestamp": "2026-11-10T14:01:35.239000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /metrics returned 200 in 6.09ms"}
+{"timestamp": "2026-11-10T14:01:36.636000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /api/v1/cart/items returned 304 in 20.56ms"}
+{"timestamp": "2026-11-10T14:01:37.730000+00:00Z", "level": "DEBUG", "service": "notification-service", "message": "Processed 30 background tasks from queue in 314ms"}
+{"timestamp": "2026-11-10T14:01:38.785000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:01:39.271000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /metrics returned 200 in 4.84ms"}
+{"timestamp": "2026-11-10T14:01:39.863000+00:00Z", "level": "WARN", "service": "notification-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:01:40.432000+00:00Z", "level": "ERROR", "service": "notification-service", "message": "HTTP 500 / request dropped while worker-service is degraded"}
+{"timestamp": "2026-11-10T14:01:41.734000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 25%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:01:42.650000+00:00Z", "level": "ERROR", "service": "worker-service", "message": "HTTP 500 / request dropped while worker-service is degraded"}
+{"timestamp": "2026-11-10T14:01:43.127000+00:00Z", "level": "ERROR", "service": "notification-service", "message": "HTTP 500 / request dropped while worker-service is degraded"}
+{"timestamp": "2026-11-10T14:01:44.345000+00:00Z", "level": "INFO", "service": "notification-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 16%"}
+{"timestamp": "2026-11-10T14:01:45.220000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /static/css/main.css returned 200 in 7.03ms"}
+{"timestamp": "2026-11-10T14:01:45.679000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 36%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:01:47.057000+00:00Z", "level": "WARN", "service": "worker-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:47.440000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 42.75ms"}
+{"timestamp": "2026-11-10T14:01:47.832000+00:00Z", "level": "ERROR", "service": "notification-service", "message": "HTTP 500 / request dropped while worker-service is degraded"}
+{"timestamp": "2026-11-10T14:01:49.280000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 27 background tasks from queue in 246ms"}
+{"timestamp": "2026-11-10T14:01:50.233000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 9%"}
+{"timestamp": "2026-11-10T14:01:51.390000+00:00Z", "level": "WARN", "service": "worker-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:51.921000+00:00Z", "level": "WARN", "service": "notification-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:52.263000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 48%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:01:53.331000+00:00Z", "level": "ERROR", "service": "notification-service", "message": "HTTP 500 / request dropped while worker-service is degraded"}
+{"timestamp": "2026-11-10T14:01:53.588000+00:00Z", "level": "DEBUG", "service": "notification-service", "message": "Processed 20 background tasks from queue in 162ms"}
+{"timestamp": "2026-11-10T14:01:53.802000+00:00Z", "level": "INFO", "service": "notification-service", "message": "Periodic health check passed. Memory usage: 56%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:01:54.214000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /healthz returned 200 in 6.52ms"}
+{"timestamp": "2026-11-10T14:01:54.922000+00:00Z", "level": "DEBUG", "service": "notification-service", "message": "Processed 47 background tasks from queue in 324ms"}
+{"timestamp": "2026-11-10T14:01:55.494000+00:00Z", "level": "ERROR", "service": "notification-service", "message": "HTTP 500 / request dropped while worker-service is degraded"}
+{"timestamp": "2026-11-10T14:01:55.748000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 14%"}
+{"timestamp": "2026-11-10T14:01:56.130000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /metrics returned 200 in 29.68ms"}
+{"timestamp": "2026-11-10T14:01:56.929000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /static/css/main.css returned 200 in 39.88ms"}
+{"timestamp": "2026-11-10T14:01:58.182000+00:00Z", "level": "INFO", "service": "notification-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 10.73ms"}
+{"timestamp": "2026-11-10T14:01:58.910000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /static/css/main.css returned 200 in 17.48ms"}
+{"timestamp": "2026-11-10T14:01:59.517000+00:00Z", "level": "DEBUG", "service": "notification-service", "message": "Processed 23 background tasks from queue in 241ms"}

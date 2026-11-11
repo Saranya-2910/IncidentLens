@@ -1,0 +1,125 @@
+2026-11-10 14:00:01 [DEBUG] [checkout-service] Processed 15 background tasks from queue in 260ms
+2026-11-10 14:00:02 [WARN] [checkout-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:03 [INFO] [checkout-service] Periodic health check passed. Memory usage: 27%, CPU: 11%
+2026-11-10 14:00:04 [INFO] [checkout-service] Periodic health check passed. Memory usage: 46%, CPU: 35%
+2026-11-10 14:00:05 [DEBUG] [checkout-service] Processed 19 background tasks from queue in 161ms
+2026-11-10 14:00:06 [INFO] [checkout-service] HTTP GET /api/v1/promotions/active returned 200 in 12.9ms
+2026-11-10 14:00:07 [INFO] [checkout-service] HTTP GET /static/css/main.css returned 200 in 26.23ms
+2026-11-10 14:00:08 [WARN] [checkout-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:00:09 [INFO] [checkout-service] Periodic health check passed. Memory usage: 30%, CPU: 14%
+2026-11-10 14:00:10 [INFO] [checkout-service] HTTP GET /ready returned 200 in 10.98ms
+2026-11-10 14:00:11 [WARN] [checkout-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:13 [INFO] [checkout-service] Periodic health check passed. Memory usage: 32%, CPU: 34%
+2026-11-10 14:00:14 [INFO] [checkout-service] Periodic health check passed. Memory usage: 23%, CPU: 28%
+2026-11-10 14:00:14 [INFO] [checkout-service] Periodic health check passed. Memory usage: 53%, CPU: 32%
+2026-11-10 14:00:15 [INFO] [checkout-service] Periodic health check passed. Memory usage: 30%, CPU: 28%
+2026-11-10 14:00:17 [WARN] [checkout-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:17 [INFO] [checkout-service] Periodic health check passed. Memory usage: 26%, CPU: 34%
+2026-11-10 14:00:17 [INFO] [checkout-service] HTTP GET /api/v1/promotions/active returned 200 in 22.77ms
+2026-11-10 14:00:18 [INFO] [checkout-service] Periodic health check passed. Memory usage: 54%, CPU: 15%
+2026-11-10 14:00:19 [INFO] [checkout-service] Periodic health check passed. Memory usage: 37%, CPU: 17%
+2026-11-10 14:00:20 [DEBUG] [checkout-service] Processed 22 background tasks from queue in 401ms
+2026-11-10 14:00:21 [INFO] [checkout-service] HTTP GET /api/v1/promotions/active returned 200 in 6.68ms
+2026-11-10 14:00:22 [INFO] [checkout-service] Periodic health check passed. Memory usage: 32%, CPU: 30%
+2026-11-10 14:00:23 [INFO] [checkout-service] HTTP GET /api/v1/cart/items returned 200 in 15.75ms
+2026-11-10 14:00:23 [INFO] [checkout-service] Periodic health check passed. Memory usage: 53%, CPU: 5%
+2026-11-10 14:00:23 [WARN] [checkout-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:24 [INFO] [checkout-service] HTTP GET /healthz returned 200 in 27.47ms
+2026-11-10 14:00:25 [INFO] [checkout-service] HTTP GET /api/v1/users/me returned 200 in 38.07ms
+2026-11-10 14:00:26 [INFO] [checkout-service] HTTP GET /api/v1/users/me returned 200 in 10.75ms
+2026-11-10 14:00:27 [INFO] [checkout-service] HTTP GET /api/v1/promotions/active returned 200 in 7.12ms
+2026-11-10 14:00:28 [INFO] [checkout-service] HTTP GET /static/css/main.css returned 200 in 23.43ms
+2026-11-10 14:00:28 [INFO] [checkout-service] Periodic health check passed. Memory usage: 41%, CPU: 28%
+2026-11-10 14:00:29 [DEBUG] [checkout-service] Processed 31 background tasks from queue in 344ms
+2026-11-10 14:00:30 [INFO] [checkout-service] HTTP GET /ready returned 200 in 35.65ms
+2026-11-10 14:00:30 [DEBUG] [checkout-service] Processed 33 background tasks from queue in 399ms
+2026-11-10 14:00:31 [INFO] [checkout-service] Periodic health check passed. Memory usage: 29%, CPU: 26%
+2026-11-10 14:00:33 [INFO] [checkout-service] Periodic health check passed. Memory usage: 42%, CPU: 28%
+2026-11-10 14:00:33 [INFO] [checkout-service] HTTP GET /api/v1/cart/items returned 304 in 4.8ms
+2026-11-10 14:00:34 [INFO] [checkout-service] HTTP GET /ready returned 200 in 40.88ms
+2026-11-10 14:00:35 [INFO] [checkout-service] HTTP GET /api/v1/promotions/active returned 304 in 6.58ms
+2026-11-10 14:00:36 [INFO] [checkout-service] HTTP GET /api/v1/users/me returned 200 in 22.51ms
+2026-11-10 14:00:37 [INFO] [checkout-service] Periodic health check passed. Memory usage: 31%, CPU: 5%
+2026-11-10 14:00:38 [INFO] [checkout-service] HTTP GET /metrics returned 200 in 9.95ms
+2026-11-10 14:00:38 [DEBUG] [checkout-service] Processed 45 background tasks from queue in 429ms
+2026-11-10 14:00:39 [INFO] [checkout-service] HTTP GET /api/v1/catalog/items returned 200 in 8.38ms
+2026-11-10 14:00:40 [INFO] [checkout-service] HTTP GET /api/v1/catalog/items returned 200 in 44.55ms
+2026-11-10 14:00:41 [INFO] [checkout-service] HTTP GET /api/v1/users/me returned 200 in 39.88ms
+2026-11-10 14:00:42 [WARN] [checkout-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:00:43 [INFO] [checkout-service] Periodic health check passed. Memory usage: 42%, CPU: 33%
+2026-11-10 14:00:44 [INFO] [checkout-service] Periodic health check passed. Memory usage: 30%, CPU: 28%
+2026-11-10 14:00:44 [INFO] [checkout-service] HTTP GET /static/css/main.css returned 200 in 36.16ms
+2026-11-10 14:00:45 [DEBUG] [checkout-service] Processed 44 background tasks from queue in 153ms
+2026-11-10 14:00:46 [INFO] [checkout-service] Periodic health check passed. Memory usage: 34%, CPU: 13%
+2026-11-10 14:00:47 [INFO] [checkout-service] HTTP GET /api/v1/catalog/items returned 200 in 42.17ms
+2026-11-10 14:00:48 [INFO] [checkout-service] HTTP GET /static/css/main.css returned 200 in 9.22ms
+2026-11-10 14:00:48 [INFO] [checkout-service] HTTP GET /ready returned 200 in 6.97ms
+2026-11-10 14:00:50 [INFO] [checkout-service] HTTP GET /metrics returned 200 in 27.19ms
+2026-11-10 14:00:50 [WARN] [checkout-service] User session cookie refresh token close to expiration
+2026-11-10 14:00:55 [WARN] [checkout-service] Database connection pool utilization high: 18/20 active connections
+2026-11-10 14:01:07 [WARN] [checkout-service] QueuePool checkout wait time exceeded 5000ms for thread 0x7fa9
+2026-11-10 14:01:22 [ERROR] [checkout-service] Failed to acquire connection from pool.
+Traceback (most recent call last):
+  File "/app/services/checkout.py", line 142, in process_checkout
+    async with db.begin():
+  File "/app/db/session.py", line 55, in begin
+    conn = await pool.connect()
+  File "/usr/local/lib/python3.12/site-packages/sqlalchemy/pool/impl.py", line 403, in connect
+    return await self._connection_record()
+sqlalchemy.exc.TimeoutError: QueuePool limit of size 20 overflow 10 reached, connection timed out, timeout 30.00
+2026-11-10 14:01:30 [ERROR] [checkout-service] QueuePool limit of size 20 overflow 10 reached, connection timed out, timeout 30.00
+2026-11-10 14:01:17 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:01:19 [DEBUG] [checkout-service] Processed 35 background tasks from queue in 299ms
+2026-11-10 14:01:19 [DEBUG] [checkout-service] Processed 16 background tasks from queue in 396ms
+2026-11-10 14:01:20 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:01:21 [INFO] [checkout-service] HTTP GET /ready returned 200 in 10.64ms
+2026-11-10 14:01:21 [INFO] [checkout-service] HTTP GET /api/v1/cart/items returned 200 in 39.11ms
+2026-11-10 14:01:22 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:01:23 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:01:24 [WARN] [checkout-service] User session cookie refresh token close to expiration
+2026-11-10 14:01:25 [INFO] [checkout-service] Periodic health check passed. Memory usage: 55%, CPU: 27%
+2026-11-10 14:01:25 [INFO] [checkout-service] Periodic health check passed. Memory usage: 37%, CPU: 8%
+2026-11-10 14:01:27 [INFO] [checkout-service] HTTP GET /api/v1/catalog/items returned 304 in 33.95ms
+2026-11-10 14:01:27 [WARN] [checkout-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:01:28 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:01:30 [DEBUG] [checkout-service] Processed 21 background tasks from queue in 292ms
+2026-11-10 14:01:30 [DEBUG] [checkout-service] Processed 12 background tasks from queue in 361ms
+2026-11-10 14:01:31 [WARN] [checkout-service] User session cookie refresh token close to expiration
+2026-11-10 14:01:33 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:01:33 [INFO] [checkout-service] HTTP GET /api/v1/cart/items returned 200 in 12.35ms
+2026-11-10 14:01:35 [INFO] [checkout-service] HTTP GET /ready returned 200 in 7.56ms
+2026-11-10 14:01:35 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:01:36 [INFO] [checkout-service] Periodic health check passed. Memory usage: 55%, CPU: 17%
+2026-11-10 14:01:37 [DEBUG] [checkout-service] Processed 39 background tasks from queue in 194ms
+2026-11-10 14:01:38 [INFO] [checkout-service] Periodic health check passed. Memory usage: 42%, CPU: 14%
+2026-11-10 14:01:38 [INFO] [checkout-service] HTTP GET /api/v1/promotions/active returned 200 in 5.8ms
+2026-11-10 14:01:40 [INFO] [checkout-service] HTTP GET /api/v1/users/me returned 200 in 11.64ms
+2026-11-10 14:01:41 [DEBUG] [checkout-service] Processed 16 background tasks from queue in 237ms
+2026-11-10 14:01:41 [WARN] [checkout-service] Rate limiter token bucket usage reached 65% for client ip 198.51.100.4
+2026-11-10 14:01:43 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:01:44 [INFO] [checkout-service] HTTP GET /healthz returned 200 in 18.15ms
+2026-11-10 14:01:44 [DEBUG] [checkout-service] Processed 32 background tasks from queue in 216ms
+2026-11-10 14:01:46 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:01:47 [INFO] [checkout-service] Periodic health check passed. Memory usage: 55%, CPU: 29%
+2026-11-10 14:01:47 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:01:48 [WARN] [checkout-service] Slow response from CDN node edge-us-east-1 (112ms)
+2026-11-10 14:01:49 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:01:50 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:01:51 [INFO] [checkout-service] Periodic health check passed. Memory usage: 35%, CPU: 6%
+2026-11-10 14:01:52 [INFO] [checkout-service] HTTP GET /api/v1/cart/items returned 200 in 5.49ms
+2026-11-10 14:01:52 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:01:53 [WARN] [checkout-service] User session cookie refresh token close to expiration
+2026-11-10 14:01:54 [INFO] [checkout-service] HTTP GET /api/v1/promotions/active returned 200 in 5.72ms
+2026-11-10 14:01:55 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:01:56 [INFO] [checkout-service] Periodic health check passed. Memory usage: 33%, CPU: 12%
+2026-11-10 14:01:57 [INFO] [checkout-service] Periodic health check passed. Memory usage: 36%, CPU: 12%
+2026-11-10 14:01:57 [INFO] [checkout-service] HTTP GET /api/v1/catalog/items returned 200 in 17.92ms
+2026-11-10 14:01:57 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:01:58 [INFO] [checkout-service] Periodic health check passed. Memory usage: 27%, CPU: 30%
+2026-11-10 14:01:59 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:02:00 [INFO] [checkout-service] HTTP GET /api/v1/catalog/items returned 200 in 35.66ms
+2026-11-10 14:02:00 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:02:01 [ERROR] [checkout-service] HTTP 500 / request dropped while checkout-service is degraded
+2026-11-10 14:02:02 [INFO] [checkout-service] Periodic health check passed. Memory usage: 47%, CPU: 26%
+2026-11-10 14:02:03 [INFO] [checkout-service] HTTP GET /healthz returned 200 in 9.86ms
+2026-11-10 14:02:04 [INFO] [checkout-service] Periodic health check passed. Memory usage: 28%, CPU: 14%

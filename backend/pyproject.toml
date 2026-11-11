@@ -62,11 +62,13 @@ ignore = [
 [tool.ruff.lint.per-file-ignores]
 "alembic/env.py" = ["E402"]
 "*/alembic/env.py" = ["E402"]
+"tests/conftest.py" = ["E402"]
+"*/tests/conftest.py" = ["E402"]
 
 [tool.pytest.ini_options]
 minversion = "8.0"
 testpaths = ["tests"]
-pythonpath = [".", "app"]
+pythonpath = [".", "app", ".."]
 asyncio_mode = "auto"
 filterwarnings = [
     "ignore::DeprecationWarning",

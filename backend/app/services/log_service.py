@@ -1,7 +1,10 @@
 """Log ingestion and event retrieval business logic service."""
 
+import json
 import uuid
 from datetime import datetime
+from pathlib import Path
+from typing import Any
 
 from fastapi import UploadFile
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -100,6 +103,77 @@ class LogService:
         # Dispatch background worker task
         process_log_batch.delay(str(batch.id))
         return batch
+
+    async def load_demo_data(
+        self,
+        user_id: uuid.UUID,
+        project_id: uuid.UUID,
+        scenario_id: str | None = None,
+    ) -> tuple[LogBatch, str, int]:
+        """Seed project with a simulated scenario dataset and queue background ingestion."""
+        await self._verify_project_ownership(user_id, project_id)
+
+        target_scenario = (
+            scenario_id.strip()
+            if scenario_id and scenario_id.strip()
+            else "db_pool_exhaustion_low_noise_multi_service"
+        )
+
+        scenarios_dir, _ = self._resolve_simulator_paths()
+        scenario_file = scenarios_dir / f"{target_scenario}.log"
+
+        if not scenario_file.exists():
+            raise BadRequestError(
+                f"Demo scenario '{target_scenario}' not found. Please verify the scenario name."
+            )
+
+        content = scenario_file.read_bytes()
+        if not content:
+            raise BadRequestError(f"Scenario log file '{scenario_file.name}' is empty")
+
+        total_lines = len(content.splitlines())
+
+        batch_id = uuid.uuid4()
+        storage_path = save_batch_content(batch_id, content)
+
+        batch = await self.batch_repo.create(
+            project_id=project_id,
+            source="demo",
+            filename=f"{target_scenario}.log",
+            storage_path=storage_path,
+        )
+
+        # Dispatch background processing task
+        process_log_batch.delay(str(batch.id))
+        return batch, target_scenario, total_lines
+
+    def list_demo_scenarios(self) -> list[dict[str, Any]]:
+        """List all available simulated scenario datasets and their metadata."""
+        _, gt_file = self._resolve_simulator_paths()
+        if not gt_file.exists():
+            return []
+        try:
+            raw_data = json.loads(gt_file.read_text(encoding="utf-8"))
+            return list(raw_data.values())
+        except Exception:
+            return []
+
+    @staticmethod
+    def _resolve_simulator_paths() -> tuple[Path, Path]:
+        """Locate simulator scenario files and ground truth manifest."""
+        candidates = [
+            Path("simulator"),
+            Path("../simulator"),
+            Path(__file__).resolve().parents[3] / "simulator",
+        ]
+        for c in candidates:
+            scenarios = c / "scenarios"
+            gt = c / "ground_truth.json"
+            if scenarios.is_dir() and gt.exists():
+                return scenarios, gt
+
+        fallback = Path(__file__).resolve().parents[3] / "simulator"
+        return fallback / "scenarios", fallback / "ground_truth.json"
 
     async def get_batch_by_id(
         self, user_id: uuid.UUID, batch_id: uuid.UUID

@@ -1,0 +1,603 @@
+{"timestamp": "2026-11-10T14:00:00.348000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/catalog/items returned 304 in 33.51ms"}
+{"timestamp": "2026-11-10T14:00:00.610000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 38%, CPU: 22%"}
+{"timestamp": "2026-11-10T14:00:00.777000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 43%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:00:01.210000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 33%, CPU: 11%"}
+{"timestamp": "2026-11-10T14:00:01.470000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /static/css/main.css returned 200 in 23.95ms"}
+{"timestamp": "2026-11-10T14:00:01.786000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 56%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:00:02.024000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/users/me returned 200 in 28.16ms"}
+{"timestamp": "2026-11-10T14:00:02.208000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:00:02.574000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 46%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:00:02.679000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 36%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:00:03.151000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 35 background tasks from queue in 393ms"}
+{"timestamp": "2026-11-10T14:00:03.403000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 8.15ms"}
+{"timestamp": "2026-11-10T14:00:03.775000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 40%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:00:04.002000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 29.83ms"}
+{"timestamp": "2026-11-10T14:00:04.383000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 5.14ms"}
+{"timestamp": "2026-11-10T14:00:04.534000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:04.751000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /healthz returned 200 in 17.19ms"}
+{"timestamp": "2026-11-10T14:00:05.068000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 6.83ms"}
+{"timestamp": "2026-11-10T14:00:05.561000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/users/me returned 200 in 26.74ms"}
+{"timestamp": "2026-11-10T14:00:05.891000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 35%, CPU: 17%"}
+{"timestamp": "2026-11-10T14:00:06.207000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:06.316000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 43%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:00:06.756000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 11 background tasks from queue in 378ms"}
+{"timestamp": "2026-11-10T14:00:07.157000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 34 background tasks from queue in 339ms"}
+{"timestamp": "2026-11-10T14:00:07.560000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 43.38ms"}
+{"timestamp": "2026-11-10T14:00:07.995000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 38 background tasks from queue in 214ms"}
+{"timestamp": "2026-11-10T14:00:08.414000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 45%, CPU: 8%"}
+{"timestamp": "2026-11-10T14:00:08.620000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 37.15ms"}
+{"timestamp": "2026-11-10T14:00:09.037000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 49%, CPU: 34%"}
+{"timestamp": "2026-11-10T14:00:09.348000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 33%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:00:09.658000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:00:09.887000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 14%"}
+{"timestamp": "2026-11-10T14:00:10.357000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 37%, CPU: 22%"}
+{"timestamp": "2026-11-10T14:00:10.766000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 26 background tasks from queue in 245ms"}
+{"timestamp": "2026-11-10T14:00:11.203000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 45%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:00:11.647000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 36%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:00:11.836000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 32 background tasks from queue in 131ms"}
+{"timestamp": "2026-11-10T14:00:12.304000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 26 background tasks from queue in 423ms"}
+{"timestamp": "2026-11-10T14:00:12.605000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /ready returned 200 in 43.42ms"}
+{"timestamp": "2026-11-10T14:00:12.832000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 304 in 16.48ms"}
+{"timestamp": "2026-11-10T14:00:13.138000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 37.85ms"}
+{"timestamp": "2026-11-10T14:00:13.335000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 10.9ms"}
+{"timestamp": "2026-11-10T14:00:13.769000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 40.51ms"}
+{"timestamp": "2026-11-10T14:00:14.194000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 38%, CPU: 17%"}
+{"timestamp": "2026-11-10T14:00:14.552000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 54%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:00:14.713000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /ready returned 200 in 9.9ms"}
+{"timestamp": "2026-11-10T14:00:14.827000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 32 background tasks from queue in 371ms"}
+{"timestamp": "2026-11-10T14:00:15.264000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 43%, CPU: 12%"}
+{"timestamp": "2026-11-10T14:00:15.443000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/cart/items returned 200 in 12.6ms"}
+{"timestamp": "2026-11-10T14:00:15.576000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/users/me returned 200 in 40.33ms"}
+{"timestamp": "2026-11-10T14:00:15.963000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:16.207000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 44 background tasks from queue in 134ms"}
+{"timestamp": "2026-11-10T14:00:16.423000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 44 background tasks from queue in 440ms"}
+{"timestamp": "2026-11-10T14:00:16.809000+00:00Z", "level": "WARN", "service": "payment-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:17.240000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 5.78ms"}
+{"timestamp": "2026-11-10T14:00:17.510000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /metrics returned 200 in 20.6ms"}
+{"timestamp": "2026-11-10T14:00:17.741000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 39%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:00:18.061000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:18.443000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/users/me returned 200 in 34.32ms"}
+{"timestamp": "2026-11-10T14:00:18.777000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 49%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:00:18.881000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /static/css/main.css returned 200 in 27.33ms"}
+{"timestamp": "2026-11-10T14:00:19.318000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /metrics returned 200 in 14.86ms"}
+{"timestamp": "2026-11-10T14:00:19.750000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /metrics returned 200 in 39.15ms"}
+{"timestamp": "2026-11-10T14:00:20.197000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 22.02ms"}
+{"timestamp": "2026-11-10T14:00:20.424000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/users/me returned 200 in 24.08ms"}
+{"timestamp": "2026-11-10T14:00:20.889000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /healthz returned 304 in 42.39ms"}
+{"timestamp": "2026-11-10T14:00:21.023000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 27.03ms"}
+{"timestamp": "2026-11-10T14:00:21.383000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 41%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:00:21.523000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 20 background tasks from queue in 351ms"}
+{"timestamp": "2026-11-10T14:00:22.021000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /static/css/main.css returned 200 in 36.71ms"}
+{"timestamp": "2026-11-10T14:00:22.395000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 58%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:00:22.824000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 34%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:00:23.139000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 19 background tasks from queue in 140ms"}
+{"timestamp": "2026-11-10T14:00:23.530000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 5.45ms"}
+{"timestamp": "2026-11-10T14:00:23.761000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 22.94ms"}
+{"timestamp": "2026-11-10T14:00:23.940000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 44.37ms"}
+{"timestamp": "2026-11-10T14:00:24.094000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 36%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:00:24.382000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /healthz returned 200 in 17.57ms"}
+{"timestamp": "2026-11-10T14:00:24.515000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 14 background tasks from queue in 184ms"}
+{"timestamp": "2026-11-10T14:00:25.010000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 36%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:00:25.330000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 25 background tasks from queue in 184ms"}
+{"timestamp": "2026-11-10T14:00:25.782000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:26.020000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 25%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:00:26.251000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/users/me returned 200 in 17.76ms"}
+{"timestamp": "2026-11-10T14:00:26.376000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /static/css/main.css returned 200 in 5.59ms"}
+{"timestamp": "2026-11-10T14:00:26.551000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /static/css/main.css returned 200 in 8.03ms"}
+{"timestamp": "2026-11-10T14:00:26.722000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 24%, CPU: 7%"}
+{"timestamp": "2026-11-10T14:00:26.980000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /ready returned 200 in 41.15ms"}
+{"timestamp": "2026-11-10T14:00:27.326000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 19.31ms"}
+{"timestamp": "2026-11-10T14:00:27.540000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 16.02ms"}
+{"timestamp": "2026-11-10T14:00:27.944000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 40.26ms"}
+{"timestamp": "2026-11-10T14:00:28.245000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /ready returned 200 in 22.88ms"}
+{"timestamp": "2026-11-10T14:00:28.625000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /metrics returned 200 in 43.69ms"}
+{"timestamp": "2026-11-10T14:00:29.083000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 51%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:00:29.379000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /metrics returned 200 in 18.06ms"}
+{"timestamp": "2026-11-10T14:00:29.579000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 42.13ms"}
+{"timestamp": "2026-11-10T14:00:29.853000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 27 background tasks from queue in 279ms"}
+{"timestamp": "2026-11-10T14:00:30.297000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /metrics returned 200 in 22.0ms"}
+{"timestamp": "2026-11-10T14:00:30.648000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/users/me returned 200 in 15.04ms"}
+{"timestamp": "2026-11-10T14:00:30.802000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:00:31.114000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:31.612000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 16.11ms"}
+{"timestamp": "2026-11-10T14:00:31.860000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /healthz returned 200 in 43.13ms"}
+{"timestamp": "2026-11-10T14:00:32.233000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 7.26ms"}
+{"timestamp": "2026-11-10T14:00:32.663000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 25%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:00:33.153000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /healthz returned 200 in 11.88ms"}
+{"timestamp": "2026-11-10T14:00:33.494000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:33.632000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 14.97ms"}
+{"timestamp": "2026-11-10T14:00:33.755000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:33.982000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 11.22ms"}
+{"timestamp": "2026-11-10T14:00:34.108000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 5.03ms"}
+{"timestamp": "2026-11-10T14:00:34.365000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 26 background tasks from queue in 187ms"}
+{"timestamp": "2026-11-10T14:00:34.582000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 18.65ms"}
+{"timestamp": "2026-11-10T14:00:35.059000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:35.257000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 32.11ms"}
+{"timestamp": "2026-11-10T14:00:35.502000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /ready returned 200 in 39.67ms"}
+{"timestamp": "2026-11-10T14:00:35.747000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/users/me returned 200 in 25.11ms"}
+{"timestamp": "2026-11-10T14:00:35.867000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /healthz returned 200 in 22.51ms"}
+{"timestamp": "2026-11-10T14:00:36.034000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /static/css/main.css returned 200 in 26.73ms"}
+{"timestamp": "2026-11-10T14:00:36.370000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 33 background tasks from queue in 393ms"}
+{"timestamp": "2026-11-10T14:00:36.817000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 10 background tasks from queue in 276ms"}
+{"timestamp": "2026-11-10T14:00:37.193000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 23 background tasks from queue in 124ms"}
+{"timestamp": "2026-11-10T14:00:37.522000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 21 background tasks from queue in 363ms"}
+{"timestamp": "2026-11-10T14:00:37.707000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 304 in 36.58ms"}
+{"timestamp": "2026-11-10T14:00:38.032000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /static/css/main.css returned 200 in 6.45ms"}
+{"timestamp": "2026-11-10T14:00:38.351000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 13 background tasks from queue in 431ms"}
+{"timestamp": "2026-11-10T14:00:38.555000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 43%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:00:38.977000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 33%"}
+{"timestamp": "2026-11-10T14:00:39.128000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 33%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:00:39.488000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 15 background tasks from queue in 149ms"}
+{"timestamp": "2026-11-10T14:00:39.973000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 15 background tasks from queue in 276ms"}
+{"timestamp": "2026-11-10T14:00:40.445000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 36%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:00:40.609000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 31%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:00:40.776000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/promotions/active returned 200 in 39.53ms"}
+{"timestamp": "2026-11-10T14:00:40.999000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /metrics returned 200 in 11.98ms"}
+{"timestamp": "2026-11-10T14:00:41.454000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 11 background tasks from queue in 394ms"}
+{"timestamp": "2026-11-10T14:00:41.622000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /metrics returned 200 in 5.73ms"}
+{"timestamp": "2026-11-10T14:00:41.787000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 37 background tasks from queue in 341ms"}
+{"timestamp": "2026-11-10T14:00:42.148000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:00:42.511000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:42.816000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:43.159000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /static/css/main.css returned 200 in 30.76ms"}
+{"timestamp": "2026-11-10T14:00:43.447000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 30%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:00:43.717000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /static/css/main.css returned 200 in 14.24ms"}
+{"timestamp": "2026-11-10T14:00:43.889000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/cart/items returned 304 in 39.13ms"}
+{"timestamp": "2026-11-10T14:00:44.268000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 9.3ms"}
+{"timestamp": "2026-11-10T14:00:44.754000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 15 background tasks from queue in 235ms"}
+{"timestamp": "2026-11-10T14:00:44.967000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /healthz returned 200 in 41.76ms"}
+{"timestamp": "2026-11-10T14:00:45.407000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /ready returned 200 in 27.1ms"}
+{"timestamp": "2026-11-10T14:00:45.710000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /static/css/main.css returned 200 in 27.42ms"}
+{"timestamp": "2026-11-10T14:00:45.710000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Inbound request rate spiked by 650% (Flash sale campaign active)"}
+{"timestamp": "2026-11-10T14:00:45.806000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 10 background tasks from queue in 308ms"}
+{"timestamp": "2026-11-10T14:00:45.838000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 53%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:00:45.888000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /ready returned 304 in 33.4ms"}
+{"timestamp": "2026-11-10T14:00:45.970000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /static/css/main.css returned 200 in 36.48ms"}
+{"timestamp": "2026-11-10T14:00:46.058000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 41%, CPU: 17%"}
+{"timestamp": "2026-11-10T14:00:46.135000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 45 background tasks from queue in 360ms"}
+{"timestamp": "2026-11-10T14:00:46.235000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 23.75ms"}
+{"timestamp": "2026-11-10T14:00:46.353000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/users/me returned 200 in 44.11ms"}
+{"timestamp": "2026-11-10T14:00:46.437000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:46.478000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /healthz returned 200 in 35.84ms"}
+{"timestamp": "2026-11-10T14:00:46.546000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 54%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:00:46.649000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 44 background tasks from queue in 426ms"}
+{"timestamp": "2026-11-10T14:00:46.688000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /healthz returned 200 in 38.06ms"}
+{"timestamp": "2026-11-10T14:00:46.746000+00:00Z", "level": "WARN", "service": "worker-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:46.834000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 29%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:00:46.911000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 28 background tasks from queue in 243ms"}
+{"timestamp": "2026-11-10T14:00:46.953000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/users/me returned 200 in 33.53ms"}
+{"timestamp": "2026-11-10T14:00:47.048000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 48%, CPU: 5%"}
+{"timestamp": "2026-11-10T14:00:47.074000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 36.9ms"}
+{"timestamp": "2026-11-10T14:00:47.167000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 51%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:00:47.267000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/promotions/active returned 200 in 35.87ms"}
+{"timestamp": "2026-11-10T14:00:47.321000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 41%, CPU: 13%"}
+{"timestamp": "2026-11-10T14:00:47.398000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 17.74ms"}
+{"timestamp": "2026-11-10T14:00:47.438000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 40.86ms"}
+{"timestamp": "2026-11-10T14:00:47.529000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 42.54ms"}
+{"timestamp": "2026-11-10T14:00:47.553000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 21.18ms"}
+{"timestamp": "2026-11-10T14:00:47.574000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /ready returned 200 in 18.38ms"}
+{"timestamp": "2026-11-10T14:00:47.610000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 38.99ms"}
+{"timestamp": "2026-11-10T14:00:47.688000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:47.725000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 29 background tasks from queue in 303ms"}
+{"timestamp": "2026-11-10T14:00:47.801000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /healthz returned 200 in 14.28ms"}
+{"timestamp": "2026-11-10T14:00:47.831000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /ready returned 200 in 24.2ms"}
+{"timestamp": "2026-11-10T14:00:47.948000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 18.43ms"}
+{"timestamp": "2026-11-10T14:00:48.014000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 48 background tasks from queue in 171ms"}
+{"timestamp": "2026-11-10T14:00:48.086000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 22%"}
+{"timestamp": "2026-11-10T14:00:48.190000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /metrics returned 200 in 43.99ms"}
+{"timestamp": "2026-11-10T14:00:48.274000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 38%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:00:48.376000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /ready returned 200 in 12.52ms"}
+{"timestamp": "2026-11-10T14:00:48.428000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/users/me returned 200 in 40.22ms"}
+{"timestamp": "2026-11-10T14:00:48.524000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 46 background tasks from queue in 306ms"}
+{"timestamp": "2026-11-10T14:00:48.580000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 30.3ms"}
+{"timestamp": "2026-11-10T14:00:48.606000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 5.24ms"}
+{"timestamp": "2026-11-10T14:00:48.659000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 28 background tasks from queue in 384ms"}
+{"timestamp": "2026-11-10T14:00:48.711000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 48%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:00:48.828000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /healthz returned 200 in 44.65ms"}
+{"timestamp": "2026-11-10T14:00:48.931000+00:00Z", "level": "WARN", "service": "auth-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:48.990000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 29%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:00:49.021000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /healthz returned 200 in 43.74ms"}
+{"timestamp": "2026-11-10T14:00:49.058000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 29.2ms"}
+{"timestamp": "2026-11-10T14:00:49.092000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/cart/items returned 200 in 29.18ms"}
+{"timestamp": "2026-11-10T14:00:49.115000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /healthz returned 200 in 43.23ms"}
+{"timestamp": "2026-11-10T14:00:49.139000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:49.188000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 304 in 44.64ms"}
+{"timestamp": "2026-11-10T14:00:49.295000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 29%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:00:49.350000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:00:49.424000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /static/css/main.css returned 200 in 4.64ms"}
+{"timestamp": "2026-11-10T14:00:49.534000+00:00Z", "level": "WARN", "service": "worker-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:49.644000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /metrics returned 200 in 37.94ms"}
+{"timestamp": "2026-11-10T14:00:49.724000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /metrics returned 200 in 14.98ms"}
+{"timestamp": "2026-11-10T14:00:49.804000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 10 background tasks from queue in 427ms"}
+{"timestamp": "2026-11-10T14:00:49.921000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /healthz returned 200 in 32.84ms"}
+{"timestamp": "2026-11-10T14:00:50.010000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/users/me returned 200 in 19.25ms"}
+{"timestamp": "2026-11-10T14:00:50.104000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:50.183000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 33 background tasks from queue in 340ms"}
+{"timestamp": "2026-11-10T14:00:50.256000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /healthz returned 304 in 18.91ms"}
+{"timestamp": "2026-11-10T14:00:50.333000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 16 background tasks from queue in 192ms"}
+{"timestamp": "2026-11-10T14:00:50.387000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:00:50.491000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 12%"}
+{"timestamp": "2026-11-10T14:00:50.527000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /static/css/main.css returned 200 in 33.81ms"}
+{"timestamp": "2026-11-10T14:00:50.587000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 39.77ms"}
+{"timestamp": "2026-11-10T14:00:50.656000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 8.27ms"}
+{"timestamp": "2026-11-10T14:00:50.775000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /ready returned 200 in 19.12ms"}
+{"timestamp": "2026-11-10T14:00:50.821000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:00:50.847000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 34%"}
+{"timestamp": "2026-11-10T14:00:50.963000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 40%, CPU: 11%"}
+{"timestamp": "2026-11-10T14:00:51.004000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /healthz returned 200 in 7.15ms"}
+{"timestamp": "2026-11-10T14:00:51.039000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/promotions/active returned 200 in 37.09ms"}
+{"timestamp": "2026-11-10T14:00:51.159000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 31%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:00:51.248000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:51.279000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 32 background tasks from queue in 196ms"}
+{"timestamp": "2026-11-10T14:00:51.393000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 54%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:00:51.416000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 43 background tasks from queue in 291ms"}
+{"timestamp": "2026-11-10T14:00:51.477000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 48 background tasks from queue in 129ms"}
+{"timestamp": "2026-11-10T14:00:51.585000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 10 background tasks from queue in 378ms"}
+{"timestamp": "2026-11-10T14:00:51.633000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/users/me returned 200 in 30.36ms"}
+{"timestamp": "2026-11-10T14:00:51.676000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 33%, CPU: 16%"}
+{"timestamp": "2026-11-10T14:00:51.794000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 46 background tasks from queue in 186ms"}
+{"timestamp": "2026-11-10T14:00:51.862000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 24 background tasks from queue in 275ms"}
+{"timestamp": "2026-11-10T14:00:51.952000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:52.057000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/users/me returned 200 in 14.31ms"}
+{"timestamp": "2026-11-10T14:00:52.103000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /healthz returned 200 in 21.13ms"}
+{"timestamp": "2026-11-10T14:00:52.160000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 41%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:00:52.215000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 24.31ms"}
+{"timestamp": "2026-11-10T14:00:52.280000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 36%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:00:52.373000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 10 background tasks from queue in 157ms"}
+{"timestamp": "2026-11-10T14:00:52.413000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 27%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:00:52.490000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:52.557000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 49 background tasks from queue in 336ms"}
+{"timestamp": "2026-11-10T14:00:52.621000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:52.705000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:00:52.790000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /metrics returned 200 in 26.17ms"}
+{"timestamp": "2026-11-10T14:00:52.894000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:52.974000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 29.13ms"}
+{"timestamp": "2026-11-10T14:00:53.056000+00:00Z", "level": "WARN", "service": "worker-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:53.091000+00:00Z", "level": "WARN", "service": "payment-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:53.197000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 12.43ms"}
+{"timestamp": "2026-11-10T14:00:53.218000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /ready returned 200 in 29.5ms"}
+{"timestamp": "2026-11-10T14:00:53.325000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 25%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:00:53.366000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 35%, CPU: 22%"}
+{"timestamp": "2026-11-10T14:00:53.440000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/catalog/items returned 200 in 23.56ms"}
+{"timestamp": "2026-11-10T14:00:53.512000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 36 background tasks from queue in 391ms"}
+{"timestamp": "2026-11-10T14:00:53.544000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 55%, CPU: 8%"}
+{"timestamp": "2026-11-10T14:00:53.579000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 39.86ms"}
+{"timestamp": "2026-11-10T14:00:53.690000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:00:53.711000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 40.89ms"}
+{"timestamp": "2026-11-10T14:00:53.791000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 13.14ms"}
+{"timestamp": "2026-11-10T14:00:53.832000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 58%, CPU: 33%"}
+{"timestamp": "2026-11-10T14:00:53.927000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 51%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:00:54.034000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /ready returned 200 in 20.74ms"}
+{"timestamp": "2026-11-10T14:00:54.076000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 18 background tasks from queue in 303ms"}
+{"timestamp": "2026-11-10T14:00:54.114000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 11 background tasks from queue in 358ms"}
+{"timestamp": "2026-11-10T14:00:54.230000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /healthz returned 304 in 33.02ms"}
+{"timestamp": "2026-11-10T14:00:54.309000+00:00Z", "level": "WARN", "service": "payment-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:54.394000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 45 background tasks from queue in 158ms"}
+{"timestamp": "2026-11-10T14:00:54.501000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 46%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:00:54.564000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/users/me returned 200 in 36.44ms"}
+{"timestamp": "2026-11-10T14:00:54.644000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 25.91ms"}
+{"timestamp": "2026-11-10T14:00:54.708000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/catalog/items returned 304 in 23.81ms"}
+{"timestamp": "2026-11-10T14:00:54.730000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:54.755000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 30%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:00:54.811000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/users/me returned 200 in 24.45ms"}
+{"timestamp": "2026-11-10T14:00:54.891000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /ready returned 200 in 39.13ms"}
+{"timestamp": "2026-11-10T14:00:54.960000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:55.058000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 34 background tasks from queue in 422ms"}
+{"timestamp": "2026-11-10T14:00:55.169000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /ready returned 200 in 44.14ms"}
+{"timestamp": "2026-11-10T14:00:55.235000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /static/css/main.css returned 200 in 30.6ms"}
+{"timestamp": "2026-11-10T14:00:55.263000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /healthz returned 200 in 21.04ms"}
+{"timestamp": "2026-11-10T14:00:55.292000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /static/css/main.css returned 200 in 34.62ms"}
+{"timestamp": "2026-11-10T14:00:55.327000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /ready returned 200 in 13.45ms"}
+{"timestamp": "2026-11-10T14:00:55.427000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /healthz returned 200 in 9.54ms"}
+{"timestamp": "2026-11-10T14:00:55.456000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 51%, CPU: 7%"}
+{"timestamp": "2026-11-10T14:00:55.538000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/users/me returned 200 in 30.51ms"}
+{"timestamp": "2026-11-10T14:00:55.619000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 38 background tasks from queue in 387ms"}
+{"timestamp": "2026-11-10T14:00:55.720000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 57%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:00:55.811000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /static/css/main.css returned 200 in 11.49ms"}
+{"timestamp": "2026-11-10T14:00:55.892000+00:00Z", "level": "WARN", "service": "worker-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:55.989000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 25 background tasks from queue in 399ms"}
+{"timestamp": "2026-11-10T14:00:56.078000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /static/css/main.css returned 200 in 10.12ms"}
+{"timestamp": "2026-11-10T14:00:56.163000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 6.63ms"}
+{"timestamp": "2026-11-10T14:00:56.225000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /ready returned 200 in 32.64ms"}
+{"timestamp": "2026-11-10T14:00:56.315000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /healthz returned 200 in 43.9ms"}
+{"timestamp": "2026-11-10T14:00:56.382000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 23 background tasks from queue in 409ms"}
+{"timestamp": "2026-11-10T14:00:56.417000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 14 background tasks from queue in 183ms"}
+{"timestamp": "2026-11-10T14:00:56.518000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:56.583000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 28 background tasks from queue in 286ms"}
+{"timestamp": "2026-11-10T14:00:56.668000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 38 background tasks from queue in 125ms"}
+{"timestamp": "2026-11-10T14:00:56.693000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 39 background tasks from queue in 408ms"}
+{"timestamp": "2026-11-10T14:00:56.777000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 48%, CPU: 32%"}
+{"timestamp": "2026-11-10T14:00:56.836000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:56.879000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 37 background tasks from queue in 441ms"}
+{"timestamp": "2026-11-10T14:00:56.980000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /ready returned 200 in 13.53ms"}
+{"timestamp": "2026-11-10T14:00:57.016000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 21%"}
+{"timestamp": "2026-11-10T14:00:57.100000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /healthz returned 200 in 35.45ms"}
+{"timestamp": "2026-11-10T14:00:57.212000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 18 background tasks from queue in 288ms"}
+{"timestamp": "2026-11-10T14:00:57.311000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:57.364000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 16 background tasks from queue in 183ms"}
+{"timestamp": "2026-11-10T14:00:57.450000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:57.529000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 35 background tasks from queue in 307ms"}
+{"timestamp": "2026-11-10T14:00:57.628000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 28%, CPU: 33%"}
+{"timestamp": "2026-11-10T14:00:57.723000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /ready returned 200 in 19.28ms"}
+{"timestamp": "2026-11-10T14:00:57.787000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/users/me returned 200 in 14.2ms"}
+{"timestamp": "2026-11-10T14:00:57.904000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:58.009000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /healthz returned 200 in 26.02ms"}
+{"timestamp": "2026-11-10T14:00:58.047000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/promotions/active returned 200 in 26.55ms"}
+{"timestamp": "2026-11-10T14:00:58.075000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 28%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:00:58.141000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 41%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:00:58.161000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 24%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:00:58.244000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /metrics returned 200 in 36.35ms"}
+{"timestamp": "2026-11-10T14:00:58.313000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /ready returned 304 in 7.23ms"}
+{"timestamp": "2026-11-10T14:00:58.421000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:58.508000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 42%, CPU: 13%"}
+{"timestamp": "2026-11-10T14:00:58.538000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/users/me returned 200 in 35.48ms"}
+{"timestamp": "2026-11-10T14:00:58.570000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:58.645000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:00:58.707000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /ready returned 200 in 33.84ms"}
+{"timestamp": "2026-11-10T14:00:58.827000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 31%, CPU: 34%"}
+{"timestamp": "2026-11-10T14:00:58.908000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /ready returned 200 in 18.36ms"}
+{"timestamp": "2026-11-10T14:00:58.974000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:59.064000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /metrics returned 200 in 35.33ms"}
+{"timestamp": "2026-11-10T14:00:59.136000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 5.37ms"}
+{"timestamp": "2026-11-10T14:00:59.205000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 52%, CPU: 7%"}
+{"timestamp": "2026-11-10T14:00:59.250000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 41 background tasks from queue in 273ms"}
+{"timestamp": "2026-11-10T14:00:59.341000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 6.5ms"}
+{"timestamp": "2026-11-10T14:00:59.363000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 37 background tasks from queue in 242ms"}
+{"timestamp": "2026-11-10T14:00:59.467000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /static/css/main.css returned 200 in 35.6ms"}
+{"timestamp": "2026-11-10T14:00:59.511000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 44.3ms"}
+{"timestamp": "2026-11-10T14:00:59.599000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/catalog/items returned 304 in 31.4ms"}
+{"timestamp": "2026-11-10T14:00:59.659000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 57%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:00:59.730000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 15 background tasks from queue in 405ms"}
+{"timestamp": "2026-11-10T14:00:59.807000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 44 background tasks from queue in 350ms"}
+{"timestamp": "2026-11-10T14:00:59.862000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 57%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:00:59.954000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /ready returned 200 in 34.33ms"}
+{"timestamp": "2026-11-10T14:01:00.041000+00:00Z", "level": "WARN", "service": "payment-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:00.089000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/users/me returned 200 in 33.47ms"}
+{"timestamp": "2026-11-10T14:01:00.194000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /ready returned 200 in 18.88ms"}
+{"timestamp": "2026-11-10T14:01:00.238000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 12.07ms"}
+{"timestamp": "2026-11-10T14:01:00.292000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:00.389000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /healthz returned 200 in 33.39ms"}
+{"timestamp": "2026-11-10T14:01:00.446000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 26.2ms"}
+{"timestamp": "2026-11-10T14:01:00.517000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /healthz returned 200 in 33.47ms"}
+{"timestamp": "2026-11-10T14:01:00.548000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 34.12ms"}
+{"timestamp": "2026-11-10T14:01:00.597000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 5.52ms"}
+{"timestamp": "2026-11-10T14:01:00.661000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 41%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:01:00.746000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 5.49ms"}
+{"timestamp": "2026-11-10T14:01:00.834000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 8%"}
+{"timestamp": "2026-11-10T14:01:00.928000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/users/me returned 200 in 40.83ms"}
+{"timestamp": "2026-11-10T14:01:00.977000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 42 background tasks from queue in 339ms"}
+{"timestamp": "2026-11-10T14:01:01.092000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:01.161000+00:00Z", "level": "WARN", "service": "checkout-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:01.183000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/users/me returned 200 in 44.47ms"}
+{"timestamp": "2026-11-10T14:01:01.222000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 28%, CPU: 7%"}
+{"timestamp": "2026-11-10T14:01:01.316000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 31.22ms"}
+{"timestamp": "2026-11-10T14:01:01.374000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 32 background tasks from queue in 379ms"}
+{"timestamp": "2026-11-10T14:01:01.491000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 8%"}
+{"timestamp": "2026-11-10T14:01:01.533000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 27 background tasks from queue in 343ms"}
+{"timestamp": "2026-11-10T14:01:01.596000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 25 background tasks from queue in 328ms"}
+{"timestamp": "2026-11-10T14:01:01.688000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 30%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:01:01.752000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 6.05ms"}
+{"timestamp": "2026-11-10T14:01:01.813000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 20 background tasks from queue in 325ms"}
+{"timestamp": "2026-11-10T14:01:01.864000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 31%, CPU: 22%"}
+{"timestamp": "2026-11-10T14:01:01.914000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /metrics returned 200 in 7.78ms"}
+{"timestamp": "2026-11-10T14:01:01.968000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 29 background tasks from queue in 177ms"}
+{"timestamp": "2026-11-10T14:01:02.049000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 20.93ms"}
+{"timestamp": "2026-11-10T14:01:02.142000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:02.185000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 9%"}
+{"timestamp": "2026-11-10T14:01:02.276000+00:00Z", "level": "WARN", "service": "checkout-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:02.388000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 41%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:01:02.422000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 22%, CPU: 13%"}
+{"timestamp": "2026-11-10T14:01:02.485000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:02.568000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 32 background tasks from queue in 316ms"}
+{"timestamp": "2026-11-10T14:01:02.622000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 53%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:01:02.694000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /ready returned 200 in 8.68ms"}
+{"timestamp": "2026-11-10T14:01:02.799000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 44 background tasks from queue in 255ms"}
+{"timestamp": "2026-11-10T14:01:02.838000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 43%, CPU: 34%"}
+{"timestamp": "2026-11-10T14:01:02.908000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 49 background tasks from queue in 363ms"}
+{"timestamp": "2026-11-10T14:01:02.977000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 27%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:01:03.067000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 43 background tasks from queue in 231ms"}
+{"timestamp": "2026-11-10T14:01:03.173000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 20.99ms"}
+{"timestamp": "2026-11-10T14:01:03.240000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /metrics returned 200 in 28.01ms"}
+{"timestamp": "2026-11-10T14:01:03.278000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 15 background tasks from queue in 408ms"}
+{"timestamp": "2026-11-10T14:01:03.354000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 40.55ms"}
+{"timestamp": "2026-11-10T14:01:03.441000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:01:03.505000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 47 background tasks from queue in 278ms"}
+{"timestamp": "2026-11-10T14:01:03.579000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:01:03.671000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /static/css/main.css returned 200 in 22.18ms"}
+{"timestamp": "2026-11-10T14:01:03.789000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 37.31ms"}
+{"timestamp": "2026-11-10T14:01:03.810000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 36 background tasks from queue in 427ms"}
+{"timestamp": "2026-11-10T14:01:03.922000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:04.034000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 36%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:01:04.074000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:01:04.170000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /ready returned 200 in 9.36ms"}
+{"timestamp": "2026-11-10T14:01:04.254000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 11 background tasks from queue in 136ms"}
+{"timestamp": "2026-11-10T14:01:04.321000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 41%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:01:04.359000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /metrics returned 200 in 24.92ms"}
+{"timestamp": "2026-11-10T14:01:04.450000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 24.04ms"}
+{"timestamp": "2026-11-10T14:01:04.554000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 47 background tasks from queue in 294ms"}
+{"timestamp": "2026-11-10T14:01:04.580000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 13.3ms"}
+{"timestamp": "2026-11-10T14:01:04.671000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /static/css/main.css returned 200 in 18.0ms"}
+{"timestamp": "2026-11-10T14:01:04.694000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 20 background tasks from queue in 159ms"}
+{"timestamp": "2026-11-10T14:01:04.782000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 33.18ms"}
+{"timestamp": "2026-11-10T14:01:04.893000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 8.18ms"}
+{"timestamp": "2026-11-10T14:01:04.925000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 7%"}
+{"timestamp": "2026-11-10T14:01:05.008000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 51%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:01:05.112000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 14.49ms"}
+{"timestamp": "2026-11-10T14:01:05.135000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 26.16ms"}
+{"timestamp": "2026-11-10T14:01:05.194000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /static/css/main.css returned 200 in 14.65ms"}
+{"timestamp": "2026-11-10T14:01:05.227000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /static/css/main.css returned 200 in 21.2ms"}
+{"timestamp": "2026-11-10T14:01:05.319000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /static/css/main.css returned 200 in 19.97ms"}
+{"timestamp": "2026-11-10T14:01:05.356000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 24.9ms"}
+{"timestamp": "2026-11-10T14:01:05.407000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 58%, CPU: 5%"}
+{"timestamp": "2026-11-10T14:01:05.501000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 29.9ms"}
+{"timestamp": "2026-11-10T14:01:05.581000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 31%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:01:05.640000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 43.11ms"}
+{"timestamp": "2026-11-10T14:01:05.682000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /ready returned 200 in 30.65ms"}
+{"timestamp": "2026-11-10T14:01:05.734000+00:00Z", "level": "WARN", "service": "worker-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:01:05.795000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 34.12ms"}
+{"timestamp": "2026-11-10T14:01:05.859000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /static/css/main.css returned 304 in 16.6ms"}
+{"timestamp": "2026-11-10T14:01:05.922000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /ready returned 200 in 23.86ms"}
+{"timestamp": "2026-11-10T14:01:05.977000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 25%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:01:06.013000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:06.128000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 23 background tasks from queue in 397ms"}
+{"timestamp": "2026-11-10T14:01:06.180000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 32 background tasks from queue in 449ms"}
+{"timestamp": "2026-11-10T14:01:06.231000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/users/me returned 200 in 37.27ms"}
+{"timestamp": "2026-11-10T14:01:06.296000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 39.93ms"}
+{"timestamp": "2026-11-10T14:01:06.415000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 37 background tasks from queue in 300ms"}
+{"timestamp": "2026-11-10T14:01:06.522000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 46%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:01:06.599000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /healthz returned 200 in 36.97ms"}
+{"timestamp": "2026-11-10T14:01:06.653000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /metrics returned 200 in 42.05ms"}
+{"timestamp": "2026-11-10T14:01:06.688000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /ready returned 200 in 44.99ms"}
+{"timestamp": "2026-11-10T14:01:06.784000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /ready returned 200 in 8.17ms"}
+{"timestamp": "2026-11-10T14:01:06.784000+00:00Z", "level": "INFO", "service": "orchestrator", "message": "HorizontalPodAutoscaler triggered: scaling checkout-service replicas from 4 to 16"}
+{"timestamp": "2026-11-10T14:01:06.784000+00:00Z", "level": "INFO", "service": "orchestrator", "message": "Successfully scheduled and launched 12 new worker pods"}
+{"timestamp": "2026-11-10T14:01:07.139000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/catalog/items returned 200 in 15.24ms"}
+{"timestamp": "2026-11-10T14:01:07.244000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /metrics returned 200 in 6.48ms"}
+{"timestamp": "2026-11-10T14:01:07.353000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 7%"}
+{"timestamp": "2026-11-10T14:01:07.494000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 22%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:01:07.880000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 43 background tasks from queue in 442ms"}
+{"timestamp": "2026-11-10T14:01:08.040000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 12%"}
+{"timestamp": "2026-11-10T14:01:08.169000+00:00Z", "level": "WARN", "service": "checkout-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:08.526000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /static/css/main.css returned 200 in 33.34ms"}
+{"timestamp": "2026-11-10T14:01:08.808000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 11%"}
+{"timestamp": "2026-11-10T14:01:09.187000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 5.04ms"}
+{"timestamp": "2026-11-10T14:01:09.349000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 43%, CPU: 17%"}
+{"timestamp": "2026-11-10T14:01:09.722000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/users/me returned 200 in 7.97ms"}
+{"timestamp": "2026-11-10T14:01:10.105000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 57%, CPU: 7%"}
+{"timestamp": "2026-11-10T14:01:10.440000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /metrics returned 200 in 18.97ms"}
+{"timestamp": "2026-11-10T14:01:10.631000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 41 background tasks from queue in 342ms"}
+{"timestamp": "2026-11-10T14:01:10.872000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /ready returned 200 in 24.48ms"}
+{"timestamp": "2026-11-10T14:01:10.998000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 48 background tasks from queue in 123ms"}
+{"timestamp": "2026-11-10T14:01:11.267000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:01:11.454000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/promotions/active returned 200 in 24.2ms"}
+{"timestamp": "2026-11-10T14:01:11.805000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 31.64ms"}
+{"timestamp": "2026-11-10T14:01:12.165000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 16 background tasks from queue in 272ms"}
+{"timestamp": "2026-11-10T14:01:12.302000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 30.25ms"}
+{"timestamp": "2026-11-10T14:01:12.409000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 26%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:01:12.675000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 40%, CPU: 31%"}
+{"timestamp": "2026-11-10T14:01:12.967000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 33 background tasks from queue in 255ms"}
+{"timestamp": "2026-11-10T14:01:13.224000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 49 background tasks from queue in 443ms"}
+{"timestamp": "2026-11-10T14:01:13.547000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /static/css/main.css returned 200 in 5.14ms"}
+{"timestamp": "2026-11-10T14:01:13.807000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 38%, CPU: 16%"}
+{"timestamp": "2026-11-10T14:01:14.086000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 12.37ms"}
+{"timestamp": "2026-11-10T14:01:14.221000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 31.73ms"}
+{"timestamp": "2026-11-10T14:01:14.570000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 32%, CPU: 10%"}
+{"timestamp": "2026-11-10T14:01:14.918000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 17.3ms"}
+{"timestamp": "2026-11-10T14:01:15.119000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/users/me returned 200 in 39.01ms"}
+{"timestamp": "2026-11-10T14:01:15.273000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 24 background tasks from queue in 423ms"}
+{"timestamp": "2026-11-10T14:01:15.475000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 31%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:01:15.575000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:15.875000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 42%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:01:16.225000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 29.25ms"}
+{"timestamp": "2026-11-10T14:01:16.557000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 25 background tasks from queue in 180ms"}
+{"timestamp": "2026-11-10T14:01:16.906000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/users/me returned 304 in 9.62ms"}
+{"timestamp": "2026-11-10T14:01:17.271000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 17 background tasks from queue in 444ms"}
+{"timestamp": "2026-11-10T14:01:17.548000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 51%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:01:17.721000+00:00Z", "level": "WARN", "service": "checkout-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:01:18.089000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /static/css/main.css returned 200 in 44.18ms"}
+{"timestamp": "2026-11-10T14:01:18.402000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /ready returned 200 in 19.11ms"}
+{"timestamp": "2026-11-10T14:01:18.525000+00:00Z", "level": "WARN", "service": "worker-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:18.660000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 41.48ms"}
+{"timestamp": "2026-11-10T14:01:18.781000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:18.923000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:19.195000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 44.84ms"}
+{"timestamp": "2026-11-10T14:01:19.566000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 30.55ms"}
+{"timestamp": "2026-11-10T14:01:19.861000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /healthz returned 200 in 14.34ms"}
+{"timestamp": "2026-11-10T14:01:20.207000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /ready returned 200 in 44.77ms"}
+{"timestamp": "2026-11-10T14:01:20.510000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /static/css/main.css returned 200 in 34.9ms"}
+{"timestamp": "2026-11-10T14:01:20.697000+00:00Z", "level": "WARN", "service": "checkout-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:01:21.094000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /ready returned 200 in 35.76ms"}
+{"timestamp": "2026-11-10T14:01:21.420000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 25.48ms"}
+{"timestamp": "2026-11-10T14:01:21.597000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 36%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:01:21.919000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /metrics returned 200 in 14.11ms"}
+{"timestamp": "2026-11-10T14:01:22.096000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 23%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:01:22.414000+00:00Z", "level": "WARN", "service": "inventory-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:22.680000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/users/me returned 200 in 27.97ms"}
+{"timestamp": "2026-11-10T14:01:22.920000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 40 background tasks from queue in 158ms"}
+{"timestamp": "2026-11-10T14:01:23.215000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 21 background tasks from queue in 149ms"}
+{"timestamp": "2026-11-10T14:01:23.555000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 32%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:01:23.938000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/users/me returned 200 in 17.95ms"}
+{"timestamp": "2026-11-10T14:01:24.300000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /metrics returned 200 in 18.36ms"}
+{"timestamp": "2026-11-10T14:01:24.627000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /healthz returned 200 in 42.73ms"}
+{"timestamp": "2026-11-10T14:01:24.969000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 25 background tasks from queue in 313ms"}
+{"timestamp": "2026-11-10T14:01:25.337000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 38 background tasks from queue in 228ms"}
+{"timestamp": "2026-11-10T14:01:25.715000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /metrics returned 200 in 10.49ms"}
+{"timestamp": "2026-11-10T14:01:25.820000+00:00Z", "level": "DEBUG", "service": "inventory-service", "message": "Processed 49 background tasks from queue in 124ms"}
+{"timestamp": "2026-11-10T14:01:26.175000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 23%, CPU: 11%"}
+{"timestamp": "2026-11-10T14:01:26.552000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 58%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:01:26.911000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 27 background tasks from queue in 196ms"}
+{"timestamp": "2026-11-10T14:01:27.028000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 10 background tasks from queue in 352ms"}
+{"timestamp": "2026-11-10T14:01:27.302000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 7.97ms"}
+{"timestamp": "2026-11-10T14:01:27.666000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 34.59ms"}
+{"timestamp": "2026-11-10T14:01:28.066000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/users/me returned 200 in 14.13ms"}
+{"timestamp": "2026-11-10T14:01:28.168000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /ready returned 200 in 41.55ms"}
+{"timestamp": "2026-11-10T14:01:28.400000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 47 background tasks from queue in 369ms"}
+{"timestamp": "2026-11-10T14:01:28.551000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 23.6ms"}
+{"timestamp": "2026-11-10T14:01:28.891000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 26.66ms"}
+{"timestamp": "2026-11-10T14:01:29.078000+00:00Z", "level": "WARN", "service": "checkout-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:29.466000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 22%, CPU: 17%"}
+{"timestamp": "2026-11-10T14:01:29.640000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 15%"}
+{"timestamp": "2026-11-10T14:01:29.970000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /static/css/main.css returned 200 in 35.25ms"}
+{"timestamp": "2026-11-10T14:01:30.132000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 30%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:01:30.379000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:01:30.749000+00:00Z", "level": "DEBUG", "service": "worker-service", "message": "Processed 43 background tasks from queue in 178ms"}
+{"timestamp": "2026-11-10T14:01:30.960000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:01:31.344000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /ready returned 200 in 10.5ms"}
+{"timestamp": "2026-11-10T14:01:31.714000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /ready returned 200 in 44.2ms"}
+{"timestamp": "2026-11-10T14:01:32.051000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /metrics returned 200 in 26.89ms"}
+{"timestamp": "2026-11-10T14:01:32.403000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 32%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:01:32.682000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/cart/items returned 200 in 22.54ms"}
+{"timestamp": "2026-11-10T14:01:32.835000+00:00Z", "level": "DEBUG", "service": "checkout-service", "message": "Processed 50 background tasks from queue in 256ms"}
+{"timestamp": "2026-11-10T14:01:32.956000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 40%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:01:33.110000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /healthz returned 200 in 41.76ms"}
+{"timestamp": "2026-11-10T14:01:33.332000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 36 background tasks from queue in 176ms"}
+{"timestamp": "2026-11-10T14:01:33.538000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 21.56ms"}
+{"timestamp": "2026-11-10T14:01:33.809000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 53%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:01:34.136000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 38 background tasks from queue in 399ms"}
+{"timestamp": "2026-11-10T14:01:34.337000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:01:34.691000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /healthz returned 200 in 18.93ms"}
+{"timestamp": "2026-11-10T14:01:35.064000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 16.84ms"}
+{"timestamp": "2026-11-10T14:01:35.201000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 34%, CPU: 34%"}
+{"timestamp": "2026-11-10T14:01:35.488000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:35.778000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 38%, CPU: 21%"}
+{"timestamp": "2026-11-10T14:01:36.152000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 40 background tasks from queue in 244ms"}
+{"timestamp": "2026-11-10T14:01:36.285000+00:00Z", "level": "DEBUG", "service": "payment-service", "message": "Processed 43 background tasks from queue in 138ms"}
+{"timestamp": "2026-11-10T14:01:36.443000+00:00Z", "level": "INFO", "service": "payment-service", "message": "Periodic health check passed. Memory usage: 56%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:01:36.814000+00:00Z", "level": "INFO", "service": "worker-service", "message": "HTTP GET /metrics returned 200 in 15.7ms"}
+{"timestamp": "2026-11-10T14:01:37.106000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 49 background tasks from queue in 279ms"}
+{"timestamp": "2026-11-10T14:01:37.389000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 22.33ms"}
+{"timestamp": "2026-11-10T14:01:37.654000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /metrics returned 200 in 36.14ms"}
+{"timestamp": "2026-11-10T14:01:37.924000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 12.54ms"}
+{"timestamp": "2026-11-10T14:01:38.299000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /static/css/main.css returned 200 in 9.57ms"}
+{"timestamp": "2026-11-10T14:01:38.418000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/promotions/active returned 304 in 32.98ms"}
+{"timestamp": "2026-11-10T14:01:38.674000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/users/me returned 200 in 20.46ms"}
+{"timestamp": "2026-11-10T14:01:39.048000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 18%"}
+{"timestamp": "2026-11-10T14:01:39.447000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 44%, CPU: 30%"}
+{"timestamp": "2026-11-10T14:01:39.797000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/users/me returned 200 in 39.94ms"}
+{"timestamp": "2026-11-10T14:01:39.975000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 42%, CPU: 16%"}
+{"timestamp": "2026-11-10T14:01:40.275000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 7.17ms"}
+{"timestamp": "2026-11-10T14:01:40.523000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 27 background tasks from queue in 408ms"}
+{"timestamp": "2026-11-10T14:01:40.790000+00:00Z", "level": "WARN", "service": "worker-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:40.930000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /static/css/main.css returned 200 in 27.2ms"}
+{"timestamp": "2026-11-10T14:01:41.161000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 19.03ms"}
+{"timestamp": "2026-11-10T14:01:41.501000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 34%"}
+{"timestamp": "2026-11-10T14:01:41.765000+00:00Z", "level": "DEBUG", "service": "auth-service", "message": "Processed 25 background tasks from queue in 354ms"}
+{"timestamp": "2026-11-10T14:01:42.045000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 15 background tasks from queue in 375ms"}
+{"timestamp": "2026-11-10T14:01:42.189000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 7.37ms"}
+{"timestamp": "2026-11-10T14:01:42.435000+00:00Z", "level": "INFO", "service": "auth-service", "message": "HTTP GET /healthz returned 200 in 25.15ms"}
+{"timestamp": "2026-11-10T14:01:42.676000+00:00Z", "level": "WARN", "service": "payment-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:42.832000+00:00Z", "level": "WARN", "service": "auth-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:42.960000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 5.46ms"}
+{"timestamp": "2026-11-10T14:01:43.082000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 40%, CPU: 12%"}
+{"timestamp": "2026-11-10T14:01:43.217000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 49 background tasks from queue in 163ms"}
+{"timestamp": "2026-11-10T14:01:43.387000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 35.68ms"}
+{"timestamp": "2026-11-10T14:01:43.533000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 36.57ms"}
+{"timestamp": "2026-11-10T14:01:43.803000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "Periodic health check passed. Memory usage: 50%, CPU: 9%"}
+{"timestamp": "2026-11-10T14:01:44.064000+00:00Z", "level": "INFO", "service": "worker-service", "message": "Periodic health check passed. Memory usage: 47%, CPU: 26%"}
+{"timestamp": "2026-11-10T14:01:44.463000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /healthz returned 200 in 29.88ms"}
+{"timestamp": "2026-11-10T14:01:44.612000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /metrics returned 200 in 4.82ms"}
+{"timestamp": "2026-11-10T14:01:44.772000+00:00Z", "level": "INFO", "service": "payment-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 40.82ms"}
+{"timestamp": "2026-11-10T14:01:45.103000+00:00Z", "level": "INFO", "service": "checkout-service", "message": "HTTP GET /ready returned 200 in 25.35ms"}
+{"timestamp": "2026-11-10T14:01:45.291000+00:00Z", "level": "INFO", "service": "inventory-service", "message": "HTTP GET /static/css/main.css returned 200 in 41.63ms"}
+{"timestamp": "2026-11-10T14:01:45.409000+00:00Z", "level": "WARN", "service": "payment-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:45.746000+00:00Z", "level": "INFO", "service": "auth-service", "message": "Periodic health check passed. Memory usage: 54%, CPU: 8%"}

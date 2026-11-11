@@ -1,0 +1,117 @@
+{"timestamp": "2026-11-10T14:00:00.676000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/users/me returned 200 in 44.54ms"}
+{"timestamp": "2026-11-10T14:00:01.905000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/catalog/items returned 200 in 33.06ms"}
+{"timestamp": "2026-11-10T14:00:02.473000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 45%, CPU: 21%"}
+{"timestamp": "2026-11-10T14:00:03.023000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 55%, CPU: 5%"}
+{"timestamp": "2026-11-10T14:00:03.874000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 26 background tasks from queue in 375ms"}
+{"timestamp": "2026-11-10T14:00:05.305000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 40%, CPU: 35%"}
+{"timestamp": "2026-11-10T14:00:06.665000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /healthz returned 200 in 28.55ms"}
+{"timestamp": "2026-11-10T14:00:07.154000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 30 background tasks from queue in 241ms"}
+{"timestamp": "2026-11-10T14:00:08.234000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 52%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:00:09.359000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:10.669000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /healthz returned 200 in 41.8ms"}
+{"timestamp": "2026-11-10T14:00:11.843000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 10.33ms"}
+{"timestamp": "2026-11-10T14:00:12.059000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 14 background tasks from queue in 444ms"}
+{"timestamp": "2026-11-10T14:00:12.988000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 24%, CPU: 16%"}
+{"timestamp": "2026-11-10T14:00:13.658000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /metrics returned 200 in 26.1ms"}
+{"timestamp": "2026-11-10T14:00:14.886000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/users/me returned 200 in 10.54ms"}
+{"timestamp": "2026-11-10T14:00:16.029000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:17.294000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 55%, CPU: 19%"}
+{"timestamp": "2026-11-10T14:00:18.537000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 52%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:00:18.952000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:19.797000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /healthz returned 200 in 36.74ms"}
+{"timestamp": "2026-11-10T14:00:20.204000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /healthz returned 200 in 22.72ms"}
+{"timestamp": "2026-11-10T14:00:20.836000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 55%, CPU: 29%"}
+{"timestamp": "2026-11-10T14:00:21.447000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /metrics returned 200 in 22.23ms"}
+{"timestamp": "2026-11-10T14:00:22.075000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 57%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:00:22.876000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 57%, CPU: 6%"}
+{"timestamp": "2026-11-10T14:00:23.731000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /static/css/main.css returned 200 in 35.64ms"}
+{"timestamp": "2026-11-10T14:00:24.829000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /static/css/main.css returned 200 in 32.21ms"}
+{"timestamp": "2026-11-10T14:00:25.125000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 32%, CPU: 5%"}
+{"timestamp": "2026-11-10T14:00:25.762000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 23.27ms"}
+{"timestamp": "2026-11-10T14:00:26.306000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 11 background tasks from queue in 248ms"}
+{"timestamp": "2026-11-10T14:00:27.037000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/users/me returned 200 in 25.12ms"}
+{"timestamp": "2026-11-10T14:00:28.139000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 13.35ms"}
+{"timestamp": "2026-11-10T14:00:29.578000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/promotions/active returned 200 in 13.84ms"}
+{"timestamp": "2026-11-10T14:00:30.042000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /static/css/main.css returned 200 in 15.34ms"}
+{"timestamp": "2026-11-10T14:00:30.299000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 39 background tasks from queue in 207ms"}
+{"timestamp": "2026-11-10T14:00:31.001000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 27 background tasks from queue in 396ms"}
+{"timestamp": "2026-11-10T14:00:32.298000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:00:33.242000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:33.898000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 43%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:00:34.113000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:00:34.711000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:00:35.253000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /healthz returned 200 in 11.69ms"}
+{"timestamp": "2026-11-10T14:00:36.552000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/cart/items returned 200 in 25.83ms"}
+{"timestamp": "2026-11-10T14:00:37.008000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /healthz returned 200 in 6.92ms"}
+{"timestamp": "2026-11-10T14:00:42.008000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Memory usage exceeded threshold: 3840MB / 4096MB (93.7%)"}
+{"timestamp": "2026-11-10T14:00:57.008000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Garbage collector paused for 1420ms; freed only 12MB. Cache retention ratio 0.998"}
+{"timestamp": "2026-11-10T14:01:07.008000+00:00Z", "level": "FATAL", "service": "recommendation-service", "message": "kernel: [129481.102] Out of memory: Kill process 18491 (python) score 950 or sacrifice child"}
+{"timestamp": "2026-11-10T14:01:10.008000+00:00Z", "level": "FATAL", "service": "recommendation-service", "message": "Killed process 18491 (python) total-vm:4194304kB, anon-rss:3981312kB"}
+{"timestamp": "2026-11-10T14:01:15.008000+00:00Z", "level": "FATAL", "service": "orchestrator", "message": "Container recommendation-engine terminated with exit code 137 (OOMKilled)"}
+{"timestamp": "2026-11-10T14:01:23.008000+00:00Z", "level": "ERROR", "service": "api-gateway", "message": "Upstream recommendation-service connection reset by peer during feed fetch"}
+{"timestamp": "2026-11-10T14:01:20.607000+00:00Z", "level": "ERROR", "service": "api-gateway", "message": "HTTP 500 / request dropped while recommendation-service is degraded"}
+{"timestamp": "2026-11-10T14:01:21.573000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/users/me returned 200 in 38.73ms"}
+{"timestamp": "2026-11-10T14:01:22.796000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/catalog/items returned 200 in 31.3ms"}
+{"timestamp": "2026-11-10T14:01:23.411000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 6.91ms"}
+{"timestamp": "2026-11-10T14:01:24.337000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:24.746000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /ready returned 200 in 33.75ms"}
+{"timestamp": "2026-11-10T14:01:25.672000+00:00Z", "level": "ERROR", "service": "recommendation-service", "message": "HTTP 500 / request dropped while recommendation-service is degraded"}
+{"timestamp": "2026-11-10T14:01:25.945000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:26.477000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 30%, CPU: 23%"}
+{"timestamp": "2026-11-10T14:01:27.671000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 12.34ms"}
+{"timestamp": "2026-11-10T14:01:28.540000+00:00Z", "level": "ERROR", "service": "api-gateway", "message": "HTTP 500 / request dropped while recommendation-service is degraded"}
+{"timestamp": "2026-11-10T14:01:29.715000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 36%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:01:30.213000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 18.38ms"}
+{"timestamp": "2026-11-10T14:01:30.828000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 37%, CPU: 25%"}
+{"timestamp": "2026-11-10T14:01:31.600000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /healthz returned 200 in 26.16ms"}
+{"timestamp": "2026-11-10T14:01:32.316000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /api/v1/cart/items returned 200 in 44.23ms"}
+{"timestamp": "2026-11-10T14:01:33.506000+00:00Z", "level": "ERROR", "service": "recommendation-service", "message": "HTTP 500 / request dropped while recommendation-service is degraded"}
+{"timestamp": "2026-11-10T14:01:33.785000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /static/css/main.css returned 200 in 23.42ms"}
+{"timestamp": "2026-11-10T14:01:34.084000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 34%, CPU: 33%"}
+{"timestamp": "2026-11-10T14:01:35.100000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 22%, CPU: 11%"}
+{"timestamp": "2026-11-10T14:01:36.096000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /metrics returned 200 in 20.11ms"}
+{"timestamp": "2026-11-10T14:01:36.823000+00:00Z", "level": "ERROR", "service": "api-gateway", "message": "HTTP 500 / request dropped while recommendation-service is degraded"}
+{"timestamp": "2026-11-10T14:01:37.564000+00:00Z", "level": "ERROR", "service": "recommendation-service", "message": "HTTP 500 / request dropped while recommendation-service is degraded"}
+{"timestamp": "2026-11-10T14:01:39.052000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 25%, CPU: 13%"}
+{"timestamp": "2026-11-10T14:01:40.016000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 16.24ms"}
+{"timestamp": "2026-11-10T14:01:40.503000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/users/me returned 200 in 44.99ms"}
+{"timestamp": "2026-11-10T14:01:41.564000+00:00Z", "level": "ERROR", "service": "recommendation-service", "message": "HTTP 500 / request dropped while recommendation-service is degraded"}
+{"timestamp": "2026-11-10T14:01:42.188000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 32 background tasks from queue in 193ms"}
+{"timestamp": "2026-11-10T14:01:43.687000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:44.896000+00:00Z", "level": "ERROR", "service": "api-gateway", "message": "HTTP 500 / request dropped while recommendation-service is degraded"}
+{"timestamp": "2026-11-10T14:01:46.041000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:01:47.412000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "Periodic health check passed. Memory usage: 41%, CPU: 24%"}
+{"timestamp": "2026-11-10T14:01:48.303000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /healthz returned 200 in 5.67ms"}
+{"timestamp": "2026-11-10T14:01:49.028000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 11 background tasks from queue in 245ms"}
+{"timestamp": "2026-11-10T14:01:50.463000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:01:51.169000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 12 background tasks from queue in 282ms"}
+{"timestamp": "2026-11-10T14:01:52.288000+00:00Z", "level": "ERROR", "service": "api-gateway", "message": "HTTP 500 / request dropped while recommendation-service is degraded"}
+{"timestamp": "2026-11-10T14:01:53.301000+00:00Z", "level": "WARN", "service": "api-gateway", "message": "Slow response from CDN node edge-us-east-1 (112ms)"}
+{"timestamp": "2026-11-10T14:01:54.501000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 21.52ms"}
+{"timestamp": "2026-11-10T14:01:55.618000+00:00Z", "level": "ERROR", "service": "api-gateway", "message": "HTTP 500 / request dropped while recommendation-service is degraded"}
+{"timestamp": "2026-11-10T14:01:56.836000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /metrics returned 200 in 20.24ms"}
+{"timestamp": "2026-11-10T14:01:57.234000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /healthz returned 200 in 35.76ms"}
+{"timestamp": "2026-11-10T14:01:58.240000+00:00Z", "level": "ERROR", "service": "api-gateway", "message": "HTTP 500 / request dropped while recommendation-service is degraded"}
+{"timestamp": "2026-11-10T14:01:58.974000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 52%, CPU: 20%"}
+{"timestamp": "2026-11-10T14:02:00.032000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 40%, CPU: 28%"}
+{"timestamp": "2026-11-10T14:02:01.503000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /static/css/main.css returned 200 in 9.96ms"}
+{"timestamp": "2026-11-10T14:02:02.171000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 38%, CPU: 33%"}
+{"timestamp": "2026-11-10T14:02:02.558000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /static/css/main.css returned 200 in 22.72ms"}
+{"timestamp": "2026-11-10T14:02:03.939000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "User session cookie refresh token close to expiration"}
+{"timestamp": "2026-11-10T14:02:04.713000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 47 background tasks from queue in 160ms"}
+{"timestamp": "2026-11-10T14:02:05.581000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 36%, CPU: 11%"}
+{"timestamp": "2026-11-10T14:02:05.789000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/catalog/items returned 200 in 32.59ms"}
+{"timestamp": "2026-11-10T14:02:07.162000+00:00Z", "level": "ERROR", "service": "api-gateway", "message": "HTTP 500 / request dropped while recommendation-service is degraded"}
+{"timestamp": "2026-11-10T14:02:07.560000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 27.41ms"}
+{"timestamp": "2026-11-10T14:02:08.144000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 43 background tasks from queue in 139ms"}
+{"timestamp": "2026-11-10T14:02:09.495000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /static/css/main.css returned 200 in 29.46ms"}
+{"timestamp": "2026-11-10T14:02:10.925000+00:00Z", "level": "ERROR", "service": "recommendation-service", "message": "HTTP 500 / request dropped while recommendation-service is degraded"}
+{"timestamp": "2026-11-10T14:02:12.355000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 33%, CPU: 27%"}
+{"timestamp": "2026-11-10T14:02:13.824000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "HTTP GET /static/css/main.css returned 200 in 30.13ms"}
+{"timestamp": "2026-11-10T14:02:14.258000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/cart/items returned 200 in 6.2ms"}
+{"timestamp": "2026-11-10T14:02:15.651000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 10 background tasks from queue in 285ms"}
+{"timestamp": "2026-11-10T14:02:16.743000+00:00Z", "level": "DEBUG", "service": "recommendation-service", "message": "Processed 36 background tasks from queue in 259ms"}
+{"timestamp": "2026-11-10T14:02:17.340000+00:00Z", "level": "INFO", "service": "recommendation-service", "message": "HTTP GET /api/v1/promotions/active returned 200 in 26.91ms"}
+{"timestamp": "2026-11-10T14:02:18.329000+00:00Z", "level": "DEBUG", "service": "api-gateway", "message": "Processed 40 background tasks from queue in 327ms"}
+{"timestamp": "2026-11-10T14:02:19.619000+00:00Z", "level": "WARN", "service": "recommendation-service", "message": "Rate limiter token bucket usage reached 65% for client ip 198.51.100.4"}
+{"timestamp": "2026-11-10T14:02:20.672000+00:00Z", "level": "INFO", "service": "api-gateway", "message": "Periodic health check passed. Memory usage: 40%, CPU: 9%"}

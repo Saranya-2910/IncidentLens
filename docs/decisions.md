@@ -44,3 +44,8 @@
 - **Context**: Uploading 50,000+ line log files line-by-line via ORM sessions causes massive latency and memory consumption, and network failures require safe retries.
 - **Decision**: Stream lines from local storage directly without holding the entire file in RAM, bulk insert structured events in chunks of 2,000 using `INSERT ... VALUES`, and purge prior `log_events` for the `batch_id` before inserting.
 - **Why**: Achieves sub-5-second ingestion for 50,000 lines while guaranteeing that worker retries are strictly idempotent and never duplicate events.
+
+## ADR 010: Deterministic Synthetic Dataset Generator and One-Click Demo Seeding
+- **Context**: Evaluating incident root-cause explainers requires realistic, ground-truth-labeled log datasets across varied failure modes (resource exhaustion, bad deploys, cascading timeouts, external dependency failures) with controlled noise levels and single vs multi-service cascades. Evaluators also need immediate one-click testing in the UI without manually preparing log files.
+- **Decision**: Implement a standalone deterministic generator (`simulator/generate.py`) supporting 8 scenario categories x 4 variants (low/high noise x single/multi-service) + 2 control datasets (healthy steady-state and benign traffic spike) = 34 scenarios. Pair this with a project-scoped seeding endpoint (`POST /projects/{id}/demo-data`) and catalog endpoint (`GET /projects/demo-scenarios`).
+- **Why**: Enables 100% reproducible offline benchmark evaluation with ground-truth verification, tests both single-service and multi-service cascading failures with multi-line stack traces, and lets evaluators explore the system instantly with zero configuration.
