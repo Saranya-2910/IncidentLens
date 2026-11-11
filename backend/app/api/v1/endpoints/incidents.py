@@ -13,6 +13,10 @@ from app.schemas.incident import (
     IncidentDetailResponse,
     IncidentResponse,
     PaginatedIncidentsResponse,
+    ProjectStatsResponse,
+    ResolveIncidentRequest,
+    SimilarIncidentMatch,
+    SimilarIncidentsResponse,
 )
 from app.schemas.incident_report import (
     AI_DISCLAIMER,
@@ -180,3 +184,85 @@ async def get_incident_report(
         created_at=report.created_at,
         disclaimer=AI_DISCLAIMER,
     )
+
+
+@router.get(
+    "/incidents/{id}/similar",
+    response_model=SimilarIncidentsResponse,
+    summary="Find semantically similar past incidents in the same project",
+)
+async def get_similar_incidents(
+    id: uuid.UUID,
+    current_user: Annotated[User, Depends(get_current_user)],
+    db: Annotated[AsyncSession, Depends(get_db)],
+    limit: Annotated[int, Query(ge=1, le=20)] = 5,
+    min_similarity: Annotated[float | None, Query(ge=0.0, le=1.0)] = None,
+) -> SimilarIncidentsResponse:
+    incident_service = IncidentService(db)
+    matches = await incident_service.get_similar_incidents(
+        user_id=current_user.id,
+        incident_id=id,
+        limit=limit,
+        min_similarity=min_similarity,
+    )
+    return SimilarIncidentsResponse(
+        incident_id=id,
+        items=[SimilarIncidentMatch.model_validate(m) for m in matches],
+    )
+
+
+@router.post(
+    "/incidents/{id}/resolve",
+    response_model=IncidentResponse,
+    summary="Mark an incident as resolved and save a resolution note",
+)
+async def resolve_incident_post(
+    id: uuid.UUID,
+    payload: ResolveIncidentRequest,
+    current_user: Annotated[User, Depends(get_current_user)],
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> IncidentResponse:
+    incident_service = IncidentService(db)
+    incident = await incident_service.resolve_incident(
+        user_id=current_user.id,
+        incident_id=id,
+        status=payload.status,
+        resolution_note=payload.resolution_note,
+    )
+    return IncidentResponse.model_validate(incident)
+
+
+@router.patch(
+    "/incidents/{id}",
+    response_model=IncidentResponse,
+    summary="Update incident status or resolution note",
+)
+async def update_incident_patch(
+    id: uuid.UUID,
+    payload: ResolveIncidentRequest,
+    current_user: Annotated[User, Depends(get_current_user)],
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> IncidentResponse:
+    incident_service = IncidentService(db)
+    incident = await incident_service.resolve_incident(
+        user_id=current_user.id,
+        incident_id=id,
+        status=payload.status,
+        resolution_note=payload.resolution_note,
+    )
+    return IncidentResponse.model_validate(incident)
+
+
+@router.get(
+    "/projects/{id}/stats",
+    response_model=ProjectStatsResponse,
+    summary="Retrieve project error rate series, top error patterns, and incident counts",
+)
+async def get_project_stats(
+    id: uuid.UUID,
+    current_user: Annotated[User, Depends(get_current_user)],
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> ProjectStatsResponse:
+    incident_service = IncidentService(db)
+    stats = await incident_service.get_project_stats(current_user.id, id)
+    return ProjectStatsResponse.model_validate(stats)

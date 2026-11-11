@@ -56,6 +56,8 @@ class Settings(BaseSettings):
     GEMINI_MODEL: str = "gemini-2.0-flash"
     EMBEDDING_PROVIDER: str = "gemini"
     EMBEDDING_MODEL: str = "text-embedding-004"
+    EMBEDDING_DIMENSION: int = 768
+    SIMILARITY_THRESHOLD: float = 0.45
 
 
 settings = Settings()

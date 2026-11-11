@@ -52,6 +52,13 @@ Search and filter parsed log events strictly scoped to the owned project:
 - `POST /api/v1/incidents/{id}/explain` (also `/incidents/{id}/explain`): Idempotently triggers background AI root-cause explanation generation (`202 Accepted`). Body: `{ "force": false }` (optional). Repeated calls while pending/done return the existing report ID unless `force=true`.
 - `GET /api/v1/incidents/{id}/report` (also `/incidents/{id}/report`): Retrieve the latest verified AI root-cause report. Returns `status` (`not_generated`, `pending`, `processing`, `done`, `failed`), `summary`, `root_cause`, `confidence`, `suggested_fixes`, verified `claims` mapped directly to real `cited_event_ids`, redacted `evidence_lines`, `validation_status` (`verified`, `partial`, `unverified`), `unsupported_claim_count`, model telemetry, and an explicit AI hypothesis disclaimer.
 
+## Incident Resolution & Similar Past Incidents (`/api/v1/incidents/{id}`)
+- `POST /api/v1/incidents/{id}/resolve` and `PATCH /api/v1/incidents/{id}` (also `/incidents/{id}/resolve`): Mark an incident as `resolved` (or reopen to `open`) and attach a human `resolution_note`.
+- `GET /api/v1/incidents/{id}/similar` (also `/incidents/{id}/similar`): Return semantically similar past incidents within the **same project** ranked by vector cosine similarity (`pgvector` HNSW on Postgres; filtered by `SIMILARITY_THRESHOLD`), returning `similarity_score`, `root_cause`, `suggested_fixes`, and `resolution_note`. Returns empty list `[]` if no history exists.
+
+## Project Dashboard Statistics
+- `GET /api/v1/projects/{id}/stats` (also `/projects/{id}/stats`): Return total/error event counts, pattern counts, open/resolved incident counts, 1-minute error rate time-series buckets, and top 5 error patterns.
+
 ## Demo Datasets & Seeding
 - `GET /api/v1/projects/demo-scenarios`: List all 34 pre-generated incident scenarios with ground-truth metadata, noise levels, and expected key patterns.
 - `POST /api/v1/projects/{id}/demo-data`: Seed an owned project with a simulated incident dataset for instant evaluation. Body: `{ "scenario_id": "db_pool_exhaustion_low_noise_multi_service" }` (optional, defaults to database connection pool exhaustion). Returns `202 Accepted` with `batch_id` and queues background processing. Returns 404 if project is not owned.

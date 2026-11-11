@@ -7,6 +7,11 @@ from pydantic import ValidationError
 from sqlalchemy.orm import Session
 
 from app.ai.client import BaseLLMClient, get_llm_client
+from app.ai.embeddings import (
+    BaseEmbeddingClient,
+    build_report_embedding_text,
+    get_embedding_client,
+)
 from app.ai.prompts import SYSTEM_INSTRUCTION, build_repair_prompt, build_user_prompt
 from app.ai.schemas import LLMStructuredReport
 from app.ai.verifier import EvidenceVerifier
@@ -18,9 +23,15 @@ from app.pipeline.evidence.selector import EvidenceSelector
 class IncidentExplainer:
     """Runs evidence selection, redaction, LLM invocation, repair retry, and verification."""
 
-    def __init__(self, session: Session, llm_client: BaseLLMClient | None = None):
+    def __init__(
+        self,
+        session: Session,
+        llm_client: BaseLLMClient | None = None,
+        embedding_client: BaseEmbeddingClient | None = None,
+    ):
         self.session = session
         self.llm_client = llm_client or get_llm_client()
+        self.embedding_client = embedding_client or get_embedding_client()
 
     def explain_report(self, report_id: uuid.UUID) -> IncidentReport:
         """Process a queued IncidentReport end-to-end."""
@@ -122,6 +133,22 @@ class IncidentExplainer:
             report.total_incident_events = ev_res.total_incident_events
             report.selected_evidence_lines = ev_res.selected_count
             report.error = None
+
+            # 6. Generate vector embedding for future similarity matching
+            key_patterns = [
+                assoc.pattern.template
+                for assoc in incident.pattern_associations
+                if assoc.pattern
+            ]
+            emb_text = build_report_embedding_text(
+                summary=parsed_report.summary,
+                root_cause=parsed_report.probable_root_cause,
+                patterns=key_patterns,
+            )
+            try:
+                report.embedding = self.embedding_client.embed(emb_text)
+            except Exception:
+                report.embedding = None
 
             self.session.commit()
             return report

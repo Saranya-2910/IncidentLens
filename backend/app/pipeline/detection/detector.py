@@ -110,11 +110,23 @@ class IncidentDetector:
         patterns_stmt = select(ErrorPattern).where(ErrorPattern.project_id == project_id)
         patterns_by_id = {p.id: p for p in self.session.execute(patterns_stmt).scalars().all()}
 
-        # Purge prior open incidents for clean idempotent re-detection
-        self.session.execute(
-            delete(Incident).where(Incident.project_id == project_id, Incident.status == "open")
-        )
-        self.session.flush()
+        # Load existing incidents (both open and resolved) to avoid duplicates or wiping generated reports
+        existing_stmt = select(Incident).where(Incident.project_id == project_id)
+        existing_incidents = list(self.session.execute(existing_stmt).scalars().all())
+
+        def _ensure_utc(dt: datetime) -> datetime:
+            return dt if dt.tzinfo else dt.replace(tzinfo=UTC)
+
+        def _find_overlapping_incident(w_start: datetime, w_end: datetime) -> Incident | None:
+            buf = timedelta(minutes=2)
+            w_s = _ensure_utc(w_start) - buf
+            w_e = _ensure_utc(w_end) + buf
+            for ex in existing_incidents:
+                ex_s = _ensure_utc(ex.started_at)
+                ex_e = _ensure_utc(ex.ended_at or ex.started_at)
+                if max(w_s, ex_s) <= min(w_e, ex_e):
+                    return ex
+            return None
 
         detected_incidents: list[Incident] = []
 
@@ -126,7 +138,7 @@ class IncidentDetector:
             # Filter events in this window
             win_events = [
                 e for e in events
-                if win_start <= (e.ts if e.ts.tzinfo else e.ts.replace(tzinfo=UTC)) <= win_end
+                if win_start <= _ensure_utc(e.ts) <= win_end
             ]
             if not win_events:
                 continue
@@ -134,6 +146,11 @@ class IncidentDetector:
             event_count = len(win_events)
             started_at = min(e.ts for e in win_events)
             ended_at = max(e.ts for e in win_events)
+
+            overlapping = _find_overlapping_incident(started_at, ended_at)
+            if overlapping and overlapping.status == "resolved":
+                # Preserve resolved incidents without creating a duplicate open incident
+                continue
 
             # Find affected services
             affected_services = sorted({e.service for e in win_events})
@@ -175,23 +192,40 @@ class IncidentDetector:
                 has_fatal=any(e.level in ("FATAL", "CRITICAL") for e in win_events),
             )
 
-            # 10. Persist Incident
-            incident_id = uuid.uuid4()
-            incident = Incident(
-                id=incident_id,
-                project_id=project_id,
-                status="open",
-                severity=severity,
-                started_at=started_at,
-                ended_at=ended_at,
-                origin_pattern_id=top_origin_id,
-                affected_services=affected_services,
-                origin_candidates=origin_candidates,
-                event_count=event_count,
-                created_at=datetime.now(UTC),
-            )
-            self.session.add(incident)
-            self.session.flush()
+            # 10. Create new or update existing open Incident in-place
+            if overlapping and overlapping.status == "open":
+                incident = overlapping
+                incident_id = incident.id
+                incident.severity = severity
+                incident.started_at = started_at
+                incident.ended_at = ended_at
+                incident.origin_pattern_id = top_origin_id
+                incident.affected_services = affected_services
+                incident.origin_candidates = origin_candidates
+                incident.event_count = event_count
+                # Refresh pattern associations cleanly
+                self.session.execute(
+                    delete(IncidentPattern).where(IncidentPattern.incident_id == incident_id)
+                )
+                self.session.flush()
+            else:
+                incident_id = uuid.uuid4()
+                incident = Incident(
+                    id=incident_id,
+                    project_id=project_id,
+                    status="open",
+                    severity=severity,
+                    started_at=started_at,
+                    ended_at=ended_at,
+                    origin_pattern_id=top_origin_id,
+                    affected_services=affected_services,
+                    origin_candidates=origin_candidates,
+                    event_count=event_count,
+                    created_at=datetime.now(UTC),
+                )
+                self.session.add(incident)
+                self.session.flush()
+                existing_incidents.append(incident)
 
             # 11. Persist IncidentPattern associations
             for p_id, st in pattern_stats.items():

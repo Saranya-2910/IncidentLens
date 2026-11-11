@@ -10,6 +10,7 @@ from sqlalchemy import (
     Index,
     Integer,
     String,
+    Text,
     Uuid,
 )
 from sqlalchemy.dialects.postgresql import JSONB
@@ -82,6 +83,8 @@ class Incident(Base):
         nullable=False,
     )
     event_count: Mapped[int] = mapped_column(Integer, default=0, nullable=False)
+    resolution_note: Mapped[str | None] = mapped_column(Text, nullable=True)
+    resolved_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
 
     # Relationships

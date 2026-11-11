@@ -2,6 +2,7 @@
 
 import uuid
 from datetime import datetime
+from typing import Literal
 
 from pydantic import BaseModel, ConfigDict
 
@@ -48,6 +49,8 @@ class IncidentResponse(BaseModel):
     origin_pattern_template: str | None = None
     affected_services: list[str]
     event_count: int
+    resolution_note: str | None = None
+    resolved_at: datetime | None = None
     created_at: datetime
 
 
@@ -62,3 +65,53 @@ class PaginatedIncidentsResponse(BaseModel):
     total: int
     limit: int
     offset: int
+
+
+class ResolveIncidentRequest(BaseModel):
+    status: Literal["open", "resolved"] = "resolved"
+    resolution_note: str | None = None
+
+
+class SimilarIncidentMatch(BaseModel):
+    incident_id: uuid.UUID
+    similarity_score: float
+    status: str
+    severity: str
+    started_at: datetime
+    ended_at: datetime | None
+    summary: str | None = None
+    root_cause: str | None = None
+    suggested_fixes: list[str] = []
+    resolution_note: str | None = None
+    resolved_at: datetime | None = None
+
+
+class SimilarIncidentsResponse(BaseModel):
+    incident_id: uuid.UUID
+    items: list[SimilarIncidentMatch]
+
+
+class ErrorRatePoint(BaseModel):
+    bucket: str
+    total_events: int
+    error_events: int
+
+
+class TopPatternSummary(BaseModel):
+    id: uuid.UUID
+    template: str
+    level: str
+    sample_service: str
+    total_count: int
+
+
+class ProjectStatsResponse(BaseModel):
+    project_id: uuid.UUID
+    total_events: int
+    error_events: int
+    total_patterns: int
+    total_incidents: int
+    open_incidents: int
+    resolved_incidents: int
+    error_rate_series: list[ErrorRatePoint]
+    top_patterns: list[TopPatternSummary]
