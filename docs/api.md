@@ -40,6 +40,10 @@ Search and filter parsed log events strictly scoped to the owned project:
 - `text`: Substring match on event message.
 - `limit` (default 50) and `offset` (default 0) pagination.
 
+## Error Patterns (`/api/v1/projects/{id}/patterns`)
+- `GET /api/v1/projects/{id}/patterns`: List collapsed, normalized error patterns for an owned project. Query filters: `level`, `service`, `start_time`, `end_time`, `limit`, `offset`. Each pattern item contains `id`, `fingerprint`, `template`, `level`, `total_count`, `first_seen`, `last_seen`, `example_event_ids`, and `trend` (hourly frequency buckets).
+- `GET /api/v1/projects/{id}/patterns/{pattern_id}`: Retrieve detailed pattern metrics including high-resolution 10-minute trend buckets and sample events. Returns 404 if not found or unowned.
+
 ## Demo Datasets & Seeding
 - `GET /api/v1/projects/demo-scenarios`: List all 34 pre-generated incident scenarios with ground-truth metadata, noise levels, and expected key patterns.
 - `POST /api/v1/projects/{id}/demo-data`: Seed an owned project with a simulated incident dataset for instant evaluation. Body: `{ "scenario_id": "db_pool_exhaustion_low_noise_multi_service" }` (optional, defaults to database connection pool exhaustion). Returns `202 Accepted` with `batch_id` and queues background processing. Returns 404 if project is not owned.

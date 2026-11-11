@@ -11,6 +11,7 @@ from starlette.middleware.base import RequestResponseEndpoint
 from app.api.v1.endpoints.health import router as health_router
 from app.api.v1.endpoints.ingest import router as ingest_router
 from app.api.v1.endpoints.logs import router as logs_router
+from app.api.v1.endpoints.patterns import router as patterns_router
 from app.api.v1.router import api_v1_router
 from app.core.config import settings
 from app.core.errors import register_error_handlers
@@ -73,6 +74,7 @@ app.include_router(health_router)
 # Mount ingest and logs at root as well to support direct /ingest and /batches/{id}
 app.include_router(ingest_router)
 app.include_router(logs_router)
+app.include_router(patterns_router)
 
 # Versioned API routes
 app.include_router(api_v1_router, prefix=settings.API_V1_PREFIX)
