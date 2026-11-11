@@ -80,11 +80,17 @@ On first visit to `http://localhost:3000`:
 ```bash
 # Backend (from repository root, inside your Python 3.12 virtualenv)
 pip install -e "backend[dev]"
-alembic -c backend/alembic.ini upgrade head
-uvicorn app.main:app --app-dir backend --reload --port 8000
-celery -A app.workers.celery_app.celery_app worker -B --workdir backend --loglevel=info
+cd backend
+alembic upgrade head
+uvicorn app.main:app --reload --port 8000
 
-# Frontend (in another terminal)
+# In another terminal (inside backend/):
+# Linux/macOS:
+celery -A app.workers.celery_app.celery_app worker -B --loglevel=info
+# Windows (use --pool=solo and omit -B; run beat separately if testing daily retention):
+celery -A app.workers.celery_app.celery_app worker --pool=solo --loglevel=info
+
+# Frontend (in another terminal from repository root)
 cd frontend
 npm ci
 npm run dev
