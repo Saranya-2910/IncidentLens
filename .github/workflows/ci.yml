@@ -52,7 +52,7 @@ jobs:
 
       - name: Run Ruff Linting
         run: |
-          ruff check backend
+          ruff check backend eval simulator
 
       - name: Run Pytest Test Suite
         env:

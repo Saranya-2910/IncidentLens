@@ -13,7 +13,7 @@ STACK_TRACE_START = re.compile(
     r"^(Traceback \(most recent call last\):|Caused by:|Exception in thread|panic:)"
 )
 STACK_TRACE_FRAME = re.compile(
-    r"^(\s+at\s+|\s+File\s+\"|at\s+[a-zA-Z0-9_$.]+\(|[a-zA-Z0-9_$.]*(?:Exception|Error):|\.\.\.\s+\d+\s+more)"
+    r"^(\s+at\s+|\s+File\s+\"|at\s+[a-zA-Z0-9_$.]+\(|[a-zA-Z0-9_$.]*(?:Exception|Error|Timeout|Failure|Warning|Interrupt|Exit):|\.\.\.\s+\d+\s+more)"
 )
 
 
