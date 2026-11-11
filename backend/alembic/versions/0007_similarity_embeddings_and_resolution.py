@@ -1,6 +1,6 @@
 """Add incident resolution fields and vector embedding column with HNSW index
 
-Revision ID: 0007_similarity_embeddings_and_resolution
+Revision ID: 0007_similarity_embeddings
 Revises: 0006_incident_reports
 Create Date: 2026-11-11 21:35:00.000000
 
@@ -13,7 +13,7 @@ from pgvector.sqlalchemy import Vector
 from alembic import op
 
 # revision identifiers, used by Alembic.
-revision: str = "0007_similarity_embeddings_and_resolution"
+revision: str = "0007_similarity_embeddings"
 down_revision: str | None = "0006_incident_reports"
 branch_labels: str | Sequence[str] | None = None
 depends_on: str | Sequence[str] | None = None

@@ -2,11 +2,14 @@
 
 import uuid
 from datetime import UTC, datetime, timedelta
+from pathlib import Path
 
 import pytest
 from httpx import AsyncClient
 from sqlalchemy import text
 
+from alembic.config import Config
+from alembic.script import ScriptDirectory
 from app.core.config import _normalize_async_db_url, _normalize_sync_db_url
 from app.db.session import get_sync_db
 from app.models.log_event import LogEvent
@@ -191,3 +194,14 @@ def test_cloud_database_url_normalization():
     raw_pg = "postgres://user:pass@db.render.com:5432/incidentlens"
     assert _normalize_async_db_url(raw_pg) == "postgresql+asyncpg://user:pass@db.render.com:5432/incidentlens"
     assert _normalize_sync_db_url(raw_pg) == "postgresql+psycopg://user:pass@db.render.com:5432/incidentlens"
+
+
+def test_alembic_revision_ids_fit_varchar_32():
+    """Verify all Alembic revision IDs fit within default VARCHAR(32) alembic_version column."""
+    backend_dir = Path(__file__).resolve().parents[1]
+    cfg = Config(str(backend_dir / "alembic.ini"))
+    cfg.set_main_option("script_location", str(backend_dir / "alembic"))
+    scripts = list(ScriptDirectory.from_config(cfg).walk_revisions())
+    assert len(scripts) >= 7
+    for script in scripts:
+        assert len(script.revision) <= 32, f"Revision ID too long for VARCHAR(32): {script.revision}"
