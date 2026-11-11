@@ -4,6 +4,7 @@ import logging
 import uuid
 from typing import Any
 
+from app.ai.explainer import IncidentExplainer
 from app.core.storage import stream_batch_lines
 from app.db.session import get_sync_db
 from app.pipeline.detection.detector import IncidentDetector
@@ -128,3 +129,21 @@ def process_log_batch(batch_id_str: str) -> dict[str, Any]:
                 "status": "failed",
                 "error": str(exc),
             }
+
+
+@celery_app.task(name="tasks.explain_incident")
+def explain_incident_task(report_id_str: str) -> dict[str, Any]:
+    """Generate and verify an LLM root-cause explanation report in the background."""
+    logger.info(f"Starting AI explanation for report: {report_id_str}")
+    report_uuid = uuid.UUID(report_id_str)
+
+    with get_sync_db() as db:
+        explainer = IncidentExplainer(db)
+        report = explainer.explain_report(report_uuid)
+        return {
+            "report_id": report_id_str,
+            "incident_id": str(report.incident_id),
+            "status": report.status,
+            "validation_status": report.validation_status,
+            "unsupported_claim_count": report.unsupported_claim_count,
+        }

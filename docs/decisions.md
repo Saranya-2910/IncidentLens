@@ -59,3 +59,12 @@
 - **Context**: An incident spans multiple services and produces cascading errors over several minutes. Engineers need to see distinct incidents separated from routine noise, and see which error pattern likely caused the cascade (rather than downstream gateway 504s).
 - **Decision**: Bucket `ERROR`, `FATAL`, and `CRITICAL` events by 1-minute intervals, identify spike buckets crossing a configurable threshold, and merge nearby spikes within a configurable merge window (`window_merge_minutes=15`) into cohesive incidents. Rank origin candidates using a deterministic scoring heuristic combining: temporal precedence (`first_seen_in_incident`), service topology hints (deprioritizing downstream edge/gateway proxies), presence of stack traces, log severity, and proximity to `deployment_markers`.
 - **Why**: Achieves 100% incident recall across all 32 simulated incident scenarios with 0% false alarms on healthy controls, and places the ground-truth origin pattern in the top 3 candidates for 100% of scenarios (93.75% Top-1) without requiring black-box ML models.
+
+## ADR 013: Pre-LLM Evidence Redaction, Untrusted Data Sandboxing, and Post-Generation Citation Verification
+- **Context**: Sending raw logs directly to external LLM APIs creates severe risks: secret/PII leakage, prompt-injection manipulation via malicious log entries, and LLM hallucination of root causes not backed by evidence.
+- **Decision**: 
+  1. `EvidenceSelector` isolates only a token-budgeted compact subset of pre-incident context, earliest origin lines, and representative pattern samples labeled `L1..Ln`.
+  2. `Redactor` masks emails, JWTs, Bearer tokens, API keys, passwords, and valid IPv4/IPv6 addresses (preserving version strings like `v2.4.1`) before anything reaches the LLM provider.
+  3. System instructions are strictly isolated from log data, wrapping log lines inside `<UNTRUSTED_LOG_EVIDENCE>` tags with anti-injection directives.
+  4. `EvidenceVerifier` strictly cross-checks every claim's `cited_line_ids` against the real `event_id` map. Hallucinated or uncited claims are visibly flagged `unsupported` and tracked in `unsupported_claim_count`. Invalid JSON output automatically triggers a single repair prompt retry.
+- **Why**: Ensures strict privacy compliance, immunity to prompt injection, minimal LLM cost/latency, and 100% auditability where every AI hypothesis links straight back to exact stored database log lines.

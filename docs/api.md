@@ -48,6 +48,10 @@ Search and filter parsed log events strictly scoped to the owned project:
 - `GET /api/v1/projects/{id}/incidents`: List detected incidents for an owned project. Filters: `status` (`open`, `resolved`), `severity` (`critical`, `high`, `medium`, `low`), `limit`, `offset`. Returns incident window bounds, severity, `affected_services`, `event_count`, and `origin_pattern_id`.
 - `GET /api/v1/incidents/{id}` (also `/api/v1/projects/{id}/incidents/{incident_id}`): Retrieve full incident detail including chronological event `timeline` across services, linked `patterns`, and ranked `origin_candidates` with scoring reasons. Returns 404 if not owned.
 
+## AI Root-Cause Explanations & Verified Reports (`/api/v1/incidents/{id}`)
+- `POST /api/v1/incidents/{id}/explain` (also `/incidents/{id}/explain`): Idempotently triggers background AI root-cause explanation generation (`202 Accepted`). Body: `{ "force": false }` (optional). Repeated calls while pending/done return the existing report ID unless `force=true`.
+- `GET /api/v1/incidents/{id}/report` (also `/incidents/{id}/report`): Retrieve the latest verified AI root-cause report. Returns `status` (`not_generated`, `pending`, `processing`, `done`, `failed`), `summary`, `root_cause`, `confidence`, `suggested_fixes`, verified `claims` mapped directly to real `cited_event_ids`, redacted `evidence_lines`, `validation_status` (`verified`, `partial`, `unverified`), `unsupported_claim_count`, model telemetry, and an explicit AI hypothesis disclaimer.
+
 ## Demo Datasets & Seeding
 - `GET /api/v1/projects/demo-scenarios`: List all 34 pre-generated incident scenarios with ground-truth metadata, noise levels, and expected key patterns.
 - `POST /api/v1/projects/{id}/demo-data`: Seed an owned project with a simulated incident dataset for instant evaluation. Body: `{ "scenario_id": "db_pool_exhaustion_low_noise_multi_service" }` (optional, defaults to database connection pool exhaustion). Returns `202 Accepted` with `batch_id` and queues background processing. Returns 404 if project is not owned.

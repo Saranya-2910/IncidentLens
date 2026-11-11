@@ -3,7 +3,7 @@
 import uuid
 from typing import Annotated
 
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends, Query, status
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.api.deps import get_current_user
@@ -14,7 +14,16 @@ from app.schemas.incident import (
     IncidentResponse,
     PaginatedIncidentsResponse,
 )
+from app.schemas.incident_report import (
+    AI_DISCLAIMER,
+    EvidenceLineResponse,
+    ExplainTriggerRequest,
+    ExplainTriggerResponse,
+    IncidentReportResponse,
+    VerifiedClaimResponse,
+)
 from app.services.incident_service import IncidentService
+from app.services.report_service import ReportService
 
 router = APIRouter(tags=["Incidents"])
 
@@ -86,3 +95,88 @@ async def get_project_incident_detail(
     incident_service = IncidentService(db)
     detail = await incident_service.get_incident_detail(current_user.id, project_id, incident_id)
     return IncidentDetailResponse.model_validate(detail)
+
+
+@router.post(
+    "/incidents/{id}/explain",
+    response_model=ExplainTriggerResponse,
+    status_code=status.HTTP_202_ACCEPTED,
+    summary="Idempotently trigger AI root-cause report generation for an incident",
+)
+async def explain_incident(
+    id: uuid.UUID,
+    current_user: Annotated[User, Depends(get_current_user)],
+    db: Annotated[AsyncSession, Depends(get_db)],
+    payload: ExplainTriggerRequest | None = None,
+) -> ExplainTriggerResponse:
+    report_service = ReportService(db)
+    force = payload.force if payload else False
+    report = await report_service.trigger_explanation(current_user.id, id, force=force)
+    return ExplainTriggerResponse(
+        report_id=report.id,
+        incident_id=report.incident_id,
+        version=report.version,
+        status=report.status,
+        message=(
+            "Report generation queued in background"
+            if report.status in ("pending", "processing")
+            else "Existing report returned (use force=true to regenerate)"
+        ),
+    )
+
+
+@router.get(
+    "/incidents/{id}/report",
+    response_model=IncidentReportResponse,
+    summary="Retrieve the latest AI root-cause report with verified evidence citations",
+)
+async def get_incident_report(
+    id: uuid.UUID,
+    current_user: Annotated[User, Depends(get_current_user)],
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> IncidentReportResponse:
+    report_service = ReportService(db)
+    report = await report_service.get_latest_report(current_user.id, id)
+
+    if not report:
+        return IncidentReportResponse(
+            incident_id=id,
+            status="not_generated",
+            validation_status="not_generated",
+            disclaimer=AI_DISCLAIMER,
+        )
+
+    ev_dict = report.evidence or {}
+    claims = [
+        VerifiedClaimResponse.model_validate(c) for c in ev_dict.get("claims", [])
+    ]
+    evidence_lines = [
+        EvidenceLineResponse.model_validate(line)
+        for line in ev_dict.get("evidence_lines", [])
+    ]
+
+    return IncidentReportResponse(
+        id=report.id,
+        incident_id=report.incident_id,
+        version=report.version,
+        status=report.status,
+        summary=report.summary,
+        root_cause=report.root_cause,
+        confidence=report.confidence,
+        severity=report.severity,
+        affected_services=report.affected_services,
+        suggested_fixes=report.suggested_fix,
+        claims=claims,
+        evidence_lines=evidence_lines,
+        validation_status=report.validation_status,
+        unsupported_claim_count=report.unsupported_claim_count,
+        model_name=report.model_name,
+        prompt_version=report.prompt_version,
+        input_tokens=report.input_tokens,
+        output_tokens=report.output_tokens,
+        total_incident_events=report.total_incident_events,
+        selected_evidence_lines=report.selected_evidence_lines,
+        error=report.error,
+        created_at=report.created_at,
+        disclaimer=AI_DISCLAIMER,
+    )
