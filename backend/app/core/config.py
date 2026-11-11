@@ -18,6 +18,24 @@ def _parse_cors_origins(v: object) -> list[str]:
     return ["http://localhost:3000", "http://localhost:5173"]
 
 
+def _normalize_async_db_url(v: str) -> str:
+    if v.startswith("postgres://"):
+        return "postgresql+asyncpg://" + v[len("postgres://") :]
+    if v.startswith("postgresql://"):
+        return "postgresql+asyncpg://" + v[len("postgresql://") :]
+    return v
+
+
+def _normalize_sync_db_url(v: str) -> str:
+    if v.startswith("postgres://"):
+        return "postgresql+psycopg://" + v[len("postgres://") :]
+    if v.startswith("postgresql://"):
+        return "postgresql+psycopg://" + v[len("postgresql://") :]
+    if v.startswith("postgresql+asyncpg://"):
+        return "postgresql+psycopg://" + v[len("postgresql+asyncpg://") :]
+    return v
+
+
 class Settings(BaseSettings):
     """IncidentLens application settings."""
 
@@ -31,8 +49,9 @@ class Settings(BaseSettings):
     # Core Application
     PROJECT_NAME: str = "IncidentLens"
     ENVIRONMENT: str = "development"
-    DEBUG: bool = True
+    DEBUG: bool = False
     API_V1_PREFIX: str = "/api/v1"
+    EVENT_RETENTION_DAYS: int = 30
 
     # Security & Auth
     SECRET_KEY: str = "dev-secret-key-change-in-production-only"
@@ -43,8 +62,12 @@ class Settings(BaseSettings):
     ]
 
     # Database
-    DATABASE_URL: str = "postgresql+asyncpg://postgres:postgres@localhost:5432/incidentlens"
-    DATABASE_SYNC_URL: str = "postgresql+psycopg://postgres:postgres@localhost:5432/incidentlens"
+    DATABASE_URL: Annotated[str, BeforeValidator(_normalize_async_db_url)] = (
+        "postgresql+asyncpg://postgres:postgres@localhost:5432/incidentlens"
+    )
+    DATABASE_SYNC_URL: Annotated[str, BeforeValidator(_normalize_sync_db_url)] = (
+        "postgresql+psycopg://postgres:postgres@localhost:5432/incidentlens"
+    )
 
     # Redis & Celery
     REDIS_URL: str = "redis://localhost:6379/0"

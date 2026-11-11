@@ -25,6 +25,12 @@ celery_app.conf.update(
     enable_utc=True,
     task_track_started=True,
     worker_prefetch_multiplier=1,
+    beat_schedule={
+        "cleanup-old-events-daily": {
+            "task": "tasks.cleanup_old_events",
+            "schedule": 86400.0,
+        },
+    },
 )
 
 if is_test_env:

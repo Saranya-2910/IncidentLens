@@ -12,7 +12,11 @@ from app.db.session import get_db
 from app.models.user import User
 from app.schemas.demo import DemoScenarioItem, LoadDemoDataRequest, LoadDemoDataResponse
 from app.schemas.log_batch import BatchUploadResponse, LogBatchResponse
-from app.schemas.log_event import LogEventResponse, PaginatedLogEventsResponse
+from app.schemas.log_event import (
+    LogEventResponse,
+    PaginatedLogEventsResponse,
+    RetentionCleanupResponse,
+)
 from app.services.log_service import LogService
 
 router = APIRouter(tags=["Logs & Ingestion"])
@@ -165,3 +169,21 @@ async def get_project_event_detail(
     log_service = LogService(db)
     event = await log_service.get_event_by_id(current_user.id, id, event_id)
     return LogEventResponse.model_validate(event)
+
+
+@router.post(
+    "/projects/{id}/events/retention-cleanup",
+    response_model=RetentionCleanupResponse,
+    summary="Purge old log events exceeding the configured retention window",
+)
+async def purge_expired_events(
+    id: uuid.UUID,
+    current_user: Annotated[User, Depends(get_current_user)],
+    db: Annotated[AsyncSession, Depends(get_db)],
+    retention_days: Annotated[int | None, Query(ge=1, le=3650)] = None,
+) -> RetentionCleanupResponse:
+    log_service = LogService(db)
+    res = await log_service.purge_expired_events(
+        current_user.id, id, retention_days=retention_days
+    )
+    return RetentionCleanupResponse.model_validate(res)

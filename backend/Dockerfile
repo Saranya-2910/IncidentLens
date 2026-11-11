@@ -13,10 +13,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY backend/pyproject.toml backend/README.md ./backend/
 RUN pip install --no-cache-dir -e "./backend"
 
-# Copy backend codebase
+# Copy backend codebase & simulator datasets
 COPY backend/app ./app
 COPY backend/alembic ./alembic
 COPY backend/alembic.ini ./alembic.ini
+COPY simulator ./simulator
 
 EXPOSE 8000
 

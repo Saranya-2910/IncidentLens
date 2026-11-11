@@ -4,7 +4,7 @@ import uuid
 from datetime import datetime
 from typing import Any
 
-from sqlalchemy import func, insert, select
+from sqlalchemy import delete, func, insert, select
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import Session
 
@@ -76,6 +76,18 @@ class EventRepository:
         res = await self.db.execute(stmt)
         return res.scalar_one_or_none()
 
+    async def delete_older_than(
+        self, project_id: uuid.UUID, cutoff_dt: datetime
+    ) -> int:
+        """Delete expired log events strictly scoped to project_id older than cutoff_dt."""
+        stmt = delete(LogEvent).where(
+            LogEvent.project_id == project_id,
+            LogEvent.ts < cutoff_dt,
+        )
+        res = await self.db.execute(stmt)
+        await self.db.commit()
+        return int(res.rowcount or 0)
+
 
 class SyncEventRepository:
     """Synchronous repository used by Celery worker for fast bulk loading."""
@@ -92,6 +104,17 @@ class SyncEventRepository:
         )
         self.db.commit()
         return deleted
+
+    def delete_older_than(
+        self, cutoff_dt: datetime, project_id: uuid.UUID | None = None
+    ) -> int:
+        """Purge expired log events older than cutoff_dt across projects or scoped to one project."""
+        query = self.db.query(LogEvent).filter(LogEvent.ts < cutoff_dt)
+        if project_id is not None:
+            query = query.filter(LogEvent.project_id == project_id)
+        deleted = query.delete(synchronize_session=False)
+        self.db.commit()
+        return int(deleted)
 
     def bulk_insert(self, events: list[dict[str, Any]]) -> None:
         """Perform chunked bulk insertion for maximum ingestion speed."""

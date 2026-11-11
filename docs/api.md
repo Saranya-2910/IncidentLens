@@ -40,6 +40,7 @@ Search and filter parsed log events strictly scoped to the owned project:
 - `text`: Substring match on event message.
 - `limit` (default 50) and `offset` (default 0) pagination.
 - `GET /api/v1/projects/{id}/events/{event_id}`: Fetch full stored event details (`raw_line`, `trace_id`, `attributes`) by integer event ID for citation drill-down. Returns 404 if not owned.
+- `POST /api/v1/projects/{id}/events/retention-cleanup`: Delete log events older than `retention_days` (optional query parameter, defaults to `EVENT_RETENTION_DAYS=30`) for an owned project. Returns `{ "deleted_count": <int> }` (and also runs daily across all projects via Celery Beat `cleanup_old_events_task`). Returns 404 if not owned.
 
 ## Error Patterns (`/api/v1/projects/{id}/patterns`)
 - `GET /api/v1/projects/{id}/patterns`: List collapsed, normalized error patterns for an owned project. Query filters: `level`, `service`, `start_time`, `end_time`, `limit`, `offset`. Each pattern item contains `id`, `fingerprint`, `template`, `level`, `total_count`, `first_seen`, `last_seen`, `example_event_ids`, and `trend` (hourly frequency buckets).

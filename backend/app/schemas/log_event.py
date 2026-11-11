@@ -28,3 +28,10 @@ class PaginatedLogEventsResponse(BaseModel):
     total: int
     limit: int = Field(50, ge=1, le=1000)
     offset: int = Field(0, ge=0)
+
+
+class RetentionCleanupResponse(BaseModel):
+    project_id: uuid.UUID
+    retention_days: int
+    cutoff: datetime
+    deleted_count: int

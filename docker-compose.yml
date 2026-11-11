@@ -43,8 +43,16 @@ services:
       REDIS_URL: redis://redis:6379/0
       CELERY_BROKER_URL: redis://redis:6379/0
       CELERY_RESULT_BACKEND: redis://redis:6379/0
-      ENVIRONMENT: development
-      DEBUG: "true"
+      SECRET_KEY: ${SECRET_KEY:-dev-secret-key-change-in-production-only}
+      CORS_ORIGINS: ${CORS_ORIGINS:-["http://localhost:3000","http://localhost:5173"]}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      GEMINI_MODEL: ${GEMINI_MODEL:-gemini-2.0-flash}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-text-embedding-004}
+      EVENT_RETENTION_DAYS: ${EVENT_RETENTION_DAYS:-30}
+      ENVIRONMENT: ${ENVIRONMENT:-development}
+      DEBUG: ${DEBUG:-false}
+    volumes:
+      - storage_data:/app/storage
     depends_on:
       postgres:
         condition: service_healthy
@@ -70,14 +78,21 @@ services:
       REDIS_URL: redis://redis:6379/0
       CELERY_BROKER_URL: redis://redis:6379/0
       CELERY_RESULT_BACKEND: redis://redis:6379/0
-      ENVIRONMENT: development
-      DEBUG: "true"
+      SECRET_KEY: ${SECRET_KEY:-dev-secret-key-change-in-production-only}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      GEMINI_MODEL: ${GEMINI_MODEL:-gemini-2.0-flash}
+      EMBEDDING_MODEL: ${EMBEDDING_MODEL:-text-embedding-004}
+      EVENT_RETENTION_DAYS: ${EVENT_RETENTION_DAYS:-30}
+      ENVIRONMENT: ${ENVIRONMENT:-development}
+      DEBUG: ${DEBUG:-false}
+    volumes:
+      - storage_data:/app/storage
     depends_on:
       postgres:
         condition: service_healthy
       redis:
         condition: service_healthy
-    command: celery -A app.workers.celery_app.celery_app worker --loglevel=info
+    command: celery -A app.workers.celery_app.celery_app worker -B --loglevel=info
 
   frontend:
     build:
@@ -92,3 +107,4 @@ services:
 
 volumes:
   postgres_data:
+  storage_data:

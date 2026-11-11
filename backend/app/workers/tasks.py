@@ -2,9 +2,11 @@
 
 import logging
 import uuid
+from datetime import UTC, datetime, timedelta
 from typing import Any
 
 from app.ai.explainer import IncidentExplainer
+from app.core.config import settings
 from app.core.storage import stream_batch_lines
 from app.db.session import get_sync_db
 from app.pipeline.detection.detector import IncidentDetector
@@ -146,4 +148,22 @@ def explain_incident_task(report_id_str: str) -> dict[str, Any]:
             "status": report.status,
             "validation_status": report.validation_status,
             "unsupported_claim_count": report.unsupported_claim_count,
+        }
+
+
+@celery_app.task(name="tasks.cleanup_old_events")
+def cleanup_old_events_task(retention_days: int | None = None) -> dict[str, Any]:
+    """Delete log events older than EVENT_RETENTION_DAYS across all projects."""
+    days = retention_days if retention_days is not None else settings.EVENT_RETENTION_DAYS
+    cutoff = datetime.now(UTC) - timedelta(days=days)
+    logger.info(f"Running event retention cleanup (retention_days={days}, cutoff={cutoff.isoformat()})")
+
+    with get_sync_db() as db:
+        event_repo = SyncEventRepository(db)
+        deleted = event_repo.delete_older_than(cutoff)
+        logger.info(f"Retention cleanup deleted {deleted} expired log events")
+        return {
+            "retention_days": days,
+            "cutoff": cutoff.isoformat(),
+            "deleted_count": deleted,
         }

@@ -2,13 +2,14 @@
 
 import json
 import uuid
-from datetime import datetime
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
 from fastapi import UploadFile
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from app.core.config import settings
 from app.core.errors import BadRequestError, NotFoundError
 from app.core.storage import save_batch_content
 from app.models.log_batch import LogBatch
@@ -22,6 +23,7 @@ from app.workers.tasks import process_log_batch
 # Maximum allowable upload and payload sizes
 MAX_UPLOAD_SIZE = 50 * 1024 * 1024  # 50 MB
 MAX_INGEST_PAYLOAD_SIZE = 10 * 1024 * 1024  # 10 MB
+ALLOWED_UPLOAD_EXTENSIONS = {".log", ".txt", ".json", ".ndjson", ".jsonl", ".out", ""}
 
 
 class LogService:
@@ -45,8 +47,13 @@ class LogService:
         """Handle file upload, persist raw batch, and enqueue background worker task."""
         await self._verify_project_ownership(user_id, project_id)
 
-        # Validate filename
-        filename = file.filename or "upload.log"
+        # Sanitize and validate filename extension
+        safe_name = Path(file.filename or "upload.log").name or "upload.log"
+        ext = Path(safe_name).suffix.lower()
+        if ext not in ALLOWED_UPLOAD_EXTENSIONS:
+            raise BadRequestError(
+                f"Unsupported file extension '{ext}'. Allowed extensions: {', '.join(sorted(e for e in ALLOWED_UPLOAD_EXTENSIONS if e))}"
+            )
 
         # Read content with size check
         content = await file.read()
@@ -58,13 +65,16 @@ class LogService:
         if len(content) == 0:
             raise BadRequestError("Uploaded file is empty")
 
+        if b"\x00" in content[:4096]:
+            raise BadRequestError("Binary files are not permitted; please upload UTF-8 text or JSON logs")
+
         batch_id = uuid.uuid4()
         storage_path = save_batch_content(batch_id, content)
 
         batch = await self.batch_repo.create(
             project_id=project_id,
             source="upload",
-            filename=filename,
+            filename=safe_name,
             storage_path=storage_path,
         )
 
@@ -242,3 +252,23 @@ class LogService:
         if not event:
             raise NotFoundError("Log event not found")
         return event
+
+    async def purge_expired_events(
+        self,
+        user_id: uuid.UUID,
+        project_id: uuid.UUID,
+        retention_days: int | None = None,
+    ) -> dict[str, Any]:
+        """Delete old log events for an owned project exceeding retention_days."""
+        await self._verify_project_ownership(user_id, project_id)
+        days = retention_days if retention_days is not None else settings.EVENT_RETENTION_DAYS
+        if days < 1:
+            raise BadRequestError("retention_days must be at least 1")
+        cutoff = datetime.now(UTC) - timedelta(days=days)
+        deleted_count = await self.event_repo.delete_older_than(project_id, cutoff)
+        return {
+            "project_id": project_id,
+            "retention_days": days,
+            "cutoff": cutoff,
+            "deleted_count": deleted_count,
+        }
