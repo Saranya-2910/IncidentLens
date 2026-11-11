@@ -11,6 +11,7 @@ from app.db.base import Base
 
 if TYPE_CHECKING:
     from app.models.api_key import ApiKey
+    from app.models.log_batch import LogBatch
     from app.models.user import User
 
 
@@ -43,4 +44,10 @@ class Project(Base):
         back_populates="project",
         cascade="all, delete-orphan",
         order_by="desc(ApiKey.created_at)",
+    )
+    log_batches: Mapped[list["LogBatch"]] = relationship(
+        "LogBatch",
+        back_populates="project",
+        cascade="all, delete-orphan",
+        order_by="desc(LogBatch.created_at)",
     )

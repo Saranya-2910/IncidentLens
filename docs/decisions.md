@@ -34,3 +34,13 @@
 - **Context**: High-throughput log ingestion requires fast API key lookup without storing raw secret keys in the database.
 - **Decision**: Generate API keys with format `il_live_<prefix8>_<secret32>`. Store only `key_prefix` (indexed for O(1) candidate lookup) and the SHA-256 hash. The raw key is displayed to the user exactly once.
 - **Why**: If the database is compromised, attacker cannot reconstruct raw ingestion keys, yet ingestion lookup remains sub-millisecond without scanning the entire table.
+
+## ADR 008: Plugin-Style Parser Registry & Stack Trace Assembler
+- **Context**: Incoming logs arrive in diverse, heterogeneous formats (JSON lines, Syslog, Spring/Log4j, standard Python) and often include multi-line stack traces (Python, Java, Go).
+- **Decision**: Implement a prioritized parser registry (`JsonLinesParser` -> `StandardLogParser` -> `GenericFallbackParser`) wrapped in a streaming state machine (`LogStreamProcessor`) that accumulates whitespace-indented or `Traceback`/`Caused by:` continuation lines onto the preceding event.
+- **Why**: Ensures zero data loss, guarantees stack traces remain unified as a single searchable event, and prevents malformed lines from aborting batch ingestion.
+
+## ADR 009: Chunked Bulk Insertion & Idempotent Reprocessing
+- **Context**: Uploading 50,000+ line log files line-by-line via ORM sessions causes massive latency and memory consumption, and network failures require safe retries.
+- **Decision**: Stream lines from local storage directly without holding the entire file in RAM, bulk insert structured events in chunks of 2,000 using `INSERT ... VALUES`, and purge prior `log_events` for the `batch_id` before inserting.
+- **Why**: Achieves sub-5-second ingestion for 50,000 lines while guaranteeing that worker retries are strictly idempotent and never duplicate events.

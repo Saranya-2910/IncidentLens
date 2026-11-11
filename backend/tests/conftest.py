@@ -1,6 +1,7 @@
 """Pytest configuration and shared test fixtures."""
 
 import os
+from pathlib import Path
 
 os.environ["TESTING"] = "1"
 
@@ -9,21 +10,24 @@ from collections.abc import AsyncGenerator, Generator
 import pytest
 import pytest_asyncio
 from httpx import ASGITransport, AsyncClient
-from sqlalchemy import StaticPool
+from sqlalchemy import create_engine
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
+from sqlalchemy.orm import sessionmaker
 
+import app.db.session as session_module
 from app.db.base import Base
 from app.db.session import get_db
 from app.main import app as main_app
 from app.workers.celery_app import celery_app
 
-# Isolated in-memory SQLite database for test execution
-TEST_DATABASE_URL = "sqlite+aiosqlite:///:memory:"
+# Shared file-based SQLite database for both async API and sync Celery workers
+TEST_DB_PATH = Path("test_incidentlens.db")
+TEST_DATABASE_URL = f"sqlite+aiosqlite:///{TEST_DB_PATH.name}"
+TEST_SYNC_DATABASE_URL = f"sqlite:///{TEST_DB_PATH.name}"
 
 test_async_engine = create_async_engine(
     TEST_DATABASE_URL,
     connect_args={"check_same_thread": False},
-    poolclass=StaticPool,
 )
 
 TestingAsyncSessionLocal = async_sessionmaker(
@@ -33,6 +37,21 @@ TestingAsyncSessionLocal = async_sessionmaker(
     autoflush=False,
     expire_on_commit=False,
 )
+
+test_sync_engine = create_engine(
+    TEST_SYNC_DATABASE_URL,
+    connect_args={"check_same_thread": False},
+)
+
+TestingSyncSessionLocal = sessionmaker(
+    bind=test_sync_engine,
+    autocommit=False,
+    autoflush=False,
+    expire_on_commit=False,
+)
+
+# Redirect global sync session in app.db.session to test sync database for Celery
+session_module.SyncSessionLocal = TestingSyncSessionLocal
 
 
 @pytest_asyncio.fixture
@@ -47,10 +66,9 @@ async def init_test_db() -> AsyncGenerator[None, None]:
 
 @pytest_asyncio.fixture
 async def db_session(init_test_db: None) -> AsyncGenerator[AsyncSession, None]:
-    """Provide a clean, isolated database session per test with rollback."""
+    """Provide a clean, isolated database session per test."""
     async with TestingAsyncSessionLocal() as session:
         yield session
-        await session.rollback()
 
 
 @pytest_asyncio.fixture
@@ -58,7 +76,8 @@ async def client(db_session: AsyncSession) -> AsyncGenerator[AsyncClient, None]:
     """Provide an HTTPX AsyncClient configured with test database session overrides."""
 
     async def override_get_db() -> AsyncGenerator[AsyncSession, None]:
-        yield db_session
+        async with TestingAsyncSessionLocal() as session:
+            yield session
 
     main_app.dependency_overrides[get_db] = override_get_db
 

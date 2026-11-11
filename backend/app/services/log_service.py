@@ -1,0 +1,157 @@
+"""Log ingestion and event retrieval business logic service."""
+
+import uuid
+from datetime import datetime
+
+from fastapi import UploadFile
+from sqlalchemy.ext.asyncio import AsyncSession
+
+from app.core.errors import BadRequestError, NotFoundError
+from app.core.storage import save_batch_content
+from app.models.log_batch import LogBatch
+from app.models.log_event import LogEvent
+from app.models.project import Project
+from app.repositories.batch_repo import BatchRepository
+from app.repositories.event_repo import EventRepository
+from app.repositories.project_repo import ProjectRepository
+from app.workers.tasks import process_log_batch
+
+# Maximum allowable upload and payload sizes
+MAX_UPLOAD_SIZE = 50 * 1024 * 1024  # 50 MB
+MAX_INGEST_PAYLOAD_SIZE = 10 * 1024 * 1024  # 10 MB
+
+
+class LogService:
+    def __init__(self, db: AsyncSession):
+        self.db = db
+        self.project_repo = ProjectRepository(db)
+        self.batch_repo = BatchRepository(db)
+        self.event_repo = EventRepository(db)
+
+    async def _verify_project_ownership(
+        self, user_id: uuid.UUID, project_id: uuid.UUID
+    ) -> Project:
+        project = await self.project_repo.get_by_id_and_user(project_id, user_id)
+        if not project:
+            raise NotFoundError("Project not found")
+        return project
+
+    async def upload_log_file(
+        self, user_id: uuid.UUID, project_id: uuid.UUID, file: UploadFile
+    ) -> LogBatch:
+        """Handle file upload, persist raw batch, and enqueue background worker task."""
+        await self._verify_project_ownership(user_id, project_id)
+
+        # Validate filename
+        filename = file.filename or "upload.log"
+
+        # Read content with size check
+        content = await file.read()
+        if len(content) > MAX_UPLOAD_SIZE:
+            raise BadRequestError(
+                f"File size exceeds maximum allowed limit of {MAX_UPLOAD_SIZE // (1024 * 1024)} MB"
+            )
+
+        if len(content) == 0:
+            raise BadRequestError("Uploaded file is empty")
+
+        batch_id = uuid.uuid4()
+        storage_path = save_batch_content(batch_id, content)
+
+        batch = await self.batch_repo.create(
+            project_id=project_id,
+            source="upload",
+            filename=filename,
+            storage_path=storage_path,
+        )
+
+        # Dispatch background worker task
+        process_log_batch.delay(str(batch.id))
+        return batch
+
+    async def ingest_via_api(
+        self, project: Project, raw_payload: str | bytes
+    ) -> LogBatch:
+        """Handle HTTP ingestion of log lines from X-API-Key authenticated clients."""
+        payload_bytes = (
+            raw_payload.encode("utf-8")
+            if isinstance(raw_payload, str)
+            else raw_payload
+        )
+
+        if len(payload_bytes) > MAX_INGEST_PAYLOAD_SIZE:
+            raise BadRequestError(
+                f"Payload size exceeds maximum allowed limit of {MAX_INGEST_PAYLOAD_SIZE // (1024 * 1024)} MB"
+            )
+
+        if len(payload_bytes) == 0:
+            raise BadRequestError("Ingestion payload cannot be empty")
+
+        batch_id = uuid.uuid4()
+        storage_path = save_batch_content(batch_id, payload_bytes)
+
+        batch = await self.batch_repo.create(
+            project_id=project.id,
+            source="api",
+            filename="api_ingest.ndjson",
+            storage_path=storage_path,
+        )
+
+        # Dispatch background worker task
+        process_log_batch.delay(str(batch.id))
+        return batch
+
+    async def get_batch_by_id(
+        self, user_id: uuid.UUID, batch_id: uuid.UUID
+    ) -> LogBatch:
+        """Retrieve batch ensuring the current user owns the project."""
+        batch = await self.batch_repo.get_by_id(batch_id)
+        if not batch:
+            raise NotFoundError("Batch not found")
+
+        # Verify user owns the project
+        project = await self.project_repo.get_by_id_and_user(batch.project_id, user_id)
+        if not project:
+            raise NotFoundError("Batch not found")
+
+        return batch
+
+    async def list_batches_for_project(
+        self,
+        user_id: uuid.UUID,
+        project_id: uuid.UUID,
+        limit: int = 50,
+        offset: int = 0,
+    ) -> list[LogBatch]:
+        """List log batches for an owned project."""
+        await self._verify_project_ownership(user_id, project_id)
+        return await self.batch_repo.list_by_project(
+            project_id, limit=limit, offset=offset
+        )
+
+    async def search_events(
+        self,
+        user_id: uuid.UUID,
+        project_id: uuid.UUID,
+        service: str | None = None,
+        level: str | None = None,
+        start_time: datetime | None = None,
+        end_time: datetime | None = None,
+        pattern_id: uuid.UUID | None = None,
+        query: str | None = None,
+        limit: int = 50,
+        offset: int = 0,
+    ) -> tuple[list[LogEvent], int]:
+        """Search and filter events for an owned project."""
+        await self._verify_project_ownership(user_id, project_id)
+        return await self.event_repo.search_events(
+            project_id=project_id,
+            service=service,
+            level=level,
+            start_time=start_time,
+            end_time=end_time,
+            pattern_id=pattern_id,
+            query_text=query,
+            limit=limit,
+            offset=offset,
+        )

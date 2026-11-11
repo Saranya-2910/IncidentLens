@@ -21,6 +21,10 @@ htmlcov/
 *.db
 *.sqlite3
 
+# Uploaded raw log batches & storage
+storage/
+backend/storage/
+
 # Node / Frontend
 node_modules/
 frontend/dist/

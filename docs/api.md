@@ -25,6 +25,21 @@ All project operations are strictly scoped to the authenticated user.
 - `GET /api/v1/projects/{id}/api-keys`: List API keys for project (prefix and metadata only; raw keys are never stored or returned).
 - `DELETE /api/v1/projects/{id}/api-keys/{key_id}`: Revoke an API key. Revoked keys are rejected immediately by ingestion endpoints.
 
+## Log Ingestion & Batches
+- `POST /api/v1/projects/{id}/logs/upload`: Multipart file upload (supports `.log`, `.txt`, `.json`, `.ndjson`). Maximum size 50 MB. Dispatches asynchronous Celery worker and returns `202 Accepted` with `batch_id`.
+- `POST /ingest` (also `/api/v1/ingest`): Direct HTTP ingestion of log lines using `X-API-Key` authentication. Accepts raw NDJSON, JSON array of objects, or plain text. Size limit 10 MB. Returns `202 Accepted` with `batch_id`.
+- `GET /api/v1/projects/{id}/batches`: List log batches for an owned project (status, line count, errors).
+- `GET /api/v1/batches/{id}` (also `/batches/{id}`): Get status and error details for a specific batch. Returns 404 if not owned.
+
+## Events Search (`/api/v1/projects/{id}/events`)
+Search and filter parsed log events strictly scoped to the owned project:
+- `service`: Filter by originating service name.
+- `level`: Filter by log severity (`INFO`, `WARN`, `ERROR`, `FATAL`, `DEBUG`).
+- `start_time` / `end_time`: Filter within UTC time bounds (ISO 8601).
+- `pattern_id`: Filter by associated error pattern ID.
+- `text`: Substring match on event message.
+- `limit` (default 50) and `offset` (default 0) pagination.
+
 ## Authentication Headers
 - For user requests: `Authorization: Bearer <jwt_access_token>` or cookie `access_token`
 - For ingestion requests: `X-API-Key: il_live_<prefix>_<secret>`
