@@ -31,10 +31,7 @@ On free tiers, Render does **not** include free background workers (`type: worke
    - **Dockerfile Path**: `./backend/Dockerfile`
    - **Docker Build Context Directory**: `.`
    - **Health Check Path**: `/health`
-   - **Docker Command**:
-     ```bash
-     sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
-     ```
+   - **Docker Command**: *(leave empty — `backend/Dockerfile` runs `alembic upgrade head` and starts `uvicorn` on `$PORT` automatically)*
 2. Set these **Environment Variables** in Render:
    - `ENVIRONMENT=production`
    - `DEBUG=false`
