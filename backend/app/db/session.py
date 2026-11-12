@@ -3,6 +3,7 @@
 import logging
 from collections.abc import AsyncGenerator, Generator
 from contextlib import contextmanager
+from typing import Any
 
 from sqlalchemy import create_engine, text
 from sqlalchemy.ext.asyncio import (
@@ -19,12 +20,16 @@ logger = logging.getLogger("incidentlens.db")
 
 # Setup async engine
 is_sqlite = settings.DATABASE_URL.startswith("sqlite")
-async_connect_args = {"check_same_thread": False} if is_sqlite else {}
+async_connect_args: dict[str, Any] = {"check_same_thread": False} if is_sqlite else {}
+if not is_sqlite and ":6543" in settings.DATABASE_URL:
+    # PgBouncer / Supabase transaction pooler requires disabling prepared statement caching
+    async_connect_args["statement_cache_size"] = 0
 
 async_engine = create_async_engine(
     settings.DATABASE_URL,
     echo=settings.DEBUG,
     future=True,
+    pool_pre_ping=True,
     connect_args=async_connect_args,
 )
 
@@ -38,11 +43,12 @@ AsyncSessionLocal = async_sessionmaker(
 
 # Setup sync engine (used by Celery tasks & migrations)
 sync_is_sqlite = settings.DATABASE_SYNC_URL.startswith("sqlite")
-sync_connect_args = {"check_same_thread": False} if sync_is_sqlite else {}
+sync_connect_args: dict[str, Any] = {"check_same_thread": False} if sync_is_sqlite else {}
 
 sync_engine = create_engine(
     settings.DATABASE_SYNC_URL,
     echo=False,
+    pool_pre_ping=True,
     connect_args=sync_connect_args,
 )
 

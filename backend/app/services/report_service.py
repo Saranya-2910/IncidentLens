@@ -10,6 +10,7 @@ from app.models.incident import Incident
 from app.models.incident_report import IncidentReport
 from app.repositories.project_repo import ProjectRepository
 from app.repositories.report_repo import ReportRepository
+from app.workers.celery_app import dispatch_background_task
 from app.workers.tasks import explain_incident_task
 
 
@@ -50,7 +51,7 @@ class ReportService:
         next_version = await self.report_repo.get_next_version(incident_id)
         report = await self.report_repo.create_pending_report(incident_id, version=next_version)
 
-        explain_incident_task.delay(str(report.id))
+        dispatch_background_task(explain_incident_task, str(report.id))
         await self.db.refresh(report)
         return report
 

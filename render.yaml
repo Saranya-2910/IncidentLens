@@ -1,16 +1,16 @@
+# Render Blueprint configured for 100% Free Tier
+# (Render Free Web Service + External Supabase PostgreSQL + Vercel Free Frontend)
+# Zero paid disks, zero paid workers, zero paid managed databases/Redis required.
+
 services:
   - type: web
     name: incidentlens-api
     runtime: docker
     dockerfilePath: ./backend/Dockerfile
     dockerContext: .
-    plan: starter
+    plan: free
     healthCheckPath: /health
-    startCommand: sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
-    disk:
-      name: incidentlens-storage
-      mountPath: /app/storage
-      sizeGB: 5
+    dockerCommand: sh -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port $PORT"
     envVars:
       - key: ENVIRONMENT
         value: production
@@ -18,6 +18,20 @@ services:
         value: "false"
       - key: SECRET_KEY
         generateValue: true
+      - key: TASK_DISPATCH_MODE
+        value: inline
+      - key: REDIS_URL
+        value: memory://
+      - key: CELERY_BROKER_URL
+        value: memory://
+      - key: CELERY_RESULT_BACKEND
+        value: cache+memory://
+      - key: DATABASE_URL
+        sync: false
+      - key: DATABASE_SYNC_URL
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false
       - key: GEMINI_API_KEY
         sync: false
       - key: GEMINI_MODEL
@@ -26,75 +40,3 @@ services:
         value: text-embedding-004
       - key: EVENT_RETENTION_DAYS
         value: "30"
-      - key: CORS_ORIGINS
-        sync: false
-      - key: DATABASE_URL
-        fromDatabase:
-          name: incidentlens-db
-          property: connectionString
-      - key: DATABASE_SYNC_URL
-        fromDatabase:
-          name: incidentlens-db
-          property: connectionString
-      - key: REDIS_URL
-        fromService:
-          type: redis
-          name: incidentlens-redis
-          property: connectionString
-      - key: CELERY_BROKER_URL
-        fromService:
-          type: redis
-          name: incidentlens-redis
-          property: connectionString
-      - key: CELERY_RESULT_BACKEND
-        fromService:
-          type: redis
-          name: incidentlens-redis
-          property: connectionString
-
-  - type: worker
-    name: incidentlens-worker
-    runtime: docker
-    dockerfilePath: ./backend/Dockerfile
-    dockerContext: .
-    plan: starter
-    startCommand: celery -A app.workers.celery_app.celery_app worker -B --loglevel=info
-    envVars:
-      - key: ENVIRONMENT
-        value: production
-      - key: DEBUG
-        value: "false"
-      - key: SECRET_KEY
-        fromService:
-          type: web
-          name: incidentlens-api
-          envVarKey: SECRET_KEY
-      - key: GEMINI_API_KEY
-        sync: false
-      - key: EVENT_RETENTION_DAYS
-        value: "30"
-      - key: DATABASE_SYNC_URL
-        fromDatabase:
-          name: incidentlens-db
-          property: connectionString
-      - key: CELERY_BROKER_URL
-        fromService:
-          type: redis
-          name: incidentlens-redis
-          property: connectionString
-      - key: CELERY_RESULT_BACKEND
-        fromService:
-          type: redis
-          name: incidentlens-redis
-          property: connectionString
-
-  - type: redis
-    name: incidentlens-redis
-    plan: starter
-    maxmemoryPolicy: noeviction
-
-databases:
-  - name: incidentlens-db
-    plan: starter
-    databaseName: incidentlens
-    user: incidentlens

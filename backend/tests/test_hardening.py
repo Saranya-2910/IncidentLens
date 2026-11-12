@@ -13,6 +13,7 @@ from alembic.script import ScriptDirectory
 from app.core.config import _normalize_async_db_url, _normalize_sync_db_url
 from app.db.session import get_sync_db
 from app.models.log_event import LogEvent
+from app.workers import celery_app as celery_app_module
 from app.workers.tasks import cleanup_old_events_task
 
 
@@ -195,6 +196,16 @@ def test_cloud_database_url_normalization():
     assert _normalize_async_db_url(raw_pg) == "postgresql+asyncpg://user:pass@db.render.com:5432/incidentlens"
     assert _normalize_sync_db_url(raw_pg) == "postgresql+psycopg://user:pass@db.render.com:5432/incidentlens"
 
+    supabase_pg = "postgresql://postgres.ref:pw@aws-0-us-east-1.pooler.supabase.com:5432/postgres?sslmode=require"
+    assert (
+        _normalize_async_db_url(supabase_pg)
+        == "postgresql+asyncpg://postgres.ref:pw@aws-0-us-east-1.pooler.supabase.com:5432/postgres?ssl=require"
+    )
+    assert (
+        _normalize_sync_db_url(supabase_pg)
+        == "postgresql+psycopg://postgres.ref:pw@aws-0-us-east-1.pooler.supabase.com:5432/postgres?sslmode=require"
+    )
+
 
 def test_alembic_revision_ids_fit_varchar_32():
     """Verify all Alembic revision IDs fit within default VARCHAR(32) alembic_version column."""
@@ -205,3 +216,25 @@ def test_alembic_revision_ids_fit_varchar_32():
     assert len(scripts) >= 7
     for script in scripts:
         assert len(script.revision) <= 32, f"Revision ID too long for VARCHAR(32): {script.revision}"
+
+
+def test_inline_task_dispatch_runs_without_redis(monkeypatch):
+    """Verify TASK_DISPATCH_MODE=inline runs task.run in a thread without Celery/Redis."""
+    called: list[str] = []
+
+    class DummyTask:
+        name = "tasks.dummy"
+
+        def run(self, value: str) -> None:
+            called.append(value)
+
+        def delay(self, value: str) -> None:
+            raise AssertionError("Celery broker .delay() should not be called in inline mode")
+
+    monkeypatch.setattr(celery_app_module, "is_test_env", False)
+    monkeypatch.setattr(celery_app_module.settings, "TASK_DISPATCH_MODE", "inline")
+
+    thread = celery_app_module.dispatch_background_task(DummyTask(), "batch-123")
+    assert thread is not None
+    thread.join(timeout=2.0)
+    assert called == ["batch-123"]

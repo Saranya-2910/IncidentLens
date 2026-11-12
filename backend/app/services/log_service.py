@@ -18,6 +18,7 @@ from app.models.project import Project
 from app.repositories.batch_repo import BatchRepository
 from app.repositories.event_repo import EventRepository
 from app.repositories.project_repo import ProjectRepository
+from app.workers.celery_app import dispatch_background_task
 from app.workers.tasks import process_log_batch
 
 # Maximum allowable upload and payload sizes
@@ -79,7 +80,7 @@ class LogService:
         )
 
         # Dispatch background worker task
-        process_log_batch.delay(str(batch.id))
+        dispatch_background_task(process_log_batch, str(batch.id))
         return batch
 
     async def ingest_via_api(
@@ -111,7 +112,7 @@ class LogService:
         )
 
         # Dispatch background worker task
-        process_log_batch.delay(str(batch.id))
+        dispatch_background_task(process_log_batch, str(batch.id))
         return batch
 
     async def load_demo_data(
@@ -154,7 +155,7 @@ class LogService:
         )
 
         # Dispatch background processing task
-        process_log_batch.delay(str(batch.id))
+        dispatch_background_task(process_log_batch, str(batch.id))
         return batch, target_scenario, total_lines
 
     def list_demo_scenarios(self) -> list[dict[str, Any]]:

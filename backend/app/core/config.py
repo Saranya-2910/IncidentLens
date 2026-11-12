@@ -1,6 +1,7 @@
 """Application configuration loaded from environment variables using Pydantic Settings."""
 
 from typing import Annotated
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from pydantic import BeforeValidator
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -18,22 +19,34 @@ def _parse_cors_origins(v: object) -> list[str]:
     return ["http://localhost:3000", "http://localhost:5173"]
 
 
+def _rewrite_db_query_param(url: str, source_key: str, target_key: str) -> str:
+    """Translate SSL query parameter keys between psycopg (sslmode) and asyncpg (ssl)."""
+    if "?" not in url:
+        return url
+    parts = urlsplit(url)
+    params = parse_qsl(parts.query, keep_blank_values=True)
+    updated = [(target_key if k == source_key else k, val) for k, val in params]
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(updated), parts.fragment))
+
+
 def _normalize_async_db_url(v: str) -> str:
     if v.startswith("postgres://"):
-        return "postgresql+asyncpg://" + v[len("postgres://") :]
-    if v.startswith("postgresql://"):
-        return "postgresql+asyncpg://" + v[len("postgresql://") :]
-    return v
+        v = "postgresql+asyncpg://" + v[len("postgres://") :]
+    elif v.startswith("postgresql://"):
+        v = "postgresql+asyncpg://" + v[len("postgresql://") :]
+    elif v.startswith("postgresql+psycopg://"):
+        v = "postgresql+asyncpg://" + v[len("postgresql+psycopg://") :]
+    return _rewrite_db_query_param(v, "sslmode", "ssl")
 
 
 def _normalize_sync_db_url(v: str) -> str:
     if v.startswith("postgres://"):
-        return "postgresql+psycopg://" + v[len("postgres://") :]
-    if v.startswith("postgresql://"):
-        return "postgresql+psycopg://" + v[len("postgresql://") :]
-    if v.startswith("postgresql+asyncpg://"):
-        return "postgresql+psycopg://" + v[len("postgresql+asyncpg://") :]
-    return v
+        v = "postgresql+psycopg://" + v[len("postgres://") :]
+    elif v.startswith("postgresql://"):
+        v = "postgresql+psycopg://" + v[len("postgresql://") :]
+    elif v.startswith("postgresql+asyncpg://"):
+        v = "postgresql+psycopg://" + v[len("postgresql+asyncpg://") :]
+    return _rewrite_db_query_param(v, "ssl", "sslmode")
 
 
 class Settings(BaseSettings):
@@ -69,7 +82,8 @@ class Settings(BaseSettings):
         "postgresql+psycopg://postgres:postgres@localhost:5432/incidentlens"
     )
 
-    # Redis & Celery
+    # Redis & Celery (use TASK_DISPATCH_MODE="inline" for single-container free tiers)
+    TASK_DISPATCH_MODE: str = "celery"
     REDIS_URL: str = "redis://localhost:6379/0"
     CELERY_BROKER_URL: str = "redis://localhost:6379/0"
     CELERY_RESULT_BACKEND: str = "redis://localhost:6379/0"
