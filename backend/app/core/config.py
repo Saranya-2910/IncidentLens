@@ -3,7 +3,7 @@
 from typing import Annotated
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
-from pydantic import BeforeValidator
+from pydantic import BeforeValidator, model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -81,6 +81,15 @@ class Settings(BaseSettings):
     DATABASE_SYNC_URL: Annotated[str, BeforeValidator(_normalize_sync_db_url)] = (
         "postgresql+psycopg://postgres:postgres@localhost:5432/incidentlens"
     )
+
+    @model_validator(mode="after")
+    def sync_database_urls(self) -> "Settings":
+        if (
+            "localhost:5432" not in self.DATABASE_URL
+            and "localhost:5432" in self.DATABASE_SYNC_URL
+        ):
+            self.DATABASE_SYNC_URL = _normalize_sync_db_url(self.DATABASE_URL)
+        return self
 
     # Redis & Celery (use TASK_DISPATCH_MODE="inline" for single-container free tiers)
     TASK_DISPATCH_MODE: str = "celery"

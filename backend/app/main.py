@@ -54,13 +54,38 @@ def run_database_migrations() -> None:
         logger.error(f"Failed to apply database migrations on startup: {exc}", exc_info=True)
 
 
+async def init_db() -> None:
+    """Initialize database tables and vector extension if not present."""
+    import os
+
+    if os.getenv("TESTING") == "1" or settings.ENVIRONMENT == "test":
+        return
+
+    from sqlalchemy import text
+
+    from app.db.base import Base
+    from app.db.session import async_engine
+
+    try:
+        async with async_engine.begin() as conn:
+            if async_engine.dialect.name == "postgresql":
+                await conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector;"))
+            await conn.run_sync(Base.metadata.create_all)
+        logger.info("Database tables initialized successfully via SQLAlchemy.")
+    except Exception as exc:
+        logger.error(f"Failed to initialize database tables: {exc}", exc_info=True)
+
+    # Also run Alembic to ensure version metadata is stamped/up-to-date
+    run_database_migrations()
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     """Application lifespan context for startup and shutdown events."""
     logger.info(
         f"Starting {settings.PROJECT_NAME} in {settings.ENVIRONMENT} mode (debug={settings.DEBUG})"
     )
-    run_database_migrations()
+    await init_db()
     yield
     logger.info(f"Stopping {settings.PROJECT_NAME}")
 
