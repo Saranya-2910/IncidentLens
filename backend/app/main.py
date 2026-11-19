@@ -21,12 +21,46 @@ from app.core.logging import request_id_ctx, setup_logging
 logger = setup_logging(debug=settings.DEBUG)
 
 
+def run_database_migrations() -> None:
+    """Run database migrations to head on application startup."""
+    import os
+
+    if os.getenv("TESTING") == "1" or settings.ENVIRONMENT == "test":
+        return
+
+    from pathlib import Path
+
+    from alembic import command
+    from alembic.config import Config
+
+    ini_path = Path("alembic.ini")
+    if not ini_path.exists():
+        ini_path = Path("backend/alembic.ini")
+
+    if not ini_path.exists():
+        logger.warning("alembic.ini not found, skipping startup migrations")
+        return
+
+    try:
+        cfg = Config(str(ini_path))
+        script_loc = Path(cfg.get_main_option("script_location", "alembic"))
+        if not script_loc.is_absolute():
+            script_loc = ini_path.parent / script_loc
+        cfg.set_main_option("script_location", str(script_loc))
+        cfg.set_main_option("sqlalchemy.url", settings.DATABASE_SYNC_URL)
+        command.upgrade(cfg, "head")
+        logger.info("Database migrations applied successfully to head.")
+    except Exception as exc:
+        logger.error(f"Failed to apply database migrations on startup: {exc}", exc_info=True)
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     """Application lifespan context for startup and shutdown events."""
     logger.info(
         f"Starting {settings.PROJECT_NAME} in {settings.ENVIRONMENT} mode (debug={settings.DEBUG})"
     )
+    run_database_migrations()
     yield
     logger.info(f"Stopping {settings.PROJECT_NAME}")
 
@@ -40,10 +74,11 @@ app = FastAPI(
     redoc_url="/redoc",
 )
 
-# CORS Middleware (strict allowlists)
+# CORS Middleware (strict allowlists + Vercel support)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.CORS_ORIGINS,
+    allow_origin_regex=r"https://.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allow_headers=["Authorization", "Content-Type", "X-API-Key", "X-Request-ID"],
@@ -68,6 +103,33 @@ async def request_id_middleware(
         if settings.ENVIRONMENT == "production":
             response.headers["Strict-Transport-Security"] = "max-age=31536000; includeSubDomains"
         return response
+    except Exception as exc:
+        logger.error(f"Unhandled exception in request {req_id}: {exc}", exc_info=True)
+        from fastapi.responses import JSONResponse
+
+        origin = request.headers.get("origin")
+        err_headers = {
+            "X-Request-ID": req_id,
+            "X-Content-Type-Options": "nosniff",
+        }
+        if origin and (
+            origin in settings.CORS_ORIGINS
+            or origin.endswith(".vercel.app")
+            or "localhost" in origin
+        ):
+            err_headers["Access-Control-Allow-Origin"] = origin
+            err_headers["Access-Control-Allow-Credentials"] = "true"
+        return JSONResponse(
+            status_code=500,
+            content={
+                "error": {
+                    "code": "INTERNAL_SERVER_ERROR",
+                    "message": str(exc) if settings.DEBUG else "An internal server error occurred",
+                    "request_id": req_id,
+                }
+            },
+            headers=err_headers,
+        )
     finally:
         request_id_ctx.reset(token)
 
